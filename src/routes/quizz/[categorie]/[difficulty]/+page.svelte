@@ -61,8 +61,14 @@
 				</button>
 			{/each}
 		</div>
-		<button on:click={nextQuestion} class="w-fit rounded bg-blue-600 px-4 py-2 hover:bg-blue-700">
-			Suivant
-		</button>
+		{#if currentQuestionIndex < data.data.length - 1}
+			<button on:click={nextQuestion} class="w-fit rounded bg-blue-600 px-4 py-2 hover:bg-blue-700">
+				Suivant
+			</button>
+		{:else}
+			<a href="/" class="w-fit rounded bg-blue-600 px-4 py-2 hover:bg-blue-700">
+				Terminer le quizz
+			</a>
+		{/if}
 	</div>
 </div>
