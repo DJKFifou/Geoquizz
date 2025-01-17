@@ -1,0 +1,122 @@
+[
+	{
+		"question": "Quel est le nombre d'habitants en France en 2022 ?",
+		"options": ["68 millions", "54 millions", "76 millions", "46 millions"],
+		"answer": "68 millions"
+	},
+	{
+		"question": "De combien d'états sont composés les USA ?",
+		"options": ["50", "48", "52", "55"],
+		"answer": "50"
+	},
+	{
+		"question": "Quel pays ne fait pas partie du Benelux ?",
+		"options": ["Allemagne", "Luxembourg", "Pays-Bas", "Belgique"],
+		"answer": "Allemagne"
+	},
+	{
+		"question": "Quelle est la capitale des USA ?",
+		"options": ["Washington DC", "New-York", "Los Angeles", "Chicago"],
+		"answer": "Washington DC"
+	},
+	{
+		"question": "Quelle est la ville avec le plus d'habitants ?",
+		"options": ["Tokyo", "Bombay", "Beijing (Pékin)", "Shanghai"],
+		"answer": "Tokyo"
+	},
+	{
+		"question": "Quelle est la capitale de la Suisse ?",
+		"options": ["Berne", "Zurich", "Vienne", "Genève"],
+		"answer": "Berne"
+	},
+	{
+		"question": "Combien y-a-t-il de régions en France ?",
+		"options": ["13", "17", "15", "19"],
+		"answer": "13"
+	},
+	{
+		"question": "Combien y-a-t'il de pays reconnus (environ) dans le monde ?",
+		"options": ["200", "250", "300", "350"],
+		"answer": "200"
+	},
+	{
+		"question": "Quel est le plus grand pays du monde ?",
+		"options": ["Russie", "Chine", "Inde", "USA"],
+		"answer": "Russie"
+	},
+	{
+		"question": "Quelle ville française contient le plus d'habitants ?",
+		"options": ["Marseille", "Bordeaux", "Toulouse", "Strasbourg"],
+		"answer": "Marseille"
+	},
+	{
+		"question": "Quel pays contient le plus d'habitants ?",
+		"options": ["Allemagne", "Suède", "Slovaquie", "Pologne"],
+		"answer": "Allemagne"
+	},
+	{
+		"question": "Quel pays ne fait pas partie du continent africain?",
+		"options": ["Liban", "Gabon", "Libye", "Zambie"],
+		"answer": "Liban"
+	},
+	{
+		"question": "Quelle est la hauteur du Mont Everest ?",
+		"options": ["8849 m", "7439 m", "5751 m", "9742 m"],
+		"answer": "8849 m"
+	},
+	{
+		"question": "Quelle ville est surnommée la ville rose ?",
+		"options": ["Toulouse", "Strasbourg", "Perpignan", "Grenoble"],
+		"answer": "Toulouse"
+	},
+	{
+		"question": "Quel pays ne partage pas de frontière terrestre avec l'Autriche ?",
+		"options": ["Roumanie", "Suisse", "Slovénie", "Tchéquie"],
+		"answer": "Roumanie"
+	},
+	{
+		"question": "Quelle ville ne se situe pas en Italie ?",
+		"options": ["Bilbao", "Bari", "Gênes", "Florence"],
+		"answer": "Bilbao"
+	},
+	{
+		"question": "Quelle ville ne se situe pas au Royaume-Uni ?",
+		"options": ["Perth", "Leeds", "Belfast", "Plymouth"],
+		"answer": "Perth"
+	},
+	{
+		"question": "Quelle ville ne se situe pas en Espagne ?",
+		"options": ["Salerne", "Valence", "Grenade", "Carthagène"],
+		"answer": "Salerne"
+	},
+	{
+		"question": "Quelle est la capitale du Chili ?",
+		"options": ["Santiago", "Buenos Aires", "Lima", "São Paulo"],
+		"answer": "Santiago"
+	},
+	{
+		"question": "De quel pays Vienne est la capitale ?",
+		"options": ["Autriche", "Suisse", "Slovénie", "Allemagne"],
+		"answer": "Autriche"
+	},
+	{
+		"question": "Quelle est la capitale de la Chine ?",
+		"options": ["Beijing", "Shanghai", "Hong-Kong", "Taipei"],
+		"answer": "Beijing"
+	},
+	{
+		"question": "Quelle feuille est présente sur le drapeau du Canada ?",
+		"options": ["Érable", "Marronnier", "Chêne", "Tilleul"],
+		"answer": "Érable"
+	},
+	{
+		"question": "Quel est le numéro de département du Rhône ?",
+		"options": ["69", "91", "44", "32"],
+		"answer": "69"
+	},
+	{
+		"question": "Dans quel continent se situe le Kilimandjaro ?",
+		"options": ["Afrique", "Amérique", "Asie", "Europe"],
+		"answer": "Afrique"
+	}
+]

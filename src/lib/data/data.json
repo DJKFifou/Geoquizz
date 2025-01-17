@@ -1,0 +1,114 @@
+{
+	"capitales": {
+		"facile": [
+			{
+				"question": "Quelle est la capitale de la France ?",
+				"options": ["Paris", "Lyon", "Marseille", "Nice"],
+				"answer": "Paris"
+			},
+			{
+				"question": "Quelle est la capitale de l'Allemagne ?",
+				"options": ["Berlin", "Munich", "Hambourg", "Francfort"],
+				"answer": "Berlin"
+			}
+		],
+		"moyen": [
+			{
+				"question": "Quelle est la capitale du Kenya ?",
+				"options": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
+				"answer": "Nairobi"
+			}
+		],
+		"difficile": [
+			{
+				"question": "Quelle est la capitale de l'Ouzbékistan ?",
+				"options": ["Tachkent", "Samarcande", "Boukhara", "Khiva"],
+				"answer": "Tachkent"
+			}
+		]
+	},
+	"pays": {
+		"facile": [
+			{
+				"question": "Quelle est la capitale de la France ?",
+				"options": ["Paris", "Lyon", "Marseille", "Nice"],
+				"answer": "Paris"
+			},
+			{
+				"question": "Quelle est la capitale de l'Allemagne ?",
+				"options": ["Berlin", "Munich", "Hambourg", "Francfort"],
+				"answer": "Berlin"
+			}
+		],
+		"moyen": [
+			{
+				"question": "Quelle est la capitale du Kenya ?",
+				"options": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
+				"answer": "Nairobi"
+			}
+		],
+		"difficile": [
+			{
+				"question": "Quelle est la capitale de l'Ouzbékistan ?",
+				"options": ["Tachkent", "Samarcande", "Boukhara", "Khiva"],
+				"answer": "Tachkent"
+			}
+		]
+	},
+	"drapeaux": {
+		"facile": [
+			{
+				"question": "Quelle est la capitale de la France ?",
+				"options": ["Paris", "Lyon", "Marseille", "Nice"],
+				"answer": "Paris"
+			},
+			{
+				"question": "Quelle est la capitale de l'Allemagne ?",
+				"options": ["Berlin", "Munich", "Hambourg", "Francfort"],
+				"answer": "Berlin"
+			}
+		],
+		"moyen": [
+			{
+				"question": "Quelle est la capitale du Kenya ?",
+				"options": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
+				"answer": "Nairobi"
+			}
+		],
+		"difficile": [
+			{
+				"question": "Quelle est la capitale de l'Ouzbékistan ?",
+				"options": ["Tachkent", "Samarcande", "Boukhara", "Khiva"],
+				"answer": "Tachkent"
+			}
+		]
+	},
+	"cultureGenerale": {
+		"facile": [
+			{
+				"question": "Quelle est la capitale de la France ?",
+				"options": ["Paris", "Lyon", "Marseille", "Nice"],
+				"answer": "Paris"
+			},
+			{
+				"question": "Quelle est la capitale de l'Allemagne ?",
+				"options": ["Berlin", "Munich", "Hambourg", "Francfort"],
+				"answer": "Berlin"
+			}
+		],
+		"moyen": [
+			{
+				"question": "Quelle est la capitale du Kenya ?",
+				"options": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
+				"answer": "Nairobi"
+			}
+		],
+		"difficile": [
+			{
+				"question": "Quelle est la capitale de l'Ouzbékistan ?",
+				"options": ["Tachkent", "Samarcande", "Boukhara", "Khiva"],
+				"answer": "Tachkent"
+			}
+		]
+	}
+}

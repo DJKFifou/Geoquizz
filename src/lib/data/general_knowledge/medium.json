@@ -1,0 +1,207 @@
+[
+	{
+		"question": "Quelle est la population intra-muros de Londres ?",
+		"options": ["9 millions", "5 millions", "14 millions", "19 millions"],
+		"answer": "9 millions"
+	},
+	{
+		"question": "À quel pays appartient le Groenland ?",
+		"options": ["Danemark", "Russie", "Canada", "Islande"],
+		"answer": "Danemark"
+	},
+	{
+		"question": "Quelle est la capitale de la Turquie ?",
+		"options": ["Ankara", "Istanbul", "Antalya", "Tirana"],
+		"answer": "Ankara"
+	},
+	{
+		"question": "Quelle mer se situe au Nord de la Turquie ?",
+		"options": ["La mer Noire", "La mer Rouge", "La mer Morte", "La mer Caspienne"],
+		"answer": "La mer Noire"
+	},
+	{
+		"question": "Combien de pays sont membres de l'UE ?",
+		"options": ["27", "23", "25", "29"],
+		"answer": "27"
+	},
+	{
+		"question": "Combien y-a-t'il d'habitants dans l'UE en 2021 ?",
+		"options": ["447 millions", "376 millions", "522 millions", "318 millions"],
+		"answer": "447 millions"
+	},
+	{
+		"question": "Quel pays ne fait pas partie de l'UE ?",
+		"options": ["Norvège", "Hongrie", "Bulgarie", "Estonie"],
+		"answer": "Norvège"
+	},
+	{
+		"question": "Quel pays n'est pas fondateur de l'UE ?",
+		"options": ["Espagne", "Luxembourg", "Italie", "Belgique"],
+		"answer": "Espagne"
+	},
+	{
+		"question": "Quel est le plus grand fleuve du monde ?",
+		"options": ["Amazone", "Nil", "Mississippi", "Tigre"],
+		"answer": "Amazone"
+	},
+	{
+		"question": "Quelle est la capitale de la Slovaquie ?",
+		"options": ["Bratislava", "Ljubljana", "Sarajevo", "Skopje"],
+		"answer": "Bratislava"
+	},
+	{
+		"question": "Quelle est la capitale du Canada ?",
+		"options": ["Ottawa", "Toronto", "Québec", "Vancouver"],
+		"answer": "Ottawa"
+	},
+	{
+		"question": "Quel pays a pour capitale Nicosie ?",
+		"options": ["Chypre", "Malte", "Porto-Rico", "Cuba"],
+		"answer": "Chypre"
+	},
+	{
+		"question": "Quel pays n'a pas le même nom que sa capitale ?",
+		"options": ["Andorre", "Guatemala", "Panama", "Djibouti"],
+		"answer": "Andorre"
+	},
+	{
+		"question": "De quel pays Bamako est la capitale ?",
+		"options": ["Mali", "Venezuela", "Paraguay", "Kenya"],
+		"answer": "Mali"
+	},
+	{
+		"question": "Quel pays contient la forme de son pays sur son drapeau ?",
+		"options": ["Chypre", "Malte", "Taiwan", "Madagascar"],
+		"answer": "Chypre"
+	},
+	{
+		"question": "Quel drapeau n'est pas constitué de jaune ?",
+		"options": ["Cuba", "Suède", "Équateur", "Jamaïque"],
+		"answer": "Cuba"
+	},
+	{
+		"question": "Quel pays ne fait pas partie du continent asiatique ?",
+		"options": ["Djibouti", "Arménie", "Népal", "Sri Lanka"],
+		"answer": "Djibouti"
+	},
+	{
+		"question": "Comment se nomme le détroit à l'Est de Djibouti ?",
+		"options": ["Bab al-Mandab", "Malacca", "Ormuz", "Béring"],
+		"answer": "Bab al-Mandab"
+	},
+	{
+		"question": "Combien mesure le plus grand sommet de la cordillères des Andes ?",
+		"options": ["6961 m", "4582 m", "8237 m", "3402 m"],
+		"answer": "6961 m"
+	},
+	{
+		"question": "Quelle ville ne se situe pas en Allemagne ?",
+		"options": ["Zurich", "Munich", "Hambourg", "Cologne"],
+		"answer": "Zurich"
+	},
+	{
+		"question": "Quel est le plus grand fleuve d'Europe ?",
+		"options": ["La Volga", "L'Oural", "Le Rhin", "Le Don"],
+		"answer": "La Volga"
+	},
+	{
+		"question": "Quel pays ne partage pas de frontière terrestre avec la Chine ?",
+		"options": ["Iran", "Bhoutan", "Kirghizistan", "Laos"],
+		"answer": "Iran"
+	},
+	{
+		"question": "Avec combien de pays la Thaïlande partage-t-elle une frontière terrestre ?",
+		"options": ["4", "2", "3", "5"],
+		"answer": "4"
+	},
+	{
+		"question": "Quel drapeau n'est pas constitué de bleu, de blanc et de rouge ?",
+		"options": ["Finlande", "Tchéquie", "Russie", "Chili"],
+		"answer": "Finlande"
+	},
+	{
+		"question": "De quel état Albuquerque est la capitale ?",
+		"options": ["Nouveau-Mexique", "Floride", "Texas", "Colorado"],
+		"answer": "Nouveau-Mexique"
+	},
+	{
+		"question": "Quelle état/région ne fait pas partie du Mexique ?",
+		"options": ["Wyoming", "Yucatán", "Chihuahua", "Michoacán"],
+		"answer": "Wyoming"
+	},
+	{
+		"question": "Quelle est la longueur (environ) du Nil ?",
+		"options": ["6500 m", "5500m", "7500m", "8500m"],
+		"answer": "6500 m"
+	},
+	{
+		"question": "Quel pays n'est pas traversé par la Cordillère des Andes ?",
+		"options": ["Brésil", "Venezuela", "Équateur", "Colombie"],
+		"answer": "Brésil"
+	},
+	{
+		"question": "De quel pays Nairobi est la capitale ?",
+		"options": ["Kenya", "Tanzanie", "Suriname", "Venezuela"],
+		"answer": "Kenya"
+	},
+	{
+		"question": "Quel est la superficie de la France métropolitaine ?",
+		"options": ["543 940 km²", "375 250 km²", "786 340 km²", "192 130 km²"],
+		"answer": "543 940 km²"
+	},
+	{
+		"question": "Dans quel pays se situe Salzbourg ?",
+		"options": ["Autriche", "Allemagne", "Suisse", "France"],
+		"answer": "Autriche"
+	},
+	{
+		"question": "Quel pays possède une frontière maritime ?",
+		"options": ["Slovénie", "Autriche", "Serbie", "Hongrie"],
+		"answer": "Slovénie"
+	},
+	{
+		"question": "De quel pays Riyad est la capitale ?",
+		"options": ["Arabie Saoudite", "Syrie", "Irak", "Émirats arabes unis"],
+		"answer": "Arabie Saoudite"
+	},
+	{
+		"question": "Quelle est la capitale du Bhoutan ?",
+		"options": ["Thimphou", "Katmandou", "Naypyidaw", "Chittagong"],
+		"answer": "Thimphou"
+	},
+	{
+		"question": "Parmi les pays suivants, lequel est le plus grand ?",
+		"options": ["Botswana", "Suède", "Allemagne", "République du Congo"],
+		"answer": "Botswana"
+	},
+	{
+		"question": "Parmi les pays suivants, lequel est le plus petit ?",
+		"options": ["Bahreïn", "Koweït", "Qatar", "Émirats arabes unis"],
+		"answer": "Bahreïn"
+	},
+	{
+		"question": "Parmi les pays suivants, lequel est le plus proche du pôle Nord ?",
+		"options": ["Biélorussie", "Ouzbékistan", "Corée du Nord", "Bermudes"],
+		"answer": "Biélorussie"
+	},
+	{
+		"question": "Combien y-a-t'il de pays en Afrique ?",
+		"options": ["54", "49", "59", "64"],
+		"answer": "54"
+	},
+	{
+		"question": "Quel est le numéro de département du Morbihan ?",
+		"options": ["56", "45", "67", "37"],
+		"answer": "56"
+	},
+	{
+		"question": "Quel est le numéro de département de l'Eure ?",
+		"options": ["27", "15", "36", "41"],
+		"answer": "27"
+	},
+	{
+		"question": "Dans quel pays ne trouve-t-on pas l'Himalaya ?",
+		"options": ["Tadjikistan", "Bhoutan", "Népal", "Chine"],
+		"answer": "Tadjikistan"
+	}
+]

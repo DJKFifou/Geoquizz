@@ -1,0 +1,237 @@
+[
+	{
+		"question": "Quel pays a la plus grande superficie ?",
+		"options": ["Ukraine", "Suède", "Allemagne", "Irak"],
+		"answer": "Ukraine"
+	},
+	{
+		"question": "Quelle est la capitale du Pakistan ?",
+		"options": ["Islamabad", "Ouagadougou", "Bichkek", "Téhéran"],
+		"answer": "Islamabad"
+	},
+	{
+		"question": "Quelle est la capitale du Vietnam ?",
+		"options": ["Hanoï", "Vientiane", "Bangkok", "Taipei"],
+		"answer": "Hanoï"
+	},
+	{
+		"question": "Quel pays n'a pas d'arme blanche sur son drapeau ?",
+		"options": ["Rwanda", "Eswatini", "Kenya", "Angola"],
+		"answer": "Rwanda"
+	},
+	{
+		"question": "Quel pays a une arme à feu sur son drapeau ?",
+		"options": ["Mozambique", "Nigeria", "Zambie", "Malawi"],
+		"answer": "Mozambique"
+	},
+	{
+		"question": "Parmi les pays suivants, quel est le plus petit ?",
+		"options": ["Tadjikistan", "Equateur", "Kirghizistan", "Ouganda"],
+		"answer": "Tadjikistan"
+	},
+	{
+		"question": "Quel département a pour numéro le 43 ?",
+		"options": ["Loiret", "Indre", "Morbignan", "Picardie"],
+		"answer": "Loiret"
+	},
+	{
+		"question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+		"options": ["Wellington", "Auckland", "Queenstown", "Christchurch"],
+		"answer": "Wellington"
+	},
+	{
+		"question": "Quel drapeau ne contient pas la couleur bleu ?",
+		"options": ["Kirghizistan", "Azerbaïdjan", "Belize", "Bosnie-Herzégovine"],
+		"answer": "Kirghizistan"
+	},
+	{
+		"question": "Quel drapeau n'est pas formé de traits horizontaux ?",
+		"options": ["Tchad", "Arménie", "Gabon", "Sierra Leone"],
+		"answer": "Tchad"
+	},
+	{
+		"question": "Quel pays n'a pas d'animaux sur son drapeau ?",
+		"options": ["Burkina Faso", "Égypte", "Ouganda", "Équateur"],
+		"answer": "Burkina Faso"
+	},
+	{
+		"question": "Quelle ville contient le plus d'habitants ?",
+		"options": ["Dhaka (Dacca)", "Paris", "Kinshasa", "Buenos Aires"],
+		"answer": "Dhaka (Dacca)"
+	},
+	{
+		"question": "À quel pays appartiennent les îles Cook ?",
+		"options": ["Nouvelle-Zélande", "USA", "Australie", "Angleterre"],
+		"answer": "Nouvelle-Zélande"
+	},
+	{
+		"question": "Quel pays contient le plus d'habitants ?",
+		"options": ["Thaïlande", "Cameroun", "Algérie", "Italie"],
+		"answer": "Italie"
+	},
+	{
+		"question": "De quel pays Libreville est la capitale ?",
+		"options": ["Gabon", "Sierra Leone", "Cameroun", "Guinée-Bissau"],
+		"answer": "Gabon"
+	},
+	{
+		"question": "De quel pays Managua est la capitale ?",
+		"options": ["Nicaragua", "Honduras", "Panama", "Suriname"],
+		"answer": "Nicaragua"
+	},
+	{
+		"question": "Quelle est la capitale du Yémen ?",
+		"options": ["Sanaa", "Mascate", "Asmara", "Khartoum"],
+		"answer": "Sanaa"
+	},
+	{
+		"question": "Quel pays ne faisait pas partie de la Yougoslavie ?",
+		"options": ["Hongrie", "Monténégro", "Macédoine du Nord", "Serbie"],
+		"answer": "Hongrie"
+	},
+	{
+		"question": "Quel drapeau n'est pas constitué de bleu ?",
+		"options": ["Bhoutan", "Cambodge", "Corée du Sud", "Chili"],
+		"answer": "Bhoutan"
+	},
+	{
+		"question": "Quelle mer se situe à l'Est de l'Azerbaïdjan ?",
+		"options": ["Mer Caspienne", "Mer Ionienne", "Mer Tyrrhénienne", "Mer Rouge"],
+		"answer": "Mer Caspienne"
+	},
+	{
+		"question": "Quelle mer n'existe pas ?",
+		"options": ["Mer Rose", "Mer Rouge", "Mer Jaune", "Mer Blanche"],
+		"answer": "Mer Rose"
+	},
+	{
+		"question": "Quelle est la capitale de la République Centrafricaine ?",
+		"options": ["Bangui", "Djouba", "Yaoundé", "Kigali"],
+		"answer": "Bangui"
+	},
+	{
+		"question": "Quel pays ne partage pas de frontière terrestre avec le Malawi ?",
+		"options": ["Zimbabwe", "Zambie", "Tanzanie", "Mozambique"],
+		"answer": "Zimbabwe"
+	},
+	{
+		"question": "Quel Golfe ne se trouve pas en Asie ?",
+		"options": ["Golfe de Botnie", "Golfe du Bengale", "Golfe d'Oman", "Golfe Persique"],
+		"answer": "Golfe de Botnie"
+	},
+	{
+		"question": "Quelle ville ne se situe pas en Inde ?",
+		"options": ["Chittagong", "Surate", "Nagpur", "Calcutta"],
+		"answer": "Chittagong"
+	},
+	{
+		"question": "Quel est le dernier état à adhérer aux USA ?",
+		"options": ["Hawaï", "Ohio", "Arizona", "Pennsylvanie"],
+		"answer": "Hawaï"
+	},
+	{
+		"question": "Quel est le nom de la chaîne de montagne située à l'Est des USA ?",
+		"options": ["Appalaches", "Kunlun", "Altaï", "Atlas"],
+		"answer": "Appalaches"
+	},
+	{
+		"question": "Quel état/province ne fait pas partie du Canada ?",
+		"options": ["Vermont", "Alberta", "Ontario", "Nouvelle-Écosse"],
+		"answer": "Vermont"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Californie ?",
+		"options": ["Sacramento", "San Diego", "San Francisco", "Los Angeles"],
+		"answer": "Sacramento"
+	},
+	{
+		"question": "En quelle année l'Eswatini (ex Swaziland) a-t-il changé de nom ?",
+		"options": ["2018", "2008", "1998", "1988"],
+		"answer": "2018"
+	},
+	{
+		"question": "En quelle année le Myanmar (ex Birmanie) a-t-il changé de nom ?",
+		"options": ["2008", "2018", "1998", "1988"],
+		"answer": "1988"
+	},
+	{
+		"question": "Quel pays possède la plus grande ZEE ?",
+		"options": ["USA", "France", "Royaume-Uni", "Chine"],
+		"answer": "France"
+	},
+	{
+		"question": "Quelle est la capitale du Paraguay ?",
+		"options": ["Asuncion", "Montevideo", "Santiago", "Caracas"],
+		"answer": "Asuncion"
+	},
+	{
+		"question": "Quelle est la population du Suriname ?",
+		"options": ["613 000", "1 428 000", "2 781 000", "3 347 000"],
+		"answer": "613 000"
+	},
+	{
+		"question": "Parmi les pays suivants, lequel est le plus petit ?",
+		"options": ["Géorgie", "Uruguay", "Nicaragua", "Islande"],
+		"answer": "Islande"
+	},
+	{
+		"question": "Quelle est la capitale du Qatar ?",
+		"options": ["Doha", "Manama", "Abou Dabi", "Dubaï"],
+		"answer": "Doha"
+	},
+	{
+		"question": "Parmi les pays suivants, lequel est le plus grand ?",
+		"options": ["Mexique", "Mongolie", "Turquie", "Afrique du Sud"],
+		"answer": "Mexique"
+	},
+	{
+		"question": "Quelle est la capitale de l'Arménie ?",
+		"options": ["Erevan", "Tbilissi", "Achgabat", "Tachkent"],
+		"answer": "Erevan"
+	},
+	{
+		"question": "Quelle est la population de l'Islande ?",
+		"options": ["372 000", "562 000", "883 000", "154 000"],
+		"answer": "372 000"
+	},
+	{
+		"question": "Quel pays ne partage pas de frontière terrestre avec le Togo ?",
+		"options": ["Niger", "Ghana", "Bénin", "Burkina Faso"],
+		"answer": "Niger"
+	},
+	{
+		"question": "Dans quel pays se situe Dubrovnik ?",
+		"options": ["Croatie", "Slovénie", "Slovaquie", "Hongrie"],
+		"answer": "Croatie"
+	},
+	{
+		"question": "Parmi les drapeaux suivants, trouvez l'intrus :",
+		"options": ["Pologne", "Monaco", "Indonésie", "Singapour"],
+		"answer": "Singapour"
+	},
+	{
+		"question": "Dans quel pays ne coule pas le Tigre et l'Euphrate ?",
+		"options": ["Iran", "Irak", "Syrie", "Turquie"],
+		"answer": "Iran"
+	},
+	{
+		"question": "Dans quel pays ne coule pas le Danube ?",
+		"options": ["Tchéquie", "Serbie", "Hongrie", "Autriche"],
+		"answer": "Tchéquie"
+	},
+	{
+		"question": "Quel est le numéro du département du Tarn-et-Garonne ?",
+		"options": ["82", "74", "89", "66"],
+		"answer": "82"
+	},
+	{
+		"question": "Combien de provinces compte la Belgique ?",
+		"options": ["10", "8", "3", "6"],
+		"answer": "10"
+	},
+	{
+		"question": "Combien de cantons compte la Suisse ?",
+		"options": ["26", "32", "20", "38"],
+		"answer": "26"
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{
+		"question": "Quelle est la capitale de la France ?",
+		"options": ["Paris", "Lyon", "Marseille", "Nice"],
+		"answer": "Paris"
+	},
+	{
+		"question": "Quelle est la capitale de l'Allemagne ?",
+		"options": ["Berlin", "Munich", "Hambourg", "Francfort"],
+		"answer": "Berlin"
+	}
+]
