@@ -13,7 +13,13 @@ export const load = async ({ params }: { params: Params }) => {
 		const data = await fs.readFile(filePath, 'utf-8');
 		const parsedData = JSON.parse(data);
 
-		const shuffledData = parsedData.sort(() => 0.5 - Math.random());
+		const shuffledData = parsedData
+			.map((question: any) => {
+				const shuffledOptions = question.options.sort(() => 0.5 - Math.random());
+				return { ...question, options: shuffledOptions };
+			})
+			.sort(() => 0.5 - Math.random());
+
 		const selectedData = shuffledData.slice(0, 20);
 
 		return {
