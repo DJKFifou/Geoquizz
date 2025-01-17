@@ -8,5 +8,125 @@
 		"question": "Quelle est la capitale de l'Allemagne ?",
 		"options": ["Berlin", "Munich", "Hambourg", "Francfort"],
 		"answer": "Berlin"
+	},
+	{
+		"question": "Quelle est la capitale de la Suisse ?",
+		"options": ["Berne", "Zurich", "Vienne", "Genève"],
+		"answer": "Berne"
+	},
+	{
+		"question": "Quelle est la capitale de la Belgique ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de l'Espagne ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale du Portugal ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de  ?",
+		"options": ["", "", "", ""],
+		"answer": ""
 	}
 ]
