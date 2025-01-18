@@ -16,117 +16,172 @@
 	},
 	{
 		"question": "Quelle est la capitale de la Belgique ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Bruxelles", "Anvers", "Gand", "Liège"],
+		"answer": "Bruxelles"
 	},
 	{
 		"question": "Quelle est la capitale de l'Espagne ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Madrid", "Barcelone", "Málaga", "Murcie"],
+		"answer": "Madrid"
 	},
 	{
 		"question": "Quelle est la capitale du Portugal ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Lisbonne", "Porto", "Coimbra", "Faro"],
+		"answer": "Lisbonne"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de l'Irlande ?",
+		"options": ["Dublin", "Londres", "Glasgow", "Belfast"],
+		"answer": "Dublin"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale du Royaume-Uni ?",
+		"options": ["Londres", "Manchester", "Birmingham", "Liverpool"],
+		"answer": "Londres"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale des Pays-Bas ?",
+		"options": ["Amsterdam", "Rotterdam", "La Haye", "Hambourg"],
+		"answer": "Amsterdam"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Suède ?",
+		"options": ["Stockholm", "Oslo", "Copenhague", "Helsinki"],
+		"answer": "Stockholm"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Russie ?",
+		"options": ["Moscou", "Saint-Pétersbourg", "Kyiv", "Minsk"],
+		"answer": "Moscou"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Grèce ?",
+		"options": ["Athènes", "Thessalonique", "Corfou", "Tirana"],
+		"answer": "Athènes"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Norvège ?",
+		"options": ["Oslo", "Helsinki", "Copenhague", "Stockholm"],
+		"answer": "Oslo"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Finlande ?",
+		"options": ["Helsinki", "Oslo", "Copenhague", "Stockholm"],
+		"answer": "Helsinki"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale du Danemark ?",
+		"options": ["Copenhague", "Oslo", "Helsinki", "Stockholm"],
+		"answer": "Copenhague"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de l'Autriche ?",
+		"options": ["Vienne", "Berne", "Prague", "Bratislava"],
+		"answer": "Vienne"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale du Mexique ?",
+		"options": ["Mexico", "Chihuahua", "Mérida", "Tegucigalpa"],
+		"answer": "Mexico"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale des USA ?",
+		"options": ["Washington", "New York", "Los Angeles", "San Francisco"],
+		"answer": "Washington"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale du Brésil ?",
+		"options": ["Brasilia", "Rio de Janeiro", "São Paulo", "Buenos Aires"],
+		"answer": "Brasilia"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de l'Argentine ?",
+		"options": ["Buenos Aires", "Santiago", "Montevideo", "São Paulo"],
+		"answer": "Buenos Aires"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale du Maroc ?",
+		"options": ["Rabat", "Marrakech", "Casablanca", "Fès"],
+		"answer": "Rabat"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Tunisie ?",
+		"options": ["Tunis", "Médenine", "Rabat", "Alger"],
+		"answer": "Tunis"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de l'Algérie ?",
+		"options": ["Alger", "Rabat", "Tunis", "Oran"],
+		"answer": "Alger"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de l'Inde ?",
+		"options": ["New Delhi", "Jaipur", "Mumbai", "Katmandou"],
+		"answer": "New Delhi"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Chine ?",
+		"options": ["Beijing", "Shanghai", "Shenzhen", "Wuhan"],
+		"answer": "Beijing"
 	},
 	{
-		"question": "Quelle est la capitale de  ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de Corée du Sud ?",
+		"options": ["Séoul", "Pyongyang", "Beijing", "Shanghai"],
+		"answer": "Séoul"
+	},
+	{
+		"question": "Quelle est la capitale du Japon ?",
+		"options": ["Toyko", "Kyoto", "Osaka", "Hiroshima"],
+		"answer": "Toyko"
+	},
+	{
+		"question": "Quelle est la capitale de la République Tchèque ?",
+		"options": ["Prague", "Vienne", "Leipzig", "Bratislava"],
+		"answer": "Prague"
+	},
+	{
+		"question": "Quelle est la capitale de l'Ukraine ?",
+		"options": ["Kyiv", "Moscou", "Minsk", "Bucarest"],
+		"answer": "Kyiv"
+	},
+	{
+		"question": "Quelle est la capitale du Luxembourg ?",
+		"options": ["Luxembourg", "Düsseldorf", "Hambourg", "Bonn"],
+		"answer": "Luxembourg"
+	},
+	{
+		"question": "Quelle est la capitale de Cuba ?",
+		"options": ["La Havane", "Kingston", "Santiago de Cuba", "Santa Clara"],
+		"answer": "La Havane"
+	},
+	{
+		"question": "Quelle est la capitale du Vatican ?",
+		"options": ["Vatican", "Rome", "Monaco", "Saint-Marin"],
+		"answer": "Vatican"
+	},
+	{
+		"question": "Quelle est la capitale de la Pologne ?",
+		"options": ["Varsovie", "Cracovie", "Minsk", "Sofia"],
+		"answer": "Varsovie"
+	},
+	{
+		"question": "Quelle est la capitale de la Turquie ?",
+		"options": ["Ankara", "Antalya", "Istanbul", "Bagdad"],
+		"answer": "Ankara"
+	},
+	{
+		"question": "Quelle est la capitale du Saint-Marin ?",
+		"options": ["Saint-Marin", "Andorre-la-Vieille", "Monaco", "Rome"],
+		"answer": "Saint-Marin"
+	},
+	{
+		"question": "Quelle est la capitale de Colombie ?",
+		"options": ["Bogota", "Medellín", "La Paz", "Caracas"],
+		"answer": "Bogota"
+	},
+	{
+		"question": "Quelle est la capitale de la Jamaïque ?",
+		"options": ["Kingston", "La Havane", "Georgetown", "San José"],
+		"answer": "Kingston"
 	}
 ]

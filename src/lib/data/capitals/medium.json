@@ -1,12 +1,227 @@
 [
 	{
 		"question": "Quelle est la capitale du Kenya ?",
-		"options": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
+		"options": ["Nairobi", "Kampala", "Zanzibar", "Dakar"],
 		"answer": "Nairobi"
 	},
 	{
-		"question": "Quelle est la capitale du Kenya ?",
-		"options": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
-		"answer": "Nairobi"
+		"question": "Quelle est la capitale du Sénégal ?",
+		"options": ["Dakar", "Bamako", "Conakry", "Nairobi"],
+		"answer": "Dakar"
+	},
+	{
+		"question": "Quelle est la capitale de la Slovénie ?",
+		"options": ["Ljubljana", "Bratislava", "Reykjavik", "Trieste"],
+		"answer": "Ljubljana"
+	},
+	{
+		"question": "Quelle est la capitale de la Slovaquie ?",
+		"options": ["Bratislava", "Ljubljana", "Zagreb", "Sarajevo"],
+		"answer": "Bratislava"
+	},
+	{
+		"question": "Quelle est la capitale de la Croatie ?",
+		"options": ["Zagreb", "Sarajevo", "Dubrovnik", "Ljubljana"],
+		"answer": "Zagreb"
+	},
+	{
+		"question": "Quelle est la capitale de la Hongrie ?",
+		"options": ["Budapest", "Bucarest", "Sofia", "Belgrade"],
+		"answer": "Budapest"
+	},
+	{
+		"question": "Quelle est la capitale de la Roumanie ?",
+		"options": ["Bucarest", "Budapest", "Sofia", "Belgrade"],
+		"answer": "Bucarest"
+	},
+	{
+		"question": "Quelle est la capitale de la Bulgarie ?",
+		"options": ["Sofia", "Belgrade", "Budapest", "Bucarest"],
+		"answer": "Sofia"
+	},
+	{
+		"question": "Quelle est la capitale de la Serbie ?",
+		"options": ["Belgrade", "Sarajevo", "Sofia", "Bratislava"],
+		"answer": "Belgrade"
+	},
+	{
+		"question": "Quelle est la capitale de la Bosnie-Herzégovine ?",
+		"options": ["Sarajevo", "Belgrade", "Zagreb", "Pristina"],
+		"answer": "Sarajevo"
+	},
+	{
+		"question": "Quelle est la capitale de la Biélorussie ?",
+		"options": ["Minsk", "Moscou", "Kyiv", "Riga"],
+		"answer": "Minsk"
+	},
+	{
+		"question": "Quelle est la capitale de Chypre ?",
+		"options": ["Nicosie", "La Valette", "Athènes", "Rhodes"],
+		"answer": "Nicosie"
+	},
+	{
+		"question": "Quelle est la capitale d'Andorre ?",
+		"options": ["Andorre-la-Vieille", "Andorre", "Andorre-la-Jeune", "Andorre-les-Bains"],
+		"answer": "Andorre-la-Vieille"
+	},
+	{
+		"question": "Quelle est la capitale de Malte ?",
+		"options": ["La Valette", "Nicosie", "Rome", "Victoria"],
+		"answer": "La Valette"
+	},
+	{
+		"question": "Quelle est la capitale de l'Égypte ?",
+		"options": ["Le Caire", "Alexandrie", "Jérusalem", "Tripoli"],
+		"answer": "Le Caire"
+	},
+	{
+		"question": "Quelle est la capitale de la Libye ?",
+		"options": ["Tripoli", "", "", ""],
+		"answer": "Tripoli"
+	},
+	{
+		"question": "Quelle est la capitale du Mali ?",
+		"options": ["Bamako", "Ouagadougou", "Dakar", "Tombouctou"],
+		"answer": "Bamako"
+	},
+	{
+		"question": "Quelle est la capitale du Cameroun ?",
+		"options": ["Yaoundé", "Yamoussoukro", "Conakry", "Libreville"],
+		"answer": "Yaoundé"
+	},
+	{
+		"question": "Quelle est la capitale de la République du Congo ?",
+		"options": ["Brazzaville", "Kinshasa", "Yamoussoukro", "Ouagadougou"],
+		"answer": "Brazzaville"
+	},
+	{
+		"question": "Quelle est la capitale de la RDC ?",
+		"options": ["Kinshasa", "Brazzaville", "Ouagadougou", "Yamoussoukro"],
+		"answer": "Kinshasa"
+	},
+	{
+		"question": "Quelle est la capitale de Djibouti ?",
+		"options": ["Djibouti", "Mogadiscio", "Asmara", "Addis-Abeba"],
+		"answer": "Djibouti"
+	},
+	{
+		"question": "Quelle est la capitale de L'Arabie Saoudite ?",
+		"options": ["Riyad", "La Mecque", "Dubaï", "Abou Dabi"],
+		"answer": "Riyad"
+	},
+	{
+		"question": "Quelle est la capitale de la Palestine ?",
+		"options": ["Jérusalem", "Tel-Aviv", "Beyrouth", "Gaza"],
+		"answer": "Jérusalem"
+	},
+	{
+		"question": "Quelle est la capitale du Liban ?",
+		"options": ["Beyrouth", "Tel-Aviv", "Jérusalem", "Damas"],
+		"answer": "Beyrouth"
+	},
+	{
+		"question": "Quelle est la capitale de la Syrie ?",
+		"options": ["Damas", "Bagdad", "Téhéran", "Tbilissi"],
+		"answer": "Damas"
+	},
+	{
+		"question": "Quelle est la capitale de l'Irak ?",
+		"options": ["Bagdad", "Téhéran", "Damas", "Achgabat"],
+		"answer": "Bagdad"
+	},
+	{
+		"question": "Quelle est la capitale de l'Iran ?",
+		"options": ["Téhéran", "Damas", "Bagdad", "Kaboul"],
+		"answer": "Téhéran"
+	},
+	{
+		"question": "Quelle est la capitale du Pakistan ?",
+		"options": ["Islamabad", "Douchanbé", "Achgabat", "Mumbai"],
+		"answer": "Islamabad"
+	},
+	{
+		"question": "Quelle est la capitale de la Thaïlande ?",
+		"options": ["Bangkok", "Hanoï", "Kuala Lumpur", "Jakarta"],
+		"answer": "Bangkok"
+	},
+	{
+		"question": "Quelle est la capitale de l'Indonésie ?",
+		"options": ["Jakarta", "Manille", "Bali", "Kuala Lumpur"],
+		"answer": "Jakarta"
+	},
+	{
+		"question": "Quelle est la capitale de Taïwan ?",
+		"options": ["Taipei", "Hong-Kong", "Beijing", "Shenzhen"],
+		"answer": "Taipei"
+	},
+	{
+		"question": "Quelle est la capitale des Philipinnes ?",
+		"options": ["Manille", "Jakarta", "Kuala Lumpur", "Taipei"],
+		"answer": "Manille"
+	},
+	{
+		"question": "Quelle est la capitale de la Corée du Nord ?",
+		"options": ["Pyongyang", "Séoul", "Kyoto", "Chongqing"],
+		"answer": "Pyongyang"
+	},
+	{
+		"question": "Quelle est la capitale de la Malaisie ?",
+		"options": ["Kuala Lumpur", "Jakarta", "Manille", "Phnom Penh"],
+		"answer": "Kuala Lumpur"
+	},
+	{
+		"question": "Quelle est la capitale de l'Australie ?",
+		"options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+		"answer": "Canberra"
+	},
+	{
+		"question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+		"options": ["Wellington", "Adélaïde", "Auckland", "Queenstown"],
+		"answer": "Wellington"
+	},
+	{
+		"question": "Quelle est la capitale de la Mongolie ?",
+		"options": ["Oulan-Bator", "Astana", "Noursoultan", "Yinchuan"],
+		"answer": "Oulan-Bator"
+	},
+	{
+		"question": "Quelle est la capitale du Chili ?",
+		"options": ["Santiago", "Lima", "La Paz", "Asuncion"],
+		"answer": "Santiago"
+	},
+	{
+		"question": "Quelle est la capitale du Pérou ?",
+		"options": ["Lima", "Santiago", "La Paz", "Asuncion"],
+		"answer": "Lima"
+	},
+	{
+		"question": "Quelle est la capitale du Venezuela ?",
+		"options": ["Caracas", "Paramaribo", "Antananarivo", "Georgetown"],
+		"answer": "Caracas"
+	},
+	{
+		"question": "Quelle est la capitale du Canada ?",
+		"options": ["Ottawa", "Toronto", "Vancouver", "Montréal"],
+		"answer": "Ottawa"
+	},
+	{
+		"question": "Quelle est la capitale de l'Islande ?",
+		"options": ["Reykjavik", "Ljublana", "Bratislava", "Vaduz"],
+		"answer": "Reykjavik"
+	},
+	{
+		"question": "Quelle est la capitale de l'Équateur ?",
+		"options": ["Quito", "La Paz", "Sucre", "Medellín"],
+		"answer": "Quito"
+	},
+	{
+		"question": "Quelle est la capitale de la Lituanie ?",
+		"options": ["Vilnius", "Riga", "Tallinn", "Sofia"],
+		"answer": "Vilnius"
+	},
+	{
+		"question": "Quelle est la capitale de la Lettonie ?",
+		"options": ["Riga", "Vilnius", "Tallinn", "Sofia"],
+		"answer": "Riga"
 	}
 ]

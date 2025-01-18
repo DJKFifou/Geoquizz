@@ -3,5 +3,15 @@
 		"question": "Quelle est la capitale de l'Ouzbékistan ?",
 		"options": ["Tachkent", "Samarcande", "Boukhara", "Khiva"],
 		"answer": "Tachkent"
+	},
+	{
+		"question": "Quelle ville n'est pas une capitale de l'Afrique du Sud",
+		"options": ["Johannesburg", "Bloemfontein", "Le Cap", "Pretoria"],
+		"answer": "Johannesburg"
+	},
+	{
+		"question": "Quelle est la capitale de la Jamaïque ?",
+		"options": ["Kingston", "Wellington", "Kingstown", "Port-au-Prince"],
+		"answer": "Kingston"
 	}
 ]
