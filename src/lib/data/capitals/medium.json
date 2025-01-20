@@ -223,5 +223,15 @@
 		"question": "Quelle est la capitale de la Lettonie ?",
 		"options": ["Riga", "Vilnius", "Tallinn", "Sofia"],
 		"answer": "Riga"
+	},
+	{
+		"question": "Quelle est la capitale du Bhoutan ?",
+		"options": ["Thimphou", "Katmandou", "Beijing", "Dacca"],
+		"answer": "Thimphou"
+	},
+	{
+		"question": "Quelle est la capitale du Népal ?",
+		"options": ["Katmandou", "Thimphou", "Beijing", "Nagpur"],
+		"answer": "Katmandou"
 	}
 ]

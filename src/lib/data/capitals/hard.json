@@ -1,10 +1,5 @@
 [
 	{
-		"question": "Quelle est la capitale de l'Ouzbékistan ?",
-		"options": ["Tachkent", "Samarcande", "Boukhara", "Khiva"],
-		"answer": "Tachkent"
-	},
-	{
 		"question": "Quelle ville n'est pas une capitale de l'Afrique du Sud",
 		"options": ["Johannesburg", "Bloemfontein", "Le Cap", "Pretoria"],
 		"answer": "Johannesburg"
@@ -13,5 +8,285 @@
 		"question": "Quelle est la capitale de la Jamaïque ?",
 		"options": ["Kingston", "Wellington", "Kingstown", "Port-au-Prince"],
 		"answer": "Kingston"
+	},
+	{
+		"question": "Quelle est la capitale du Liechtenstein ?",
+		"options": ["Vaduz", "Lech", "Lucerne", "Nuremberg"],
+		"answer": "Vaduz"
+	},
+	{
+		"question": "Quelle est la capitale du Kosovo ?",
+		"options": ["Pristina", "Chișinău", "Sarajevo", "Skopje"],
+		"answer": "Pristina"
+	},
+	{
+		"question": "Quelle est la capitale de la Moldavie ?",
+		"options": ["Chișinău", "Pristina", "Podgorica", "Tirana"],
+		"answer": "Chișinău"
+	},
+	{
+		"question": "Quelle est la capitale de la Macédoine du Nord ?",
+		"options": ["Skopje", "Pristina", "Podgorica", "Chișinău"],
+		"answer": "Skopje"
+	},
+	{
+		"question": "Quelle est la capitale du Monténégro ?",
+		"options": ["Podgorica", "Tirana", "Pristina", "Sarajevo"],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de l'Albanie ?",
+		"options": ["Tirana", "Podgorica", "Vlora", "Kavala"],
+		"answer": "Tirana"
+	},
+	{
+		"question": "Quelle est la capitale de l'Estonie ?",
+		"options": ["Tallinn", "Riga", "Vilnius", "Helsinki"],
+		"answer": "Tallinn"
+	},
+	{
+		"question": "Quelle est la capitale de la Géorgie ?",
+		"options": ["Tbilissi", "Erevan", "Bakou", "Volgograd"],
+		"answer": "Tbilissi"
+	},
+	{
+		"question": "Quelle est la capitale de l'Arménie ?",
+		"options": ["Erevan", "Tbilissi", "Kaboul", "Achgabat"],
+		"answer": "Erevan"
+	},
+	{
+		"question": "Quelle est la capitale de l'Azerbaïdjan ?",
+		"options": ["Bakou", "Kaboul", "Achgabat", "Douchanbé"],
+		"answer": "Bakou"
+	},
+	{
+		"question": "Quelle est la capitale de la Jordanie ?",
+		"options": ["Amman", "Jérusalem", "Beyrouth", "Damas"],
+		"answer": "Amman"
+	},
+	{
+		"question": "Quelle est la capitale du Turkménistan ?",
+		"options": ["Achgabat", "Douchanbé", "Bichkek", "Tachkent"],
+		"answer": "Achgabat"
+	},
+	{
+		"question": "Quelle est la capitale du Kazakhstan ?",
+		"options": ["Astana", "Bichkek", "Tachkent", "Douchanbé"],
+		"answer": "Astana"
+	},
+	{
+		"question": "Quelle est la capitale du Tadjikistan ?",
+		"options": ["Douchanbé", "Bichkek", "Tachkent", "Achgabat"],
+		"answer": "Douchanbé"
+	},
+	{
+		"question": "Quelle est la capitale du Kirhizistan ?",
+		"options": ["Bichkek", "Tachkent", "Achgabat", "Douchanbé"],
+		"answer": "Bichkek"
+	},
+	{
+		"question": "Quelle est la capitale de l'Ouzbékistan ?",
+		"options": ["Tachkent", "Bichkek", "Douchanbé", "Achgabat"],
+		"answer": "Tachkent"
+	},
+	{
+		"question": "Quelle est la capitale de l'Afghanistan ?",
+		"options": ["Kaboul", "Bakou", "Islamabad", "Bagdad"],
+		"answer": "Kaboul"
+	},
+	{
+		"question": "Quelle est la capitale du Bangladesh ?",
+		"options": ["Dacca", "Naypyidaw", "Windhoek", "Thimphou"],
+		"answer": "Dacca"
+	},
+	{
+		"question": "Quelle est la capitale du Myanmar ?",
+		"options": ["Naypyidaw", "Windhoek", "Thimphou", "Dacca"],
+		"answer": "Naypyidaw"
+	},
+	{
+		"question": "Quelle est la capitale du Laos ?",
+		"options": ["Vientiane", "Hanoï", "Phnom Penh", "Bangkok"],
+		"answer": "Vientiane"
+	},
+	{
+		"question": "Quelle est la capitale du Cambodge ?",
+		"options": ["Phnom Penh", "Vientiane", "Hanoï", "Naypyidaw"],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?",
+		"options": ["Port Moresby", "Manille", "Nouméa", "Díli"],
+		"answer": "Port Moresby"
+	},
+	{
+		"question": "Quelle est la capitale du Timor ?",
+		"options": ["Díli", "Port-Vila", "Port Moresby", "Victoria"],
+		"answer": "Díli"
+	},
+	{
+		"question": "Quelle est la capitale de Fidji ?",
+		"options": ["Suva", "Nukuʻalofa", "Funafuti", "Palikir"],
+		"answer": "Suva"
+	},
+	{
+		"question": "Quelle est la capitale de Bahreïn ?",
+		"options": ["Bahreïn", "Manama", "Managua", "Doha"],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale du Qatar ?",
+		"options": ["Doha", "Manama", "Abou Dabi", "Dubaï"],
+		"answer": "Doha"
+	},
+	{
+		"question": "Quelle est la capitale des Émirats arabes unis ?",
+		"options": ["Abou Dabi", "Doha", "Dubaï", "Riyad"],
+		"answer": "Abou Dabi"
+	},
+	{
+		"question": "Quelle est la capitale d'Oman ?",
+		"options": ["Mascate", "Sanaa", "Amman", "Achgabat"],
+		"answer": "Mascate"
+	},
+	{
+		"question": "Quelle est la capitale du Yémen ?",
+		"options": ["Sanaa", "Mascate", "Amman", "Achgabat"],
+		"answer": "Sanaa"
+	},
+	{
+		"question": "Quelle est la capitale du Soudan ?",
+		"options": ["Khartoum", "Asmara", "Djouba", "Mogadiscio"],
+		"answer": "Khartoum"
+	},
+	{
+		"question": "Quelle est la capitale du Soudan du Sud ?",
+		"options": ["Djouba", "Khartoum", "Asmara", "Mogadiscio"],
+		"answer": "Djouba"
+	},
+	{
+		"question": "Quelle est la capitale de la Somalie ?",
+		"options": ["Mogadiscio", "Asmara", "Moroni", "N'Djamena"],
+		"answer": "Mogadiscio"
+	},
+	{
+		"question": "Quelle est la capitale de l'Éthiopie ?",
+		"options": ["Addis Abeba", "Asmara", "Harare", "Mbabane"],
+		"answer": "Addis Abeba"
+	},
+	{
+		"question": "Quelle est la capitale du Rwanda ?",
+		"options": ["Kigali", "Gitega", "Kampala", "Kinshasa"],
+		"answer": "Kigali"
+	},
+	{
+		"question": "Quelle est la capitale du Burundi ?",
+		"options": ["Gitega", "Kigali", "Kampala", "Bangui"],
+		"answer": "Gitega"
+	},
+	{
+		"question": "Quelle est la capitale de la Tanzanie ?",
+		"options": ["Dodoma", "Maputo", "Mbabane", "Luanda"],
+		"answer": "Dodoma"
+	},
+	{
+		"question": "Quelle est la capitale de Madagascar ?",
+		"options": ["Antananarivo", "Paramaribo", "Morondava", "Ambovombe"],
+		"answer": "Antananarivo"
+	},
+	{
+		"question": "Quelle est la capitale du Malawi ?",
+		"options": ["Lilongwe", "Lusaka", "Luanda", "Harare"],
+		"answer": "Lilongwe"
+	},
+	{
+		"question": "Quelle est la capitale de la Zambie ?",
+		"options": ["Lusaka", "Luanda", "Maputo", "Moroni"],
+		"answer": "Lusaka"
+	},
+	{
+		"question": "Quelle est la capitale du Mozambique ?",
+		"options": ["Maputo", "Maseru", "Monrovia", "Moroni"],
+		"answer": "Maputo"
+	},
+	{
+		"question": "Quelle est la capitale de l'Eswatini ?",
+		"options": ["Mbabane", "Harare", "Maseru", "Monrovia"],
+		"answer": "Mbabane"
+	},
+	{
+		"question": "Quelle est la capitale du Lesotho ?",
+		"options": ["Maseru", "Maputo", "Niamey", "Lusaka"],
+		"answer": "Maseru"
+	},
+	{
+		"question": "Quelle est la capitale du Botswana ?",
+		"options": ["Gaborone", "Windhoek", "Nouakchott", "Harare"],
+		"answer": "Gaborone"
+	},
+	{
+		"question": "Quelle est la capitale de la Namibie ?",
+		"options": ["Windhoek", "Gaborone", "Luanda", "Lusaka"],
+		"answer": "Windhoek"
+	},
+	{
+		"question": "Quelle est la capitale de l'Angola ?",
+		"options": ["Luanda", "Lusaka", "Maputo", "Monrovia"],
+		"answer": "Luanda"
+	},
+	{
+		"question": "Quelle est la capitale du Gabon ?",
+		"options": ["Libreville", "Yamoussokro", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"question": "Quelle est la capitale d ?",
+		"options": ["", "", "", ""],
+		"answer": ""
 	}
 ]

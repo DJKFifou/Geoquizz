@@ -233,5 +233,10 @@
 		"question": "Combien de cantons compte la Suisse ?",
 		"options": ["26", "32", "20", "38"],
 		"answer": "26"
+	},
+	{
+		"question": "Avec combien de pays le Burkina Faso partage t-il une frontière terrestre ?",
+		"options": ["6", "5", "4", "3"],
+		"answer": "6"
 	}
 ]
