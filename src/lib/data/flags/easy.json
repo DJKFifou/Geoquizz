@@ -1,12 +1,12 @@
 [
 	{
-		"question": "Quelle est la capitale de la France ?",
-		"options": ["Paris", "Lyon", "Marseille", "Nice"],
-		"answer": "Paris"
+		"question": "A quel pays appartient ce drapeau ?",
+		"options": ["France", "Belgique", "Espagne", "Italie"],
+		"answer": "France"
 	},
 	{
-		"question": "Quelle est la capitale de l'Allemagne ?",
-		"options": ["Berlin", "Munich", "Hambourg", "Francfort"],
-		"answer": "Berlin"
+		"question": "A quel pays appartient ce drapeau ?",
+		"options": ["Belgique", "France", "Espagne", "Italie"],
+		"answer": "Belgique"
 	}
 ]

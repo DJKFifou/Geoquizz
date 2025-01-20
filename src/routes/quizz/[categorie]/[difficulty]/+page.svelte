@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { getEasy } from '$lib/data/flags/datas';
 	export let data;
 
 	const categorieName: string = $page.params.categorie;
@@ -28,6 +29,11 @@
 			isOptionSelected = false;
 		}
 	};
+	let datas: any = null;
+
+	getEasy().then((res) => {
+		datas = res;
+	});
 </script>
 
 <div class="flex h-screen w-full flex-col items-center justify-center bg-gray-800 text-white">
@@ -40,6 +46,9 @@
 	</div>
 	<div class="flex flex-col items-center justify-center gap-6">
 		<h3 class="text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
+		{#if datas && categorieName === 'flags'}
+			<img src={datas[currentQuestionIndex].image} alt="Réponse" class="h-24 w-24" />
+		{/if}
 		<div class="grid grid-cols-2 items-center justify-items-center gap-4 text-center">
 			{#each data.data[currentQuestionIndex].options as option}
 				<button
