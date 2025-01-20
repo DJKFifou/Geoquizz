@@ -1,9 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-
 	export let data;
-	console.log(data);
-	console.log('data.data.length', data.data.length);
 
 	const categorieName: string = $page.params.categorie;
 	const difficultyName: string = $page.params.difficulty;
@@ -12,7 +9,7 @@
 	let selectedOption: string = '';
 	let isAnswerCorrect: boolean = false;
 	let isOptionSelected: boolean = false;
-	let goodAnswers = 0;
+	let goodAnswers: number = 0;
 
 	let answered = (option: string) => {
 		if (isOptionSelected) return;
@@ -24,7 +21,7 @@
 	};
 
 	const nextQuestion = () => {
-		if (currentQuestionIndex < data.data.length - 1) {
+		if (currentQuestionIndex < data.data.length - 1 && isOptionSelected) {
 			currentQuestionIndex++;
 			selectedOption = '';
 			isAnswerCorrect = false;
@@ -48,11 +45,8 @@
 				<button
 					on:click={() => answered(option)}
 					class="align-center flex h-full w-40 cursor-pointer items-center justify-center rounded-xl border-2 border-white p-6 text-lg font-medium
-                        {selectedOption === option
-						? isAnswerCorrect
-							? 'bg-green-500'
-							: 'bg-red-500'
-						: ''}
+                        {!selectedOption ? 'hover:bg-white/10' : ''}
+						{selectedOption === option ? (isAnswerCorrect ? 'bg-green-500' : 'bg-red-500') : ''}
                         {selectedOption && option === data.data[currentQuestionIndex].answer
 						? 'bg-green-500'
 						: ''}"

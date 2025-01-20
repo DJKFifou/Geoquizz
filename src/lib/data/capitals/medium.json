@@ -76,7 +76,7 @@
 	},
 	{
 		"question": "Quelle est la capitale de la Libye ?",
-		"options": ["Tripoli", "", "", ""],
+		"options": ["Tripoli", "Le Caire", "Astana", "Amman"],
 		"answer": "Tripoli"
 	},
 	{
