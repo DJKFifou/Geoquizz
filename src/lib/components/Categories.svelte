@@ -11,10 +11,14 @@
 	};
 </script>
 
-<ul class="flex flex-col items-center gap-4">
+<ul class="flex items-center gap-4">
 	{#each Object.keys(categories) as category}
 		<li>
-			<a href={`${currentPage}/${category}`}>{categories[category]}</a>
+			<a
+				href={`${currentPage}/${category}`}
+				class="align-center flex cursor-pointer items-center justify-center rounded-lg border-2 border-white px-6 py-4 text-lg font-medium hover:bg-white/10"
+				>{categories[category]}</a
+			>
 		</li>
 	{/each}
 </ul>

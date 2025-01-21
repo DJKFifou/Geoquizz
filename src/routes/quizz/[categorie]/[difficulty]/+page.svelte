@@ -10,6 +10,8 @@
 	let isAnswerCorrect: boolean = false;
 	let isOptionSelected: boolean = false;
 	let goodAnswers: number = 0;
+	let endGame: boolean = false;
+	let exit = false;
 
 	let answered = (option: string) => {
 		if (isOptionSelected) return;
@@ -25,6 +27,15 @@
 			selectedOption = '';
 			isAnswerCorrect = false;
 			isOptionSelected = false;
+		} else {
+			if (localStorage.getItem('record')) {
+				Number(localStorage.getItem('record')) < goodAnswers &&
+					localStorage.setItem('record', goodAnswers.toString());
+			} else {
+				localStorage.setItem('record', goodAnswers.toString());
+			}
+			endGame = true;
+			console.log('localStorage', localStorage.getItem('record'));
 		}
 	};
 </script>
@@ -35,36 +46,64 @@
 	>
 		<p>Catégorie : {categorieName}</p>
 		<p>Difficulté : {difficultyName}</p>
-		<p>{goodAnswers}/{data.data.length}</p>
+		<p>{currentQuestionIndex + 1}/{data.data.length}</p>
 	</div>
-	<div class="flex flex-col items-center justify-center gap-6">
-		<h3 class="text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
-		{#if categorieName === 'flags'}
-			<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="h-24 w-24" />
-		{/if}
-		<div class="grid grid-cols-2 items-center justify-items-center gap-4 text-center">
-			{#each data.data[currentQuestionIndex].options as option}
-				<button
-					on:click={() => answered(option)}
-					class="align-center flex h-full w-40 cursor-pointer items-center justify-center rounded-xl border-2 border-white p-6 text-lg font-medium
-                        {!selectedOption ? 'hover:bg-white/10' : ''}
-						{selectedOption === option ? (isAnswerCorrect ? 'bg-green-500' : 'bg-red-500') : ''}
-                        {selectedOption && option === data.data[currentQuestionIndex].answer
-						? 'bg-green-500'
-						: ''}"
-				>
-					{option}
-				</button>
-			{/each}
+	<button
+		type="button"
+		onclick={() => (exit = true)}
+		class="absolute right-4 top-4 cursor-pointer rounded-lg px-2 py-1 hover:bg-gray-700"
+		>❌
+	</button>
+	{#if exit}
+		<div class="absolute h-full w-full bg-black/60">
+			<div
+				class="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col gap-6 rounded-lg bg-white px-10 py-6 text-black"
+			>
+				<h5>Êtes-vous sur de vouloir quitter ?</h5>
+				<div class="flex justify-center gap-6">
+					<button
+						type="button"
+						onclick={() => window.history.back()}
+						class="cursor-pointer rounded-lg bg-gray-600 px-2 py-1 text-white hover:bg-gray-700"
+						>Oui
+					</button>
+					<button
+						type="button"
+						onclick={() => (exit = false)}
+						class="cursor-pointer rounded-lg bg-gray-600 px-2 py-1 text-white hover:bg-gray-700"
+						>Non
+					</button>
+				</div>
+			</div>
 		</div>
-		{#if currentQuestionIndex < data.data.length - 1}
-			<button on:click={nextQuestion} class="w-fit rounded bg-blue-600 px-4 py-2 hover:bg-blue-700">
-				Suivant
+	{/if}
+	{#if !endGame}
+		<div class="flex flex-col items-center justify-center gap-6">
+			<h3 class="text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
+			{#if categorieName === 'flags'}
+				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="h-24 w-24" />
+			{/if}
+			<div
+				class="grid auto-rows-fr grid-cols-2 items-stretch justify-items-center gap-4 text-center"
+			>
+				{#each data.data[currentQuestionIndex].options as option}
+					<button
+						onclick={() => answered(option)}
+						class="align-center flex h-full w-40 cursor-pointer items-center justify-center rounded-lg border-2 border-white p-6 text-lg font-medium
+							{!selectedOption ? 'hover:bg-white/10' : ''}
+							{selectedOption === option ? (isAnswerCorrect ? 'bg-green-500' : 'bg-red-500') : ''}
+							{selectedOption && option === data.data[currentQuestionIndex].answer ? 'bg-green-500' : ''}"
+					>
+						{option}
+					</button>
+				{/each}
+			</div>
+			<button onclick={nextQuestion} class="w-fit rounded bg-blue-500 px-4 py-2 hover:bg-blue-600">
+				{currentQuestionIndex < data.data.length - 1 ? 'Suivant' : 'Terminer le quizz'}
 			</button>
-		{:else}
-			<a href="/" class="w-fit rounded bg-blue-600 px-4 py-2 hover:bg-blue-700">
-				Terminer le quizz
-			</a>
-		{/if}
-	</div>
+		</div>
+	{:else}
+		<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
+		<h3>Votre record est {localStorage.getItem('record')}/{data.data.length}</h3>
+	{/if}
 </div>
