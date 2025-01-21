@@ -491,7 +491,7 @@
 	},
 	{
 		"question": "Quelle est la capitale des Comores ?",
-		"options": ["Moroni", "Victoria", "malabo", "Monrovia"],
+		"options": ["Moroni", "Victoria", "Malabo", "Monrovia"],
 		"answer": "Moroni"
 	},
 	{
