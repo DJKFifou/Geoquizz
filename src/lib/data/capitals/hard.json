@@ -32,7 +32,7 @@
 	{
 		"question": "Quelle est la capitale du Monténégro ?",
 		"options": ["Podgorica", "Tirana", "Pristina", "Sarajevo"],
-		"answer": ""
+		"answer": "Podgorica"
 	},
 	{
 		"question": "Quelle est la capitale de l'Albanie ?",
@@ -156,7 +156,7 @@
 	},
 	{
 		"question": "Quelle est la capitale de l'Ouganda ?",
-		"options": ["Kampala", "Kigali", "Kampala", "Bangui"],
+		"options": ["Kampala", "Kigali", "Gitega", "Bangui"],
 		"answer": "Kampala"
 	},
 	{
