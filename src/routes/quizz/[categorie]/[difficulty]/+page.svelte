@@ -14,7 +14,6 @@
 
 	let answered = (option: string) => {
 		if (isOptionSelected) return;
-		console.log(data.data[currentQuestionIndex].answer === option);
 		selectedOption = option;
 		isAnswerCorrect = data.data[currentQuestionIndex].answer === option;
 		goodAnswers += isAnswerCorrect ? 1 : 0;

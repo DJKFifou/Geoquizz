@@ -6,7 +6,7 @@
 	},
 	{
 		"question": "Quelle est la capitale de la Jamaïque ?",
-		"options": ["Kingston", "Wellington", "Kingstown", "Port-au-Prince"],
+		"options": ["Kingston", "Wellington", "Kingstown", "Queenstown"],
 		"answer": "Kingston"
 	},
 	{
@@ -100,19 +100,9 @@
 		"answer": "Dacca"
 	},
 	{
-		"question": "Quelle est la capitale du Myanmar ?",
+		"question": "Quelle est la capitale du Myanmar (Birmanie) ?",
 		"options": ["Naypyidaw", "Windhoek", "Thimphou", "Dacca"],
 		"answer": "Naypyidaw"
-	},
-	{
-		"question": "Quelle est la capitale du Laos ?",
-		"options": ["Vientiane", "Hanoï", "Phnom Penh", "Bangkok"],
-		"answer": "Vientiane"
-	},
-	{
-		"question": "Quelle est la capitale du Cambodge ?",
-		"options": ["Phnom Penh", "Vientiane", "Hanoï", "Naypyidaw"],
-		"answer": ""
 	},
 	{
 		"question": "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?",
@@ -120,19 +110,9 @@
 		"answer": "Port Moresby"
 	},
 	{
-		"question": "Quelle est la capitale du Timor ?",
+		"question": "Quelle est la capitale du Timor (Oriental) ?",
 		"options": ["Díli", "Port-Vila", "Port Moresby", "Victoria"],
 		"answer": "Díli"
-	},
-	{
-		"question": "Quelle est la capitale de Fidji ?",
-		"options": ["Suva", "Nukuʻalofa", "Funafuti", "Palikir"],
-		"answer": "Suva"
-	},
-	{
-		"question": "Quelle est la capitale de Bahreïn ?",
-		"options": ["Bahreïn", "Manama", "Managua", "Doha"],
-		"answer": ""
 	},
 	{
 		"question": "Quelle est la capitale du Qatar ?",
@@ -175,6 +155,11 @@
 		"answer": "Addis Abeba"
 	},
 	{
+		"question": "Quelle est la capitale de l'Ouganda ?",
+		"options": ["Kampala", "Kigali", "Kampala", "Bangui"],
+		"answer": "Kampala"
+	},
+	{
 		"question": "Quelle est la capitale du Rwanda ?",
 		"options": ["Kigali", "Gitega", "Kampala", "Kinshasa"],
 		"answer": "Kigali"
@@ -203,6 +188,11 @@
 		"question": "Quelle est la capitale de la Zambie ?",
 		"options": ["Lusaka", "Luanda", "Maputo", "Moroni"],
 		"answer": "Lusaka"
+	},
+	{
+		"question": "Quelle est la capitale du Zimbabwe ?",
+		"options": ["Harare", "Mbabane", "Maputo", "Monrovia"],
+		"answer": "Harare"
 	},
 	{
 		"question": "Quelle est la capitale du Mozambique ?",
@@ -236,57 +226,287 @@
 	},
 	{
 		"question": "Quelle est la capitale du Gabon ?",
-		"options": ["Libreville", "Yamoussokro", "", ""],
+		"options": ["Libreville", "Yamoussokro", "Malabo", "Yaoundé"],
+		"answer": "Libreville"
+	},
+	{
+		"question": "Quelle est la capitale de la Guinée équatoriale ?",
+		"options": ["Malabo", "Yaoundé", "Libreville", "Yamoussokro"],
+		"answer": "Malabo"
+	},
+	{
+		"question": "Quelle est la capitale du Nigeria ?",
+		"options": ["Abuja", "Yaoundé", "Accra", "Bangui"],
+		"answer": "Abuja"
+	},
+	{
+		"question": "Quelle est la capitale de la République centrafricaine ?",
+		"options": ["Bangui", "Banjul", "Bamako", "Ouagadougou"],
+		"answer": "Bangui"
+	},
+	{
+		"question": "Quelle est la capitale du Bénin ?",
+		"options": ["Porto-Novo", "Lomé", "Accra", "Abidjan"],
+		"answer": "Porto-Novo"
+	},
+	{
+		"question": "Quelle est la capitale du Togo ?",
+		"options": ["Lomé", "Porto-Novo", "Accra", "Conakry"],
+		"answer": "Lomé"
+	},
+	{
+		"question": "Quelle est la capitale du Ghana ?",
+		"options": ["Accra", "Abuja", "Bangui", "Banjul"],
+		"answer": "Accra"
+	},
+	{
+		"question": "Quelle est la capitale du Libéria ?",
+		"options": ["Monrovia", "Freetown", "Libreville", "Abuja"],
+		"answer": "Monrovia"
+	},
+	{
+		"question": "Quelle est la capitale du Sierra Leone ?",
+		"options": ["Freetown", "Libreville", "Monrovia", "Nouakchott"],
+		"answer": "Freetown"
+	},
+	{
+		"question": "Quelle est la capitale de la Guinée ?",
+		"options": ["Conakry", "Yaoundée", "Malabo", "Bissau"],
+		"answer": "Conakry"
+	},
+	{
+		"question": "Quelle est la capitale de la Gambie ?",
+		"options": ["Banjul", "Abuja", "Bangui", "N'Djamena"],
+		"answer": "Banjul"
+	},
+	{
+		"question": "Quelle est la capitale de la Mauritanie ?",
+		"options": ["Nouakchott", "Windhoek", "Naypyidaw", "Gaborone"],
+		"answer": "Nouakchott"
+	},
+	{
+		"question": "Quelle est la capitale du Burkina Faso ?",
+		"options": ["Ouagadougou", "Bamako", "Freetown", "Libreville"],
+		"answer": "Ouagadougou"
+	},
+	{
+		"question": "Quelle est la capitale du Niger ?",
+		"options": ["Niamey", "N'Djamena", "Bangui", "Djouba"],
+		"answer": "Niamey"
+	},
+	{
+		"question": "Quelle est la capitale du Tchad ?",
+		"options": ["N'Djamena", "Niamey", "Mbabane", "Harare"],
+		"answer": "N'Djamena"
+	},
+	{
+		"question": "Quelle est la capitale de l'Érythrée ?",
+		"options": ["Asmara", "Astana", "Addis-Abeba", "Khartoum"],
+		"answer": "Asmara"
+	},
+	{
+		"question": "Quelle est la capitale du Suriname ?",
+		"options": ["Paramaribo", "Antananarivo", "Paranam", "Maripasoula"],
+		"answer": "Paramaribo"
+	},
+	{
+		"question": "Quelle est la capitale de Guyana ?",
+		"options": ["Georgetown", "Saint George's", "Kingstown", "Queenstown"],
+		"answer": "Georgetown"
+	},
+	{
+		"question": "Quelle est la capitale administrative de la Bolivie ?",
+		"options": ["La Paz", "Sucre", "Bogota", "Quito"],
+		"answer": "La Paz"
+	},
+	{
+		"question": "Quelle est la capitale de l'Uruguay ?",
+		"options": ["Montevideo", "Asuncion", "Porto Alegre", "Curitiba"],
+		"answer": "Montevideo"
+	},
+	{
+		"question": "Quelle est la capitale du Nicaragua ?",
+		"options": ["Managua", "Manama", "Panama", "Tegucigalpa"],
+		"answer": "Managua"
+	},
+	{
+		"question": "Quelle est la capitale du Honduras ?",
+		"options": ["Tegucigalpa", "Managua", "Manama", "Panama"],
+		"answer": "Tegucigalpa"
+	},
+	{
+		"question": "Quelle est la capitale d'El Salvador ?",
+		"options": ["San Salvador", "El Salvador", "Salvador", "Santa Salvador"],
+		"answer": "San Salvador"
+	},
+	{
+		"question": "Quelle est la capitale de Belize ?",
+		"options": ["Belmopan", "El Belize", "Belize", "Belize City"],
+		"answer": "Belmopan"
+	},
+	{
+		"question": "Quelle est la capitale du Guatemala ?",
+		"options": ["Guatemala", "El Guatemala", "Santa Guatemala", "San Guatemala"],
+		"answer": "Guatemala"
+	},
+	{
+		"question": "Quelle est la capitale d'Haïti ?",
+		"options": ["Port-au-Prince", "Port-Vila", "Port-d'Espagne", "Port Moresby"],
+		"answer": "Port-au-Prince"
+	},
+	{
+		"question": "Quelle est la capitale de la République dominicaine ?",
+		"options": ["Saint Domingue", "San Juan", "Saint Jonh's", "Saint George's"],
+		"answer": "Saint Domingue"
+	},
+	{
+		"question": "Quelle est la capitale d'Antigua-et-Barbuda ?",
+		"options": ["Saint Jonh's", "Castries", "Bridgetown", "Basseterre"],
+		"answer": "Saint Jonh's"
+	},
+	{
+		"question": "Quelle est la capitale de Trinité-et-Tobago ?",
+		"options": ["Port-d'Espagne", "Port-Vila", "Port-au-Prince", "Port Moresby"],
+		"answer": "Port-d'Espagne"
+	},
+	{
+		"question": "Quelle est la capitale de Saint-Vincent-et-les-Grenadines ?",
+		"options": ["Kingstown", "Basseterre", "Castries", "Roseau"],
 		"answer": ""
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de Saint-Christophe-et-Niévès ?",
+		"options": ["Basseterre", "Roseau", "Castries", "Bridgetown"],
+		"answer": "Basseterre"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de Sainte-Lucie ?",
+		"options": ["Castries", "Roseau", "Basseterre", "Bridgetown"],
+		"answer": "Castries"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Grenade ?",
+		"options": ["Saint George's", "San José", "Saint Jonh's", "Saint Domingue"],
+		"answer": "Saint George's"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Dominique ?",
+		"options": ["Roseau", "Basseterre", "Saint Domingue", "Castries"],
+		"answer": "Roseau"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de la Barbade ?",
+		"options": ["Bridgetown", "Saint George's", "Georgetown", "Roseau"],
+		"answer": "Bridgetown"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale des Bahamas ?",
+		"options": ["Nassau", "Roseau", "Castries", "Basseterre"],
+		"answer": "Nassau"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale des Maldives ?",
+		"options": ["Malé", "Victoria", "Moroni", "Nassau"],
+		"answer": "Malé"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale des Seychelles ?",
+		"options": ["Victoria", "Malé", "Moroni", "Nassau"],
+		"answer": "Victoria"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale du Cap-Vert ?",
+		"options": ["Praia", "Victoria", "São Tomé", "Cabo Verde"],
+		"answer": "Praia"
 	},
 	{
-		"question": "Quelle est la capitale d ?",
-		"options": ["", "", "", ""],
-		"answer": ""
+		"question": "Quelle est la capitale de Sao Tomé-et-Principe ?",
+		"options": ["São Tomé", "Praia", "Victoria", "Principe"],
+		"answer": "São Tomé"
+	},
+	{
+		"question": "Quelle est la capitale de Brunei ?",
+		"options": ["Bandar Seri Begawan", "Brunei", "Sri Jayawardenapura Kotte", "Díli"],
+		"answer": "Bandar Seri Begawan"
+	},
+	{
+		"question": "Quelle est la capitale administrative du Sri Lanka ?",
+		"options": ["Sri Jayawardenapura Kotte", "Bandar Seri Begawan", "Sri Lanka", "Colombo"],
+		"answer": "Sri Jayawardenapura Kotte"
+	},
+	{
+		"question": "Quelle est la capitale des États Fédérés de Micronésie ?",
+		"options": ["Palikir", "Funafuti", "Nukuʻalofa", "Suva"],
+		"answer": "Palikir"
+	},
+	{
+		"question": "Quelle est la capitale des Fidji ?",
+		"options": ["Suva", "Apia", "Funafuti", "Nukuʻalofa"],
+		"answer": "Suva"
+	},
+	{
+		"question": "Quelle est la capitale des Îles Marshall ?",
+		"options": ["Majuro", "Honiara", "Tarawa-Sud", "Port-Vila"],
+		"answer": "Majuro"
+	},
+	{
+		"question": "Quelle est la capitale des Îles Salomon ?",
+		"options": ["Honiara", "Tarawa-Sud", "Majuro", "Port-Vila"],
+		"answer": "Honiara"
+	},
+	{
+		"question": "Quelle est la capitale de Kiribati ?",
+		"options": ["Tarawa-Sud", "Palikir", "Suva", "Honiara"],
+		"answer": "Tarawa-Sud"
+	},
+	{
+		"question": "Quelle est la capitale de Nauru ?",
+		"options": ["Yaren", "Nukuʻalofa", "Suva", "Apia"],
+		"answer": "Yaren"
+	},
+	{
+		"question": "Quelle est la capitale des Palaos ?",
+		"options": ["Ngerulmud", "Yaren", "Apia", "Suva"],
+		"answer": "Ngerulmud"
+	},
+	{
+		"question": "Quelle est la capitale des Samoa ?",
+		"options": ["Apia", "Nukuʻalofa", "Funafuti", "Port-Vila"],
+		"answer": "Apia"
+	},
+	{
+		"question": "Quelle est la capitale des Tonga ?",
+		"options": ["Nukuʻalofa", "Suva", "Funafuti", "Apia"],
+		"answer": "Nukuʻalofa"
+	},
+	{
+		"question": "Quelle est la capitale des Tuvalu ?",
+		"options": ["Funafuti", "Apia", "Suva", "Nukuʻalofa"],
+		"answer": "Funafuti"
+	},
+	{
+		"question": "Quelle est la capitale de Vanuatu ?",
+		"options": ["Port-Vila", "Funafuti", "Port-Vila", "Honiara"],
+		"answer": "Port-Vila"
+	},
+	{
+		"question": "Quelle est la capitale des Comores ?",
+		"options": ["Moroni", "Victoria", "malabo", "Monrovia"],
+		"answer": "Moroni"
+	},
+	{
+		"question": "Quelle est la capitale de la Côte d'Ivoire ?",
+		"options": ["Yamoussoukro", "Accra", "Conakry", "Yaoundé"],
+		"answer": "Yamoussoukro"
+	},
+	{
+		"question": "Quelle est la capitale du Liberia ?",
+		"options": ["Monrovia", "Moroni", "Malabo", "Maseru"],
+		"answer": "YamoussMonroviaoukro"
+	},
+	{
+		"question": "Quelle est la capitale de Maurice ?",
+		"options": ["Port-Louis", "Port-Vila", "Port Moresby", "Port-d'Espagne"],
+		"answer": "Port-Louis"
 	}
 ]

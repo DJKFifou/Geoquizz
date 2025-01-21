@@ -121,12 +121,12 @@
 	},
 	{
 		"question": "Quelle est la capitale de la Chine ?",
-		"options": ["Beijing", "Shanghai", "Shenzhen", "Wuhan"],
-		"answer": "Beijing"
+		"options": ["Beijing (Pékin)", "Shanghai", "Shenzhen", "Wuhan"],
+		"answer": "Beijing (Pékin)"
 	},
 	{
 		"question": "Quelle est la capitale de Corée du Sud ?",
-		"options": ["Séoul", "Pyongyang", "Beijing", "Shanghai"],
+		"options": ["Séoul", "Pyongyang", "Beijing (Pékin)", "Shanghai"],
 		"answer": "Séoul"
 	},
 	{
@@ -135,7 +135,7 @@
 		"answer": "Toyko"
 	},
 	{
-		"question": "Quelle est la capitale de la République Tchèque ?",
+		"question": "Quelle est la capitale de la Tchéquie ?",
 		"options": ["Prague", "Vienne", "Leipzig", "Bratislava"],
 		"answer": "Prague"
 	},
@@ -170,8 +170,8 @@
 		"answer": "Ankara"
 	},
 	{
-		"question": "Quelle est la capitale du Saint-Marin ?",
-		"options": ["Saint-Marin", "Andorre-la-Vieille", "Monaco", "Rome"],
+		"question": "Quelle est la capitale de Saint-Marin ?",
+		"options": ["Saint-Marin", "Vatican", "Monaco", "Rome"],
 		"answer": "Saint-Marin"
 	},
 	{
@@ -180,8 +180,18 @@
 		"answer": "Bogota"
 	},
 	{
-		"question": "Quelle est la capitale de la Jamaïque ?",
-		"options": ["Kingston", "La Havane", "Georgetown", "San José"],
-		"answer": "Kingston"
+		"question": "Quelle est la capitale de l'Italie ?",
+		"options": ["Rome", "Milan", "Naples", "Venise"],
+		"answer": "Rome"
+	},
+	{
+		"question": "Quelle est la capitale de Monaco ?",
+		"options": ["Monaco", "Rome", "Paris", "Saint-Marin"],
+		"answer": "Monaco"
+	},
+	{
+		"question": "Quelle est la capitale de Singapour ?",
+		"options": ["Singapour", "Kuala Lumpur", "Manille", "Jakarta"],
+		"answer": "Monaco"
 	}
 ]

@@ -5,11 +5,6 @@
 		"answer": "Ukraine"
 	},
 	{
-		"question": "Quelle est la capitale du Pakistan ?",
-		"options": ["Islamabad", "Ouagadougou", "Bichkek", "Téhéran"],
-		"answer": "Islamabad"
-	},
-	{
 		"question": "Quelle est la capitale du Vietnam ?",
 		"options": ["Hanoï", "Vientiane", "Bangkok", "Taipei"],
 		"answer": "Hanoï"
@@ -33,11 +28,6 @@
 		"question": "Quel département a pour numéro le 43 ?",
 		"options": ["Loiret", "Indre", "Morbignan", "Picardie"],
 		"answer": "Loiret"
-	},
-	{
-		"question": "Quelle est la capitale de la Nouvelle-Zélande ?",
-		"options": ["Wellington", "Auckland", "Queenstown", "Christchurch"],
-		"answer": "Wellington"
 	},
 	{
 		"question": "Quel drapeau ne contient pas la couleur bleu ?",
@@ -207,7 +197,7 @@
 	{
 		"question": "Parmi les drapeaux suivants, trouvez l'intrus :",
 		"options": ["Pologne", "Monaco", "Indonésie", "Singapour"],
-		"answer": "Singapour"
+		"answer": "Pologne"
 	},
 	{
 		"question": "Dans quel pays ne coule pas le Tigre et l'Euphrate ?",

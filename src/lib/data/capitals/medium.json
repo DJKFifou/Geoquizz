@@ -95,7 +95,7 @@
 		"answer": "Brazzaville"
 	},
 	{
-		"question": "Quelle est la capitale de la RDC ?",
+		"question": "Quelle est la capitale de la République démocratique du Congo ?",
 		"options": ["Kinshasa", "Brazzaville", "Ouagadougou", "Yamoussoukro"],
 		"answer": "Kinshasa"
 	},
@@ -150,8 +150,13 @@
 		"answer": "Jakarta"
 	},
 	{
+		"question": "Quelle est la capitale des Philippines ?",
+		"options": ["Manille", "Jakarta", "Bali", "Kuala Lumpur"],
+		"answer": "Manille"
+	},
+	{
 		"question": "Quelle est la capitale de Taïwan ?",
-		"options": ["Taipei", "Hong-Kong", "Beijing", "Shenzhen"],
+		"options": ["Taipei", "Hong-Kong", "Beijing (Pékin)", "Shenzhen"],
 		"answer": "Taipei"
 	},
 	{
@@ -226,12 +231,47 @@
 	},
 	{
 		"question": "Quelle est la capitale du Bhoutan ?",
-		"options": ["Thimphou", "Katmandou", "Beijing", "Dacca"],
+		"options": ["Thimphou", "Katmandou", "Beijing (Pékin)", "Dacca"],
 		"answer": "Thimphou"
 	},
 	{
 		"question": "Quelle est la capitale du Népal ?",
-		"options": ["Katmandou", "Thimphou", "Beijing", "Nagpur"],
+		"options": ["Katmandou", "Thimphou", "Beijing (Pékin)", "Nagpur"],
 		"answer": "Katmandou"
+	},
+	{
+		"question": "Quelle est la capitale du Koweït ?",
+		"options": ["Koweït", "Doha", "Abou Dabi", "Dubaï"],
+		"answer": "Koweït"
+	},
+	{
+		"question": "Quelle est la capitale du Laos ?",
+		"options": ["Vientiane", "Hanoï", "Phnom Penh", "Bangkok"],
+		"answer": "Vientiane"
+	},
+	{
+		"question": "Quelle est la capitale du Cambodge ?",
+		"options": ["Phnom Penh", "Vientiane", "Hanoï", "Naypyidaw"],
+		"answer": "Phnom Penh"
+	},
+	{
+		"question": "Quelle est la capitale du Panama ?",
+		"options": ["Panama", "San josé", "Managua", "Manama"],
+		"answer": "Panama"
+	},
+	{
+		"question": "Quelle est la capitale du Costa Rica ?",
+		"options": ["San José", "Managua", "Manama", "panama"],
+		"answer": "San José"
+	},
+	{
+		"question": "Quelle est la capitale de Bahreïn ?",
+		"options": ["Bahreïn", "Manama", "Managua", "Doha"],
+		"answer": "Bahreïn"
+	},
+	{
+		"question": "Quelle est la capitale de la Guinée-Bissau ?",
+		"options": ["Bissau", "Conakry", "Yaoundée", "Malabo"],
+		"answer": "Bissau"
 	}
 ]

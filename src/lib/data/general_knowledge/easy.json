@@ -90,19 +90,14 @@
 		"answer": "Salerne"
 	},
 	{
-		"question": "Quelle est la capitale du Chili ?",
-		"options": ["Santiago", "Buenos Aires", "Lima", "São Paulo"],
-		"answer": "Santiago"
-	},
-	{
 		"question": "De quel pays Vienne est la capitale ?",
 		"options": ["Autriche", "Suisse", "Slovénie", "Allemagne"],
 		"answer": "Autriche"
 	},
 	{
 		"question": "Quelle est la capitale de la Chine ?",
-		"options": ["Beijing", "Shanghai", "Hong-Kong", "Taipei"],
-		"answer": "Beijing"
+		"options": ["Beijing (Pékin)", "Shanghai", "Hong-Kong", "Taipei"],
+		"answer": "Beijing (Pékin)"
 	},
 	{
 		"question": "Quelle feuille est présente sur le drapeau du Canada ?",
