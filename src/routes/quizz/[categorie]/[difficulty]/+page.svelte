@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { getEasy } from '$lib/data/flags/datas';
 	export let data;
 
 	const categorieName: string = $page.params.categorie;
