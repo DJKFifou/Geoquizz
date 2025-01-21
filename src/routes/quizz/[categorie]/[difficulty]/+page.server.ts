@@ -4,12 +4,14 @@ import capitalsHard from '$lib/data/capitals/hard.json';
 import countriesEasy from '$lib/data/countries/easy.json';
 import countriesMedium from '$lib/data/countries/medium.json';
 import countriesHard from '$lib/data/countries/hard.json';
-import flagsEasy from '$lib/data/flags/easy.json';
-import flagsMedium from '$lib/data/flags/medium.json';
-import flagsHard from '$lib/data/flags/hard.json';
 import generalKnowledgeEasy from '$lib/data/general_knowledge/easy.json';
 import generalKnowledgeMedium from '$lib/data/general_knowledge/medium.json';
 import generalKnowledgeHard from '$lib/data/general_knowledge/hard.json';
+import easy from '$lib/data/flags/easy.json';
+import medium from '$lib/data/flags/medium.json';
+import hard from '$lib/data/flags/hard.json';
+
+import { getFlags } from '$lib/data/flags/datas';
 
 type Params = {
 	categorie: string;
@@ -17,7 +19,6 @@ type Params = {
 };
 
 function shuffleData(data: any) {
-	
 	const shuffledQuestions = data.map((question: any) => {
 		const shuffledOptions = question.options.sort(() => 0.5 - Math.random());
 		return { ...question, options: shuffledOptions };
@@ -30,7 +31,6 @@ function shuffleData(data: any) {
 		data: selectedData
 	};
 }
-
 
 export const load = async ({ params }: { params: Params }) => {
 	const { categorie, difficulty } = params;
@@ -64,20 +64,26 @@ export const load = async ({ params }: { params: Params }) => {
 						status: 404
 					};
 			}
-		case 'flags':
-			switch (difficulty) {
-				case 'easy':
-					return shuffleData(flagsEasy);
-				case 'medium':
-					return shuffleData(flagsMedium);
-				case 'hard':
-					return shuffleData(flagsHard);
-				default:
-					return {
-						error: 'Données introuvables',
-						status: 404
-					};
-			}
+			case 'flags': {
+				let data;
+				switch (difficulty) {
+					case 'easy':
+						data = await getFlags(easy);
+						break;
+					case 'medium':
+						data = await getFlags(medium);
+						break;
+					case 'hard':
+						data = await getFlags(hard);
+						break;
+					default:
+						return {
+							error: 'Données introuvables',
+							status: 404
+						};
+				}
+				return shuffleData(data);
+			}			
 		case 'general_knowledge':
 			switch (difficulty) {
 				case 'easy':
