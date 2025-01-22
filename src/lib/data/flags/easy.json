@@ -1,12 +1,22 @@
 [
 	{
-		"question": "A quel pays appartient ce drapeau ?",
 		"options": ["France", "Belgique", "Espagne", "Italie"],
 		"answer": "France"
 	},
 	{
-		"question": "A quel pays appartient ce drapeau ?",
 		"options": ["Belgique", "France", "Espagne", "Italie"],
 		"answer": "Belgique"
+	},
+	{
+		"options": ["Andorre", "Colombie", "Équateur", "Venezuela"],
+		"answer": "Andorre"
+	},
+	{
+		"options": ["Algérie", "Maroc", "Tunisie", "Turquie"],
+		"answer": "Algérie"
+	},
+	{
+		"options": ["Émirats arabes unis", "Maroc", "Tunisie", "Turquie"],
+		"answer": "Émirats arabes unis"
 	}
 ]

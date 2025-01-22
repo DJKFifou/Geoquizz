@@ -100,7 +100,7 @@
 		"answer": "Dacca"
 	},
 	{
-		"question": "Quelle est la capitale du Myanmar (Birmanie) ?",
+		"question": "Quelle est la capitale du Myanmar ?",
 		"options": ["Naypyidaw", "Windhoek", "Thimphou", "Dacca"],
 		"answer": "Naypyidaw"
 	},
@@ -110,7 +110,7 @@
 		"answer": "Port Moresby"
 	},
 	{
-		"question": "Quelle est la capitale du Timor (Oriental) ?",
+		"question": "Quelle est la capitale du Timor Oriental ?",
 		"options": ["Díli", "Port-Vila", "Port Moresby", "Victoria"],
 		"answer": "Díli"
 	},

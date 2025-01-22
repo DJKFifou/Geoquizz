@@ -24,19 +24,21 @@
 	};
 
 	const nextQuestion = () => {
-		if (currentQuestionIndex < data.data.length - 1 && isOptionSelected) {
-			currentQuestionIndex++;
-			selectedOption = '';
-			isAnswerCorrect = false;
-			isOptionSelected = false;
-		} else {
-			if (localStorage.getItem(currentRecord)) {
-				Number(localStorage.getItem(currentRecord)) < goodAnswers &&
-					localStorage.setItem(currentRecord, goodAnswers.toString());
+		if (isOptionSelected) {
+			if (currentQuestionIndex < data.data.length - 1) {
+				currentQuestionIndex++;
+				selectedOption = '';
+				isAnswerCorrect = false;
+				isOptionSelected = false;
 			} else {
-				localStorage.setItem(currentRecord, goodAnswers.toString());
+				if (localStorage.getItem(currentRecord)) {
+					Number(localStorage.getItem(currentRecord)) < goodAnswers &&
+						localStorage.setItem(currentRecord, goodAnswers.toString());
+				} else {
+					localStorage.setItem(currentRecord, goodAnswers.toString());
+				}
+				endGame = true;
 			}
-			endGame = true;
 		}
 	};
 </script>
