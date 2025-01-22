@@ -1,15 +1,15 @@
 import capitalsEasy from '$lib/data/capitals/easy.json';
 import capitalsMedium from '$lib/data/capitals/medium.json';
 import capitalsHard from '$lib/data/capitals/hard.json';
-import countriesEasy from '$lib/data/countries/easy.json';
-import countriesMedium from '$lib/data/countries/medium.json';
-import countriesHard from '$lib/data/countries/hard.json';
 import generalKnowledgeEasy from '$lib/data/general_knowledge/easy.json';
 import generalKnowledgeMedium from '$lib/data/general_knowledge/medium.json';
 import generalKnowledgeHard from '$lib/data/general_knowledge/hard.json';
-import easy from '$lib/data/flags/easy.json';
-import medium from '$lib/data/flags/medium.json';
-import hard from '$lib/data/flags/hard.json';
+import flagsEasy from '$lib/data/flags/easy.json';
+import flagsMedium from '$lib/data/flags/medium.json';
+import flagsHard from '$lib/data/flags/hard.json';
+import countriesEasy from '$lib/data/flags/easy.json';
+import countriesMedium from '$lib/data/flags/medium.json';
+import countriesHard from '$lib/data/flags/hard.json';
 
 import { getCountries } from '$lib/data/countries/datas';
 import { getFlags } from '$lib/data/flags/datas';
@@ -55,13 +55,13 @@ export const load = async ({ params }: { params: Params }) => {
 			let data;
 			switch (difficulty) {
 				case 'easy':
-					data = await getCountries(easy);
+					data = await getCountries(countriesEasy);
 					break;
 				case 'medium':
-					data = await getCountries(medium);
+					data = await getCountries(countriesMedium);
 					break;
 				case 'hard':
-					data = await getCountries(hard);
+					data = await getCountries(countriesHard);
 					break;
 				default:
 					return {
@@ -75,13 +75,13 @@ export const load = async ({ params }: { params: Params }) => {
 			let data;
 			switch (difficulty) {
 				case 'easy':
-					data = await getFlags(easy);
+					data = await getFlags(flagsEasy);
 					break;
 				case 'medium':
-					data = await getFlags(medium);
+					data = await getFlags(flagsMedium);
 					break;
 				case 'hard':
-					data = await getFlags(hard);
+					data = await getFlags(flagsHard);
 					break;
 				default:
 					return {

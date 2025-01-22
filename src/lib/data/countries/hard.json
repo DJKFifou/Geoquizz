@@ -1,7 +1,10 @@
 [
 	{
-		"question": "Quelle est la capitale de l'Ouzbékistan ?",
-		"options": ["Tachkent", "Samarcande", "Boukhara", "Khiva"],
-		"answer": "Tachkent"
+		"options": ["Afghanistan", "Samarcande", "Boukhara", "Khiva"],
+		"answer": "Afghanistan"
+	},
+	{
+		"options": ["Afrique du Sud", "Samarcande", "Boukhara", "Khiva"],
+		"answer": "Afrique du Sud"
 	}
 ]
