@@ -4,12 +4,12 @@ import capitalsHard from '$lib/data/capitals/hard.json';
 import generalKnowledgeEasy from '$lib/data/general_knowledge/easy.json';
 import generalKnowledgeMedium from '$lib/data/general_knowledge/medium.json';
 import generalKnowledgeHard from '$lib/data/general_knowledge/hard.json';
+import countriesEasy from '$lib/data/countries/easy.json';
+import countriesMedium from '$lib/data/countries/medium.json';
+import countriesHard from '$lib/data/countries/hard.json';
 import flagsEasy from '$lib/data/flags/easy.json';
 import flagsMedium from '$lib/data/flags/medium.json';
 import flagsHard from '$lib/data/flags/hard.json';
-import countriesEasy from '$lib/data/flags/easy.json';
-import countriesMedium from '$lib/data/flags/medium.json';
-import countriesHard from '$lib/data/flags/hard.json';
 
 import { getCountries } from '$lib/data/countries/datas';
 import { getFlags } from '$lib/data/flags/datas';
