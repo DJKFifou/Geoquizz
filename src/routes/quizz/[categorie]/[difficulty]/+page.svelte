@@ -2,9 +2,11 @@
 	import { page } from '$app/stores';
 	export let data;
 
-	const categorieName: string = $page.params.categorie;
-	const difficultyName: string = $page.params.difficulty;
+	$: categorieName = $page.params.categorie;
+	$: difficultyName = $page.params.difficulty;
+	$: previousPage = $page.url.pathname.split('/').slice(0, -1).join('/');
 
+	let currentRecord = `${$page.params.difficulty}${$page.params.categorie}Record`;
 	let currentQuestionIndex: number = 0;
 	let selectedOption: string = '';
 	let isAnswerCorrect: boolean = false;
@@ -28,14 +30,13 @@
 			isAnswerCorrect = false;
 			isOptionSelected = false;
 		} else {
-			if (localStorage.getItem('record')) {
-				Number(localStorage.getItem('record')) < goodAnswers &&
-					localStorage.setItem('record', goodAnswers.toString());
+			if (localStorage.getItem(currentRecord)) {
+				Number(localStorage.getItem(currentRecord)) < goodAnswers &&
+					localStorage.setItem(currentRecord, goodAnswers.toString());
 			} else {
-				localStorage.setItem('record', goodAnswers.toString());
+				localStorage.setItem(currentRecord, goodAnswers.toString());
 			}
 			endGame = true;
-			console.log('localStorage', localStorage.getItem('record'));
 		}
 	};
 </script>
@@ -61,12 +62,11 @@
 			>
 				<h5>Êtes-vous sur de vouloir quitter ?</h5>
 				<div class="flex justify-center gap-6">
-					<button
-						type="button"
-						onclick={() => window.history.back()}
+					<a
+						href={previousPage}
 						class="cursor-pointer rounded-lg bg-gray-600 px-2 py-1 text-white hover:bg-gray-700"
 						>Oui
-					</button>
+					</a>
 					<button
 						type="button"
 						onclick={() => (exit = false)}
@@ -79,9 +79,9 @@
 	{/if}
 	{#if !endGame}
 		<div class="flex flex-col items-center justify-center gap-6">
-			<h3 class="text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
+			<h3 class="text-center text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
 			{#if categorieName === 'flags'}
-				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="h-24 w-24" />
+				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="h-28 w-40" />
 			{/if}
 			<div
 				class="grid auto-rows-fr grid-cols-2 items-stretch justify-items-center gap-4 text-center"
@@ -104,6 +104,6 @@
 		</div>
 	{:else}
 		<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
-		<h3>Votre record est {localStorage.getItem('record')}/{data.data.length}</h3>
+		<h3>Votre record est {localStorage.getItem(currentRecord)}/{data.data.length}</h3>
 	{/if}
 </div>
