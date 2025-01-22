@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	export let data;
+	console.log('data', data);
 
 	$: categorieName = $page.params.categorie;
 	$: difficultyName = $page.params.difficulty;
@@ -82,7 +83,7 @@
 	{#if !endGame}
 		<div class="flex flex-col items-center justify-center gap-6">
 			<h3 class="text-center text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
-			{#if categorieName === 'flags'}
+			{#if categorieName === 'flags' || categorieName === 'countries'}
 				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="h-28 w-40" />
 			{/if}
 			<div

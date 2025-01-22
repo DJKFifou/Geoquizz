@@ -1,7 +1,7 @@
 [
 	{
 		"question": "Quelle est la capitale du Kenya ?",
-		"options": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
-		"answer": "Nairobi"
+		"options": ["Kenya", "Mombasa", "Kisumu", "Eldoret"],
+		"answer": "Kenya"
 	}
 ]

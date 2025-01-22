@@ -1,12 +1,22 @@
 [
 	{
-		"question": "Quelle est la capitale de la France ?",
-		"options": ["Paris", "Lyon", "Marseille", "Nice"],
-		"answer": "Paris"
+		"options": ["France", "Belgique", "Espagne", "Italie"],
+		"answer": "France"
 	},
 	{
-		"question": "Quelle est la capitale de l'Allemagne ?",
-		"options": ["Berlin", "Munich", "Hambourg", "Francfort"],
-		"answer": "Berlin"
+		"options": ["Belgique", "France", "Espagne", "Italie"],
+		"answer": "Belgique"
+	},
+	{
+		"options": ["Andorre", "Colombie", "Équateur", "Venezuela"],
+		"answer": "Andorre"
+	},
+	{
+		"options": ["Algérie", "Maroc", "Tunisie", "Turquie"],
+		"answer": "Algérie"
+	},
+	{
+		"options": ["Émirats arabes unis", "Maroc", "Tunisie", "Turquie"],
+		"answer": "Émirats arabes unis"
 	}
 ]

@@ -11,6 +11,7 @@ import easy from '$lib/data/flags/easy.json';
 import medium from '$lib/data/flags/medium.json';
 import hard from '$lib/data/flags/hard.json';
 
+import { getCountries } from '$lib/data/countries/datas';
 import { getFlags } from '$lib/data/flags/datas';
 
 type Params = {
@@ -50,40 +51,46 @@ export const load = async ({ params }: { params: Params }) => {
 						status: 404
 					};
 			}
-		case 'countries':
+		case 'countries': {
+			let data;
 			switch (difficulty) {
 				case 'easy':
-					return shuffleData(countriesEasy);
+					data = await getCountries(easy);
+					break;
 				case 'medium':
-					return shuffleData(countriesMedium);
+					data = await getCountries(medium);
+					break;
 				case 'hard':
-					return shuffleData(countriesHard);
+					data = await getCountries(hard);
+					break;
 				default:
 					return {
 						error: 'Données introuvables',
 						status: 404
 					};
 			}
-			case 'flags': {
-				let data;
-				switch (difficulty) {
-					case 'easy':
-						data = await getFlags(easy);
-						break;
-					case 'medium':
-						data = await getFlags(medium);
-						break;
-					case 'hard':
-						data = await getFlags(hard);
-						break;
-					default:
-						return {
-							error: 'Données introuvables',
-							status: 404
-						};
-				}
-				return shuffleData(data);
-			}			
+			return shuffleData(data);
+		}
+		case 'flags': {
+			let data;
+			switch (difficulty) {
+				case 'easy':
+					data = await getFlags(easy);
+					break;
+				case 'medium':
+					data = await getFlags(medium);
+					break;
+				case 'hard':
+					data = await getFlags(hard);
+					break;
+				default:
+					return {
+						error: 'Données introuvables',
+						status: 404
+					};
+			}
+			return shuffleData(data);
+		}
 		case 'general_knowledge':
 			switch (difficulty) {
 				case 'easy':
