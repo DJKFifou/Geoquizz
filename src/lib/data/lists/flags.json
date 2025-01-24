@@ -1,0 +1,26 @@
+[
+	{
+		"country": "Afghanistan",
+		"capital": ["Kaboul"]
+	},
+	{
+		"country": "Afrique du Sud",
+		"capital": ["Bloemfontein", "Le Cap", "Pretoria"]
+	},
+	{
+		"country": "Albanie",
+		"capital": ["Tirana"]
+	},
+	{
+		"country": "Algérie",
+		"capital": ["Alger"]
+	},
+	{
+		"country": "Allemagne",
+		"capital": ["Berlin"]
+	},
+	{
+		"country": "Andorre",
+		"capital": ["Andorre-la-Vieille", "Andorre la Vieille"]
+	}
+]
