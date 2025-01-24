@@ -6,6 +6,13 @@
 	$: difficultyName = $page.params.difficulty;
 	$: previousPage = $page.url.pathname.split('/').slice(0, -1).join('/');
 
+	const categories: Record<string, string> = {
+		capitals: 'Capitales',
+		countries: 'Pays',
+		flags: 'Drapeaux',
+		general_knowledge: 'Culture générale'
+	};
+
 	let currentRecord = `${$page.params.difficulty}${$page.params.categorie}Record`;
 	let currentQuestionIndex: number = 0;
 	let selectedOption: string = '';
@@ -29,7 +36,6 @@
 				currentQuestionIndex++;
 				selectedOption = '';
 				isAnswerCorrect = false;
-				isOptionSelected = false;
 			} else {
 				if (localStorage.getItem(currentRecord)) {
 					Number(localStorage.getItem(currentRecord)) < goodAnswers &&
@@ -47,7 +53,7 @@
 	<div
 		class="absolute left-1/2 top-4 flex -translate-x-1/2 flex-col items-center justify-center gap-4"
 	>
-		<p>Catégorie : {categorieName}</p>
+		<p>Catégorie : {categories[categorieName]}</p>
 		<p>Difficulté : {difficultyName}</p>
 		<p>{currentQuestionIndex + 1}/{data.data.length}</p>
 	</div>
