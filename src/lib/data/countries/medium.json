@@ -1,7 +1,22 @@
 [
 	{
-		"question": "Quelle est la capitale du Kenya ?",
-		"options": ["Nairobi", "Mombasa", "Kisumu", "Eldoret"],
-		"answer": "Nairobi"
+		"options": ["France", "Belgique", "Espagne", "Italie"],
+		"answer": "France"
+	},
+	{
+		"options": ["Belgique", "France", "Espagne", "Italie"],
+		"answer": "Belgique"
+	},
+	{
+		"options": ["Andorre", "Colombie", "Équateur", "Venezuela"],
+		"answer": "Andorre"
+	},
+	{
+		"options": ["Algérie", "Maroc", "Tunisie", "Turquie"],
+		"answer": "Algérie"
+	},
+	{
+		"options": ["Émirats arabes unis", "Maroc", "Tunisie", "Turquie"],
+		"answer": "Émirats arabes unis"
 	}
 ]

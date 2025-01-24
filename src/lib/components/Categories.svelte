@@ -9,10 +9,14 @@
 		flags: 'Drapeaux',
 		general_knowledge: 'Culture générale'
 	};
+
+	let filteredCategories = Object.keys(categories).filter(
+		(category) => !(category === 'general_knowledge' && currentPage === '/lists')
+	);
 </script>
 
 <ul class="flex items-center gap-4">
-	{#each Object.keys(categories) as category}
+	{#each filteredCategories as category}
 		<li>
 			<a
 				href={`${currentPage}/${category}`}

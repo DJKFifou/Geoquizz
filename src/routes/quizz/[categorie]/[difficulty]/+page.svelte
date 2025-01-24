@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	export let data;
-	console.log('data', data);
 
 	$: categorieName = $page.params.categorie;
 	$: difficultyName = $page.params.difficulty;
