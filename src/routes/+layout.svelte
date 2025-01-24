@@ -15,4 +15,10 @@
 	</button>
 {/if}
 
+<a
+	href="https://github.com/DJKFifou"
+	target="_blank"
+	class="absolute bottom-2 right-2 text-2xl font-bold text-white">Github</a
+>
+
 {@render children()}
