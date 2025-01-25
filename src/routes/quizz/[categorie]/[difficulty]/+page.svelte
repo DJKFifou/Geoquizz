@@ -36,6 +36,7 @@
 				currentQuestionIndex++;
 				selectedOption = '';
 				isAnswerCorrect = false;
+				isOptionSelected = false;
 			} else {
 				if (localStorage.getItem(currentRecord)) {
 					Number(localStorage.getItem(currentRecord)) < goodAnswers &&
