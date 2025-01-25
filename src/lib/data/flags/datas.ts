@@ -28,3 +28,13 @@ export async function getFlags(difficulty: any) {
 		};
 	});
 }
+
+export async function getListFlags(categorie: any) {
+	return categorie.map((item: any) => {
+		const svgPath = `./svgs/${item.country.toLowerCase().replace(/[\s']/g, '')}.svg`;
+		return {
+			...item,
+			image: loadedSvgs[svgPath]
+		};
+	});
+}

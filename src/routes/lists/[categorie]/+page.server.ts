@@ -1,3 +1,6 @@
+import { getListCountries } from '$lib/data/countries/datas';
+import { getListFlags } from '$lib/data/flags/datas';
+
 type Params = {
 	categorie: string;
 };
@@ -19,13 +22,15 @@ export const load = async ({ params }: { params: Params }) => {
 				};
 			case 'countries':
 				const countries = await import('$lib/data/lists/countries.json');
+				const enrichedCountries = await getListCountries(countries.default);
 				return {
-					data: countries.default as DataItem[]
+					data: enrichedCountries
 				};
 			case 'flags':
 				const flags = await import('$lib/data/lists/flags.json');
+				const enrichedFlags = await getListFlags(flags.default);
 				return {
-					data: flags.default as DataItem[]
+					data: enrichedFlags
 				};
 			default:
 				return {
