@@ -149,7 +149,7 @@
 	},
 	{
 		"country": "Chine",
-		"capital": ["Pékin"]
+		"capital": ["Beijing"]
 	},
 	{
 		"country": "Chypre",
@@ -157,7 +157,7 @@
 	},
 	{
 		"country": "Colombie",
-		"capital": ["Bogotá"]
+		"capital": ["Bogota"]
 	},
 	{
 		"country": "Comores",
@@ -209,7 +209,7 @@
 	},
 	{
 		"country": "Émirats arabes unis",
-		"capital": ["Abou Dhabi"]
+		"capital": ["Abou Dabi"]
 	},
 	{
 		"country": "Équateur",
@@ -233,7 +233,7 @@
 	},
 	{
 		"country": "États-Unis",
-		"capital": ["Washington D.C."]
+		"capital": ["Washington"]
 	},
 	{
 		"country": "Éthiopie",
@@ -673,11 +673,11 @@
 	},
 	{
 		"country": "Soudan du Sud",
-		"capital": ["Juba"]
+		"capital": ["Djouba"]
 	},
 	{
 		"country": "Sri Lanka",
-		"capital": ["Sri Jayawardenepura Kotte"]
+		"capital": ["Sri Jayawardenapura Kotte"]
 	},
 	{
 		"country": "Suède",
@@ -745,7 +745,7 @@
 	},
 	{
 		"country": "Ukraine",
-		"capital": ["Kiev"]
+		"capital": ["Kyiv"]
 	},
 	{
 		"country": "Uruguay",
