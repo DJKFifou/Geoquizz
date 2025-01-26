@@ -1,18 +1,27 @@
 <script lang="ts">
 	import '../app.css';
 	import { page } from '$app/stores';
+	import { derived } from 'svelte/store';
+
 	let { children } = $props();
-	let currentPath = $derived($page.url.pathname);
-	let pathSegments = $derived(currentPath.split('/').filter(Boolean));
+
+	const currentPath = derived(page, ($page) => $page.url.pathname);
+	const pathSegments = derived(currentPath, ($currentPath) =>
+		$currentPath.split('/').filter(Boolean)
+	);
+
+	const previousPage = derived(currentPath, ($currentPath) => {
+		const segments = $currentPath.split('/').filter(Boolean);
+		segments.pop();
+		return '/' + segments.join('/');
+	});
 </script>
 
-{#if $page.url.pathname !== '/' && pathSegments.length < 3}
-	<button
-		type="button"
-		onclick={() => window.history.back()}
-		class="absolute left-4 top-4 cursor-pointer rounded-lg px-2 py-1 hover:bg-gray-700"
-		>⬅
-	</button>
+{#if $page.url.pathname !== '/' && $pathSegments.length < 3}
+	<a
+		href={$previousPage}
+		class="absolute left-4 top-4 cursor-pointer rounded-lg px-2 py-1 hover:bg-gray-700">⬅</a
+	>
 {/if}
 
 <a
