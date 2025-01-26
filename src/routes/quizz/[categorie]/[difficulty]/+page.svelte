@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { onMount, onDestroy } from 'svelte';
 	export let data;
 
 	$: categorieName = $page.params.categorie;
@@ -37,6 +38,9 @@
 				selectedOption = '';
 				isAnswerCorrect = false;
 				isOptionSelected = false;
+
+				const activeElement = document.activeElement as HTMLElement;
+				activeElement?.blur();
 			} else {
 				if (localStorage.getItem(currentRecord)) {
 					Number(localStorage.getItem(currentRecord)) < goodAnswers &&
@@ -48,15 +52,47 @@
 			}
 		}
 	};
+
+	const handleKeydown = (event: KeyboardEvent) => {
+		if (!endGame && !exit) {
+			if (event.key === 'Enter' && isOptionSelected) {
+				event.preventDefault();
+				nextQuestion();
+			} else if (['1', '2', '3', '4'].includes(event.key)) {
+				event.preventDefault();
+				const index = parseInt(event.key, 10) - 1;
+				const selectedOption = data.data[currentQuestionIndex]?.options?.[index];
+				if (selectedOption && !isOptionSelected) {
+					answered(selectedOption);
+				}
+			}
+		}
+	};
+
+	onMount(() => {
+		if (typeof window !== 'undefined') {
+			window.addEventListener('keydown', handleKeydown);
+		}
+	});
+
+	onDestroy(() => {
+		if (typeof window !== 'undefined') {
+			window.removeEventListener('keydown', handleKeydown);
+		}
+	});
 </script>
 
-<div class="flex h-screen w-full flex-col items-center justify-center bg-gray-800 text-white">
+<div
+	class="container mx-auto flex h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
+>
 	<div
 		class="absolute left-1/2 top-4 flex -translate-x-1/2 flex-col items-center justify-center gap-4"
 	>
 		<p>Catégorie : {categories[categorieName]}</p>
 		<p>Difficulté : {difficultyName}</p>
-		<p>{currentQuestionIndex + 1}/{data.data.length}</p>
+		{#if !endGame}
+			<p>{currentQuestionIndex + 1}/{data.data.length}</p>
+		{/if}
 	</div>
 	<button
 		type="button"
@@ -112,7 +148,16 @@
 			</button>
 		</div>
 	{:else}
-		<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
-		<h3>Votre record est {localStorage.getItem(currentRecord)}/{data.data.length}</h3>
+		<div class="flex flex-col gap-8">
+			<div class="flex flex-col items-center gap-4">
+				<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
+				<h3>Votre record est {localStorage.getItem(currentRecord)}/{data.data.length}</h3>
+			</div>
+			<a
+				href="/stats"
+				class="align-center flex cursor-pointer items-center justify-center rounded-lg border-2 border-white px-6 py-4 text-lg font-medium hover:bg-white/10"
+				>Stats
+			</a>
+		</div>
 	{/if}
 </div>

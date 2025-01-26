@@ -1,4 +1,6 @@
-<div class="flex h-screen w-full flex-col items-center justify-center gap-6 bg-gray-800 text-white">
+<div
+	class="container mx-auto flex h-screen w-full flex-col items-center justify-center gap-6 bg-gray-800 text-white"
+>
 	<h1 class="text-5xl font-bold uppercase">Geoquizz</h1>
 	<ul class="flex gap-4">
 		<li>
@@ -16,4 +18,5 @@
 			>
 		</li>
 	</ul>
+	<a href="/stats" class="text-lg font-medium underline">Stats</a>
 </div>
