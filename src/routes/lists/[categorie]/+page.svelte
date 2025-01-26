@@ -39,8 +39,10 @@
 	}
 </script>
 
-<div class="flex min-h-screen w-full flex-col items-center justify-center bg-gray-800 text-white">
-	<div class="flex w-2/3 flex-col gap-8 p-4">
+<div
+	class="container mx-auto flex min-h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
+>
+	<div class="flex w-full flex-col gap-8 p-4">
 		<input
 			type="text"
 			placeholder="Rechercher un{categorieName === 'capitals' ? 'e capitale' : ' pays'}"
@@ -63,7 +65,7 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="flex flex-wrap gap-4">
+			<div class="flex flex-wrap justify-center gap-4">
 				{#each datas as item (item.country)}
 					<div class="flex flex-col gap-4">
 						<div class="rounded bg-gray-700 p-2">

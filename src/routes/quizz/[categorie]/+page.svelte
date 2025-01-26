@@ -15,7 +15,7 @@
 	};
 </script>
 
-<div class="flex h-screen w-full flex-col items-center justify-center gap-6 bg-gray-800 text-white">
+<div class="container mx-auto flex h-screen w-full flex-col items-center justify-center gap-6 bg-gray-800 text-white">
 	<h1 class="text-3xl font-bold uppercase">{categories[categorieName]}</h1>
 	<h3 class="text-2xl font-medium">Choisissez votre niveau :</h3>
 	<ul class="grid auto-rows-fr grid-cols-3 items-center gap-4">

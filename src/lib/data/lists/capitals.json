@@ -312,6 +312,10 @@
 		"capital": ["Majuro"]
 	},
 	{
+		"country": "Îles Salomon",
+		"capital": ["Honduras"]
+	},
+	{
 		"country": "Inde",
 		"capital": ["New Delhi"]
 	},
@@ -622,10 +626,6 @@
 	{
 		"country": "Saint-Marin",
 		"capital": ["Saint-Marin"]
-	},
-	{
-		"country": "Îles Salomon",
-		"capital": ["Honduras"]
 	},
 	{
 		"country": "Samoa",
