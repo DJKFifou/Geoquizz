@@ -10,6 +10,14 @@ type DataItem = {
 	capital: string[];
 };
 
+function shuffleData<T>(data: T[]): T[] {
+	for (let i = data.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		[data[i], data[j]] = [data[j], data[i]];
+	}
+	return data;
+}
+
 export const load = async ({ params }: { params: Params }) => {
 	const { categorie } = params;
 
@@ -24,13 +32,13 @@ export const load = async ({ params }: { params: Params }) => {
 				const countries = await import('$lib/data/lists/countries.json');
 				const enrichedCountries = await getListCountries(countries.default);
 				return {
-					data: enrichedCountries
+					data: shuffleData(enrichedCountries)
 				};
 			case 'flags':
 				const flags = await import('$lib/data/lists/flags.json');
 				const enrichedFlags = await getListFlags(flags.default);
 				return {
-					data: enrichedFlags
+					data: shuffleData(enrichedFlags)
 				};
 			default:
 				return {
