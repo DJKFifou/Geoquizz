@@ -143,7 +143,12 @@
 					</button>
 				{/each}
 			</div>
-			<button onclick={nextQuestion} class="w-fit rounded bg-blue-500 px-4 py-2 hover:bg-blue-600">
+			<button
+				onclick={nextQuestion}
+				class="w-fit rounded px-4 py-2 {isOptionSelected
+					? 'bg-blue-500 hover:bg-blue-600'
+					: 'bg-gray-500'}"
+			>
 				{currentQuestionIndex < data.data.length - 1 ? 'Suivant' : 'Terminer le quizz'}
 			</button>
 		</div>
