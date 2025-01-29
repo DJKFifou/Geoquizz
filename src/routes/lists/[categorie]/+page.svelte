@@ -9,6 +9,7 @@
 
 	$: categorieName = $page.params.categorie;
 
+	let currentRecord = `${$page.params.categorie}Record`;
 	let datas: Country[] = data?.data || [];
 	let inputValue: string = '';
 	let revealedAnswers: string[] = [];
@@ -65,6 +66,7 @@
 					timer--;
 				} else {
 					clearInterval(timerInterval!);
+
 					gameOver = true;
 				}
 			}, 1000);
@@ -93,6 +95,9 @@
 
 	$: {
 		if (!gameOver) {
+			if (revealedAnswers.length === datas.length) {
+				gameOver = true;
+			}
 			if (categorieName === 'capitals') {
 				const matchingCountry = datas.find((item: any) =>
 					item.capital.some((cap: any) => cleanString(cap) === cleanString(inputValue))
@@ -119,6 +124,12 @@
 					missingAnswers.push(item.country);
 				}
 			});
+			if (localStorage.getItem(currentRecord)) {
+				Number(localStorage.getItem(currentRecord)) < revealedAnswers.length &&
+					localStorage.setItem(currentRecord, revealedAnswers.length.toString());
+			} else {
+				localStorage.setItem(currentRecord, revealedAnswers.length.toString());
+			}
 		}
 	}
 </script>
@@ -134,6 +145,9 @@
 					: `Temps restant : ${timerDisabled ? 'Désactivé' : formatTime(timer)}`}
 			</p>
 			<p class="text-center text-xl font-medium">{revealedAnswers.length} / {datas.length}</p>
+			{#if gameOver}
+				<h3>Votre record est {localStorage.getItem(currentRecord)}/{data.data.length}</h3>
+			{/if}
 			<div class="flex gap-4">
 				{#if !gameOver}
 					{#if !timerDisabled}
