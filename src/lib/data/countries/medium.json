@@ -1,130 +1,130 @@
 [
 	{
-		"options": ["Naypyidaw", "Cambodge", "Thaïlande", "Vietnam"],
-		"answer": "Naypyidaw"
+		"options": ["Bénin", "", "", ""],
+		"answer": "Bénin"
 	},
 	{
-		"options": ["Émirats arabes unis", "Maroc", "Tunisie", "Turquie"],
-		"answer": "Émirats arabes unis"
+		"options": ["Indonésie", "", "", ""],
+		"answer": "Indonésie"
 	},
 	{
-		"options": ["Andorre", "Colombie", "Équateur", "Venezuela"],
-		"answer": "Andorre"
-	},
-	{
-		"options": ["France", "Belgique", "Espagne", "Italie"],
-		"answer": "France"
-	},
-	{
-		"options": ["Belgique", "France", "Espagne", "Italie"],
-		"answer": "Belgique"
-	},
-	{
-		"options": ["Algérie", "Maroc", "Tunisie", "Turquie"],
-		"answer": "Algérie"
-	},
-	{
-		"options": ["Italie", "Portugal", "Grèce", "Espagne"],
-		"answer": "Italie"
-	},
-	{
-		"options": ["Allemagne", "Autriche", "Pays-Bas", "Suisse"],
-		"answer": "Allemagne"
-	},
-	{
-		"options": ["Brésil", "Argentine", "Chili", "Mexique"],
-		"answer": "Brésil"
-	},
-	{
-		"options": ["Chine", "Japon", "Corée du Sud", "Vietnam"],
+		"options": ["Japon", "", "", ""],
 		"answer": "Japon"
 	},
 	{
-		"options": ["Canada", "États-Unis", "Australie", "Nouvelle-Zélande"],
-		"answer": "Canada"
-	},
-	{
-		"options": ["Royaume-Uni", "Irlande", "Suède", "Norvège"],
-		"answer": "Royaume-Uni"
-	},
-	{
-		"options": ["Afrique du Sud", "Kenya", "Nigéria", "Ghana"],
-		"answer": "Afrique du Sud"
-	},
-	{
-		"options": ["Inde", "Pakistan", "Sri Lanka", "Bangladesh"],
-		"answer": "Inde"
-	},
-	{
-		"options": ["Australie", "Nouvelle-Zélande", "Papouasie-Nouvelle-Guinée", "Fidji"],
-		"answer": "Australie"
-	},
-	{
-		"options": ["Russie", "Ukraine", "Biélorussie", "Kazakhstan"],
-		"answer": "Russie"
-	},
-	{
-		"options": ["Grèce", "Chypre", "Malte", "Croatie"],
-		"answer": "Grèce"
-	},
-	{
-		"options": ["États-Unis", "Canada", "Mexique", "Brésil"],
-		"answer": "États-Unis"
-	},
-	{
-		"options": ["Turquie", "Iran", "Arabie Saoudite", "Égypte"],
-		"answer": "Turquie"
-	},
-	{
-		"options": ["Suisse", "Autriche", "Allemagne", "Pays-Bas"],
-		"answer": "Suisse"
-	},
-	{
-		"options": ["Espagne", "Portugal", "Italie", "France"],
-		"answer": "Espagne"
-	},
-	{
-		"options": ["Maroc", "Algérie", "Tunisie", "Égypte"],
+		"options": ["Maroc", "", "", ""],
 		"answer": "Maroc"
 	},
 	{
-		"options": ["Norvège", "Suède", "Finlande", "Danemark"],
-		"answer": "Norvège"
+		"options": ["Gambie", "", "", ""],
+		"answer": "Gambie"
 	},
 	{
-		"options": ["Mexique", "Brésil", "Argentine", "Chili"],
-		"answer": "Mexique"
+		"options": ["Jordanie", "", "", ""],
+		"answer": "Jordanie"
 	},
 	{
-		"options": ["Irlande", "Écosse", "Pays de Galles", "Royaume-Uni"],
-		"answer": "Irlande"
+		"options": ["Kiribati", "", "", ""],
+		"answer": "Kiribati"
 	},
 	{
-		"options": ["Cuba", "République Dominicaine", "Jamaïque", "Haïti"],
-		"answer": "Cuba"
+		"options": ["Argentine", "", "", ""],
+		"answer": "Argentine"
 	},
 	{
-		"options": ["Pologne", "Hongrie", "République Tchèque", "Slovaquie"],
-		"answer": "Pologne"
+		"options": ["Somalie", "", "", ""],
+		"answer": "Somalie"
 	},
 	{
-		"options": ["Thaïlande", "Vietnam", "Indonésie", "Malaisie"],
-		"answer": "Thaïlande"
+		"options": ["Papouasie-Nouvelle-Guinée", "", "", ""],
+		"answer": "Papouasie-Nouvelle-Guinée"
 	},
 	{
-		"options": ["Philippines", "Malaisie", "Indonésie", "Vietnam"],
-		"answer": "Philippines"
+		"options": ["Myanmar", "", "", ""],
+		"answer": "Myanmar"
 	},
 	{
-		"options": ["Arabie Saoudite", "Koweït", "Qatar", "Bahreïn"],
-		"answer": "Arabie Saoudite"
+		"options": ["Ouzbékistan", "", "", ""],
+		"answer": "Ouzbékistan"
 	},
 	{
-		"options": ["Nouvelle-Zélande", "Australie", "Fidji", "Tonga"],
-		"answer": "Nouvelle-Zélande"
+		"options": ["Ukraine", "", "", ""],
+		"answer": "Ukraine"
 	},
 	{
-		"options": ["Suède", "Danemark", "Finlande", "Islande"],
-		"answer": "Suède"
+		"options": ["Namibie", "", "", ""],
+		"answer": "Namibie"
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
+	},
+	{
+		"options": ["", "", "", ""],
+		"answer": ""
 	}
 ]
