@@ -144,11 +144,13 @@
 	class="container mx-auto flex min-h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
 >
 	<div class="relative flex w-full flex-col gap-8 p-4">
-		<div
-			class="fixed bottom-0 left-0 h-2 transition-all duration-300"
-			style="width: {(timer * 100) / totalTime}%;
+		{#if !timerDisabled}
+			<div
+				class="fixed bottom-0 left-0 h-2 transition-all duration-300"
+				style="width: {(timer * 100) / totalTime}%;
 				background-color: {timer > totalTime * 0.5 ? 'green' : timer > totalTime * 0.2 ? 'orange' : 'red'};"
-		></div>
+			></div>
+		{/if}
 		<div class="sticky top-0 flex flex-col items-center gap-4 bg-gray-800 pb-2 pt-4">
 			<p class="text-center text-2xl font-bold">
 				{gameOver
