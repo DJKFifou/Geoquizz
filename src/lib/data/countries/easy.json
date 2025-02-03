@@ -1,82 +1,82 @@
 [
 	{
-		"options": ["Belgique", "", "", ""],
+		"options": ["Belgique", "Pays-Bas", "Allemagne", "Luxembourg"],
 		"answer": "Belgique"
 	},
 	{
-		"options": ["Croatie", "", "", ""],
+		"options": ["Croatie", "Serbie", "Slovénie", "Hongrie"],
 		"answer": "Croatie"
 	},
 	{
-		"options": ["Danemark", "", "", ""],
+		"options": ["Danemark", "Suède", "Norvège", "Finlande"],
 		"answer": "Danemark"
 	},
 	{
-		"options": ["Norvège", "", "", ""],
+		"options": ["Norvège", "Suède", "Islande", "Danemark"],
 		"answer": "Norvège"
 	},
 	{
-		"options": ["France", "", "", ""],
+		"options": ["France", "Italie", "Espagne", "Portugal"],
 		"answer": "France"
 	},
 	{
-		"options": ["Mexique", "", "", ""],
+		"options": ["Mexique", "Brésil", "Argentine", "Colombie"],
 		"answer": "Mexique"
 	},
 	{
-		"options": ["États-unis", "", "", ""],
-		"answer": "États-unis"
+		"options": ["États-Unis", "Canada", "Mexique", "Brésil"],
+		"answer": "États-Unis"
 	},
 	{
-		"options": ["Islande", "", "", ""],
+		"options": ["Islande", "Groenland", "Norvège", "Suède"],
 		"answer": "Islande"
 	},
 	{
-		"options": ["Turquie", "", "", ""],
+		"options": ["Turquie", "Grèce", "Chypre", "Bulgarie"],
 		"answer": "Turquie"
 	},
 	{
-		"options": ["Madagascar", "", "", ""],
+		"options": ["Madagascar", "Seychelles", "Maurice", "Comores"],
 		"answer": "Madagascar"
 	},
 	{
-		"options": ["Chili", "", "", ""],
+		"options": ["Chili", "Argentine", "Pérou", "Bolivie"],
 		"answer": "Chili"
 	},
 	{
-		"options": ["Royaume-Uni", "", "", ""],
+		"options": ["Royaume-Uni", "Irlande", "Belgique", "Pays-Bas"],
 		"answer": "Royaume-Uni"
 	},
 	{
-		"options": ["Australie", "", "", ""],
+		"options": ["Australie", "Nouvelle-Zélande", "Papouasie-Nouvelle-Guinée", "Indonésie"],
 		"answer": "Australie"
 	},
 	{
-		"options": ["Égypte", "", "", ""],
+		"options": ["Égypte", "Libye", "Soudan", "Tunisie"],
 		"answer": "Égypte"
 	},
 	{
-		"options": ["Suisse", "", "", ""],
+		"options": ["Suisse", "Autriche", "Allemagne", "France"],
 		"answer": "Suisse"
 	},
 	{
-		"options": ["Canada", "", "", ""],
+		"options": ["Canada", "États-Unis", "Mexique", "Brésil"],
 		"answer": "Canada"
 	},
 	{
-		"options": ["Sénégal", "", "", ""],
+		"options": ["Sénégal", "Mali", "Guinée", "Côte d'Ivoire"],
 		"answer": "Sénégal"
 	},
 	{
-		"options": ["Inde", "", "", ""],
+		"options": ["Inde", "Pakistan", "Bangladesh", "Sri Lanka"],
 		"answer": "Inde"
 	},
 	{
-		"options": ["Chypre", "", "", ""],
+		"options": ["Chypre", "Grèce", "Turquie", "Malte"],
 		"answer": "Chypre"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Corée du Sud", "Japon", "Chine", "Mongolie"],
+		"answer": "Corée du Sud"
 	}
 ]

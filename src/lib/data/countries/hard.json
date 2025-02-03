@@ -4,127 +4,111 @@
 		"answer": "Myanmar"
 	},
 	{
-		"options": ["Émirats arabes unis", "Maroc", "Tunisie", "Turquie"],
-		"answer": "Émirats arabes unis"
+		"options": ["Émirats arabes unis", "Qatar", "Oman", "Koweït"],
+		"answer": "Qatar"
 	},
 	{
-		"options": ["Andorre", "Colombie", "Équateur", "Venezuela"],
-		"answer": "Andorre"
+		"options": ["Andorre", "Bahreïn", "Saint-Marin", "Monaco"],
+		"answer": "Bahreïn"
 	},
 	{
-		"options": ["France", "Belgique", "Espagne", "Italie"],
-		"answer": "France"
+		"options": ["Eswatini", "Lesotho", "Namibie", "Botswana"],
+		"answer": "Eswatini"
 	},
 	{
-		"options": ["Belgique", "France", "Espagne", "Italie"],
-		"answer": "Belgique"
+		"options": ["Kazakhstan", "Kirghizistan", "Turkménistan", "Ouzbékistan"],
+		"answer": "Turkménistan"
 	},
 	{
-		"options": ["Algérie", "Maroc", "Tunisie", "Turquie"],
-		"answer": "Algérie"
+		"options": ["Sainte-Lucie", "Saint-Vincent-et-les-Grenadines", "Barbade", "Grenade"],
+		"answer": "Sainte-Lucie"
 	},
 	{
-		"options": ["Italie", "Portugal", "Grèce", "Espagne"],
-		"answer": "Italie"
+		"options": ["Dominique", "Trinité-et-Tobago", "Bahamas", "Antigua-et-Barbuda"],
+		"answer": "Trinité-et-Tobago"
 	},
 	{
-		"options": ["Allemagne", "Autriche", "Pays-Bas", "Suisse"],
-		"answer": "Allemagne"
+		"options": ["Soudan du Sud", "Soudan", "Érythrée", "Djibouti"],
+		"answer": "Soudan du Sud"
 	},
 	{
-		"options": ["Brésil", "Argentine", "Chili", "Mexique"],
-		"answer": "Brésil"
+		"options": ["Timor oriental", "Brunei", "Singapour", "Malaisie"],
+		"answer": "Timor oriental"
 	},
 	{
-		"options": ["Chine", "Japon", "Corée du Sud", "Vietnam"],
-		"answer": "Japon"
+		"options": ["Tonga", "Tuvalu", "Micronésie", "Nauru"],
+		"answer": "Nauru"
 	},
 	{
-		"options": ["Canada", "États-Unis", "Australie", "Nouvelle-Zélande"],
-		"answer": "Canada"
+		"options": ["Fidji", "Tuvalu", "Samoa", "Vanuatu"],
+		"answer": "Fidji"
 	},
 	{
-		"options": ["Royaume-Uni", "Irlande", "Suède", "Norvège"],
-		"answer": "Royaume-Uni"
+		"options": ["Belize", "Guatemala", "Honduras", "El Salvador"],
+		"answer": "Belize"
 	},
 	{
-		"options": ["Afrique du Sud", "Kenya", "Nigéria", "Ghana"],
-		"answer": "Afrique du Sud"
+		"options": ["Laos", "Cambodge", "Vietnam", "Thaïlande"],
+		"answer": "Laos"
 	},
 	{
-		"options": ["Inde", "Pakistan", "Sri Lanka", "Bangladesh"],
-		"answer": "Inde"
+		"options": ["Samoa", "Palaos", "Vanuatu", "Îles Salomon"],
+		"answer": "Samoa"
 	},
 	{
-		"options": ["Australie", "Nouvelle-Zélande", "Papouasie-Nouvelle-Guinée", "Fidji"],
-		"answer": "Australie"
+		"options": ["Népal", "Bhoutan", "Inde", "Pakistan"],
+		"answer": "Népal"
 	},
 	{
-		"options": ["Russie", "Ukraine", "Biélorussie", "Kazakhstan"],
-		"answer": "Russie"
+		"options": ["Seychelles", "Madagascar", "Maurice", "Comores"],
+		"answer": "Seychelles"
 	},
 	{
-		"options": ["Grèce", "Chypre", "Malte", "Croatie"],
-		"answer": "Grèce"
+		"options": ["Comores", "Seychelles", "Madagascar", "Maurice"],
+		"answer": "Comores"
 	},
 	{
-		"options": ["États-Unis", "Canada", "Mexique", "Brésil"],
-		"answer": "États-Unis"
+		"options": ["Maurice", "Seychelles", "Comores", "Madagascar"],
+		"answer": "Maurice"
 	},
 	{
-		"options": ["Turquie", "Iran", "Arabie Saoudite", "Égypte"],
-		"answer": "Turquie"
+		"options": ["São Tomé-et-Príncipe", "Cap-Vert", "Gabon", "Guinée équatoriale"],
+		"answer": "São Tomé-et-Príncipe"
 	},
 	{
-		"options": ["Suisse", "Autriche", "Allemagne", "Pays-Bas"],
-		"answer": "Suisse"
+		"options": ["Cap-Vert", "São Tomé-et-Príncipe", "Gabon", "Guinée équatoriale"],
+		"answer": "Cap-Vert"
 	},
 	{
-		"options": ["Espagne", "Portugal", "Italie", "France"],
-		"answer": "Espagne"
+		"options": ["Guinée équatoriale", "Gabon", "Cameroun", "Cap-Vert"],
+		"answer": "Guinée équatoriale"
 	},
 	{
-		"options": ["Maroc", "Algérie", "Tunisie", "Égypte"],
-		"answer": "Maroc"
+		"options": ["Zambie", "Angola", "Zimbabwe", "Mozambique"],
+		"answer": "Zambie"
 	},
 	{
-		"options": ["Norvège", "Suède", "Finlande", "Danemark"],
-		"answer": "Norvège"
+		"options": ["Mozambique", "Zambie", "Zimbabwe", "Angola"],
+		"answer": "Mozambique"
 	},
 	{
-		"options": ["Mexique", "Brésil", "Argentine", "Chili"],
-		"answer": "Mexique"
+		"options": ["Congo-Brazzaville", "République démocratique du Congo", "Gabon", "Angola"],
+		"answer": "Congo-Brazzaville"
 	},
 	{
-		"options": ["Irlande", "Écosse", "Pays de Galles", "Royaume-Uni"],
-		"answer": "Irlande"
+		"options": ["Burundi", "Rwanda", "Tanzanie", "Ouganda"],
+		"answer": "Burundi"
 	},
 	{
-		"options": ["Cuba", "République Dominicaine", "Jamaïque", "Haïti"],
-		"answer": "Cuba"
+		"options": ["Tchad", "Niger", "Mali", "Soudan"],
+		"answer": "Tchad"
 	},
 	{
-		"options": ["Pologne", "Hongrie", "République Tchèque", "Slovaquie"],
-		"answer": "Pologne"
+		"options": ["Gabon", "Congo-Brazzaville", "Guinée équatoriale", "Cap-Vert"],
+		"answer": "Gabon"
 	},
 	{
-		"options": ["Thaïlande", "Vietnam", "Indonésie", "Malaisie"],
-		"answer": "Thaïlande"
-	},
-	{
-		"options": ["Philippines", "Malaisie", "Indonésie", "Vietnam"],
-		"answer": "Philippines"
-	},
-	{
-		"options": ["Arabie Saoudite", "Koweït", "Qatar", "Bahreïn"],
-		"answer": "Arabie Saoudite"
-	},
-	{
-		"options": ["Nouvelle-Zélande", "Australie", "Fidji", "Tonga"],
-		"answer": "Nouvelle-Zélande"
-	},
-	{
-		"options": ["Suède", "Danemark", "Finlande", "Islande"],
-		"answer": "Suède"
+		"options": ["Érythrée", "Éthiopie", "Soudan", "Djibouti"],
+		"answer": "Érythrée"
 	}
 ]

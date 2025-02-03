@@ -1,130 +1,74 @@
 [
 	{
-		"options": ["Bénin", "", "", ""],
+		"options": ["Bénin", "Togo", "Nigeria", "Burkina Faso"],
 		"answer": "Bénin"
 	},
 	{
-		"options": ["Indonésie", "", "", ""],
+		"options": ["Indonésie", "Malaisie", "Philippines", "Papouasie-Nouvelle-Guinée"],
 		"answer": "Indonésie"
 	},
 	{
-		"options": ["Japon", "", "", ""],
+		"options": ["Japon", "Corée du Sud", "Chine", "Taïwan"],
 		"answer": "Japon"
 	},
 	{
-		"options": ["Maroc", "", "", ""],
+		"options": ["Maroc", "Algérie", "Tunisie", "Mauritanie"],
 		"answer": "Maroc"
 	},
 	{
-		"options": ["Gambie", "", "", ""],
+		"options": ["Gambie", "Sénégal", "Guinée-Bissau", "Guinée"],
 		"answer": "Gambie"
 	},
 	{
-		"options": ["Jordanie", "", "", ""],
+		"options": ["Jordanie", "Arabie Saoudite", "Syrie", "Irak"],
 		"answer": "Jordanie"
 	},
 	{
-		"options": ["Kiribati", "", "", ""],
+		"options": ["Kiribati", "Fidji", "Vanuatu", "Samoa"],
 		"answer": "Kiribati"
 	},
 	{
-		"options": ["Argentine", "", "", ""],
+		"options": ["Argentine", "Chili", "Uruguay", "Paraguay"],
 		"answer": "Argentine"
 	},
 	{
-		"options": ["Somalie", "", "", ""],
+		"options": ["Somalie", "Éthiopie", "Kenya", "Djibouti"],
 		"answer": "Somalie"
 	},
 	{
-		"options": ["Papouasie-Nouvelle-Guinée", "", "", ""],
-		"answer": "Papouasie-Nouvelle-Guinée"
-	},
-	{
-		"options": ["Myanmar", "", "", ""],
-		"answer": "Myanmar"
-	},
-	{
-		"options": ["Ouzbékistan", "", "", ""],
+		"options": ["Ouzbékistan", "Turkménistan", "Kazakhstan", "Tadjikistan"],
 		"answer": "Ouzbékistan"
 	},
 	{
-		"options": ["Ukraine", "", "", ""],
+		"options": ["Ukraine", "Russie", "Pologne", "Biélorussie"],
 		"answer": "Ukraine"
 	},
 	{
-		"options": ["Namibie", "", "", ""],
+		"options": ["Namibie", "Angola", "Botswana", "Afrique du Sud"],
 		"answer": "Namibie"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Bhoutan", "Népal", "Inde", "Bangladesh"],
+		"answer": "Bhoutan"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Suriname", "Guyana", "Venezuela", "Équateur"],
+		"answer": "Suriname"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Géorgie", "Arménie", "Azerbaïdjan", "Moldavie"],
+		"answer": "Géorgie"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Sierra Leone", "Liberia", "Ghana", "Cameroun"],
+		"answer": "Sierra Leone"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Ouganda", "Kenya", "Tanzanie", "Rwanda"],
+		"answer": "Ouganda"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
-	},
-	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Cuba", "Haïti", "République Dominicaine", "Jamaïque"],
+		"answer": "Cuba"
 	}
 ]
