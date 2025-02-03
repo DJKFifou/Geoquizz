@@ -21,7 +21,7 @@
 	},
 	{
 		"question": "Quelle est la ville avec le plus d'habitants ?",
-		"options": ["Tokyo", "Bombay", "Beijing (Pékin)", "Shanghai"],
+		"options": ["Tokyo", "Mumbai", "Beijing (Pékin)", "Shanghai"],
 		"answer": "Tokyo"
 	},
 	{
@@ -200,7 +200,7 @@
 		"answer": "Mer Méditerranée"
 	},
     {
-        "question": "Quel océan borde la côte est des États-Unis ?",
+        "question": "Quel océan borde la côte Est des États-Unis ?",
         "options": ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
         "answer": "Océan Atlantique"
     },
@@ -232,7 +232,7 @@
     {
         "question": "Sur quel drapeau distingue t-on un dragon ?",
         "options": ["Bhoutan", "Népal", "Chine", "Japon"],
-        "answer": "Océan Indien"
+        "answer": "Bhoutan"
     },
     {
         "question": "Quel pays ne fait pas partie du continent asiatique ?",
