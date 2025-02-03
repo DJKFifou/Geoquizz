@@ -25,7 +25,7 @@
 {/if}
 
 <a
-	href="https://github.com/DJKFifou"
+	href="https://github.com/DJKFifou/Geoquizz"
 	target="_blank"
 	class="fixed bottom-2 right-2 text-2xl font-bold text-white">Github</a
 >

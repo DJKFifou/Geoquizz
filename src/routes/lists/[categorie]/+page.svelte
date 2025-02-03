@@ -221,7 +221,7 @@
 						tabindex="0"
 					>
 						<div class="flex justify-center rounded bg-gray-700 p-2">
-							<img src={item.image} alt="Réponse" class="h-28 w-40 object-contain" />
+							<img src={item.image} alt="Drapeau" class="h-28 w-40 object-contain" />
 						</div>
 						<div
 							class="h-10 cursor-pointer rounded bg-gray-700 p-2 {!gameOver &&

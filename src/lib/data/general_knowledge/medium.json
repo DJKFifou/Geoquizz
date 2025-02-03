@@ -1,8 +1,8 @@
 [
 	{
 		"question": "Quelle est la population intra-muros de Londres ?",
-		"options": ["9 millions", "5 millions", "14 millions", "19 millions"],
-		"answer": "9 millions"
+		"options": ["9 millions", "5 millions", "14 millions", "19 millions"],
+		"answer": "9 millions"
 	},
 	{
 		"question": "À quel pays appartient le Groenland ?",
@@ -25,9 +25,9 @@
 		"answer": "27"
 	},
 	{
-		"question": "Combien y-a-t'il d'habitants dans l'UE en 2021 ?",
-		"options": ["447 millions", "376 millions", "522 millions", "318 millions"],
-		"answer": "447 millions"
+		"question": "Combien y a-t-il d'habitants dans l'UE ?",
+		"options": ["450 millions", "376 millions", "522 millions", "318 millions"],
+		"answer": "450 millions"
 	},
 	{
 		"question": "Quel pays ne fait pas partie de l'UE ?",
@@ -40,8 +40,8 @@
 		"answer": "Espagne"
 	},
 	{
-		"question": "Quel est le plus grand fleuve du monde ?",
-		"options": ["Amazone", "Nil", "Mississippi", "Tigre"],
+		"question": "Quel est le plus grand fleuve parmi ceux-ci ?",
+		"options": ["Amazone", "Yangtze", "Mississippi", "Tigre"],
 		"answer": "Amazone"
 	},
 	{
@@ -56,7 +56,7 @@
 	},
 	{
 		"question": "Quel pays a pour capitale Nicosie ?",
-		"options": ["Chypre", "Malte", "Porto-Rico", "Cuba"],
+		"options": ["Chypre", "Malte", "Haïti", "Cuba"],
 		"answer": "Chypre"
 	},
 	{
@@ -80,19 +80,14 @@
 		"answer": "Cuba"
 	},
 	{
-		"question": "Quel pays ne fait pas partie du continent asiatique ?",
-		"options": ["Djibouti", "Arménie", "Népal", "Sri Lanka"],
-		"answer": "Djibouti"
-	},
-	{
 		"question": "Comment se nomme le détroit à l'Est de Djibouti ?",
-		"options": ["Bab al-Mandab", "Malacca", "Ormuz", "Béring"],
-		"answer": "Bab al-Mandab"
+		"options": ["Bab el-Mandeb", "Malacca", "Ormuz", "Béring"],
+		"answer": "Bab el-Mandeb"
 	},
 	{
 		"question": "Combien mesure le plus grand sommet de la cordillères des Andes ?",
-		"options": ["6961 m", "4582 m", "8237 m", "3402 m"],
-		"answer": "6961 m"
+		"options": ["6961 m", "4582 m", "8237 m", "3402 m"],
+		"answer": "6961 m"
 	},
 	{
 		"question": "Quelle ville ne se situe pas en Allemagne ?",
@@ -131,8 +126,8 @@
 	},
 	{
 		"question": "Quelle est la longueur (environ) du Nil ?",
-		"options": ["6500 m", "5500m", "7500m", "8500m"],
-		"answer": "6500 m"
+		"options": ["6500 m", "5500 m", "7500 m", "8500 m"],
+		"answer": "6500 m"
 	},
 	{
 		"question": "Quel pays n'est pas traversé par la Cordillère des Andes ?",
@@ -146,7 +141,7 @@
 	},
 	{
 		"question": "Quel est la superficie de la France métropolitaine ?",
-		"options": ["543 940 km²", "375 250 km²", "786 340 km²", "192 130 km²"],
+		"options": ["543 940 km²", "375 250 km²", "786 340 km²", "192 130 km²"],
 		"answer": "543 940 km²"
 	},
 	{
@@ -161,7 +156,7 @@
 	},
 	{
 		"question": "De quel pays Riyad est la capitale ?",
-		"options": ["Arabie Saoudite", "Syrie", "Irak", "Émirats arabes unis"],
+		"options": ["Arabie Saoudite", "Syrie", "Irak", "Émirats Arabes Unis"],
 		"answer": "Arabie Saoudite"
 	},
 	{
@@ -176,7 +171,7 @@
 	},
 	{
 		"question": "Parmi les pays suivants, lequel est le plus petit ?",
-		"options": ["Bahreïn", "Koweït", "Qatar", "Émirats arabes unis"],
+		"options": ["Bahreïn", "Koweït", "Qatar", "Émirats Arabes Unis"],
 		"answer": "Bahreïn"
 	},
 	{
@@ -203,5 +198,95 @@
 		"question": "Dans quel pays ne trouve-t-on pas l'Himalaya ?",
 		"options": ["Tadjikistan", "Bhoutan", "Népal", "Chine"],
 		"answer": "Tadjikistan"
+	},
+	{
+		"question": "Avec combien de pays la France métropolitaine partage-t-elle une frontière terrestre ?",
+		"options": ["8", "4", "6", "10"],
+		"answer": "8"
+	},
+	{
+		"question": "Quel est le pays le plus peuplé d'Afrique ?",
+		"options": ["Nigeria", "Égypte", "Afrique du Sud", "Éthiopie"],
+		"answer": "Nigeria"
+	},
+	{
+		"question": "Quel pays est entièrement enclavé dans l'Afrique du Sud ?",
+		"options": ["Lesotho", "Eswatini", "Botswana", "Namibie"],
+		"answer": "Lesotho"
+	},
+	{
+		"question": "Quel est le plus petit pays du monde en superficie ?",
+		"options": ["Vatican", "Monaco", "Nauru", "Liechtenstein"],
+		"answer": "Vatican"
+	},
+	{
+		"question": "Quelle mer est connue pour sa forte teneur en sel ?",
+		"options": ["Mer Morte", "Mer Rouge", "Mer Caspienne", "Mer Noire"],
+		"answer": "Mer Morte"
+	},
+	{
+		"question": "Quelle ville ne se situe pas au Maroc ?",
+		"options": ["Hammamet", "Essaouira", "Marrakech", "Casablanca"],
+		"answer": "Hammamet"
+	},
+	{
+		"question": "Quel pays ne se trouve pas dans le golfe Persique ?",
+		"options": ["Brunei", "Koweït", "Qatar", "Bahreïn"],
+		"answer": "Brunei"
+	},
+	{
+		"question": "Quelle ville japonaise était l’ancienne capitale impériale du Japon ?",
+		"options": ["Kyoto", "Tokyo", "Kobe", "Sapporo"],
+		"answer": "Kyoto"
+	},
+	{
+		"question": "Dans quel pays peut-on voir les chutes du Niagara ?",
+		"options": ["Canada", "États-Unis", "Mexique", "Argentine"],
+		"answer": "Canada"
+	},
+	{
+	  "question": "Quel est le pays le plus densément peuplé au monde ?",
+	  "options": ["Monaco", "Singapour", "Bangladesh", "Vatican"],
+	  "answer": "Monaco"
+	},
+	{
+	  "question": "Quel est le plus grand État des États-Unis en superficie ?",
+	  "options": ["Alaska", "Texas", "Californie", "Montana"],
+	  "answer": "Alaska"
+	},
+	{
+	  "question": "Quel pays ne possède pas de violet sur son drapeau ?",
+	  "options": ["équateur", "El salvador", "Nicaragua", "Dominique"],
+	  "answer": "équateur"
+	},
+	{
+		"question": "Quel est le plus grand lac d’eau douce du monde en superficie ?",
+		"options": ["Lac Supérieur", "Lac Victoria", "Lac Baïkal", "Lac Tanganyika"],
+		"answer": "Lac Supérieur"
+	},
+	{
+		"question": "Quelle ville ne se situe pas en Espagne ?",
+		"options": ["Salerne", "Valence", "Grenade", "Carthagène"],
+		"answer": "Salerne"
+	},
+	{
+	  "question": "Quel drapeau n'est pas rectangulaire ?",
+	  "options": ["Népal", "Monaco", "Niger", "Belgique"],
+	  "answer": "Népal"
+	},
+	{
+	  "question": "Quel drapeau ne contient pas d'animaux ?",
+	  "options": ["Brésil", "Ouganda", "Mexique", "Égypte"],
+	  "answer": "Brésil"
+	},
+	{
+		"question": "Dans quel pays se situe le site de Petra ?",
+		"options": ["Jordanie", "Syrie", "Liban", "Égypte"],
+		"answer": "Jordanie"
+	},
+	{
+		"question": "De quel pays Praia est-elle la capitale ?",
+		"options": ["Cap-Vert", "Géorgie", "Moldavie", "Macédoine du Nord"],
+		"answer": "Cap-Vert"
 	}
 ]

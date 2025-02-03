@@ -61,7 +61,7 @@
 	},
 	{
 		"question": "De quel pays Libreville est la capitale ?",
-		"options": ["Gabon", "Sierra Leone", "Cameroun", "Guinée-Bissau"],
+		"options": ["Gabon", "Sierra Leone", "Libéria", "Côte d'Ivoire"],
 		"answer": "Gabon"
 	},
 	{
@@ -156,13 +156,13 @@
 	},
 	{
 		"question": "Quelle est la population du Suriname ?",
-		"options": ["613 000", "1 428 000", "2 781 000", "3 347 000"],
-		"answer": "613 000"
+		"options": ["623 000", "1 428 000", "2 781 000", "3 347 000"],
+		"answer": "623 000"
 	},
 	{
 		"question": "Parmi les pays suivants, lequel est le plus petit ?",
 		"options": ["Géorgie", "Uruguay", "Nicaragua", "Islande"],
-		"answer": "Islande"
+		"answer": "Géorgie"
 	},
 	{
 		"question": "Quelle est la capitale du Qatar ?",
@@ -181,8 +181,8 @@
 	},
 	{
 		"question": "Quelle est la population de l'Islande ?",
-		"options": ["372 000", "562 000", "883 000", "154 000"],
-		"answer": "372 000"
+		"options": ["393 000", "572 000", "883 000", "154 000"],
+		"answer": "393 000"
 	},
 	{
 		"question": "Quel pays ne partage pas de frontière terrestre avec le Togo ?",
@@ -195,7 +195,7 @@
 		"answer": "Croatie"
 	},
 	{
-		"question": "Parmi les drapeaux suivants, trouvez l'intrus :",
+		"question": "Parmi les drapeaux suivants, sur lequel distingue t-on le rouge au dessus et le blanc en dessous ?",
 		"options": ["Pologne", "Monaco", "Indonésie", "Singapour"],
 		"answer": "Pologne"
 	},
@@ -228,5 +228,55 @@
 		"question": "Avec combien de pays le Burkina Faso partage t-il une frontière terrestre ?",
 		"options": ["6", "5", "4", "3"],
 		"answer": "6"
+	},
+	{
+		"question": "L'Issyk-Koul est un lac situé dans quel pays ?",
+		"options": ["Kirghizistan", "Kazakhstan", "Ouzbékistan", "Tadjikistan"],
+		"answer": "Kirghizistan"
+	},
+	{
+	  "question": "Quel est le plus petit pays du monde en superficie ?",
+	  "options": ["Vatican", "Monaco", "Nauru", "San Marin"],
+	  "answer": "Vatican"
+	},
+	{
+	  "question": "Quel pays a la plus grande population au monde ?",
+	  "options": ["Inde", "Chine", "États-Unis", "Indonésie"],
+	  "answer": "Inde"
+	},
+	{
+	  "question": "Quel est l'état des États-Unis le plus peuplé ?",
+	  "options": ["Californie", "Texas", "Michigan", "Floride"],
+	  "answer": "Californie"
+	},
+	{
+	  "question": "Quel est le plus long drapeau du monde (en terme de proportions) ?",
+	  "options": ["Qatar", "Sri Lanka", "Seychelles", "Tuvalu"],
+	  "answer": "Qatar"
+	},
+	{
+	  "question": "Quel drapeau n'est pas rectangulaire ?",
+	  "options": ["Vatican", "Monaco", "Niger", "Belgique"],
+	  "answer": "Vatican"
+	},
+	{
+	  "question": "Dans quel pays se trouve la région de Transylvanie ?",
+	  "options": ["Roumanie", "Russie", "Bulgarie", "Ukraine"],
+	  "answer": "Roumanie"
+	},
+	{
+	  "question": "Quel drapeau ne contient pas d'animaux ?",
+	  "options": ["Belize", "Espagne", "Fidji", "Andorre"],
+	  "answer": "Belize"
+	},
+	{
+		"question": "Quelle mer est située entre la Turquie et la Grèce ?",
+		"options": ["Mer Égée", "Mer Noire", "Mer Caspienne", "Mer d'Aral'"],
+		"answer": "Mer Égée"
+	},
+	{
+	  "question": "Quel drapeau ne contient pas de jaune ?",
+	  "options": ["Gambie", "Brunei", "Vanuatu", "Tadjikistan"],
+	  "answer": "Gambie"
 	}
 ]

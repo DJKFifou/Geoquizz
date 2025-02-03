@@ -1,8 +1,8 @@
 [
 	{
-		"question": "Quel est le nombre d'habitants en France en 2022 ?",
-		"options": ["68 millions", "54 millions", "76 millions", "46 millions"],
-		"answer": "68 millions"
+		"question": "Quel est le nombre d'habitants en France ?",
+		"options": ["68 millions", "54 millions", "76 millions", "46 millions"],
+		"answer": "68 millions"
 	},
 	{
 		"question": "De combien d'états sont composés les USA ?",
@@ -30,12 +30,12 @@
 		"answer": "Berne"
 	},
 	{
-		"question": "Combien y-a-t-il de régions en France ?",
+		"question": "Combien y a-t-il de régions en France ?",
 		"options": ["13", "17", "15", "19"],
 		"answer": "13"
 	},
 	{
-		"question": "Combien y-a-t'il de pays reconnus (environ) dans le monde ?",
+		"question": "Combien y a-t-il de pays reconnus (environ) dans le monde ?",
 		"options": ["200", "250", "300", "350"],
 		"answer": "200"
 	},
@@ -61,8 +61,8 @@
 	},
 	{
 		"question": "Quelle est la hauteur du Mont Everest ?",
-		"options": ["8849 m", "7439 m", "5751 m", "9742 m"],
-		"answer": "8849 m"
+		"options": ["8849 m", "7439 m", "5751 m", "9742 m"],
+		"answer": "8849 m"
 	},
 	{
 		"question": "Quelle ville est surnommée la ville rose ?",
@@ -83,11 +83,6 @@
 		"question": "Quelle ville ne se situe pas au Royaume-Uni ?",
 		"options": ["Perth", "Leeds", "Belfast", "Plymouth"],
 		"answer": "Perth"
-	},
-	{
-		"question": "Quelle ville ne se situe pas en Espagne ?",
-		"options": ["Salerne", "Valence", "Grenade", "Carthagène"],
-		"answer": "Salerne"
 	},
 	{
 		"question": "De quel pays Vienne est la capitale ?",
@@ -113,5 +108,135 @@
 		"question": "Dans quel continent se situe le Kilimandjaro ?",
 		"options": ["Afrique", "Amérique", "Asie", "Europe"],
 		"answer": "Afrique"
-	}
+	},
+	{
+		"question": "Quel pays possède le plus grand nombre d’îles ?",
+		"options": ["Suède", "Indonésie", "Canada", "Philippines"],
+		"answer": "Suède"
+	},
+	{
+		"question": "Dans quel pays peut-on visiter la Grande Muraille ?",
+		"options": ["Chine", "Inde", "Mongolie", "Japon"],
+		"answer": "Chine"
+	},
+	{
+		"question": "Quelle est la capitale du Canada ?",
+		"options": ["Ottawa", "Toronto", "Vancouver", "Montréal"],
+		"answer": "Ottawa"
+	},
+	{
+		"question": "Quel est le point le plus bas sur Terre ?",
+		"options": ["Fosse des Mariannes", "Mer Morte", "Vallée de la Mort", "Lac Assal"],
+		"answer": "Fosse des Mariannes"
+	},
+	{
+		"question": "Quel est l'océan le plus vaste du monde ?",
+		"options": ["Pacifique", "Atlantique", "Indien", "Arctique"],
+		"answer": "Pacifique"
+	},
+	{
+		"question": "Quel est le pays le plus peuplé d'Amérique du Sud ?",
+		"options": ["Brésil", "Argentine", "Colombie", "Pérou"],
+		"answer": "Brésil"
+	},
+	{
+		"question": "Quel est le pays d’Europe le plus peuplé ?",
+		"options": ["Allemagne", "France", "Royaume-Uni", "Italie"],
+		"answer": "Allemagne"
+	},
+	{
+		"question": "Dans quel pays se trouve le Machu Picchu ?",
+		"options": ["Pérou", "Bolivie", "Équateur", "Chili"],
+		"answer": "Pérou"
+	},
+	{
+		"question": "Sous quel nom est plus connue la ville indienne de Mumbai ?",
+		"options": ["Bombay", "Delhi", "Calcutta", "Bengalore"],
+		"answer": "Bombay"
+	},
+	{
+		"question": "Quel est le plus grand pays d'Afrique ?",
+		"options": ["Algérie", "Soudan", "République Démocratique du Congo", "Libye"],
+		"answer": "Algérie"
+	},
+	{
+		"question": "Dans quel pays peut-on voir le mont Fuji ?",
+		"options": ["Japon", "Chine", "Corée du Sud", "Mongolie"],
+		"answer": "Japon"
+	},
+	{
+		"question": "Quel est le plus grand pays d'Asie en superficie ?",
+		"options": ["Russie", "Chine", "Inde", "Mongolie"],
+		"answer": "Russie"
+	},
+	{
+		"question": "Quel pays d'Amérique latine parle le portugais ?",
+		"options": ["Brésil", "Argentine", "Chili", "Venezuela"],
+		"answer": "Brésil"
+	},
+	{
+		"question": "Quel pays n'est pas une enclave ?",
+		"options": ["Eswatini", "Lesotho", "Vatican", "Saint-Marin"],
+		"answer": "Eswatini"
+	},
+	{
+		"question": "De quel pays Berne est la capitale ?",
+		"options": ["Suisse", "Autriche", "Slovénie", "République tchèque"],
+		"answer": "Suisse"
+	},
+	{
+		"question": "De quel pays Helsinki est la capitale ?",
+		"options": ["Finlande", "Suède", "Norvège", "Danemark"],
+		"answer": "Finlande"
+	},
+	{
+		"question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+		"options": ["Les Pyrénées", "Les Alpes", "Les Apennins", "Le Massif Central"],
+		"answer": "Les Pyrénées"
+	},
+	{
+		"question": "Quelle mer borde la ville de La Valette ?",
+		"options": ["Mer Méditerranée", "Mer du Nord", "Mer Caspienne", "Mer Noire"],
+		"answer": "Mer Méditerranée"
+	},
+    {
+        "question": "Quel océan borde la côte est des États-Unis ?",
+        "options": ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
+        "answer": "Océan Atlantique"
+    },
+    {
+        "question": "Quel pays est connu pour sa pyramide de Gizeh ?",
+        "options": ["Égypte", "Grèce", "Mexique", "Inde"],
+        "answer": "Égypte"
+    },
+    {
+        "question": "Quelle est la capitale de la Corée du Sud ?",
+        "options": ["Séoul", "Tokyo", "Beijing", "Kyoto"],
+        "answer": "Séoul"
+    },
+    {
+        "question": "Quel pays est surnommé le Pays du Soleil Levant ?",
+        "options": ["Japon", "Chine", "Corée du Sud", "Vietnam"],
+        "answer": "Japon"
+    },
+    {
+        "question": "Quel est le nom de la mer qui sépare l'Italie de la Croatie ?",
+        "options": ["Mer Adriatique", "Mer Noire", "Mer Caspienne", "Mer Baltique"],
+        "answer": "Mer Adriatique"
+    },
+    {
+        "question": "Quel océan est situé entre l'Afrique, l'Asie et l'Australie ?",
+        "options": ["Océan Indien", "Océan Pacifique", "Océan Atlantique", "Océan Arctique"],
+        "answer": "Océan Indien"
+    },
+    {
+        "question": "Sur quel drapeau distingue t-on un dragon ?",
+        "options": ["Bhoutan", "Népal", "Chine", "Japon"],
+        "answer": "Océan Indien"
+    },
+    {
+        "question": "Quel pays ne fait pas partie du continent asiatique ?",
+        "options": ["Djibouti", "Koweït", "Bahreïn", "Brunei"],
+        "answer": "Djibouti"
+    }
 ]
