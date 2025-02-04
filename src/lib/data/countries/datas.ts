@@ -1,3 +1,7 @@
+import countriesEasy from '$lib/data/countries/easy.json';
+import countriesMedium from '$lib/data/countries/medium.json';
+import countriesHard from '$lib/data/countries/hard.json';
+
 const svgs = import.meta.glob('./svgs/*.svg');
 
 const svgPromises = Object.keys(svgs).reduce(
@@ -27,6 +31,12 @@ export async function getCountries(difficulty: any) {
 			question: 'À quel pays appartient cette forme ?'
 		};
 	});
+}
+
+export const countries: any = {
+    easy : await getCountries(countriesEasy),
+    medium :await getCountries(countriesMedium),
+    hard :await getCountries(countriesHard),
 }
 
 export async function getListCountries(categorie: any) {

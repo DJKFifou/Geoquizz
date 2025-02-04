@@ -24,8 +24,16 @@
 		"answer": "Brésil"
 	},
 	{
-		"options": ["Chine", "Japon", "Corée du Sud", "Vietnam"],
+		"options": ["Japon", "Chine", "Corée du Sud", "Vietnam"],
 		"answer": "Japon"
+	},
+	{
+		"options": ["Chine", "Japon", "Thaïlande", "Vietnam"],
+		"answer": "Chine"
+	},
+	{
+		"options": ["Corée du Sud", "Chine", "Japon", "Thaïlande"],
+		"answer": "Corée du Sud"
 	},
 	{
 		"options": ["Canada", "États-Unis", "Australie", "Nouvelle-Zélande"],
@@ -36,7 +44,7 @@
 		"answer": "Royaume-Uni"
 	},
 	{
-		"options": ["Afrique du Sud", "Kenya", "Nigéria", "Ghana"],
+		"options": ["Afrique du Sud", "Kenya", "Nigeria", "Ghana"],
 		"answer": "Afrique du Sud"
 	},
 	{
@@ -44,8 +52,16 @@
 		"answer": "Inde"
 	},
 	{
+		"options": ["Indonésie", "Corée du Nord", "Fidji", "Malte"],
+		"answer": "Indonésie"
+	},
+	{
 		"options": ["Russie", "Ukraine", "Biélorussie", "Kazakhstan"],
 		"answer": "Russie"
+	},
+	{
+		"options": ["Ukraine", "Russie", "Pologne", "Roumanie"],
+		"answer": "Ukraine"
 	},
 	{
 		"options": ["Grèce", "Chypre", "Malte", "Croatie"],
@@ -68,8 +84,16 @@
 		"answer": "Espagne"
 	},
 	{
+		"options": ["Portugal", "Espagne", "Italie", "Andorre"],
+		"answer": "Portugal"
+	},
+	{
 		"options": ["Maroc", "Algérie", "Tunisie", "Égypte"],
 		"answer": "Maroc"
+	},
+	{
+		"options": ["Tunisie", "Algérie", "Maroc", "Égypte"],
+		"answer": "Tunisie"
 	},
 	{
 		"options": ["Norvège", "Suède", "Finlande", "Danemark"],
@@ -88,15 +112,103 @@
 		"answer": "Cuba"
 	},
 	{
+		"options": ["Jamaïque", "République Dominicaine", "Cuba", "Guyana"],
+		"answer": "Jamaïque"
+	},
+	{
 		"options": ["Pologne", "Hongrie", "République Tchèque", "Slovaquie"],
 		"answer": "Pologne"
+	},
+	{
+		"options": ["Vatican", "Andorre", "Italie", "Luxembourg"],
+		"answer": "Vatican"
+	},
+	{
+		"options": ["République Tchèque", "Hongrie", "Bulgarie", "Serbie"],
+		"answer": "République Tchèque"
 	},
 	{
 		"options": ["Suède", "Danemark", "Finlande", "Islande"],
 		"answer": "Suède"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Croatie", "Grèce", "Hongrie", "Roumanie"],
+		"answer": "Croatie"
+	},
+	{
+		"options": ["Islande", "Irlande", "Royaume-Uni", "Danemark"],
+		"answer": "Islande"
+	},
+	{
+		"options": ["Danemark", "Islande", "Irlande", "Lettonie"],
+		"answer": "Danemark"
+	},
+	{
+		"options": ["Autriche", "Allemagne", "Suisse", "Pérou"],
+		"answer": "Autriche"
+	},
+	{
+		"options": ["Finlande", "Islande", "Royaume-Uni", "Estonie"],
+		"answer": "Finlande"
+	},
+	{
+		"options": ["Mongolie", "Cambodge", "Laos", "Malaisie"],
+		"answer": "Mongolie"
+	},
+	{
+		"options": ["Luxembourg", "Pays-Bas", "France", "Belgique"],
+		"answer": "Luxembourg"
+	},
+	{
+		"options": ["Pays-Bas", "Luxembourg", "France", "Hongrie"],
+		"answer": "Pays-Bas"
+	},
+	{
+		"options": ["Hongrie", "lituanie", "Serbie", "Bosnie-Herzégovine"],
+		"answer": "Hongrie"
+	},
+	{
+		"options": ["Colombie", "Bolivie", "Chili", "Pérou"],
+		"answer": "Colombie"
+	},
+	{
+		"options": ["Australie", "Palikir", "Panama", "Uruguay"],
+		"answer": "Australie"
+	},
+	{
+		"options": ["Nouvelle-Zélande", "États-Unis", "Libéria", "Samoa"],
+		"answer": "Nouvelle-Zélande"
+	},
+	{
+		"options": ["Qatar", "Syrie", "Érythrée", "Soudan du Sud"],
+		"answer": "Qatar"
+	},
+	{
+		"options": ["Bolivie", "Équateur", "Argentine", "Brésil"],
+		"answer": "Bolivie"
+	},
+	{
+		"options": ["Madagascar", "Bénin", "Guinée-Bissau", "Togo"],
+		"answer": "Madagascar"
+	},
+	{
+		"options": ["Monaco", "Andorre", "Vatican", "Saint-Marin"],
+		"answer": "Monaco"
+	},
+	{
+		"options": ["Liban", "Géorgie", "Arménie", "Syrie"],
+		"answer": "Liban"
+	},
+	{
+		"options": ["Turquie", "Syrie", "Maroc", "Émirats Arabes Unis"],
+		"answer": "Turquie"
+	},
+	{
+		"options": ["Roumanie", "Biélorussie", "Bulgarie", "Hongrie"],
+		"answer": "Roumanie"
+	},
+	{
+		"options": ["Sri Lanka", "Pakistan", "Turkménistan", "Philippines"],
+		"answer": "Sri Lanka"
 	}
 ]

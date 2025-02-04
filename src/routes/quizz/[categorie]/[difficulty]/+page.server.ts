@@ -4,15 +4,9 @@ import capitalsHard from '$lib/data/capitals/hard.json';
 import generalKnowledgeEasy from '$lib/data/general_knowledge/easy.json';
 import generalKnowledgeMedium from '$lib/data/general_knowledge/medium.json';
 import generalKnowledgeHard from '$lib/data/general_knowledge/hard.json';
-import countriesEasy from '$lib/data/countries/easy.json';
-import countriesMedium from '$lib/data/countries/medium.json';
-import countriesHard from '$lib/data/countries/hard.json';
-import flagsEasy from '$lib/data/flags/easy.json';
-import flagsMedium from '$lib/data/flags/medium.json';
-import flagsHard from '$lib/data/flags/hard.json';
 
-import { getCountries } from '$lib/data/countries/datas';
-import { getFlags } from '$lib/data/flags/datas';
+import { countries } from '$lib/data/countries/datas';
+import { flags } from '$lib/data/flags/datas';
 
 type Params = {
 	categorie: string;
@@ -52,44 +46,10 @@ export const load = async ({ params }: { params: Params }) => {
 					};
 			}
 		case 'countries': {
-			let data;
-			switch (difficulty) {
-				case 'easy':
-					data = await getCountries(countriesEasy);
-					break;
-				case 'medium':
-					data = await getCountries(countriesMedium);
-					break;
-				case 'hard':
-					data = await getCountries(countriesHard);
-					break;
-				default:
-					return {
-						error: 'Données introuvables',
-						status: 404
-					};
-			}
-			return shuffleData(data);
+			return shuffleData(countries[difficulty]);
 		}
 		case 'flags': {
-			let data;
-			switch (difficulty) {
-				case 'easy':
-					data = await getFlags(flagsEasy);
-					break;
-				case 'medium':
-					data = await getFlags(flagsMedium);
-					break;
-				case 'hard':
-					data = await getFlags(flagsHard);
-					break;
-				default:
-					return {
-						error: 'Données introuvables',
-						status: 404
-					};
-			}
-			return shuffleData(data);
+			return shuffleData(flags[difficulty]);
 		}
 		case 'general_knowledge':
 			switch (difficulty) {

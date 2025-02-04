@@ -1,3 +1,7 @@
+import flagsEasy from '$lib/data/flags/easy.json';
+import flagsMedium from '$lib/data/flags/medium.json';
+import flagsHard from '$lib/data/flags/hard.json';
+
 const svgs = import.meta.glob('./svgs/*.svg');
 
 const svgPromises = Object.keys(svgs).reduce(
@@ -18,7 +22,7 @@ const loadedSvgs = Object.keys(svgPromises).reduce(
 	{} as Record<string, string>
 );
 
-export async function getFlags(difficulty: any) {
+async function getFlags(difficulty: any) {
 	return difficulty.map((item: any) => {
 		const svgPath = `./svgs/${item.answer.toLowerCase().replace(/[\s']/g, '')}.svg`;
 		return {
@@ -27,6 +31,12 @@ export async function getFlags(difficulty: any) {
 			question: 'À quel pays appartient ce drapeau ?'
 		};
 	});
+}
+
+export const flags: any = {
+    easy : await getFlags(flagsEasy),
+    medium :await getFlags(flagsMedium),
+    hard :await getFlags(flagsHard),
 }
 
 export async function getListFlags(categorie: any) {

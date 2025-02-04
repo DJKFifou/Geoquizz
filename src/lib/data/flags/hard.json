@@ -24,6 +24,10 @@
 		"answer": "Zimbabwe"
 	},
 	{
+		"options": ["Tanzanie", "Zambie", "Malawi", "Zimbabwe"],
+		"answer": "Tanzanie"
+	},
+	{
 		"options": ["Fidji", "Tuvalu", "Vanuatu", "Kiribati"],
 		"answer": "Fidji"
 	},
@@ -68,6 +72,10 @@
 		"answer": "Timor oriental"
 	},
 	{
+		"options": ["République Dominicaine", "Panama", "Costa Rica", "Nicaragua"],
+		"answer": "République Dominicaine"
+	},
+	{
 		"options": ["Tonga", "Samoa", "Tuvalu", "Vanuatu"],
 		"answer": "Tonga"
 	},
@@ -76,8 +84,16 @@
 		"answer": "Honduras"
 	},
 	{
-		"options": ["Irak", "Iran", "Syrie", "Arabie Saoudite"],
+		"options": ["El Salvador", "Nicaragua", "Belize", "Honduras"],
+		"answer": "El Salvador"
+	},
+	{
+		"options": ["Irak", "Iran", "Syrie", "Jordanie"],
 		"answer": "Irak"
+	},
+	{
+		"options": ["Iran", "Irak", "Syrie", "Yémen"],
+		"answer": "Iran"
 	},
 	{
 		"options": ["Gambie", "Zimbabwe", "Zambie", "Malawi"],
@@ -92,12 +108,20 @@
 		"answer": "Guinée"
 	},
 	{
-		"options": ["Bahrein", "Koweït", "Qatar", "Émirats Arabes Unis"],
-		"answer": "Bahrein"
+		"options": ["Bahreïn", "Koweït", "Jordanie", "Émirats Arabes Unis"],
+		"answer": "Bahreïn"
+	},
+	{
+		"options": ["Koweït", "Bahreïn", "Soudan", "Émirats Arabes Unis"],
+		"answer": "Koweït"
 	},
 	{
 		"options": ["Barbade", "Bahamas", "Sainte-Lucie", "Saint-Vincent-et-les-Grenadines"],
 		"answer": "Barbade"
+	},
+	{
+		"options": ["République Centrafricaine", "Tchad", "Niger", "République du Congo"],
+		"answer": "République Centrafricaine"
 	},
 	{
 		"options": ["Kiribati", "Vanuatu", "Tuvalu", "Fidji"],
@@ -144,16 +168,28 @@
 		"answer": "Malawi"
 	},
 	{
-		"options": ["Togo", "Bénin", "Suriname", "Tanzanie"],
+		"options": ["Togo", "Bénin", "Guinée-Bissau", "Tanzanie"],
 		"answer": "Togo"
+	},
+	{
+		"options": ["Bénin", "Togo", "Guinée-Bissau", "Guyana"],
+		"answer": "Bénin"
 	},
 	{
 		"options": ["Tadjikistan", "Libye", "Oman", "Yémen"],
 		"answer": "Tadjikistan"
 	},
 	{
-		"options": ["Kirghizistan", "Maxédoine du Nord", "Kazakhstan", "Mongolie"],
+		"options": ["Libye", "Tadjikistan", "Oman", "Azerbaïdjan"],
+		"answer": "Libye"
+	},
+	{
+		"options": ["Kirghizistan", "Macédoine du Nord", "Kazakhstan", "Mongolie"],
 		"answer": "Kirghizistan"
+	},
+	{
+		"options": ["Kazakhstan", "Ouzbékistan", "Kirghizistan", "Turkménistan"],
+		"answer": "Kazakhstan"
 	},
 	{
 		"options": ["Haïti", "Liechtenstein", "Tonga", "Samoa"],
@@ -170,6 +206,18 @@
 	{
 		"options": ["Mauritanie", "Afghanistan", "Pakistan", "Maldives"],
 		"answer": "Mauritanie"
+	},
+	{
+		"options": ["Afghanistan", "Iran", "Libye", "Arabie Saoudite"],
+		"answer": "Afghanistan"
+	},
+	{
+		"options": ["Maldives", "Philippines", "Pakistan", "Mauritanie"],
+		"answer": "Maldives"
+	},
+	{
+		"options": ["Pakistan", "Maldives", "Algérie", "Mauritanie"],
+		"answer": "Pakistan"
 	},
 	{
 		"options": ["Namibie", "Kenya", "Tanzanie", "Mozambique"],
@@ -204,8 +252,16 @@
 		"answer": "Palaos"
 	},
 	{
+		"options": ["Tuvalu", "Nauru", "Vanuatu", "Kiribati"],
+		"answer": "Tuvalu"
+	},
+	{
 		"options": ["Paraguay", "Uruguay", "Honduras", "Nicaragua"],
 		"answer": "Paraguay"
+	},
+	{
+		"options": ["Nicaragua", "Uruguay", "Honduras", "El Salvador"],
+		"answer": "Nicaragua"
 	},
 	{
 		"options": ["Oman", "Yémen", "Émirats Arabes Unis", "Iran"],
@@ -218,6 +274,10 @@
 	{
 		"options": ["Comores", "Seychelles", "Djibouti", "Brunei"],
 		"answer": "Comores"
+	},
+	{
+		"options": ["Seychelles", "Comores", "Djibouti", "Maldives"],
+		"answer": "Seychelles"
 	},
 	{
 		"options": ["Rwanda", "Ouzbékistan", "Burundi", "Kazakhstan"],
@@ -236,11 +296,35 @@
 		"answer": "Soudan"
 	},
 	{
+		"options": ["Jordanie", "Palestine", "Soudan", "Koweït"],
+		"answer": "Jordanie"
+	},
+	{
 		"options": ["Gabon", "Lituanie", "Arménie", "Sierra Leone"],
 		"answer": "Gabon"
 	},
 	{
+		"options": ["Sierra Leone", "Côte d'Ivoire", "Luxembourg", "Gabon"],
+		"answer": "Sierra Leone"
+	},
+	{
 		"options": ["Guinée Équatoriale", "Guinée", "Gambie", "Zambie"],
 		"answer": "Guinée Équatoriale"
+	},
+	{
+		"options": ["Azerbaïdjan", "Libye", "Tadjikistan", "Arménie"],
+		"answer": "Azerbaïdjan"
+	},
+	{
+		"options": ["Eswatini", "Lesotho", "Kenya", "Mozambique"],
+		"answer": "Eswatini"
+	},
+	{
+		"options": ["Lesotho", "Eswatini", "Kenya", "Sierra Leone"],
+		"answer": "Lesotho"
+	},
+	{
+		"options": ["Moldavie", "Andorre", "Roumanie", "Tchad"],
+		"answer": "Moldavie"
 	}
 ]

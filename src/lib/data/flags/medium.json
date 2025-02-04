@@ -16,19 +16,251 @@
 		"answer": "Arabie Saoudite"
 	},
 	{
+		"options": ["tchad", "Niger", "République Centrafricaine", "Bulgarie"],
+		"answer": "tchad"
+	},
+	{
+		"options": ["Nigeria", "Cameroun", "Niger", "Côte d'Ivoire"],
+		"answer": "Nigeria"
+	},
+	{
+		"options": ["Qatar", "Koweït", "Émirats Arabes Unis", "Bahreïn"],
+		"answer": "Qatar"
+	},
+	{
 		"options": ["Philippines", "Malaisie", "Indonésie", "Vietnam"],
 		"answer": "Philippines"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Syrie", "Irak", "Iran", "Émirats Arabes Unis"],
+		"answer": "Syrie"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Argentine", "Guatemala", "El Salvador", "Nicaragua"],
+		"answer": "Argentine"
 	},
 	{
-		"options": ["", "", "", ""],
-		"answer": ""
+		"options": ["Pérou", "Chili", "Autriche", "Paraguay"],
+		"answer": "Pérou"
+	},
+	{
+		"options": ["Cambodge", "Thaïlande", "Laos", "Vietnam"],
+		"answer": "Cambodge"
+	},
+	{
+		"options": ["Vietnam", "Chine", "Thaïlande", "Taiwan"],
+		"answer": "Vietnam"
+	},
+	{
+		"options": ["Kenya", "Tanzanie", "Mozambique", "Malawi"],
+		"answer": "Kenya"
+	},
+	{
+		"options": ["Slovénie", "Slovaquie", "Croatie", "République tchèque"],
+		"answer": "Slovénie"
+	},
+	{
+		"options": ["Uruguay", "Argentine", "Chili", "Honduras"],
+		"answer": "Uruguay"
+	},
+	{
+		"options": ["Chili", "Pérou", "République tchèque", "Haïti"],
+		"answer": "Chili"
+	},
+	{
+		"options": ["Slovaquie", "Slovénie", "Croatie", "Grèce"],
+		"answer": "Slovaquie"
+	},
+	{
+		"options": ["Éthiopie", "Sénégal", "Ghana", "Soudan du Sud"],
+		"answer": "Éthiopie"
+	},
+	{
+		"options": ["Malaisie", "Indonésie", "Philippines", "Libéria"],
+		"answer": "Malaisie"
+	},
+	{
+		"options": ["Mozambique", "Tanzanie", "Angola", "Botswana"],
+		"answer": "Mozambique"
+	},
+	{
+		"options": ["Guinée-Bissau", "Bénin", "Togo", "Sénégal"],
+		"answer": "Guinée-Bissau"
+	},
+	{
+		"options": ["République Démocratique du Congo", "Éthiopie", "Érythrée", "Kenya"],
+		"answer": "République Démocratique du Congo"
+	},
+	{
+		"options": ["Corée du Nord", "Corée du Sud", "Laos", "Cambodge"],
+		"answer": "Corée du Nord"
+	},
+	{
+		"options": ["Venezuela", "Andorre", "Bolivie", "Guyana"],
+		"answer": "Venezuela"
+	},
+	{
+		"options": ["Macédoine du Nord", "Moldavie", "Kazakhstan", "Kirghizistan"],
+		"answer": "Macédoine du Nord"
+	},
+	{
+		"options": ["Belize", "Guatemala", "Honduras", "Panama"],
+		"answer": "Belize"
+	},
+	{
+		"options": ["Angola", "Namibie", "Mozambique", "Zimbabwe"],
+		"answer": "Angola"
+	},
+	{
+		"options": ["Botswana", "Érythrée", "Soudan", "Namibie"],
+		"answer": "Botswana"
+	},
+	{
+		"options": ["Turkmenistan", "Singapour", "Azerbaïdjan", "Maldives"],
+		"answer": "Turkmenistan"
+	},
+	{
+		"options": ["Ouzbékistan", "Kazakhstan", "Kirghizistan", "Djibouti"],
+		"answer": "Ouzbékistan"
+	},
+	{
+		"options": ["Papouasie-Nouvelle-Guinée", "Guinée-Bissau", "Fidji", "Brunei"],
+		"answer": "Papouasie-Nouvelle-Guinée"
+	},
+	{
+		"options": ["Népal", "Bhoutan", "Bangladesh", "Pakistan"],
+		"answer": "Népal"
+	},
+	{
+		"options": ["Malte", "Chypre", "Kosovo", "Vatican"],
+		"answer": "Malte"
+	},
+	{
+		"options": ["Chypre", "Malte", "Kosovo", "Saint-Marin"],
+		"answer": "Chypre"
+	},
+	{
+		"options": ["Kosovo", "Malte", "Chypre", "Saint-Marin"],
+		"answer": "Kosovo"
+	},
+	{
+		"options": ["Saint-Marin", "Malte", "Andorre", "Chypre"],
+		"answer": "Saint-Marin"
+	},
+	{
+		"options": ["Sénégal", "République du Congo", "Mali", "Burkina Faso"],
+		"answer": "Sénégal"
+	},
+	{
+		"options": ["Niger", "Inde", "Tchad", "République Centrafricaine"],
+		"answer": "Niger"
+	},
+	{
+		"options": ["Laos", "Thaïlande", "Cambodge", "Myanmar"],
+		"answer": "Laos"
+	},
+	{
+		"options": ["Ghana", "Sénégal", "Mali", "Bénin"],
+		"answer": "Ghana"
+	},
+	{
+		"options": ["Somalie", "Micronésie", "Fidji", "Djibouti"],
+		"answer": "Somalie"
+	},
+	{
+		"options": ["Guatemala", "El Salvador", "Nicaragua", "Paraguay"],
+		"answer": "Guatemala"
+	},
+	{
+		"options": ["Sri Lanka", "Inde", "Bhoutan", "Népal"],
+		"answer": "Sri Lanka"
+	},
+	{
+		"options": ["Lettonie", "Lituanie", "Estonoie", "Autriche"],
+		"answer": "Lettonie"
+	},
+	{
+		"options": ["Bulgarie", "Hongrie", "Macédoine du Nord", "Serbie"],
+		"answer": "Bulgarie"
+	},
+	{
+		"options": ["Turquie", "Tunisie", "Maroc", "Algérie"],
+		"answer": "Turquie"
+	},
+	{
+		"options": ["Côte d'Ivoire", "Irlande", "Tchad", "Royaume-Uni"],
+		"answer": "Côte d'Ivoire"
+	},
+	{
+		"options": ["Arménie", "Lituanie", "Géorgie", "Liechtenstein"],
+		"answer": "Arménie"
+	},
+	{
+		"options": ["Géorgie", "Arménie", "Azerbaïdjan", "Liban"],
+		"answer": "Géorgie"
+	},
+	{
+		"options": ["Suriname", "Guyana", "Zambie", "Gambie"],
+		"answer": "Suriname"
+	},
+	{
+		"options": ["Liechtenstein", "Samoa", "Haïti", "République Dominicaine"],
+		"answer": "Liechtenstein"
+	},
+	{
+		"options": ["Burkina Faso", "Vietnam", "Taiwan", "Togo"],
+		"answer": "Burkina Faso"
+	},
+	{
+		"options": ["Ouganda", "Burundi", "Rwanda", "Kenya"],
+		"answer": "Ouganda"
+	},
+	{
+		"options": ["Singapour", "Malte", "Turquie", "Tunisie"],
+		"answer": "Singapour"
+	},
+	{
+		"options": ["Bangladesh", "Inde", "Népal", "Pakistan"],
+		"answer": "Bangladesh"
+	},
+	{
+		"options": ["Serbie", "Bosnie-Herzégovine", "Moldavie", "Macédoine du Nord"],
+		"answer": "Serbie"
+	},
+	{
+		"options": ["Bosnie-Herzégovine", "Bulgarie", "Slovaquie", "Macédoine du Nord"],
+		"answer": "Bosnie-Herzégovine"
+	},
+	{
+		"options": ["Lituanie", "Arménie", "Estonie", "Pologne"],
+		"answer": "Lituanie"
+	},
+	{
+		"options": ["Monténégro", "Arménie", "Géorgie", "Macédoine du Nord"],
+		"answer": "Monténégro"
+	},
+	{
+		"options": ["Albanie", "Moldavie", "Géorgie", "Macédoine du Nord"],
+		"answer": "Albanie"
+	},
+	{
+		"options": ["Estonie", "Lituanie", "Lettonie", "Finlande"],
+		"answer": "Estonie"
+	},
+	{
+		"options": ["Panama", "Croatie", "Costa Rica", "Haïti"],
+		"answer": "Panama"
+	},
+	{
+		"options": ["Équateur", "Venezuela", "Bolivie", "Guyana"],
+		"answer": "Équateur"
+	},
+	{
+		"options": ["Palestine", "Qatar", "Syrie", "Liban"],
+		"answer": "Palestine"
+	},
+	{
+		"options": ["Égypte", "Irak", "Iran", "Oman"],
+		"answer": "Égypte"
 	}
 ]
