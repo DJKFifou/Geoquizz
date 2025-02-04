@@ -1,9 +1,6 @@
 import { getListCountries } from '$lib/data/countries/datas';
 import { getListFlags } from '$lib/data/flags/datas';
-
-type Params = {
-	categorie: string;
-};
+import type { PageServerLoad } from './$types';
 
 type DataItem = {
 	country: string;
@@ -18,7 +15,7 @@ function shuffleData<T>(data: T[]): T[] {
 	return data;
 }
 
-export const load = async ({ params }: { params: Params }) => {
+export const load: PageServerLoad = async ({ params }) => {
 	const { categorie } = params;
 
 	try {
