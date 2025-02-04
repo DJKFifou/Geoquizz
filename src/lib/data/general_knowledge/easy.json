@@ -25,9 +25,9 @@
 		"answer": "Tokyo"
 	},
 	{
-		"question": "Quelle est la capitale de la Suisse ?",
-		"options": ["Berne", "Zurich", "Vienne", "Genève"],
-		"answer": "Berne"
+		"question": "Quelle est la capitale de l'Autriche ?",
+		"options": ["Vienne", "Zurich", "Berne", "Genève"],
+		"answer": "Vienne"
 	},
 	{
 		"question": "Combien y a-t-il de régions en France ?",
