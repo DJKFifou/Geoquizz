@@ -266,8 +266,8 @@
 	},
 	{
 		"question": "Quelle est la capitale de Bahreïn ?",
-		"options": ["Bahreïn", "Manama", "Managua", "Doha"],
-		"answer": "Bahreïn"
+		"options": ["Manama", "Bahreïn", "Managua", "Doha"],
+		"answer": "Manama"
 	},
 	{
 		"question": "Quelle est la capitale de la Guinée-Bissau ?",
