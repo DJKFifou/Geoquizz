@@ -143,7 +143,7 @@
 <div
 	class="container mx-auto flex min-h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
 >
-	<div class="relative flex w-full flex-col gap-8 p-4">
+	<div class="relative flex w-full flex-col gap-8 px-4">
 		{#if !timerDisabled}
 			<div
 				class="fixed bottom-0 left-0 h-2 transition-all duration-300"
@@ -151,7 +151,7 @@
 				background-color: {timer > totalTime * 0.5 ? 'green' : timer > totalTime * 0.2 ? 'orange' : 'red'};"
 			></div>
 		{/if}
-		<div class="sticky top-0 flex flex-col items-center gap-4 bg-gray-800 pb-2 pt-4">
+		<div class="sticky top-0 flex flex-col items-center gap-4 bg-gray-800 pb-2 pt-10">
 			<p class="text-center text-2xl font-bold">
 				{gameOver
 					? 'Temps écoulé ! Jeu terminé.'
@@ -209,7 +209,7 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="flex flex-wrap justify-center gap-4">
+			<div class="2xs:flex 4xs:grid flex grid-cols-2 flex-wrap justify-center gap-4">
 				{#each datas as item, index (item.country)}
 					<div
 						class="flex flex-col gap-4"

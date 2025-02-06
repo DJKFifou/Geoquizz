@@ -16,7 +16,7 @@
 	);
 </script>
 
-<ul class="flex items-center gap-4">
+<ul class="flex flex-wrap items-center justify-center gap-4">
 	{#each filteredCategories as category}
 		<li>
 			<PrimaryBtn name={categories[category]} href={`${currentPage}/${category}`} />

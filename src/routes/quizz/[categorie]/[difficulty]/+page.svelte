@@ -91,22 +91,22 @@
 <div
 	class="container mx-auto flex h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
 >
-	<div
-		class="absolute left-1/2 top-4 flex -translate-x-1/2 flex-col items-center justify-center gap-4"
+	<!-- <div
+		class="absolute left-1/2 top-10 flex -translate-x-1/2 flex-col items-center justify-center gap-4"
 	>
-		<!-- <p>Catégorie : {categories[categorieName]}</p>
-		<p>Difficulté : {difficultyName}</p> -->
+		<p>Catégorie : {categories[categorieName]}</p>
+		<p>Difficulté : {difficultyName}</p>
 		{#if !endGame}
 			<p>Question {currentQuestionIndex + 1}/{data.data.length}</p>
 		{/if}
-	</div>
+	</div> -->
 	<ExitArrow onclick={() => (exit = true)} />
 	{#if exit}
 		<div class="absolute z-20 h-full w-full bg-black/60">
 			<div
 				class="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col gap-6 rounded-lg bg-white px-10 py-6 text-black"
 			>
-				<h5>Êtes-vous sur de vouloir quitter ?</h5>
+				<h5 class="text-center">Êtes-vous sur de vouloir quitter ?</h5>
 				<div class="flex justify-center gap-6">
 					<a
 						href={previousPage}
@@ -124,7 +124,12 @@
 		</div>
 	{/if}
 	{#if !endGame}
-		<div class="z-10 flex flex-col items-center justify-center gap-6">
+		<div class="z-10 flex flex-col items-center justify-center gap-6 p-4">
+			<!-- <p>Catégorie : {categories[categorieName]}</p>
+			<p>Difficulté : {difficultyName}</p> -->
+			{#if !endGame}
+				<p>Question {currentQuestionIndex + 1}/{data.data.length}</p>
+			{/if}
 			<h3 class="text-center text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
 			{#if categorieName === 'flags' || categorieName === 'countries'}
 				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="m-4 h-40" />

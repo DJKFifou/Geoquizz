@@ -45,7 +45,7 @@
 	class="container mx-auto flex h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
 >
 	<div
-		class="absolute left-1/2 top-4 flex -translate-x-1/2 flex-col items-center justify-center gap-4"
+		class="absolute left-1/2 top-10 flex -translate-x-1/2 flex-col items-center justify-center gap-4"
 	>
 		<h1 class="text-3xl font-medium">Statistiques :</h1>
 	</div>

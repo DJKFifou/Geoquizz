@@ -9,7 +9,7 @@
 	<div class="flex flex-col items-center gap-4">
 		<img src={Ping} alt="Ping" />
 		<h1 class="font-sans text-5xl font-bold"><span class="text-turquoise">Geo</span>Quizz</h1>
-		<h4 class="text-2xl font-medium">Teste tes connaissances en géographie</h4>
+		<h4 class="text-center text-2xl font-medium">Teste tes connaissances en géographie</h4>
 	</div>
 	<ul class="flex gap-4">
 		<li>
@@ -21,7 +21,9 @@
 	</ul>
 	<a href="/stats" class="text-lg font-medium underline">Stats</a>
 
-	<div class="fixed bottom-2 left-1/2 flex -translate-x-1/2 flex-col items-center text-white">
+	<div
+		class="fixed bottom-2 left-1/2 flex -translate-x-1/2 flex-col items-center text-center text-white"
+	>
 		<h5 class="text-sm">Version bêta</h5>
 		<p class="text-xs">
 			Développé par <a href="https://github.com/DJKFifou" target="_blank" class="underline"
