@@ -1,10 +1,16 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000"
- preserveAspectRatio="xMidYMid meet">
+ preserveAspectRatio="xMidYMid meet"            class="svg-gradient">
+
+<defs>
+    <radialGradient id="radialGradient" cx="0" cy="1" r="1" fx="0" fy="1">
+        <stop offset="0%" stop-color="#13D8CC" />
+        <stop offset="100%" stop-color="#405869" />
+    </radialGradient>
+</defs>
 
 <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M2030 10224 c-45 -20 -77 -50 -101 -96 -12 -24 -34 -45 -59 -58 -21
+ stroke="none" fill="url(#radialGradient)"><path d="M2030 10224 c-45 -20 -77 -50 -101 -96 -12 -24 -34 -45 -59 -58 -21
 -11 -43 -26 -47 -33 -14 -24 -57 -47 -85 -47 -16 0 -41 -12 -61 -30 l-35 -30
 -160 0 c-88 0 -167 -3 -176 -6 -24 -9 -19 -30 17 -71 18 -21 40 -50 49 -64 13
 -21 30 -29 79 -38 81 -16 153 -65 196 -133 32 -51 33 -55 32 -158 -1 -58 -4
@@ -83,6 +89,4 @@ fill="#000000" stroke="none">
 -79 64 -46 21 -60 34 -86 80 -37 67 -110 136 -211 201 -58 38 -87 66 -125 119
 -31 44 -75 89 -121 124 -83 63 -109 92 -118 134 -6 25 -19 36 -87 70 -44 22
 -92 54 -105 70 l-24 29 -28 -21 -27 -20 -196 61 c-107 33 -199 60 -204 60 -5
--1 -25 -8 -44 -16z"/>
-</g>
-</svg>
+-1 -25 -8 -44 -16z"/></g></svg>
