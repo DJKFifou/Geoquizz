@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="container mx-auto flex h-screen w-full flex-col items-center justify-center gap-8 bg-gray-800 text-white"
+	class="container mx-auto flex h-svh w-full flex-col items-center justify-center gap-8 bg-gray-800 text-white"
 >
 	<div class="z-10 flex flex-col items-center justify-center gap-8">
 		<div class="flex flex-col items-center gap-4">
