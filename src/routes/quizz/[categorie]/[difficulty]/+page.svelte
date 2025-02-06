@@ -1,11 +1,17 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { onMount, onDestroy } from 'svelte';
+	import ExitArrow from '$lib/components/ExitArrow.svelte';
+	import AnswerBtn from '$lib/components/AnswerBtn.svelte';
+	import PrimaryLink from '$lib/components/PrimaryLink.svelte';
+
 	export let data;
 
 	$: categorieName = $page.params.categorie;
 	$: difficultyName = $page.params.difficulty;
 	$: previousPage = $page.url.pathname.split('/').slice(0, -1).join('/');
+
+	const currentPage = $page.url.pathname;
 
 	const categories: Record<string, string> = {
 		capitals: 'Capitales',
@@ -88,20 +94,15 @@
 	<div
 		class="absolute left-1/2 top-4 flex -translate-x-1/2 flex-col items-center justify-center gap-4"
 	>
-		<p>Catégorie : {categories[categorieName]}</p>
-		<p>Difficulté : {difficultyName}</p>
+		<!-- <p>Catégorie : {categories[categorieName]}</p>
+		<p>Difficulté : {difficultyName}</p> -->
 		{#if !endGame}
-			<p>{currentQuestionIndex + 1}/{data.data.length}</p>
+			<p>Question {currentQuestionIndex + 1}/{data.data.length}</p>
 		{/if}
 	</div>
-	<button
-		type="button"
-		onclick={() => (exit = true)}
-		class="absolute right-4 top-4 cursor-pointer rounded-lg px-2 py-1 hover:bg-gray-700"
-		>❌
-	</button>
+	<ExitArrow onclick={() => (exit = true)} />
 	{#if exit}
-		<div class="absolute h-full w-full bg-black/60">
+		<div class="absolute z-20 h-full w-full bg-black/60">
 			<div
 				class="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col gap-6 rounded-lg bg-white px-10 py-6 text-black"
 			>
@@ -123,46 +124,45 @@
 		</div>
 	{/if}
 	{#if !endGame}
-		<div class="flex flex-col items-center justify-center gap-6">
+		<div class="z-10 flex flex-col items-center justify-center gap-6">
 			<h3 class="text-center text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
 			{#if categorieName === 'flags' || categorieName === 'countries'}
-				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="h-28 w-40" />
+				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="m-4 h-40" />
 			{/if}
-			<div
-				class="grid auto-rows-fr grid-cols-2 items-stretch justify-items-center gap-4 text-center"
-			>
-				{#each data.data[currentQuestionIndex].options as option}
-					<button
-						onclick={() => answered(option)}
-						class="align-center flex h-full w-40 cursor-pointer items-center justify-center rounded-lg border-2 border-white p-6 text-lg font-medium
-							{!selectedOption ? 'hover:bg-white/10' : ''}
-							{selectedOption === option ? (isAnswerCorrect ? 'bg-green-500' : 'bg-red-500') : ''}
-							{selectedOption && option === data.data[currentQuestionIndex].answer ? 'bg-green-500' : ''}"
-					>
-						{option}
-					</button>
-				{/each}
+			<div class="flex flex-col items-center justify-center gap-6">
+				<div
+					class="grid auto-rows-fr grid-cols-2 items-stretch justify-items-center gap-4 text-center"
+				>
+					{#each data.data[currentQuestionIndex].options as option}
+						<AnswerBtn
+							onclick={() => answered(option)}
+							className="border-grey/30 rounded-5xl text-grey flex items-center justify-center border-2 bg-white px-6 py-4 w-full transition-all duration-300
+								{!selectedOption ? 'hover:bg-white/80' : ''}
+								{selectedOption === option ? (isAnswerCorrect ? '!bg-green-500' : '!bg-red-500') : ''}
+								{selectedOption && option === data.data[currentQuestionIndex].answer ? '!bg-green-500' : ''}"
+							name={option}
+						/>
+					{/each}
+				</div>
+				<AnswerBtn
+					onclick={nextQuestion}
+					className="w-full rounded-5xl px-4 py-2 {isOptionSelected
+						? 'bg-blue-500 hover:bg-blue-600'
+						: 'bg-grey'}"
+					name={currentQuestionIndex < data.data.length - 1 ? 'Suivant' : 'Terminer le quizz'}
+				/>
 			</div>
-			<button
-				onclick={nextQuestion}
-				class="w-fit rounded px-4 py-2 {isOptionSelected
-					? 'bg-blue-500 hover:bg-blue-600'
-					: 'bg-gray-500'}"
-			>
-				{currentQuestionIndex < data.data.length - 1 ? 'Suivant' : 'Terminer le quizz'}
-			</button>
 		</div>
 	{:else}
-		<div class="flex flex-col gap-8">
+		<div class="flex flex-col gap-4">
 			<div class="flex flex-col items-center gap-4">
 				<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
 				<h3>Votre record est {localStorage.getItem(currentRecord)}/{data.data.length}</h3>
 			</div>
-			<a
-				href="/stats"
-				class="align-center flex cursor-pointer items-center justify-center rounded-lg border-2 border-white px-6 py-4 text-lg font-medium hover:bg-white/10"
-				>Stats
-			</a>
+			<div class="flex gap-4">
+				<PrimaryLink mode="reload" name="Rejouer" href={currentPage} />
+				<PrimaryLink name="Stats" href="/stats" />
+			</div>
 		</div>
 	{/if}
 </div>

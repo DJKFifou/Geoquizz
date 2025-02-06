@@ -2,6 +2,7 @@
 	import '../app.css';
 	import { page } from '$app/stores';
 	import { derived } from 'svelte/store';
+	import BackArrow from '$lib/components/BackArrow.svelte';
 
 	let { children } = $props();
 
@@ -18,16 +19,18 @@
 </script>
 
 {#if $page.url.pathname !== '/' && $pathSegments.length < 3}
-	<a
-		href={$previousPage}
-		class="absolute left-4 top-4 cursor-pointer rounded-lg px-2 py-1 hover:bg-gray-700">⬅</a
-	>
+	<BackArrow href={$previousPage} />
 {/if}
+
+<div
+	class="fixed -bottom-3/4 -right-full h-screen w-[200%] rounded-full blur-[100px]"
+	style="background: radial-gradient(#13D8CC, #405869);"
+></div>
 
 <a
 	href="https://github.com/DJKFifou/Geoquizz"
 	target="_blank"
-	class="fixed bottom-2 right-2 text-2xl font-bold text-white">Github</a
+	class="fixed bottom-2 right-2 z-10 text-lg font-medium text-white">Github</a
 >
 
 {@render children()}

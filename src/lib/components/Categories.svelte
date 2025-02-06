@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import PrimaryBtn from '$lib/components/PrimaryLink.svelte';
 
 	let currentPage: string = $page.url.pathname;
 
@@ -18,11 +19,7 @@
 <ul class="flex items-center gap-4">
 	{#each filteredCategories as category}
 		<li>
-			<a
-				href={`${currentPage}/${category}`}
-				class="align-center flex cursor-pointer items-center justify-center rounded-lg border-2 border-white px-6 py-4 text-lg font-medium hover:bg-white/10"
-				>{categories[category]}</a
-			>
+			<PrimaryBtn name={categories[category]} href={`${currentPage}/${category}`} />
 		</li>
 	{/each}
 </ul>

@@ -1,22 +1,37 @@
+<script>
+	import PrimaryBtn from '$lib/components/PrimaryLink.svelte';
+	import Ping from '$lib/assets/ping.png';
+</script>
+
 <div
-	class="container mx-auto flex h-screen w-full flex-col items-center justify-center gap-6 bg-gray-800 text-white"
+	class="container mx-auto flex h-screen w-full flex-col items-center justify-center gap-8 bg-gray-800 text-white"
 >
-	<h1 class="text-5xl font-bold uppercase">Geoquizz</h1>
+	<div class="flex flex-col items-center gap-4">
+		<img src={Ping} alt="Ping" />
+		<h1 class="font-sans text-5xl font-bold"><span class="text-turquoise">Geo</span>Quizz</h1>
+		<h4 class="text-2xl font-medium">Teste tes connaissances en géographie</h4>
+	</div>
 	<ul class="flex gap-4">
 		<li>
-			<a
-				href="/quizz"
-				class="align-center flex cursor-pointer items-center justify-center rounded-lg border-2 border-white px-6 py-4 text-lg font-medium hover:bg-white/10"
-				>Quizz</a
-			>
+			<PrimaryBtn href="/quizz" name="Quizz" />
 		</li>
 		<li>
-			<a
-				href="/lists"
-				class="align-center flex cursor-pointer items-center justify-center rounded-lg border-2 border-white px-6 py-4 text-lg font-medium hover:bg-white/10"
-				>Listes</a
-			>
+			<PrimaryBtn href="/lists" name="Listes" />
 		</li>
 	</ul>
 	<a href="/stats" class="text-lg font-medium underline">Stats</a>
+
+	<div class="fixed bottom-2 left-1/2 flex -translate-x-1/2 flex-col items-center text-white">
+		<h5 class="text-sm">Version bêta</h5>
+		<p class="text-xs">
+			Développé par <a href="https://github.com/DJKFifou" target="_blank" class="underline"
+				>Maxime Lust</a
+			>
+		</p>
+		<p class="text-xs">
+			Designé par <a href="https://www.behance.net/leilo" target="_blank" class="underline"
+				>Leïly Coquard-Misono</a
+			>
+		</p>
+	</div>
 </div>
