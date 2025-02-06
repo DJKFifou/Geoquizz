@@ -1,3 +1,39 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@font-face {
+	font-family: 'Sequel';
+	font-display: swap;
+	font-weight: 700;
+	src:
+		url($lib/assets/fonts/Sequel-Sans-Bold-Body.otf) format('opentype'),
+		url($lib/assets/fonts/Sequel-Sans-Bold-Body.ttf) format('truetype');
+}
+
+font-face {
+	font-family: 'Sequel';
+	font-display: swap;
+	font-weight: 600;
+	src:
+		url($lib/assets/fonts/Sequel-Sans-Semibold-Body.otf) format('opentype'),
+		url($lib/assets/fonts/Sequel-Sans-Semibold-Body.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Sequel';
+	font-display: swap;
+	font-weight: 500;
+	src:
+		url($lib/assets/fonts/Sequel-Sans-Medium-Body.otf) format('opentype'),
+		url($lib/assets/fonts/Sequel-Sans-Medium-Body.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Sequel';
+	font-display: swap;
+	font-weight: 400;
+	src:
+		url($lib/assets/fonts/Sequel-Sans-Book-Body.otf) format('opentype'),
+		url($lib/assets/fonts/Sequel-Sans-Book-Body.ttf) format('truetype');
+}
