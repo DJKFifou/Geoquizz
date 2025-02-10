@@ -206,8 +206,8 @@
 	},
 	{
 		"question": "Dans quel pays ne coule pas le Danube ?",
-		"options": ["Tchéquie", "Serbie", "Hongrie", "Autriche"],
-		"answer": "Tchéquie"
+		"options": ["République Tchèque", "Serbie", "Hongrie", "Autriche"],
+		"answer": "République Tchèque"
 	},
 	{
 		"question": "Quel est le numéro du département du Tarn-et-Garonne ?",

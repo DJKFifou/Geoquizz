@@ -111,7 +111,7 @@
 	},
 	{
 		"question": "Quel drapeau n'est pas constitué de bleu, de blanc et de rouge ?",
-		"options": ["Finlande", "Tchéquie", "Russie", "Chili"],
+		"options": ["Finlande", "République Tchèque", "Russie", "Chili"],
 		"answer": "Finlande"
 	},
 	{
