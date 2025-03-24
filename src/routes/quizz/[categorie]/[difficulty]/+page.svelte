@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { onMount, onDestroy } from 'svelte';
+	import { PUBLIC_USE_API } from '$env/static/public';
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
 	import AnswerBtn from '$lib/components/AnswerBtn.svelte';
 	import PrimaryLink from '$lib/components/PrimaryLink.svelte';
 	import StartGame from '$lib/components/StartGame.svelte';
-	import { PUBLIC_USE_API } from '$env/static/public';
 
 	export let data;
 	// console.log('data : ', data);
@@ -83,7 +83,7 @@
 				activeElement?.blur();
 			} else {
 				if (PUBLIC_USE_API) {
-					ApiGetOrPostItem();
+					ApiPostItem();
 				} else {
 					localStorageGetOrPostItem();
 				}
@@ -92,38 +92,21 @@
 		}
 	};
 
-	const ApiGetOrPostItem = () => {
-		fetch(`/api/records?categorie=${categorieName}&difficulty=${difficultyName}`)
-			.then((response) => response.json())
-			.then((data) => {
-				console.log('data : ', data);
-				currentRecordValue = data?.records[0]?.currentRecord;
-				console.log('currentRecordValue : ', currentRecordValue);
-				console.log('Sending POST request...');
-				fetch(`/api/records`, {
-					method: 'POST',
-					headers: {
-						'Content-Type': 'application/json'
-					},
-					body: JSON.stringify({
-						categorieName,
-						difficultyName,
-						currentRecord: goodAnswers.toString()
-					})
-				})
-					.then((response) => response.json())
-					.then((responseData) => {
-						console.log('Server response : ', responseData);
-						if (
-							responseData.message === 'Record updated successfully' ||
-							responseData.message === 'Record created successfully'
-						) {
-							console.log('data.records[0].currentRecord : ', data?.records[0]?.currentRecord);
-							currentRecordValue = goodAnswers.toString();
-							console.log('Updated currentRecordValue : ', currentRecordValue);
-						}
-					});
-				console.log('data 2 : ', data);
+	const ApiPostItem = () => {
+		fetch(`/api/records`, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({
+				categorieName,
+				difficultyName,
+				currentRecord: goodAnswers.toString()
+			})
+		})
+			.then((res) => res.json())
+			.then(({ record }) => {
+				currentRecordValue = record.currentRecord;
 			});
 	};
 

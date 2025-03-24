@@ -20,23 +20,26 @@ export const load: PageServerLoad = async ({ params }) => {
 
 	try {
 		switch (categorie) {
-			case 'capitals':
+			case 'capitals': {
 				const capitals = await import('$lib/data/lists/capitals.json');
 				return {
 					data: capitals.default as DataItem[]
 				};
-			case 'countries':
+			}
+			case 'countries': {
 				const countries = await import('$lib/data/lists/countries.json');
 				const enrichedCountries = await getListCountries(countries.default);
 				return {
 					data: shuffleData(enrichedCountries)
 				};
-			case 'flags':
+			}
+			case 'flags': {
 				const flags = await import('$lib/data/lists/flags.json');
 				const enrichedFlags = await getListFlags(flags.default);
 				return {
 					data: shuffleData(enrichedFlags)
 				};
+			}
 			default:
 				return {
 					error: 'Données introuvables',

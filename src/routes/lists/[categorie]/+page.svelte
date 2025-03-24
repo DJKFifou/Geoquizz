@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { PUBLIC_USE_API } from '$env/static/public';
 	type Country = {
 		country: string;
 		capital?: string[];
@@ -9,7 +10,8 @@
 
 	$: categorieName = $page.params.categorie;
 
-	let currentRecord = `${$page.params.categorie}Record`;
+	let currentRecord = `${categorieName}Record`;
+	let currentRecordValue: string | null;
 	let datas: Country[] = data?.data || [];
 	let inputValue: string = '';
 	let revealedAnswers: string[] = [];
@@ -93,6 +95,33 @@
 		return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
 	}
 
+	function localStorageGetOrPostItem() {
+		const currentValue = Number(localStorage.getItem(currentRecord)) || 0;
+
+		if (currentValue < revealedAnswers.length) {
+			localStorage.setItem(currentRecord, revealedAnswers.length.toString());
+		}
+
+		currentRecordValue = localStorage.getItem(currentRecord);
+	}
+
+	function ApiPostItem() {
+		fetch(`/api/records`, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({
+				categorieName,
+				currentRecord: revealedAnswers.length.toString()
+			})
+		})
+			.then((res) => res.json())
+			.then(({ record }) => {
+				currentRecordValue = record.currentRecord;
+			});
+	}
+
 	$: {
 		if (!gameOver && timer === 15 * 60 && !timerDisabled) {
 			startTimer();
@@ -130,11 +159,10 @@
 					missingAnswers.push(item.country);
 				}
 			});
-			if (localStorage.getItem(currentRecord)) {
-				Number(localStorage.getItem(currentRecord)) < revealedAnswers.length &&
-					localStorage.setItem(currentRecord, revealedAnswers.length.toString());
+			if (PUBLIC_USE_API) {
+				ApiPostItem();
 			} else {
-				localStorage.setItem(currentRecord, revealedAnswers.length.toString());
+				localStorageGetOrPostItem();
 			}
 		}
 	}
@@ -159,7 +187,9 @@
 			</p>
 			<p class="text-center text-xl font-medium">{revealedAnswers.length} / {datas.length}</p>
 			{#if gameOver}
-				<h3>Votre record est {localStorage.getItem(currentRecord)}/{data.data.length}</h3>
+				<h3>
+					Votre record est {currentRecordValue}/{data.data.length}
+				</h3>
 			{/if}
 			<div class="flex gap-4">
 				{#if !gameOver}
@@ -209,7 +239,7 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="2xs:flex 4xs:grid flex grid-cols-2 flex-wrap justify-center gap-4">
+			<div class="flex grid-cols-2 flex-wrap justify-center gap-4 4xs:grid 2xs:flex">
 				{#each datas as item, index (item.country)}
 					<div
 						class="flex flex-col gap-4"
