@@ -5,9 +5,10 @@
 	import AnswerBtn from '$lib/components/AnswerBtn.svelte';
 	import PrimaryLink from '$lib/components/PrimaryLink.svelte';
 	import StartGame from '$lib/components/StartGame.svelte';
+	import { PUBLIC_USE_API } from '$env/static/public';
 
 	export let data;
-	console.log('data : ', data);
+	// console.log('data : ', data);
 
 	$: categorieName = $page.params.categorie;
 	$: difficultyName = $page.params.difficulty;
@@ -28,7 +29,8 @@
 		general_knowledge: 'Culture générale'
 	};
 
-	let currentRecord = `${$page.params.difficulty}${$page.params.categorie}Record`;
+	let currentRecord: string = `${difficultyName}${categorieName}Record`;
+	let currentRecordValue: string | null;
 	let currentQuestionIndex: number = 0;
 	let selectedOption: string = '';
 	let isAnswerCorrect: boolean = false;
@@ -80,15 +82,59 @@
 				const activeElement = document.activeElement as HTMLElement;
 				activeElement?.blur();
 			} else {
-				if (localStorage.getItem(currentRecord)) {
-					Number(localStorage.getItem(currentRecord)) < goodAnswers &&
-						localStorage.setItem(currentRecord, goodAnswers.toString());
+				if (PUBLIC_USE_API) {
+					ApiGetOrPostItem();
 				} else {
-					localStorage.setItem(currentRecord, goodAnswers.toString());
+					localStorageGetOrPostItem();
 				}
 				endGame = true;
 			}
 		}
+	};
+
+	const ApiGetOrPostItem = () => {
+		fetch(`/api/records?categorie=${categorieName}&difficulty=${difficultyName}`)
+			.then((response) => response.json())
+			.then((data) => {
+				console.log('data : ', data);
+				currentRecordValue = data?.records[0]?.currentRecord;
+				console.log('currentRecordValue : ', currentRecordValue);
+				console.log('Sending POST request...');
+				fetch(`/api/records`, {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify({
+						categorieName,
+						difficultyName,
+						currentRecord: goodAnswers.toString()
+					})
+				})
+					.then((response) => response.json())
+					.then((responseData) => {
+						console.log('Server response : ', responseData);
+						if (
+							responseData.message === 'Record updated successfully' ||
+							responseData.message === 'Record created successfully'
+						) {
+							console.log('data.records[0].currentRecord : ', data?.records[0]?.currentRecord);
+							currentRecordValue = goodAnswers.toString();
+							console.log('Updated currentRecordValue : ', currentRecordValue);
+						}
+					});
+				console.log('data 2 : ', data);
+			});
+	};
+
+	const localStorageGetOrPostItem = () => {
+		const currentValue = Number(localStorage.getItem(currentRecord)) || 0;
+
+		if (currentValue < goodAnswers) {
+			localStorage.setItem(currentRecord, goodAnswers.toString());
+		}
+
+		currentRecordValue = localStorage.getItem(currentRecord);
 	};
 
 	const handleKeydown = (event: KeyboardEvent) => {
@@ -198,7 +244,7 @@
 		<div class="flex flex-col gap-4">
 			<div class="flex flex-col items-center gap-4">
 				<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
-				<h3>Votre record est {localStorage.getItem(currentRecord)}/{data.data.length}</h3>
+				<h3>Votre record est {currentRecordValue}/{data.data.length}</h3>
 			</div>
 			<div class="flex gap-4">
 				<PrimaryLink mode="reload" name="Rejouer" href={currentPage} />

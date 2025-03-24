@@ -2,14 +2,12 @@
 	const { categorie, difficulty, timer, play } = $props();
 	let withTimer: boolean = false;
 
-	// Cette fonction s'assure que la valeur du radio button est capturée
 	const handleTimerChange = (event: Event) => {
 		withTimer = (event.target as HTMLInputElement).value === 'withTimer';
 	};
 
-	// Passez la valeur de `withTimer` au parent (s'il le faut, via `play`)
 	const startGame = () => {
-		play(withTimer); // Passe avecTimer au composant parent
+		play(withTimer);
 	};
 </script>
 
