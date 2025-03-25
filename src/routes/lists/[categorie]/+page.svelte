@@ -1,14 +1,19 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { PUBLIC_USE_API } from '$env/static/public';
+	import ExitArrow from '$lib/components/ExitArrow.svelte';
+	import Exit from '$lib/components/Exit.svelte';
+
 	type Country = {
 		country: string;
 		capital?: string[];
 		image?: string;
 	};
+
 	export let data: { data: Country[] };
 
-	$: categorieName = $page.params.categorie;
+	$: categorieName = page.params.categorie;
+	$: previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
 
 	let currentRecord = `${categorieName}Record`;
 	let currentRecordValue: string | null;
@@ -23,6 +28,7 @@
 	let timerInterval: NodeJS.Timeout | null = null;
 	let timerDisabled: boolean = false;
 	let gameOver: boolean = false;
+	let exit = false;
 
 	function handleCountryClick(country: string, index: number) {
 		inputValue = '';
@@ -134,8 +140,8 @@
 				gameOver = true;
 			}
 			if (categorieName === 'capitals') {
-				const matchingCountry = datas.find((item: any) =>
-					item.capital.some((cap: any) => cleanString(cap) === cleanString(inputValue))
+				const matchingCountry = datas.find((item: Country) =>
+					item.capital?.some((cap: string) => cleanString(cap) === cleanString(inputValue))
 				);
 
 				if (matchingCountry && !revealedAnswers.includes(matchingCountry.country)) {
@@ -153,7 +159,7 @@
 			}
 		} else {
 			missingAnswers = [];
-			datas.forEach((item: any) => {
+			datas.forEach((item: Country) => {
 				const isFound = revealedAnswers.includes(item.country);
 				if (!isFound) {
 					missingAnswers.push(item.country);
@@ -171,6 +177,10 @@
 <div
 	class="container mx-auto flex min-h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
 >
+	<ExitArrow onclick={() => (exit = true)} />
+	{#if exit}
+		<Exit link={previousPage} onclick={() => (exit = false)} />
+	{/if}
 	<div class="relative flex w-full flex-col gap-8 px-4">
 		{#if !timerDisabled}
 			<div
