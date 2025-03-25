@@ -160,11 +160,6 @@
 		"answer": "Taipei"
 	},
 	{
-		"question": "Quelle est la capitale des Philipinnes ?",
-		"options": ["Manille", "Jakarta", "Kuala Lumpur", "Taipei"],
-		"answer": "Manille"
-	},
-	{
 		"question": "Quelle est la capitale de la Corée du Nord ?",
 		"options": ["Pyongyang", "Séoul", "Kyoto", "Chongqing"],
 		"answer": "Pyongyang"
