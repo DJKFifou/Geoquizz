@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import type { PageProps } from './$types';
+	import { page } from '$app/state';
 	import { onMount, onDestroy } from 'svelte';
 	import { PUBLIC_USE_API } from '$env/static/public';
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
@@ -8,13 +9,12 @@
 	import StartGame from '$lib/components/StartGame.svelte';
 	import Exit from '$lib/components/Exit.svelte';
 
-	export let data;
+	let { data }: PageProps = $props();
 
-	$: categorieName = $page.params.categorie;
-	$: difficultyName = $page.params.difficulty;
-	$: previousPage = $page.url.pathname.split('/').slice(0, -1).join('/');
-
-	const currentPage = $page.url.pathname;
+	let categorieName = page.params.categorie;
+	let difficultyName = page.params.difficulty;
+	let previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
+	let currentPage = page.url.pathname;
 
 	const difficulties: Record<string, string> = {
 		easy: 'Facile',
@@ -30,18 +30,18 @@
 	};
 
 	let currentRecord: string = `${difficultyName}${categorieName}Record`;
-	let currentRecordValue: string | null;
-	let currentQuestionIndex: number = 0;
-	let selectedOption: string = '';
-	let isAnswerCorrect: boolean = false;
-	let isOptionSelected: boolean = false;
-	let goodAnswers: number = 0;
-	let startGame: boolean = true;
-	let endGame: boolean = false;
-	let exit = false;
-	let timer: number = 10;
+	let currentRecordValue: string | null = $state('0');
+	let currentQuestionIndex: number = $state(0);
+	let selectedOption: string = $state('');
+	let isAnswerCorrect: boolean = $state(false);
+	let isOptionSelected: boolean = $state(false);
+	let goodAnswers: number = $state(0);
+	let startGame: boolean = $state(true);
+	let endGame: boolean = $state(false);
+	let exit = $state(false);
+	let timer: number = $state(10);
 	let interval: ReturnType<typeof setInterval>;
-	let withTimer: boolean = false;
+	let withTimer: boolean = $state(false);
 
 	const startTimer = () => {
 		if (withTimer) {

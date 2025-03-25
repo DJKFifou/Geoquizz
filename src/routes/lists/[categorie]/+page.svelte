@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { PageProps } from './$types';
 	import { page } from '$app/state';
 	import { PUBLIC_USE_API } from '$env/static/public';
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
@@ -10,25 +11,26 @@
 		image?: string;
 	};
 
-	export let data: { data: Country[] };
+	let { data }: PageProps = $props();
+	console.log('data : ', data);
 
-	$: categorieName = page.params.categorie;
-	$: previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
+	let categorieName = page.params.categorie;
+	let previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
 
 	let currentRecord = `${categorieName}Record`;
-	let currentRecordValue: string | null;
-	let datas: Country[] = data?.data || [];
-	let inputValue: string = '';
-	let revealedAnswers: string[] = [];
-	let missingAnswers: string[] = [];
+	let currentRecordValue: string | null = $state('0');
+	let datas: Country[] = (data?.data as Country[]) || [];
+	let inputValue: string = $state('');
+	let revealedAnswers: string[] = $state([]);
+	let missingAnswers: string[] = $state([]);
 	let lastCountrySelected: string = datas[0]?.country || '';
-	let currentCountryIndex: number = 0;
+	let currentCountryIndex: number = $state(0);
 	let totalTime: number = 15 * 60;
-	let timer: number = 15 * 60;
+	let timer: number = $state(15 * 60);
 	let timerInterval: NodeJS.Timeout | null = null;
-	let timerDisabled: boolean = false;
-	let gameOver: boolean = false;
-	let exit = false;
+	let timerDisabled: boolean = $state(false);
+	let gameOver: boolean = $state(false);
+	let exit = $state(false);
 
 	function handleCountryClick(country: string, index: number) {
 		inputValue = '';
@@ -128,13 +130,11 @@
 			});
 	}
 
-	$: {
+	$effect(() => {
 		if (!gameOver && timer === 15 * 60 && !timerDisabled) {
 			startTimer();
 		}
-	}
 
-	$: {
 		if (!gameOver) {
 			if (revealedAnswers.length === datas.length) {
 				gameOver = true;
@@ -171,7 +171,7 @@
 				localStorageGetOrPostItem();
 			}
 		}
-	}
+	});
 </script>
 
 <div
@@ -196,7 +196,7 @@
 					: `Temps restant : ${timerDisabled ? 'Désactivé' : formatTime(timer)}`}
 			</p>
 			<p class="text-center text-xl font-medium">{revealedAnswers.length} / {datas.length}</p>
-			{#if gameOver}
+			{#if gameOver && data?.data}
 				<h3>
 					Votre record est {currentRecordValue}/{data.data.length}
 				</h3>

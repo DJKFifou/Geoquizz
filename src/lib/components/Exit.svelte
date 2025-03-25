@@ -2,7 +2,7 @@
 	const { link, onclick } = $props();
 </script>
 
-<div class="absolute top-0 z-20 h-full w-full bg-black/60">
+<div class="fixed top-0 z-20 h-full w-full bg-black/60">
 	<div
 		class="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col gap-6 rounded-lg bg-white px-10 py-6 text-black"
 	>
