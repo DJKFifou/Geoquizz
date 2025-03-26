@@ -98,5 +98,9 @@
 	{
 		"options": ["Afrique du Sud", "Yémen", "Oman", "Afghanistan"],
 		"answer": "Afrique du Sud"
+	},
+	{
+		"options": ["Japon", "Corée du Sud", "Chine", "Taïwan"],
+		"answer": "Japon"
 	}
 ]
