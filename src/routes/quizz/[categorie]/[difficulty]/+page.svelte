@@ -186,7 +186,17 @@
 	class="container mx-auto flex h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
 >
 	{#if !endGame && withTimer}
-		<p class="text-xl font-bold">{timer} secondes restantes</p>
+		<p
+			class="text-xl font-bold {timer < 3
+				? 'text-red-500'
+				: timer < 5
+					? 'text-orange-500'
+					: timer < 7
+						? 'text-yellow-500'
+						: ''}"
+		>
+			{timer ? `${timer} secondes restantes` : 'Temps écoulé'}
+		</p>
 	{/if}
 	<ExitArrow onclick={() => (exit = true)} />
 	{#if exit}
