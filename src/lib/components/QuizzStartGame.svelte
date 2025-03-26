@@ -1,13 +1,14 @@
 <script lang="ts">
 	const { category, difficulty, timer, play } = $props();
-	let withTimer: boolean = false;
+	let withTimer: boolean = $state(false);
+	let timerValue: number = $state(10);
 
 	const handleTimerChange = (event: Event) => {
 		withTimer = (event.target as HTMLInputElement).value === 'withTimer';
 	};
 
 	const startGame = () => {
-		play(withTimer);
+		play(withTimer, timerValue);
 	};
 </script>
 
@@ -25,11 +26,10 @@
 			</ul>
 			<p>Bonne chance et bon courage ! 😉</p>
 		</div>
-		<div>
+		<div class="flex flex-col gap-4">
 			<h5>Voulez-vous mettre un timer ?</h5>
 			<div>
 				<div>
-					<label for="withoutTimer">Non</label>
 					<input
 						type="radio"
 						id="withoutTimer"
@@ -38,9 +38,9 @@
 						checked
 						onchange={handleTimerChange}
 					/>
+					<label for="withoutTimer">Non</label>
 				</div>
 				<div>
-					<label for="withTimer">Oui</label>
 					<input
 						type="radio"
 						id="withTimer"
@@ -48,8 +48,24 @@
 						value="withTimer"
 						onchange={handleTimerChange}
 					/>
+					<label for="withTimer">Oui</label>
 				</div>
 			</div>
+			{#if withTimer}
+				<div class="flex flex-col gap-2">
+					<label for="timer">Durée du timer :</label>
+					<div class="flex gap-2">
+						<input
+							class="text-black"
+							type="number"
+							id="timer"
+							name="timer"
+							bind:value={timerValue}
+						/>
+						<p>secondes</p>
+					</div>
+				</div>
+			{/if}
 		</div>
 		<button
 			onclick={startGame}

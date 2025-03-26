@@ -11,10 +11,10 @@
 
 	let { data }: PageProps = $props();
 
-	let categorieName = page.params.categorie;
-	let difficultyName = page.params.difficulty;
-	let previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
-	let currentPage = page.url.pathname;
+	const categorieName = page.params.categorie;
+	const difficultyName = page.params.difficulty;
+	const previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
+	const currentPage = page.url.pathname;
 
 	const difficulties: Record<string, string> = {
 		easy: 'Facile',
@@ -29,7 +29,7 @@
 		general_knowledge: 'Culture générale'
 	};
 
-	let currentRecord: string = `${difficultyName}${categorieName}Record`;
+	const currentRecord: string = `${difficultyName}${categorieName}Record`;
 	let currentRecordValue: string | null = $state('0');
 	let currentQuestionIndex: number = $state(0);
 	let selectedOption: string = $state('');
@@ -42,10 +42,12 @@
 	let timer: number = $state(10);
 	let interval: ReturnType<typeof setInterval>;
 	let withTimer: boolean = $state(false);
+	let timerQuantity: number = $state(10);
+	let answersArray = [];
 
 	const startTimer = () => {
 		if (withTimer) {
-			timer = 10;
+			timer = timerQuantity;
 			interval = setInterval(() => {
 				if (timer > 0) {
 					timer--;
@@ -74,6 +76,13 @@
 	const nextQuestion = () => {
 		if (isOptionSelected) {
 			if (currentQuestionIndex < data.data.length - 1) {
+				answersArray.push({
+					question: data.data[currentQuestionIndex].question,
+					answer: data.data[currentQuestionIndex].answer,
+					selectedOption,
+					isAnswerCorrect
+				});
+				console.log('answersArray : ', answersArray);
 				currentQuestionIndex++;
 				selectedOption = '';
 				isAnswerCorrect = false;
@@ -150,8 +159,9 @@
 		stopTimer();
 	});
 
-	const startGameHandler = (timerStatus: boolean) => {
+	const startGameHandler = (timerStatus: boolean, timerValue: number) => {
 		withTimer = timerStatus;
+		timerQuantity = timerValue;
 		startGame = false;
 	};
 </script>
