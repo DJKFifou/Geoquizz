@@ -91,7 +91,7 @@
 				const activeElement = document.activeElement as HTMLElement;
 				activeElement?.blur();
 			} else {
-				if (PUBLIC_USE_API) {
+				if (PUBLIC_USE_API === 'true') {
 					ApiPostItem();
 				} else {
 					localStorageGetOrPostItem();
@@ -102,7 +102,6 @@
 	};
 
 	const ApiPostItem = () => {
-		console.log('In the API function');
 		fetch(`/api/records`, {
 			method: 'POST',
 			headers: {
@@ -121,7 +120,6 @@
 	};
 
 	const localStorageGetOrPostItem = () => {
-		console.log('In the localStorage function');
 		const currentValue = Number(localStorage.getItem(currentRecord)) || 0;
 
 		if (currentValue < goodAnswers) {

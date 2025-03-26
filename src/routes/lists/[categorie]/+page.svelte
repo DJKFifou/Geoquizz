@@ -167,7 +167,7 @@
 					missingAnswers.push(item.country);
 				}
 			});
-			if (PUBLIC_USE_API) {
+			if (PUBLIC_USE_API === 'true') {
 				ApiPostItem();
 			} else {
 				localStorageGetOrPostItem();
