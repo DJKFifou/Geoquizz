@@ -51,18 +51,21 @@
 	let timer: number = $state(10);
 	let interval: ReturnType<typeof setInterval>;
 	let withTimer: boolean = $state(false);
-	let timerQuantity: number = $state(10);
+	let timerQuantity: number;
 	let answersArray: AnswersArray[] = [];
 
 	const startTimer = () => {
 		if (withTimer) {
 			timer = timerQuantity;
 			interval = setInterval(() => {
-				if (timer > 0) {
-					timer--;
+				if (!isOptionSelected) {
+					if (timer > 0) {
+						timer--;
+					} else {
+						isOptionSelected = true;
+						stopTimer();
+					}
 				} else {
-					isOptionSelected = true;
-					isAnswerCorrect = false;
 					stopTimer();
 				}
 			}, 1000);
@@ -93,6 +96,7 @@
 					selectedOption,
 					isAnswerCorrect
 				});
+				console.log('answersArray : ', answersArray);
 				currentQuestionIndex++;
 				selectedOption = '';
 				isAnswerCorrect = false;
@@ -172,7 +176,9 @@
 	const startGameHandler = (timerStatus: boolean, timerValue: number) => {
 		withTimer = timerStatus;
 		timerQuantity = timerValue;
+		timer = timerQuantity;
 		startGame = false;
+		startTimer();
 	};
 </script>
 
@@ -210,7 +216,8 @@
 							className="border-grey/30 rounded-5xl text-grey flex items-center justify-center border-2 bg-white px-6 py-4 w-full transition-all duration-300
 									{!selectedOption ? 'hover:bg-white/80' : ''}
 									{selectedOption === option ? (isAnswerCorrect ? '!bg-green-500' : '!bg-red-500') : ''}
-									{selectedOption && option === data.data[currentQuestionIndex].answer ? '!bg-green-500' : ''}"
+									{selectedOption && option === data.data[currentQuestionIndex].answer ? '!bg-green-500' : ''}
+									{timer === 0 && option === data.data[currentQuestionIndex].answer ? '!bg-red-500' : ''}"
 							name={option}
 						/>
 					{/each}
@@ -257,7 +264,7 @@
 							{/each}
 						</div>
 						<p>{answer.answer}</p>
-						<p>{answer.selectedOption}</p>
+						<p>{answer.selectedOption || 'Null'}</p>
 						{#if answer.isAnswerCorrect}
 							<p class="text-green-500">Oui</p>
 						{:else}
