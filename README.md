@@ -1,38 +1,30 @@
-# sv
+# Geoquizz
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Application de quizz de géographie
 
-## Creating a project
+Projet développé par [`Maxime Lust`](https://github.com/DJKFifou) et designé par ['Leïly Coquard-Misono'](https://www.behance.net/leilo)
 
-If you're seeing this, you've probably already done this step. Congrats!
+Toutes les questions ont été pensées en interne, en cas de problème, voir ci-dessous.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Contact
 
-# create a new project in my-app
-npx sv create my-app
-```
+Pour tout contact (retour sur le jeu, etc.) -> [`LinkedIn`](https://github.com/DJKFifou)
 
-## Developing
+## Développement
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Application créée avec SvelteKit et Tailwind
 
-```bash
-npm run dev
+Les images des pays et des drapeaux ont été récupérées depuis le repository ['mapsicon'](https://github.com/djaiss/mapsicon) de Regis Freyd (['Regis Freyd'])(https://github.com/djaiss)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+Pour lancer le projet en local:
 
 ```bash
-npm run build
+# Clonez le projet dans un dossier
+git clone git@github.com:DJKFifou/Geoquizz.git
+
+#Installez les dépendances
+npm install (ou `pnpm install` ou `yarn`)
+
+#Lancez le serveur de développement
+npm run dev (`-- --open` ou `-- --host`)
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
