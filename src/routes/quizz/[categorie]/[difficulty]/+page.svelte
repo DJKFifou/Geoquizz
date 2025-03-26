@@ -77,12 +77,13 @@
 		if (isOptionSelected) {
 			if (currentQuestionIndex < data.data.length - 1) {
 				answersArray.push({
+					image: data.data[currentQuestionIndex].image,
 					question: data.data[currentQuestionIndex].question,
+					options: data.data[currentQuestionIndex].options,
 					answer: data.data[currentQuestionIndex].answer,
 					selectedOption,
 					isAnswerCorrect
 				});
-				console.log('answersArray : ', answersArray);
 				currentQuestionIndex++;
 				selectedOption = '';
 				isAnswerCorrect = false;
@@ -215,12 +216,44 @@
 			</div>
 		</div>
 	{:else}
-		<div class="flex flex-col gap-4">
+		<div class="z-10 flex flex-col gap-4">
 			<div class="flex flex-col items-center gap-4">
 				<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
 				<h3>Votre record est {currentRecordValue}/{data.data.length}</h3>
 			</div>
-			<div class="flex gap-4">
+			<div class="max-h-[60svh] overflow-scroll">
+				<div class="flex justify-between *:font-bold">
+					<div class="flex gap-4">
+						<p>Image :</p>
+						<p>Question :</p>
+						<p>Options (4) :</p>
+					</div>
+					<div class="flex gap-4">
+						<p>Réponse :</p>
+						<p>Réponse donnée :</p>
+						<p>Correct ?</p>
+					</div>
+				</div>
+				{#each answersArray as answer}
+					<div class="flex *:mx-2 *:border">
+						<img src={answer.image} alt={answer.answer} class="h-20" />
+						<p>{answer.question}</p>
+						<div class="flex">
+							{#each answer.options as option}
+								<p class="mx-2">{option}</p>
+							{/each}
+						</div>
+						<p>{answer.answer}</p>
+						<p>{answer.selectedOption}</p>
+						{#if answer.isAnswerCorrect}
+							<p class="text-green-500">Oui</p>
+						{:else}
+							<p class="text-red-500">Non</p>
+						{/if}
+					</div>
+				{/each}
+			</div>
+			<div class="flex justify-center gap-4">
 				<PrimaryLink mode="reload" name="Rejouer" href={currentPage} />
 				<PrimaryLink name="Stats" href="/stats" />
 			</div>
