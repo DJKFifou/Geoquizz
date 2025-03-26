@@ -6,7 +6,7 @@
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
 	import AnswerBtn from '$lib/components/AnswerBtn.svelte';
 	import PrimaryLink from '$lib/components/PrimaryLink.svelte';
-	import StartGame from '$lib/components/StartGame.svelte';
+	import QuizzStartGame from '$lib/components/QuizzStartGame.svelte';
 	import Exit from '$lib/components/Exit.svelte';
 
 	let { data }: PageProps = $props();
@@ -167,8 +167,8 @@
 		<Exit link={previousPage} onclick={() => (exit = false)} />
 	{/if}
 	{#if startGame}
-		<StartGame
-			categorie={categories[categorieName]}
+		<QuizzStartGame
+			category={categories[categorieName]}
 			difficulty={difficulties[difficultyName]}
 			timer={withTimer}
 			play={startGameHandler}
