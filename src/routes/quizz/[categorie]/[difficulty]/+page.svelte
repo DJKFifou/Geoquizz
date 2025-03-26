@@ -11,6 +11,15 @@
 
 	let { data }: PageProps = $props();
 
+	interface AnswersArray {
+		image?: string;
+		question: string;
+		options: string[];
+		answer: string;
+		selectedOption: string;
+		isAnswerCorrect: boolean;
+	}
+
 	const categorieName = page.params.categorie;
 	const difficultyName = page.params.difficulty;
 	const previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
@@ -43,7 +52,7 @@
 	let interval: ReturnType<typeof setInterval>;
 	let withTimer: boolean = $state(false);
 	let timerQuantity: number = $state(10);
-	let answersArray = [];
+	let answersArray: AnswersArray[] = [];
 
 	const startTimer = () => {
 		if (withTimer) {
@@ -77,7 +86,7 @@
 		if (isOptionSelected) {
 			if (currentQuestionIndex < data.data.length - 1) {
 				answersArray.push({
-					image: data.data[currentQuestionIndex].image,
+					image: data.data[currentQuestionIndex].image ?? undefined,
 					question: data.data[currentQuestionIndex].question,
 					options: data.data[currentQuestionIndex].options,
 					answer: data.data[currentQuestionIndex].answer,
@@ -224,7 +233,9 @@
 			<div class="max-h-[60svh] overflow-scroll">
 				<div class="flex justify-between *:font-bold">
 					<div class="flex gap-4">
-						<p>Image :</p>
+						{#if answersArray[0].image}
+							<p>Image :</p>
+						{/if}
 						<p>Question :</p>
 						<p>Options (4) :</p>
 					</div>
@@ -236,7 +247,9 @@
 				</div>
 				{#each answersArray as answer}
 					<div class="flex *:mx-2 *:border">
-						<img src={answer.image} alt={answer.answer} class="h-20" />
+						{#if answer.image}
+							<img src={answer.image} alt={answer.answer} class="h-20 w-20" />
+						{/if}
 						<p>{answer.question}</p>
 						<div class="flex">
 							{#each answer.options as option}
