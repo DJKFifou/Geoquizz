@@ -42,7 +42,8 @@
 	};
 
 	onMount(() => {
-		if (!PUBLIC_USE_API) {
+		if (PUBLIC_USE_API !== 'true') {
+			console.log(PUBLIC_USE_API);
 			for (const key of Object.keys(localStorageQuizzItems)) {
 				quizzRecords[key] = localStorage.getItem(key)
 					? `${localStorage.getItem(key)} / 20`
@@ -56,6 +57,7 @@
 					: 'Pas encore établi';
 			}
 		} else {
+			console.log('test', PUBLIC_USE_API);
 			fetch('/api/records')
 				.then((response) => response.json())
 				.then((data) => {
@@ -78,7 +80,7 @@
 	<div class="z-10 flex flex-col items-center gap-12">
 		<h2 class="text-xl font-bold">Records :</h2>
 		<div class="grid grid-cols-2 gap-12">
-			{#if PUBLIC_USE_API}
+			{#if PUBLIC_USE_API === 'true'}
 				<div class="flex flex-col items-center gap-4">
 					<h3 class="text-lg font-bold">Quizz :</h3>
 					<div class="flex flex-col items-center gap-4">
