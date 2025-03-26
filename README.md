@@ -2,7 +2,7 @@
 
 ## Application de quizz de géographie
 
-Projet développé par [`Maxime Lust`](https://github.com/DJKFifou) et designé par ['Leïly Coquard-Misono'](https://www.behance.net/leilo)
+Projet développé par [`Maxime Lust`](https://github.com/DJKFifou) et designé par [`Leïly Coquard-Misono`](https://www.behance.net/leilo)
 
 Toutes les questions ont été pensées en interne, en cas de problème, voir ci-dessous.
 
@@ -22,9 +22,9 @@ Pour lancer le projet en local:
 # Clonez le projet dans un dossier
 git clone git@github.com:DJKFifou/Geoquizz.git
 
-#Installez les dépendances
+# Installez les dépendances
 npm install (ou `pnpm install` ou `yarn`)
 
-#Lancez le serveur de développement
+# Lancez le serveur de développement
 npm run dev (`-- --open` ou `-- --host`)
 ```
