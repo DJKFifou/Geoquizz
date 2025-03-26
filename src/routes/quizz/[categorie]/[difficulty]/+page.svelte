@@ -102,6 +102,7 @@
 	};
 
 	const ApiPostItem = () => {
+		console.log('In the API function');
 		fetch(`/api/records`, {
 			method: 'POST',
 			headers: {
@@ -120,6 +121,7 @@
 	};
 
 	const localStorageGetOrPostItem = () => {
+		console.log('In the localStorage function');
 		const currentValue = Number(localStorage.getItem(currentRecord)) || 0;
 
 		if (currentValue < goodAnswers) {
