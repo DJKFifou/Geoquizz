@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { PUBLIC_USE_API } from '$env/static/public';
 
 	let localStorageQuizzItems: Record<string, string> = {
 		easycapitalsRecord: 'Capitales - Facile',
@@ -40,7 +41,7 @@
 	};
 
 	onMount(() => {
-		if (typeof window == 'undefined') {
+		if (typeof window == 'undefined' && !PUBLIC_USE_API) {
 			for (const key of Object.keys(localStorageQuizzItems)) {
 				quizzRecords[key] = localStorage.getItem(key)
 					? `${localStorage.getItem(key)} / 20`
@@ -76,7 +77,7 @@
 	<div class="z-10 flex flex-col items-center gap-12">
 		<h2 class="text-xl font-bold">Records :</h2>
 		<div class="grid grid-cols-2 gap-12">
-			{#if apiRecords}
+			{#if !PUBLIC_USE_API}
 				<div class="flex flex-col items-center gap-4">
 					<h3 class="text-lg font-bold">Quizz :</h3>
 					<div class="flex flex-col items-center gap-4">
