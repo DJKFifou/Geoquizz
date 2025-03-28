@@ -14,7 +14,7 @@ Pour tout contact (retour sur le jeu, etc.) -> [`LinkedIn`](https://github.com/D
 
 Application créée avec SvelteKit et Tailwind
 
-Les images des pays et des drapeaux ont été récupérées depuis le repository ['mapsicon'](https://github.com/djaiss/mapsicon) de Regis Freyd (['Regis Freyd'])(https://github.com/djaiss)
+Les images des pays et des drapeaux ont été récupérées depuis le repository [`mapsicon`](https://github.com/djaiss/mapsicon) de Regis Freyd [`Regis Freyd`](https://github.com/djaiss)
 
 Pour lancer le projet en local:
 
