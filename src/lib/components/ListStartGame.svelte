@@ -1,13 +1,11 @@
 <script lang="ts">
 	const { category, play } = $props();
-	console.log('category : ', category);
 
 	const categories: Record<string, string> = {
 		capitals: 'la capitale',
 		flags: 'le drapeau',
 		countries: 'le nom'
 	};
-	console.log('categories[category] : ', categories[category]);
 
 	const categoriesName: Record<string, string> = {
 		capitals: 'Capitales',
@@ -15,7 +13,6 @@
 		flags: 'Drapeaux',
 		general_knowledge: 'Culture générale'
 	};
-	console.log('categoriesName[category] : ', categoriesName[category]);
 
 	const startGame = () => {
 		play();

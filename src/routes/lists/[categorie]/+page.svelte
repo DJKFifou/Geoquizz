@@ -13,7 +13,6 @@
 	};
 
 	let { data }: PageProps = $props();
-	console.log('data : ', data);
 
 	let categorieName = page.params.categorie;
 	let previousPage = page.url.pathname.split('/').slice(0, -1).join('/');

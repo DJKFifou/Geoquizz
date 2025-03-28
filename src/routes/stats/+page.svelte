@@ -58,9 +58,7 @@
 			fetch('/api/records')
 				.then((response) => response.json())
 				.then((data) => {
-					console.log('data : ', data);
 					apiRecords = data.data.records;
-					console.log('apiRecords : ', apiRecords);
 				});
 		}
 	});
@@ -81,16 +79,6 @@
 				<div class="flex flex-col items-center gap-4">
 					<h3 class="text-lg font-bold">Quizz :</h3>
 					<div class="flex flex-col items-center gap-4">
-						<!-- {#each Object.keys(apiCategoryTranslations) as category}
-							{#each Object.keys(apiDifficultyTranslations) as difficulty}
-								<div>
-									<p>
-										{apiCategoryTranslations[category]} - {apiDifficultyTranslations[difficulty]}:
-									</p>
-									<span>Loading</span>
-								</div>
-							{/each}
-						{/each} -->
 						{#each apiRecords.filter((record) => record.categorie && record.difficulty) as record}
 							<div class="flex gap-2">
 								<p>

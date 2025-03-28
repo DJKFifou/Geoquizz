@@ -12,7 +12,6 @@ export const GET = async ({ url }: { url: URL }): Promise<Response> => {
 
 	const filePath: string = 'src/lib/data/records';
 	const data = await readJSON(filePath);
-	console.log('data : ', data);
 
 	const record: Record[] = data.records.filter((record: Record) => {
 		return (
@@ -20,8 +19,6 @@ export const GET = async ({ url }: { url: URL }): Promise<Response> => {
 			(difficulty !== null ? record.difficulty === difficulty : !record.difficulty)
 		);
 	});
-
-	console.log('record : ', record);
 
 	return new Response(JSON.stringify({ data, record }), { status: 200 });
 };
@@ -37,7 +34,6 @@ export const POST = async ({ request }: { request: Request }): Promise<Response>
 
 		const filePath: string = 'src/lib/data/records';
 		const data = await readJSON(filePath);
-		console.log('data : ', data);
 
 		const existingRecord: Record | undefined = data.records.find(
 			(record: Record) =>

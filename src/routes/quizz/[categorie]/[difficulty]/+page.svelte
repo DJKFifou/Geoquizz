@@ -98,7 +98,6 @@
 					selectedOption,
 					isAnswerCorrect
 				});
-				console.log('answersArray : ', answersArray);
 				if (currentQuestionIndex < data.data.length - 1) {
 					currentQuestionIndex++;
 					selectedOption = '';
