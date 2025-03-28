@@ -82,14 +82,14 @@
 		if (isOptionSelected) return;
 		selectedOption = option;
 
-		isAnswerCorrect = data.data[currentQuestionIndex].answer === option && timer > 0;
+		if (data.data) isAnswerCorrect = data.data[currentQuestionIndex].answer === option && timer > 0;
 		goodAnswers += isAnswerCorrect ? 1 : 0;
 		isOptionSelected = true;
 	};
 
 	const nextQuestion = () => {
 		if (isOptionSelected) {
-			if (currentQuestionIndex < data.data.length) {
+			if (data.data && currentQuestionIndex < data.data.length) {
 				answersArray.push({
 					image: data.data[currentQuestionIndex].image ?? undefined,
 					question: data.data[currentQuestionIndex].question,
@@ -152,7 +152,7 @@
 			if (event.key === 'Enter' && isOptionSelected) {
 				event.preventDefault();
 				nextQuestion();
-			} else if (['1', '2', '3', '4'].includes(event.key)) {
+			} else if (['1', '2', '3', '4'].includes(event.key) && data.data) {
 				event.preventDefault();
 				const index = parseInt(event.key, 10) - 1;
 				const selectedOption = data.data[currentQuestionIndex]?.options?.[index];
@@ -214,7 +214,7 @@
 			timer={withTimer}
 			play={startGameHandler}
 		/>
-	{:else if !endGame}
+	{:else if !endGame && data.data}
 		<div class="z-10 flex flex-col items-center justify-center gap-6 p-4">
 			<p>Question {currentQuestionIndex + 1}/{data.data.length}</p>
 			<h3 class="text-center text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
@@ -246,7 +246,7 @@
 				/>
 			</div>
 		</div>
-	{:else}
+	{:else if data.data}
 		<div class="z-10 flex flex-col gap-4">
 			<div class="flex flex-col items-center gap-4">
 				<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>

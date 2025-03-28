@@ -13,8 +13,15 @@ type Params = {
 	difficulty: string;
 };
 
-function shuffleData(data: any) {
-	const shuffledQuestions = data.map((question: any) => {
+type Question = {
+	question: string;
+	options: string[];
+	answer: string;
+	image?: string;
+};
+
+function shuffleData(data: Question[]) {
+	const shuffledQuestions = data.map((question: Question) => {
 		const shuffledOptions = question.options.sort(() => 0.5 - Math.random());
 		return { ...question, options: shuffledOptions };
 	});
@@ -29,6 +36,7 @@ function shuffleData(data: any) {
 
 export const load = async ({ params }: { params: Params }) => {
 	const { categorie, difficulty } = params;
+	const typedDifficulty = difficulty as 'easy' | 'medium' | 'hard';
 
 	switch (categorie) {
 		case 'capitals':
@@ -46,10 +54,10 @@ export const load = async ({ params }: { params: Params }) => {
 					};
 			}
 		case 'countries': {
-			return shuffleData(countries[difficulty]);
+			return shuffleData(countries[typedDifficulty]);
 		}
 		case 'flags': {
-			return shuffleData(flags[difficulty]);
+			return shuffleData(flags[typedDifficulty]);
 		}
 		case 'general_knowledge':
 			switch (difficulty) {

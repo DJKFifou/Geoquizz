@@ -141,7 +141,7 @@
 			if (revealedAnswers.length === datas.length) {
 				gameOver = true;
 			}
-			if (categorieName === 'capitals') {
+			if (categorieName === 'capitals' && inputValue) {
 				const matchingCountry = datas.find((item: Country) =>
 					item.capital?.some((cap: string) => cleanString(cap) === cleanString(inputValue))
 				);
@@ -152,7 +152,8 @@
 				}
 			} else if (
 				lastCountrySelected &&
-				cleanString(inputValue) === cleanString(lastCountrySelected)
+				cleanString(inputValue) === cleanString(lastCountrySelected) &&
+				!revealedAnswers.includes(lastCountrySelected)
 			) {
 				revealedAnswers = [...revealedAnswers, lastCountrySelected];
 				lastCountrySelected = '';
@@ -160,13 +161,9 @@
 				moveToNextCountry();
 			}
 		} else {
-			missingAnswers = [];
-			datas.forEach((item: Country) => {
-				const isFound = revealedAnswers.includes(item.country);
-				if (!isFound) {
-					missingAnswers.push(item.country);
-				}
-			});
+			missingAnswers = datas
+				.filter((item) => !revealedAnswers.includes(item.country))
+				.map((item) => item.country);
 			if (PUBLIC_USE_API === 'true') {
 				ApiPostItem();
 			} else {
