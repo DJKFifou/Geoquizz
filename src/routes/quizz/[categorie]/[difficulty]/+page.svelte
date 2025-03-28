@@ -7,6 +7,7 @@
 	import AnswerBtn from '$lib/components/AnswerBtn.svelte';
 	import PrimaryLink from '$lib/components/PrimaryLink.svelte';
 	import QuizzStartGame from '$lib/components/QuizzStartGame.svelte';
+	import QuizzResults from '$lib/components/QuizzResults.svelte';
 	import Exit from '$lib/components/Exit.svelte';
 
 	let { data }: PageProps = $props();
@@ -53,6 +54,7 @@
 	let withTimer: boolean = $state(false);
 	let timerQuantity: number;
 	let answersArray: AnswersArray[] = [];
+	let showResults: boolean = $state(false);
 
 	const startTimer = () => {
 		if (withTimer) {
@@ -87,7 +89,7 @@
 
 	const nextQuestion = () => {
 		if (isOptionSelected) {
-			if (currentQuestionIndex < data.data.length - 1) {
+			if (currentQuestionIndex < data.data.length) {
 				answersArray.push({
 					image: data.data[currentQuestionIndex].image ?? undefined,
 					question: data.data[currentQuestionIndex].question,
@@ -97,20 +99,22 @@
 					isAnswerCorrect
 				});
 				console.log('answersArray : ', answersArray);
-				currentQuestionIndex++;
-				selectedOption = '';
-				isAnswerCorrect = false;
-				isOptionSelected = false;
-				startTimer();
-				const activeElement = document.activeElement as HTMLElement;
-				activeElement?.blur();
-			} else {
-				if (PUBLIC_USE_API === 'true') {
-					ApiPostItem();
+				if (currentQuestionIndex < data.data.length - 1) {
+					currentQuestionIndex++;
+					selectedOption = '';
+					isAnswerCorrect = false;
+					isOptionSelected = false;
+					startTimer();
+					const activeElement = document.activeElement as HTMLElement;
+					activeElement?.blur();
 				} else {
-					localStorageGetOrPostItem();
+					if (PUBLIC_USE_API === 'true') {
+						ApiPostItem();
+					} else {
+						localStorageGetOrPostItem();
+					}
+					endGame = true;
 				}
-				endGame = true;
 			}
 		}
 	};
@@ -180,21 +184,22 @@
 		startGame = false;
 		startTimer();
 	};
+
+	const getClass = (timer: number) => {
+		if (timer < 3) return 'text-red-500';
+		if (timer < 5) return 'text-orange-500';
+		if (timer < 7) return 'text-yellow-500';
+		return 'text-white';
+	};
+
+	let titleColor = $derived(getClass(timer));
 </script>
 
 <div
 	class="container mx-auto flex h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
 >
 	{#if !endGame && withTimer}
-		<p
-			class="text-xl font-bold {timer < 3
-				? 'text-red-500'
-				: timer < 5
-					? 'text-orange-500'
-					: timer < 7
-						? 'text-yellow-500'
-						: ''}"
-		>
+		<p class={titleColor}>
 			{timer ? `${timer} secondes restantes` : 'Temps écoulé'}
 		</p>
 	{/if}
@@ -247,42 +252,12 @@
 				<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
 				<h3>Votre record est {currentRecordValue}/{data.data.length}</h3>
 			</div>
-			<div class="max-h-[60svh] overflow-scroll">
-				<div class="flex justify-between *:font-bold">
-					<div class="flex gap-4">
-						{#if answersArray[0].image}
-							<p>Image :</p>
-						{/if}
-						<p>Question :</p>
-						<p>Options (4) :</p>
-					</div>
-					<div class="flex gap-4">
-						<p>Réponse :</p>
-						<p>Réponse donnée :</p>
-						<p>Correct ?</p>
-					</div>
-				</div>
-				{#each answersArray as answer}
-					<div class="flex *:mx-2 *:border">
-						{#if answer.image}
-							<img src={answer.image} alt={answer.answer} class="h-20 w-20" />
-						{/if}
-						<p>{answer.question}</p>
-						<div class="flex">
-							{#each answer.options as option}
-								<p class="mx-2">{option}</p>
-							{/each}
-						</div>
-						<p>{answer.answer}</p>
-						<p>{answer.selectedOption || 'Null'}</p>
-						{#if answer.isAnswerCorrect}
-							<p class="text-green-500">Oui</p>
-						{:else}
-							<p class="text-red-500">Non</p>
-						{/if}
-					</div>
-				{/each}
-			</div>
+			<button class="underline" onclick={() => (showResults = !showResults)}
+				>{showResults ? 'Cacher' : 'Voir'} les résultats</button
+			>
+			{#if showResults}
+				<QuizzResults data={answersArray} />
+			{/if}
 			<div class="flex justify-center gap-4">
 				<PrimaryLink mode="reload" name="Rejouer" href={currentPage} />
 				<PrimaryLink name="Stats" href="/stats" />
