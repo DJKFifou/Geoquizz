@@ -5,7 +5,7 @@
 <div class="max-h-[60svh] overflow-scroll">
 	<table class="w-full border-collapse">
 		<thead>
-			<tr class="border-b border-gray-300">
+			<tr>
 				{#if data[0].image}
 					<th scope="col" class="text-center">Image</th>
 				{/if}
@@ -18,7 +18,7 @@
 		</thead>
 		<tbody class="space-y-4">
 			{#each data as answer}
-				<tr class="border-b border-gray-300">
+				<tr class="border-t border-gray-300">
 					{#if answer.image}
 						<td class="text-center">
 							<img
@@ -29,12 +29,20 @@
 						</td>
 					{/if}
 					<td class="text-center">{answer.question}</td>
-					<td class="flex justify-center gap-2">
-						{#each answer.options as option}
-							<span class="text-center">{option}</span>
-						{/each}
+					<td class="text-center">
+						<div class="inline-flex items-center justify-center">
+							{#each answer.options as option, i}
+								<span
+									class="px-1 text-center {i < answer.options.length - 1
+										? 'border-r border-gray-300'
+										: ''}"
+								>
+									{option}
+								</span>
+							{/each}
+						</div>
 					</td>
-					<td class="text-center">{answer.question}</td>
+					<td class="text-center">{answer.answer}</td>
 					<td class="text-center">{answer.selectedOption || 'Null'}</td>
 					{#if answer.isAnswerCorrect}
 						<td class="text-center text-green-500">Oui</td>
