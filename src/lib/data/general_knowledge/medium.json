@@ -288,5 +288,10 @@
 		"question": "De quel pays Praia est-elle la capitale ?",
 		"options": ["Cap-Vert", "Géorgie", "Moldavie", "Macédoine du Nord"],
 		"answer": "Cap-Vert"
+	},
+	{
+		"question": "Quel pays n'est pas traversé par l'Atlas ?",
+		"options": ["Égypte", "Tunisie", "Maroc", "Algérie"],
+		"answer": "Égypte"
 	}
 ]
