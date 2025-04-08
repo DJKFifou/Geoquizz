@@ -72,11 +72,11 @@
 		"answer": "Maurice"
 	},
 	{
-		"options": ["São Tomé-et-Príncipe", "Cap-Vert", "Gabon", "Guinée équatoriale"],
-		"answer": "São Tomé-et-Príncipe"
+		"options": ["Sao Tomé-et-Principe", "Cap-Vert", "Gabon", "Guinée équatoriale"],
+		"answer": "Sao Tomé-et-Principe"
 	},
 	{
-		"options": ["Cap-Vert", "São Tomé-et-Príncipe", "Gabon", "Guinée équatoriale"],
+		"options": ["Cap-Vert", "Sao Tomé-et-Principe", "Gabon", "Guinée équatoriale"],
 		"answer": "Cap-Vert"
 	},
 	{
@@ -92,8 +92,8 @@
 		"answer": "Mozambique"
 	},
 	{
-		"options": ["Congo-Brazzaville", "République démocratique du Congo", "Gabon", "Angola"],
-		"answer": "Congo-Brazzaville"
+		"options": ["République du Congo", "République démocratique du Congo", "Gabon", "Angola"],
+		"answer": "République du Congo"
 	},
 	{
 		"options": ["Burundi", "Rwanda", "Tanzanie", "Ouganda"],
@@ -104,7 +104,7 @@
 		"answer": "Tchad"
 	},
 	{
-		"options": ["Gabon", "Congo-Brazzaville", "Guinée équatoriale", "Cap-Vert"],
+		"options": ["Gabon", "République du Congo", "Guinée équatoriale", "Cap-Vert"],
 		"answer": "Gabon"
 	},
 	{

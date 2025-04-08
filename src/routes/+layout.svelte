@@ -1,25 +1,24 @@
 <script lang="ts">
 	import '../app.css';
-	import { page } from '$app/stores';
-	import { derived } from 'svelte/store';
+	import { page } from '$app/state';
 	import BackArrow from '$lib/components/BackArrow.svelte';
 
 	let { children } = $props();
 
-	const currentPath = derived(page, ($page) => $page.url.pathname);
-	const pathSegments = derived(currentPath, ($currentPath) =>
-		$currentPath.split('/').filter(Boolean)
-	);
+	let currentPath = $derived(page.url.pathname);
+	let pathSegments = $derived(currentPath.split('/').filter(Boolean));
 
-	const previousPage = derived(currentPath, ($currentPath) => {
-		const segments = $currentPath.split('/').filter(Boolean);
+	let previousPage = $derived.by(() => {
+		const segments = pathSegments;
 		segments.pop();
 		return '/' + segments.join('/');
 	});
+
+	let firsPathnameItem = $derived(pathSegments[0] ?? '');
 </script>
 
-{#if $page.url.pathname !== '/' && $pathSegments.length < 3}
-	<BackArrow href={$previousPage} />
+{#if currentPath !== '/' && (pathSegments.length < 2 || (firsPathnameItem !== 'lists' && pathSegments.length < 3))}
+	<BackArrow href={previousPage} />
 {/if}
 
 <div

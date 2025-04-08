@@ -8,10 +8,6 @@
 		"answer": "Indonésie"
 	},
 	{
-		"options": ["Japon", "Corée du Sud", "Chine", "Taïwan"],
-		"answer": "Japon"
-	},
-	{
 		"options": ["Maroc", "Algérie", "Tunisie", "Mauritanie"],
 		"answer": "Maroc"
 	},
@@ -70,5 +66,33 @@
 	{
 		"options": ["Cuba", "Haïti", "République Dominicaine", "Jamaïque"],
 		"answer": "Cuba"
+	},
+	{
+		"options": ["Autriche", "Suisse", "République Tchèque", "Hongrie"],
+		"answer": "Autriche"
+	},
+	{
+		"options": ["Bolivie", "Équateur", "Colombie", "Uruguay"],
+		"answer": "Bolivie"
+	},
+	{
+		"options": ["Mongolie", "Iran", "Afghanistan", "Niger"],
+		"answer": "Mongolie"
+	},
+	{
+		"options": ["Liban", "Bénin", "Portugal", "Guyana"],
+		"answer": "Liban"
+	},
+	{
+		"options": ["Éthiopie", "Zimbabwe", "Lesotho", "Macédoine du Nord"],
+		"answer": "Éthiopie"
+	},
+	{
+		"options": ["Bulgarie", "Roumanie", "Pologne", "Burkina Faso"],
+		"answer": "Bulgarie"
+	},
+	{
+		"options": ["Slovénie", "Slovaquie", "Autriche", "Burkina Faso"],
+		"answer": "Slovénie"
 	}
 ]

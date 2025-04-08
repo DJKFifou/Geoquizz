@@ -298,5 +298,15 @@
 		"question": "Quelle mer borde la côte occidentale de l’Arabie Saoudite ?",
 		"options": ["Mer Rouge", "Mer Noire", "Mer Baltique", "Mer d’Arabie"],
 		"answer": "Mer Rouge"
+	},
+	{
+		"question": "Quel drapeau ne contient pas de jaune ?",
+		"options": ["Gambie", "Brunei", "Vanuatu", "Tadjikistan"],
+		"answer": "Gambie"
+	},
+	{
+		"question": "Quel est le point culminant de l'Atlas ?",
+		"options": ["4167 m", "3396 m", "2618 m", "5031 m"],
+		"answer": "4167 m"
 	}
 ]

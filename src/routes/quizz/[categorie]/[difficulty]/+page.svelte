@@ -1,20 +1,30 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import type { PageProps } from './$types';
+	import { page } from '$app/state';
 	import { onMount, onDestroy } from 'svelte';
 	import { PUBLIC_USE_API } from '$env/static/public';
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
 	import AnswerBtn from '$lib/components/AnswerBtn.svelte';
 	import PrimaryLink from '$lib/components/PrimaryLink.svelte';
-	import StartGame from '$lib/components/StartGame.svelte';
+	import QuizzStartGame from '$lib/components/QuizzStartGame.svelte';
+	import QuizzResults from '$lib/components/QuizzResults.svelte';
+	import Exit from '$lib/components/Exit.svelte';
 
-	export let data;
-	// console.log('data : ', data);
+	let { data }: PageProps = $props();
 
-	$: categorieName = $page.params.categorie;
-	$: difficultyName = $page.params.difficulty;
-	$: previousPage = $page.url.pathname.split('/').slice(0, -1).join('/');
+	interface AnswersArray {
+		image?: string;
+		question: string;
+		options: string[];
+		answer: string;
+		selectedOption: string;
+		isAnswerCorrect: boolean;
+	}
 
-	const currentPage = $page.url.pathname;
+	const categorieName = page.params.categorie;
+	const difficultyName = page.params.difficulty;
+	const previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
+	const currentPage = page.url.pathname;
 
 	const difficulties: Record<string, string> = {
 		easy: 'Facile',
@@ -29,29 +39,35 @@
 		general_knowledge: 'Culture générale'
 	};
 
-	let currentRecord: string = `${difficultyName}${categorieName}Record`;
-	let currentRecordValue: string | null;
-	let currentQuestionIndex: number = 0;
-	let selectedOption: string = '';
-	let isAnswerCorrect: boolean = false;
-	let isOptionSelected: boolean = false;
-	let goodAnswers: number = 0;
-	let startGame: boolean = true;
-	let endGame: boolean = false;
-	let exit = false;
-	let timer: number = 10;
-	let interval: any;
-	let withTimer: boolean = false;
+	const currentRecord: string = `${difficultyName}${categorieName}Record`;
+	let currentRecordValue: string | null = $state('0');
+	let currentQuestionIndex: number = $state(0);
+	let selectedOption: string = $state('');
+	let isAnswerCorrect: boolean = $state(false);
+	let isOptionSelected: boolean = $state(false);
+	let goodAnswers: number = $state(0);
+	let startGame: boolean = $state(true);
+	let endGame: boolean = $state(false);
+	let exit = $state(false);
+	let timer: number = $state(10);
+	let interval: ReturnType<typeof setInterval>;
+	let withTimer: boolean = $state(false);
+	let timerQuantity: number;
+	let answersArray: AnswersArray[] = [];
+	let showResults: boolean = $state(false);
 
 	const startTimer = () => {
 		if (withTimer) {
-			timer = 10;
+			timer = timerQuantity;
 			interval = setInterval(() => {
-				if (timer > 0) {
-					timer--;
+				if (!isOptionSelected) {
+					if (timer > 0) {
+						timer--;
+					} else {
+						isOptionSelected = true;
+						stopTimer();
+					}
 				} else {
-					isOptionSelected = true;
-					isAnswerCorrect = false;
 					stopTimer();
 				}
 			}, 1000);
@@ -66,28 +82,38 @@
 		if (isOptionSelected) return;
 		selectedOption = option;
 
-		isAnswerCorrect = data.data[currentQuestionIndex].answer === option && timer > 0;
+		if (data.data) isAnswerCorrect = data.data[currentQuestionIndex].answer === option && timer > 0;
 		goodAnswers += isAnswerCorrect ? 1 : 0;
 		isOptionSelected = true;
 	};
 
 	const nextQuestion = () => {
 		if (isOptionSelected) {
-			if (currentQuestionIndex < data.data.length - 1) {
-				currentQuestionIndex++;
-				selectedOption = '';
-				isAnswerCorrect = false;
-				isOptionSelected = false;
-				startTimer();
-				const activeElement = document.activeElement as HTMLElement;
-				activeElement?.blur();
-			} else {
-				if (PUBLIC_USE_API) {
-					ApiPostItem();
+			if (data.data && currentQuestionIndex < data.data.length) {
+				answersArray.push({
+					image: data.data[currentQuestionIndex].image ?? undefined,
+					question: data.data[currentQuestionIndex].question,
+					options: data.data[currentQuestionIndex].options,
+					answer: data.data[currentQuestionIndex].answer,
+					selectedOption,
+					isAnswerCorrect
+				});
+				if (currentQuestionIndex < data.data.length - 1) {
+					currentQuestionIndex++;
+					selectedOption = '';
+					isAnswerCorrect = false;
+					isOptionSelected = false;
+					startTimer();
+					const activeElement = document.activeElement as HTMLElement;
+					activeElement?.blur();
 				} else {
-					localStorageGetOrPostItem();
+					if (PUBLIC_USE_API === 'true') {
+						ApiPostItem();
+					} else {
+						localStorageGetOrPostItem();
+					}
+					endGame = true;
 				}
-				endGame = true;
 			}
 		}
 	};
@@ -125,7 +151,7 @@
 			if (event.key === 'Enter' && isOptionSelected) {
 				event.preventDefault();
 				nextQuestion();
-			} else if (['1', '2', '3', '4'].includes(event.key)) {
+			} else if (['1', '2', '3', '4'].includes(event.key) && data.data) {
 				event.preventDefault();
 				const index = parseInt(event.key, 10) - 1;
 				const selectedOption = data.data[currentQuestionIndex]?.options?.[index];
@@ -150,49 +176,44 @@
 		stopTimer();
 	});
 
-	const startGameHandler = (timerStatus: boolean) => {
+	const startGameHandler = (timerStatus: boolean, timerValue: number) => {
 		withTimer = timerStatus;
+		timerQuantity = timerValue;
+		timer = timerQuantity;
 		startGame = false;
+		startTimer();
 	};
+
+	const getClass = (timer: number) => {
+		if (timer < 3) return 'text-red-500';
+		if (timer < 5) return 'text-orange-500';
+		if (timer < 7) return 'text-yellow-500';
+		return 'text-white';
+	};
+
+	let titleColor = $derived(getClass(timer));
 </script>
 
 <div
 	class="container mx-auto flex h-screen w-full flex-col items-center justify-center bg-gray-800 text-white"
 >
 	{#if !endGame && withTimer}
-		<p class="text-xl font-bold">{timer} secondes restantes</p>
+		<p class={titleColor}>
+			{timer ? `${timer} secondes restantes` : 'Temps écoulé'}
+		</p>
 	{/if}
 	<ExitArrow onclick={() => (exit = true)} />
 	{#if exit}
-		<div class="absolute z-20 h-full w-full bg-black/60">
-			<div
-				class="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col gap-6 rounded-lg bg-white px-10 py-6 text-black"
-			>
-				<h5 class="text-center">Êtes-vous sur de vouloir quitter ?</h5>
-				<div class="flex justify-center gap-6">
-					<a
-						href={previousPage}
-						class="cursor-pointer rounded-lg bg-gray-600 px-2 py-1 text-white hover:bg-gray-700"
-						>Oui</a
-					>
-					<button
-						type="button"
-						onclick={() => (exit = false)}
-						class="cursor-pointer rounded-lg bg-gray-600 px-2 py-1 text-white hover:bg-gray-700"
-						>Non</button
-					>
-				</div>
-			</div>
-		</div>
+		<Exit link={previousPage} onclick={() => (exit = false)} />
 	{/if}
 	{#if startGame}
-		<StartGame
-			categorie={categories[categorieName]}
+		<QuizzStartGame
+			category={categories[categorieName]}
 			difficulty={difficulties[difficultyName]}
 			timer={withTimer}
 			play={startGameHandler}
 		/>
-	{:else if !endGame}
+	{:else if !endGame && data.data}
 		<div class="z-10 flex flex-col items-center justify-center gap-6 p-4">
 			<p>Question {currentQuestionIndex + 1}/{data.data.length}</p>
 			<h3 class="text-center text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
@@ -209,7 +230,8 @@
 							className="border-grey/30 rounded-5xl text-grey flex items-center justify-center border-2 bg-white px-6 py-4 w-full transition-all duration-300
 									{!selectedOption ? 'hover:bg-white/80' : ''}
 									{selectedOption === option ? (isAnswerCorrect ? '!bg-green-500' : '!bg-red-500') : ''}
-									{selectedOption && option === data.data[currentQuestionIndex].answer ? '!bg-green-500' : ''}"
+									{selectedOption && option === data.data[currentQuestionIndex].answer ? '!bg-green-500' : ''}
+									{timer === 0 && option === data.data[currentQuestionIndex].answer ? '!bg-red-500' : ''}"
 							name={option}
 						/>
 					{/each}
@@ -223,13 +245,19 @@
 				/>
 			</div>
 		</div>
-	{:else}
-		<div class="flex flex-col gap-4">
+	{:else if data.data}
+		<div class="z-10 flex flex-col gap-4">
 			<div class="flex flex-col items-center gap-4">
 				<h3>Vous avez fait {goodAnswers}/{data.data.length}</h3>
 				<h3>Votre record est {currentRecordValue}/{data.data.length}</h3>
 			</div>
-			<div class="flex gap-4">
+			<button class="underline" onclick={() => (showResults = !showResults)}
+				>{showResults ? 'Cacher' : 'Voir'} les résultats</button
+			>
+			{#if showResults}
+				<QuizzResults data={answersArray} />
+			{/if}
+			<div class="flex justify-center gap-4">
 				<PrimaryLink mode="reload" name="Rejouer" href={currentPage} />
 				<PrimaryLink name="Stats" href="/stats" />
 			</div>

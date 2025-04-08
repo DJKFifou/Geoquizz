@@ -318,5 +318,10 @@
 		"question": "Quel est le nom de la mer qui sépare l'Italie de la Croatie ?",
 		"options": ["Mer Adriatique", "Mer Noire", "Mer Caspienne", "Mer Baltique"],
 		"answer": "Mer Adriatique"
+	},
+	{
+		"question": "Quel pays n'est pas traversé par l'Atlas ?",
+		"options": ["Égypte", "Tunisie", "Maroc", "Algérie"],
+		"answer": "Égypte"
 	}
 ]

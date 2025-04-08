@@ -1,4 +1,6 @@
 node_modules
+.idea
+/src/lib/data/records.json
 
 # Output
 .output

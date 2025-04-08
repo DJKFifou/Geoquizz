@@ -78,5 +78,29 @@
 	{
 		"options": ["Corée du Sud", "Japon", "Chine", "Mongolie"],
 		"answer": "Corée du Sud"
+	},
+	{
+		"options": ["Irlande", "Islande", "Danemark", "Grèce"],
+		"answer": "Irlande"
+	},
+	{
+		"options": ["Royaume-Uni", "Finlande", "Cuba", "Laos"],
+		"answer": "Royaume-Uni"
+	},
+	{
+		"options": ["Espagne", "Allemagne", "Pologne", "Roumanie"],
+		"answer": "Espagne"
+	},
+	{
+		"options": ["Portugal", "Albanie", "Serbie", "Moldavie"],
+		"answer": "Portugal"
+	},
+	{
+		"options": ["Afrique du Sud", "Yémen", "Oman", "Afghanistan"],
+		"answer": "Afrique du Sud"
+	},
+	{
+		"options": ["Japon", "Corée du Sud", "Chine", "Taïwan"],
+		"answer": "Japon"
 	}
 ]
