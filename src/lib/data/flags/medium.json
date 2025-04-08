@@ -88,8 +88,8 @@
 		"answer": "Guinée-Bissau"
 	},
 	{
-		"options": ["République Démocratique du Congo", "Éthiopie", "Érythrée", "Kenya"],
-		"answer": "République Démocratique du Congo"
+		"options": ["République démocratique du Congo", "Éthiopie", "Érythrée", "Kenya"],
+		"answer": "République démocratique du Congo"
 	},
 	{
 		"options": ["Corée du Nord", "Corée du Sud", "Laos", "Cambodge"],

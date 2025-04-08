@@ -36,7 +36,12 @@
 		"answer": "Brunei"
 	},
 	{
-		"options": ["République du Congo", "République Démocratique du Congo", "Guinée Équatoriale", "Gabon"],
+		"options": [
+			"République du Congo",
+			"République démocratique du Congo",
+			"Guinée Équatoriale",
+			"Gabon"
+		],
 		"answer": "République du Congo"
 	},
 	{
@@ -136,7 +141,12 @@
 		"answer": "Biélorussie"
 	},
 	{
-		"options": ["Saint-Christophe-et-Niévès", "Saint-Vincent-et-les-Grenadines", "Saint-Lucie", "Sao Tomé-et-Principe"],
+		"options": [
+			"Saint-Christophe-et-Niévès",
+			"Saint-Vincent-et-les-Grenadines",
+			"Saint-Lucie",
+			"Sao Tomé-et-Principe"
+		],
 		"answer": "Saint-Christophe-et-Niévès"
 	},
 	{
@@ -148,7 +158,12 @@
 		"answer": "Vanuatu"
 	},
 	{
-		"options": ["Saint-Vincent-et-les-Grenadines", "Saint-Christophe-et-Niévès", "Trinité-et-Tobago", "Grenade"],
+		"options": [
+			"Saint-Vincent-et-les-Grenadines",
+			"Saint-Christophe-et-Niévès",
+			"Trinité-et-Tobago",
+			"Grenade"
+		],
 		"answer": "Saint-Vincent-et-les-Grenadines"
 	},
 	{
@@ -244,7 +259,12 @@
 		"answer": "Mali"
 	},
 	{
-		"options": ["Sainte-Lucie", "Saint-Vincent-et-les-Grenadines", "Saint-Christophe-et-Niévès", "Haïti"],
+		"options": [
+			"Sainte-Lucie",
+			"Saint-Vincent-et-les-Grenadines",
+			"Saint-Christophe-et-Niévès",
+			"Haïti"
+		],
 		"answer": "Sainte-Lucie"
 	},
 	{

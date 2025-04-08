@@ -245,19 +245,14 @@
 		"answer": "Canada"
 	},
 	{
-	  "question": "Quel est le pays le plus densément peuplé au monde ?",
-	  "options": ["Monaco", "Singapour", "Bangladesh", "Vatican"],
-	  "answer": "Monaco"
+		"question": "Quel est le plus grand État des États-Unis en superficie ?",
+		"options": ["Alaska", "Texas", "Californie", "Montana"],
+		"answer": "Alaska"
 	},
 	{
-	  "question": "Quel est le plus grand État des États-Unis en superficie ?",
-	  "options": ["Alaska", "Texas", "Californie", "Montana"],
-	  "answer": "Alaska"
-	},
-	{
-	  "question": "Quel pays ne possède pas de violet sur son drapeau ?",
-	  "options": ["équateur", "El salvador", "Nicaragua", "Dominique"],
-	  "answer": "équateur"
+		"question": "Quel pays ne possède pas de violet sur son drapeau ?",
+		"options": ["équateur", "El salvador", "Nicaragua", "Dominique"],
+		"answer": "équateur"
 	},
 	{
 		"question": "Quel est le plus grand lac d’eau douce du monde en superficie ?",
@@ -270,14 +265,14 @@
 		"answer": "Salerne"
 	},
 	{
-	  "question": "Quel drapeau n'est pas rectangulaire ?",
-	  "options": ["Népal", "Monaco", "Niger", "Belgique"],
-	  "answer": "Népal"
+		"question": "Quel drapeau n'est pas rectangulaire ?",
+		"options": ["Népal", "Monaco", "Niger", "Belgique"],
+		"answer": "Népal"
 	},
 	{
-	  "question": "Quel drapeau ne contient pas d'animaux ?",
-	  "options": ["Brésil", "Ouganda", "Mexique", "Égypte"],
-	  "answer": "Brésil"
+		"question": "Quel drapeau ne contient pas d'animaux ?",
+		"options": ["Brésil", "Ouganda", "Mexique", "Égypte"],
+		"answer": "Brésil"
 	},
 	{
 		"question": "Dans quel pays se situe le site de Petra ?",
@@ -288,5 +283,40 @@
 		"question": "De quel pays Praia est-elle la capitale ?",
 		"options": ["Cap-Vert", "Géorgie", "Moldavie", "Macédoine du Nord"],
 		"answer": "Cap-Vert"
+	},
+	{
+		"question": "Lequel de ces pays n’a pas de frontière terrestre avec l'Allemagne ?",
+		"options": ["Italie", "Belgique", "Autriche", "Pologne"],
+		"answer": "Italie"
+	},
+	{
+		"question": "Quelle capitale est la plus au nord ?",
+		"options": ["Reykjavik", "Stockholm", "Helsinki", "Oslo"],
+		"answer": "Reykjavik"
+	},
+	{
+		"question": "Quel pays n'est pas traversé par l'équateur ?",
+		"options": ["Bolivie", "Colombie", "Brésil", "Équateur"],
+		"answer": "Bolivie"
+	},
+	{
+		"question": "Quel pays a pour capitale Sofia ?",
+		"options": ["Bulgarie", "Serbie", "Roumanie", "Ukraine"],
+		"answer": "Bulgarie"
+	},
+	{
+		"question": "Quel est le pays le plus grand d'Afrique ?",
+		"options": ["Algérie", "République démocratique du Congo", "Soudan", "Libye"],
+		"answer": "Algérie"
+	},
+	{
+		"question": "Quel pays ne fait pas partie du continent asiatique ?",
+		"options": ["Djibouti", "Koweït", "Bahreïn", "Brunei"],
+		"answer": "Djibouti"
+	},
+	{
+		"question": "Quel est le nom de la mer qui sépare l'Italie de la Croatie ?",
+		"options": ["Mer Adriatique", "Mer Noire", "Mer Caspienne", "Mer Baltique"],
+		"answer": "Mer Adriatique"
 	}
 ]

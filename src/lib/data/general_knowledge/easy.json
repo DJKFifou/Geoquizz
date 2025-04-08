@@ -156,7 +156,7 @@
 	},
 	{
 		"question": "Quel est le plus grand pays d'Afrique ?",
-		"options": ["Algérie", "Soudan", "République Démocratique du Congo", "Libye"],
+		"options": ["Algérie", "Soudan", "République démocratique du Congo", "Libye"],
 		"answer": "Algérie"
 	},
 	{
@@ -199,44 +199,44 @@
 		"options": ["Mer Méditerranée", "Mer du Nord", "Mer Caspienne", "Mer Noire"],
 		"answer": "Mer Méditerranée"
 	},
-    {
-        "question": "Quel océan borde la côte Est des États-Unis ?",
-        "options": ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
-        "answer": "Océan Atlantique"
-    },
-    {
-        "question": "Quel pays est connu pour sa pyramide de Gizeh ?",
-        "options": ["Égypte", "Grèce", "Mexique", "Inde"],
-        "answer": "Égypte"
-    },
-    {
-        "question": "Quelle est la capitale de la Corée du Sud ?",
-        "options": ["Séoul", "Tokyo", "Beijing", "Kyoto"],
-        "answer": "Séoul"
-    },
-    {
-        "question": "Quel pays est surnommé le Pays du Soleil Levant ?",
-        "options": ["Japon", "Chine", "Corée du Sud", "Vietnam"],
-        "answer": "Japon"
-    },
-    {
-        "question": "Quel est le nom de la mer qui sépare l'Italie de la Croatie ?",
-        "options": ["Mer Adriatique", "Mer Noire", "Mer Caspienne", "Mer Baltique"],
-        "answer": "Mer Adriatique"
-    },
-    {
-        "question": "Quel océan est situé entre l'Afrique, l'Asie et l'Australie ?",
-        "options": ["Océan Indien", "Océan Pacifique", "Océan Atlantique", "Océan Arctique"],
-        "answer": "Océan Indien"
-    },
-    {
-        "question": "Sur quel drapeau distingue t-on un dragon ?",
-        "options": ["Bhoutan", "Népal", "Chine", "Japon"],
-        "answer": "Bhoutan"
-    },
-    {
-        "question": "Quel pays ne fait pas partie du continent asiatique ?",
-        "options": ["Djibouti", "Koweït", "Bahreïn", "Brunei"],
-        "answer": "Djibouti"
-    }
+	{
+		"question": "Quel océan borde la côte Est des États-Unis ?",
+		"options": ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
+		"answer": "Océan Atlantique"
+	},
+	{
+		"question": "Quel pays est connu pour sa pyramide de Gizeh ?",
+		"options": ["Égypte", "Grèce", "Mexique", "Inde"],
+		"answer": "Égypte"
+	},
+	{
+		"question": "Quelle est la capitale de la Corée du Sud ?",
+		"options": ["Séoul", "Tokyo", "Beijing", "Kyoto"],
+		"answer": "Séoul"
+	},
+	{
+		"question": "Quel pays est surnommé le Pays du Soleil Levant ?",
+		"options": ["Japon", "Chine", "Corée du Sud", "Vietnam"],
+		"answer": "Japon"
+	},
+	{
+		"question": "Quel océan est situé entre l'Afrique, l'Asie et l'Australie ?",
+		"options": ["Océan Indien", "Océan Pacifique", "Océan Atlantique", "Océan Arctique"],
+		"answer": "Océan Indien"
+	},
+	{
+		"question": "Sur quel drapeau distingue t-on un dragon ?",
+		"options": ["Bhoutan", "Népal", "Chine", "Japon"],
+		"answer": "Bhoutan"
+	},
+	{
+		"question": "Lequel de ces pays est une île ?",
+		"options": ["Sri Lanka", "Bhoutan", "Laos", "Myanmar"],
+		"answer": "Sri Lanka"
+	},
+	{
+		"question": "Dans quel océan se trouve Madagascar ?",
+		"options": ["Indien", "Arctique", "Pacifique", "Atlantique"],
+		"answer": "Indien"
+	}
 ]

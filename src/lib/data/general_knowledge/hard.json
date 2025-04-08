@@ -235,39 +235,39 @@
 		"answer": "Kirghizistan"
 	},
 	{
-	  "question": "Quel est le plus petit pays du monde en superficie ?",
-	  "options": ["Vatican", "Monaco", "Nauru", "San Marin"],
-	  "answer": "Vatican"
+		"question": "Quel est le plus petit pays du monde en superficie ?",
+		"options": ["Vatican", "Monaco", "Nauru", "San Marin"],
+		"answer": "Vatican"
 	},
 	{
-	  "question": "Quel pays a la plus grande population au monde ?",
-	  "options": ["Inde", "Chine", "États-Unis", "Indonésie"],
-	  "answer": "Inde"
+		"question": "Quel pays a la plus grande population au monde ?",
+		"options": ["Inde", "Chine", "États-Unis", "Indonésie"],
+		"answer": "Inde"
 	},
 	{
-	  "question": "Quel est l'état des États-Unis le plus peuplé ?",
-	  "options": ["Californie", "Texas", "Michigan", "Floride"],
-	  "answer": "Californie"
+		"question": "Quel est l'état des États-Unis le plus peuplé ?",
+		"options": ["Californie", "Texas", "Michigan", "Floride"],
+		"answer": "Californie"
 	},
 	{
-	  "question": "Quel est le plus long drapeau du monde (en terme de proportions) ?",
-	  "options": ["Qatar", "Sri Lanka", "Seychelles", "Tuvalu"],
-	  "answer": "Qatar"
+		"question": "Quel est le plus long drapeau du monde (en terme de proportions) ?",
+		"options": ["Qatar", "Sri Lanka", "Seychelles", "Tuvalu"],
+		"answer": "Qatar"
 	},
 	{
-	  "question": "Quel drapeau n'est pas rectangulaire ?",
-	  "options": ["Vatican", "Monaco", "Niger", "Belgique"],
-	  "answer": "Vatican"
+		"question": "Quel drapeau n'est pas rectangulaire ?",
+		"options": ["Vatican", "Monaco", "Niger", "Belgique"],
+		"answer": "Vatican"
 	},
 	{
-	  "question": "Dans quel pays se trouve la région de Transylvanie ?",
-	  "options": ["Roumanie", "Russie", "Bulgarie", "Ukraine"],
-	  "answer": "Roumanie"
+		"question": "Dans quel pays se trouve la région de Transylvanie ?",
+		"options": ["Roumanie", "Russie", "Bulgarie", "Ukraine"],
+		"answer": "Roumanie"
 	},
 	{
-	  "question": "Quel drapeau ne contient pas d'animaux ?",
-	  "options": ["Belize", "Espagne", "Fidji", "Andorre"],
-	  "answer": "Belize"
+		"question": "Quel drapeau ne contient pas d'animaux ?",
+		"options": ["Belize", "Espagne", "Fidji", "Andorre"],
+		"answer": "Belize"
 	},
 	{
 		"question": "Quelle mer est située entre la Turquie et la Grèce ?",
@@ -275,8 +275,28 @@
 		"answer": "Mer Égée"
 	},
 	{
-	  "question": "Quel drapeau ne contient pas de jaune ?",
-	  "options": ["Gambie", "Brunei", "Vanuatu", "Tadjikistan"],
-	  "answer": "Gambie"
+		"question": "Quel drapeau ne contient pas de jaune ?",
+		"options": ["Gambie", "Brunei", "Vanuatu", "Tadjikistan"],
+		"answer": "Gambie"
+	},
+	{
+		"question": "Laquelle de ces villes est située en Afrique ?",
+		"options": ["Antananarivo", "Belmopan", "Paramaribo", "Beyrouth"],
+		"answer": "Antananarivo"
+	},
+	{
+		"question": "Quel est le pays le plus densément peuplé au monde ?",
+		"options": ["Monaco", "Singapour", "Bangladesh", "Vatican"],
+		"answer": "Monaco"
+	},
+	{
+		"question": "Quel est le pays le plus peuplé d'Afrique ?",
+		"options": ["Nigeria", "Éthiopie", "Égypte", "République démocratique du Congo"],
+		"answer": "Nigeria"
+	},
+	{
+		"question": "Quelle mer borde la côte occidentale de l’Arabie Saoudite ?",
+		"options": ["Mer Rouge", "Mer Noire", "Mer Baltique", "Mer d’Arabie"],
+		"answer": "Mer Rouge"
 	}
 ]
