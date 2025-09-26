@@ -41,7 +41,13 @@
 	};
 
 	onMount(() => {
-		if (PUBLIC_USE_API === 'false') {
+		if (PUBLIC_USE_API && PUBLIC_USE_API === 'true') {
+			fetch('/api/records')
+				.then((response) => response.json())
+				.then((data) => {
+					apiRecords = data.data.records;
+				});
+		} else {
 			for (const key of Object.keys(localStorageQuizzItems)) {
 				quizzRecords[key] = localStorage.getItem(key)
 					? `${localStorage.getItem(key)} / 20`
@@ -54,12 +60,6 @@
 					? `${record} / ${key === 'countriesRecord' ? 190 : 195}`
 					: 'Pas encore établi';
 			}
-		} else {
-			fetch('/api/records')
-				.then((response) => response.json())
-				.then((data) => {
-					apiRecords = data.data.records;
-				});
 		}
 	});
 </script>
