@@ -57,7 +57,7 @@
 	{
 		"question": "Quel pays contient le plus d'habitants ?",
 		"options": ["Thaïlande", "Cameroun", "Algérie", "Italie"],
-		"answer": "Italie"
+		"answer": "Thaïlande"
 	},
 	{
 		"question": "De quel pays Libreville est la capitale ?",
@@ -255,7 +255,7 @@
 		"answer": "Qatar"
 	},
 	{
-		"question": "Quel drapeau n'est pas rectangulaire ?",
+		"question": "Quel drapeau est carré ?",
 		"options": ["Vatican", "Monaco", "Niger", "Belgique"],
 		"answer": "Vatican"
 	},

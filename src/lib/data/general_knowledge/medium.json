@@ -126,8 +126,8 @@
 	},
 	{
 		"question": "Quelle est la longueur (environ) du Nil ?",
-		"options": ["6500 m", "5500 m", "7500 m", "8500 m"],
-		"answer": "6500 m"
+		"options": ["6500 km", "5500 km", "7500 km", "8500 m"],
+		"answer": "6500 km"
 	},
 	{
 		"question": "Quel pays n'est pas traversé par la Cordillère des Andes ?",
@@ -245,14 +245,19 @@
 		"answer": "Canada"
 	},
 	{
+		"question": "Quel est le pays le plus densément peuplé au monde ?",
+		"options": ["Monaco", "Singapour", "Bangladesh", "Vatican"],
+		"answer": "Monaco"
+	},
+	{
 		"question": "Quel est le plus grand État des États-Unis en superficie ?",
 		"options": ["Alaska", "Texas", "Californie", "Montana"],
 		"answer": "Alaska"
 	},
 	{
 		"question": "Quel pays ne possède pas de violet sur son drapeau ?",
-		"options": ["équateur", "El salvador", "Nicaragua", "Dominique"],
-		"answer": "équateur"
+		"options": ["Équateur", "El Salvador", "Nicaragua", "Dominique"],
+		"answer": "Équateur"
 	},
 	{
 		"question": "Quel est le plus grand lac d’eau douce du monde en superficie ?",
