@@ -8,11 +8,13 @@
 		capitals: 'Capitales',
 		countries: 'Pays',
 		flags: 'Drapeaux',
-		general_knowledge: 'Culture générale'
+		general_knowledge: 'Culture générale',
+		usa: 'USA'
 	};
 
 	let filteredCategories = Object.keys(categories).filter(
-		(category) => !(category === 'general_knowledge' && currentPage === '/lists')
+		(category) =>
+			!((category === 'general_knowledge' || category === 'usa') && currentPage === '/lists')
 	);
 </script>
 

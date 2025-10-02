@@ -201,7 +201,7 @@
 	},
 	{
 		"question": "Quelle est la capitale de l'état de Rhode Island ?",
-		"options": ["Providence", "Warwick", "Cranston", "Boston"],
+		"options": ["Providence", "Providence", "Cranston", "Boston"],
 		"answer": "Providence"
 	},
 	{

@@ -26,17 +26,27 @@
 	const previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
 	const currentPage = page.url.pathname;
 
-	const difficulties: Record<string, string> = {
-		easy: 'Facile',
-		medium: 'Moyen',
-		hard: 'Difficile'
-	};
+	let difficulties = $state<Record<string, { label: string }>>({});
+
+	if (previousPage !== '/quizz/usa') {
+		difficulties = {
+			easy: { label: 'Facile' },
+			medium: { label: 'Moyen' },
+			hard: { label: 'Difficile' }
+		};
+	} else {
+		difficulties = {
+			states: { label: 'États' },
+			flags: { label: 'Drapeaux' }
+		};
+	}
 
 	const categories: Record<string, string> = {
 		capitals: 'Capitales',
 		countries: 'Pays',
 		flags: 'Drapeaux',
-		general_knowledge: 'Culture générale'
+		general_knowledge: 'Culture générale',
+		usa: 'USA'
 	};
 
 	const currentRecord: string = `${difficultyName}${categorieName}Record`;
@@ -192,6 +202,11 @@
 	};
 
 	let titleColor = $derived(getClass(timer));
+
+	const displayImg =
+		categorieName === 'flags' ||
+		categorieName === 'countries' ||
+		(categorieName === 'usa' && difficultyName === 'flags');
 </script>
 
 <div
@@ -209,7 +224,7 @@
 	{#if startGame}
 		<QuizzStartGame
 			category={categories[categorieName]}
-			difficulty={difficulties[difficultyName]}
+			difficulty={difficulties[difficultyName].label}
 			timer={withTimer}
 			play={startGameHandler}
 		/>
@@ -217,7 +232,7 @@
 		<div class="z-10 flex flex-col items-center justify-center gap-6 p-4">
 			<p>Question {currentQuestionIndex + 1}/{data.data.length}</p>
 			<h3 class="text-center text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
-			{#if categorieName === 'flags' || categorieName === 'countries'}
+			{#if displayImg}
 				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="m-4 h-40" />
 			{/if}
 			<div class="flex flex-col items-center justify-center gap-6">

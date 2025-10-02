@@ -4,9 +4,12 @@ import capitalsHard from '$lib/data/capitals/hard.json';
 import generalKnowledgeEasy from '$lib/data/general_knowledge/easy.json';
 import generalKnowledgeMedium from '$lib/data/general_knowledge/medium.json';
 import generalKnowledgeHard from '$lib/data/general_knowledge/hard.json';
+import usaStates from '$lib/data/usa/states.json';
 
 import { countries } from '$lib/data/countries/datas';
 import { flags } from '$lib/data/flags/datas';
+import { usaFlags } from '$lib/data/usa/datas';
+console.log(usaFlags);
 
 type Params = {
 	categorie: string;
@@ -67,6 +70,18 @@ export const load = async ({ params }: { params: Params }) => {
 					return shuffleData(generalKnowledgeMedium);
 				case 'hard':
 					return shuffleData(generalKnowledgeHard);
+				default:
+					return {
+						error: 'Données introuvables',
+						status: 404
+					};
+			}
+		case 'usa':
+			switch (difficulty) {
+				case 'states':
+					return shuffleData(usaStates);
+				case 'flags':
+					return shuffleData(usaFlags['usaFlags']);
 				default:
 					return {
 						error: 'Données introuvables',

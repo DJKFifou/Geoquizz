@@ -8,13 +8,26 @@
 		capitals: 'Capitales',
 		countries: 'Pays',
 		flags: 'Drapeaux',
-		general_knowledge: 'Culture générale'
+		general_knowledge: 'Culture générale',
+		usa: 'USA'
 	};
-	const difficulties: Record<string, { label: string }> = {
-		easy: { label: 'Facile' },
-		medium: { label: 'Moyen' },
-		hard: { label: 'Difficile' }
-	};
+
+	let difficulties: Record<string, { label: string }> = {};
+
+	if (currentPage !== '/quizz/usa') {
+		difficulties = {
+			easy: { label: 'Facile' },
+			medium: { label: 'Moyen' },
+			hard: { label: 'Difficile' }
+		};
+	} else {
+		difficulties = {
+			states: { label: 'États' },
+			flags: { label: 'Drapeaux' }
+		};
+	}
+
+	console.log(difficulties);
 </script>
 
 <div
@@ -23,7 +36,7 @@
 	<div class="z-10 flex w-full flex-col items-center justify-center gap-6">
 		<h1 class="text-3xl font-bold uppercase">{categories[categorieName]}</h1>
 		<h3 class="text-2xl font-medium">Choisissez votre niveau :</h3>
-		<ul class="grid auto-rows-fr grid-cols-3 items-center gap-4">
+		<ul class="flex items-center gap-4">
 			{#each Object.entries(difficulties) as [difficulty, { label }]}
 				<li>
 					<PrimaryBtn name={label} href={`${currentPage}/${difficulty}`} />
