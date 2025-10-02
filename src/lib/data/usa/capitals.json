@@ -1,0 +1,252 @@
+[
+	{
+		"question": "Quelle est la capitale de l'état d'Alabama ?",
+		"options": ["Montgomery", "Birmingham", "Mobile", "Jackson"],
+		"answer": "Montgomery"
+	},
+	{
+		"question": "Quelle est la capitale de l'état d'Alaska ?",
+		"options": ["Juneau", "Anchorage", "Fairbanks", "Salem"],
+		"answer": "Juneau"
+	},
+	{
+		"question": "Quelle est la capitale de l'état d'Arizona ?",
+		"options": ["Phoenix", "Tucson", "Mesa", "Denver"],
+		"answer": "Phoenix"
+	},
+	{
+		"question": "Quelle est la capitale de l'état d'Arkansas ?",
+		"options": ["Little Rock", "Fayetteville", "Fort Smith", "Baton Rouge"],
+		"answer": "Little Rock"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Californie ?",
+		"options": ["Sacramento", "Los Angeles", "San Francisco", "San Diego"],
+		"answer": "Sacramento"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Caroline du Nord ?",
+		"options": ["Raleigh", "Charlotte", "Greensboro", "Columbia"],
+		"answer": "Raleigh"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Caroline du Sud ?",
+		"options": ["Columbia", "Charleston", "Greenville", "Atlanta"],
+		"answer": "Columbia"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Colorado ?",
+		"options": ["Denver", "Colorado Springs", "Aurora", "Cheyenne"],
+		"answer": "Denver"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Connecticut ?",
+		"options": ["Hartford", "Bridgeport", "New Haven", "Providence"],
+		"answer": "Hartford"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Dakota du Nord ?",
+		"options": ["Bismarck", "Fargo", "Grand Forks", "Helena"],
+		"answer": "Bismarck"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Dakota du Sud ?",
+		"options": ["Pierre", "Sioux Falls", "Rapid City", "Lincoln"],
+		"answer": "Pierre"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Delaware ?",
+		"options": ["Dover", "Wilmington", "Newark", "Trenton"],
+		"answer": "Dover"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Floride ?",
+		"options": ["Tallahassee", "Jacksonville", "Miami", "Orlando"],
+		"answer": "Tallahassee"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Géorgie ?",
+		"options": ["Atlanta", "Savannah", "Augusta", "Nashville"],
+		"answer": "Atlanta"
+	},
+	{
+		"question": "Quelle est la capitale de l'état d'Hawaï ?",
+		"options": ["Honolulu", "Hilo", "Kailua", "San Juan"],
+		"answer": "Honolulu"
+	},
+	{
+		"question": "Quelle est la capitale de l'état d'Idaho ?",
+		"options": ["Boise", "Meridian", "Nampa", "Salt Lake City"],
+		"answer": "Boise"
+	},
+	{
+		"question": "Quelle est la capitale de l'état d'Illinois ?",
+		"options": ["Springfield", "Chicago", "Peoria", "Indianapolis"],
+		"answer": "Springfield"
+	},
+	{
+		"question": "Quelle est la capitale de l'état d'Indiana ?",
+		"options": ["Indianapolis", "Fort Wayne", "Evansville", "Columbus"],
+		"answer": "Indianapolis"
+	},
+	{
+		"question": "Quelle est la capitale de l'état d'Iowa ?",
+		"options": ["Des Moines", "Cedar Rapids", "Davenport", "Omaha"],
+		"answer": "Des Moines"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Kansas ?",
+		"options": ["Topeka", "Wichita", "Kansas City", "Oklahoma City"],
+		"answer": "Topeka"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Kentucky ?",
+		"options": ["Frankfort", "Louisville", "Lexington", "Nashville"],
+		"answer": "Frankfort"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Louisiane ?",
+		"options": ["Baton Rouge", "La Nouvelle-Orléans", "Shreveport", "Jackson"],
+		"answer": "Baton Rouge"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Maine ?",
+		"options": ["Augusta", "Portland", "Bangor", "Concord"],
+		"answer": "Augusta"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Maryland ?",
+		"options": ["Annapolis", "Baltimore", "Rockville", "Dover"],
+		"answer": "Annapolis"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Massachusetts ?",
+		"options": ["Boston", "Worcester", "Springfield", "Hartford"],
+		"answer": "Boston"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Michigan ?",
+		"options": ["Lansing", "Détroit", "Grand Rapids", "Cleveland"],
+		"answer": "Lansing"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Minnesota ?",
+		"options": ["Saint Paul", "Minneapolis", "Rochester", "Madison"],
+		"answer": "Saint Paul"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Mississippi ?",
+		"options": ["Jackson", "Gulfport", "Biloxi", "Montgomery"],
+		"answer": "Jackson"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Missouri ?",
+		"options": ["Jefferson City", "Kansas City", "St. Louis", "Little Rock"],
+		"answer": "Jefferson City"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Montana ?",
+		"options": ["Helena", "Billings", "Missoula", "Boise"],
+		"answer": "Helena"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Nebraska ?",
+		"options": ["Lincoln", "Omaha", "Bellevue", "Des Moines"],
+		"answer": "Lincoln"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Nevada ?",
+		"options": ["Carson City", "Las Vegas", "Reno", "Salt Lake City"],
+		"answer": "Carson City"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du New Hampshire ?",
+		"options": ["Concord", "Manchester", "Nashua", "Augusta"],
+		"answer": "Concord"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du New Jersey ?",
+		"options": ["Trenton", "Newark", "Jersey City", "Hartford"],
+		"answer": "Trenton"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de New York ?",
+		"options": ["Albany", "New York", "Buffalo", "Boston"],
+		"answer": "Albany"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Nouveau-Mexique ?",
+		"options": ["Santa Fe", "Albuquerque", "Las Cruces", "Phoenix"],
+		"answer": "Santa Fe"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de l'Ohio ?",
+		"options": ["Columbus", "Cleveland", "Cincinnati", "Toledo"],
+		"answer": "Columbus"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de l'Oklahoma ?",
+		"options": ["Oklahoma City", "Tulsa", "Norman", "Wichita"],
+		"answer": "Oklahoma City"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de l'Oregon ?",
+		"options": ["Salem", "Portland", "Eugene", "Boise"],
+		"answer": "Salem"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Pennsylvanie ?",
+		"options": ["Harrisburg", "Philadelphie", "Pittsburgh", "Albany"],
+		"answer": "Harrisburg"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Rhode Island ?",
+		"options": ["Providence", "Providence", "Cranston", "Boston"],
+		"answer": "Providence"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Tennessee ?",
+		"options": ["Nashville", "Memphis", "Knoxville", "Atlanta"],
+		"answer": "Nashville"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Texas ?",
+		"options": ["Austin", "Houston", "Dallas", "San Antonio"],
+		"answer": "Austin"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de l'Utah ?",
+		"options": ["Salt Lake City", "Provo", "West Valley City", "Denver"],
+		"answer": "Salt Lake City"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Vermont ?",
+		"options": ["Montpelier", "Burlington", "Rutland", "Concord"],
+		"answer": "Montpelier"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Virginie ?",
+		"options": ["Richmond", "Virginia Beach", "Norfolk", "Raleigh"],
+		"answer": "Richmond"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Virginie Occidentale ?",
+		"options": ["Charleston", "Huntington", "Morgantown", "Columbus"],
+		"answer": "Charleston"
+	},
+	{
+		"question": "Quelle est la capitale de l'état de Washington ?",
+		"options": ["Olympia", "Seattle", "Spokane", "Portland"],
+		"answer": "Olympia"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Wisconsin ?",
+		"options": ["Madison", "Milwaukee", "Green Bay", "Minneapolis"],
+		"answer": "Madison"
+	},
+	{
+		"question": "Quelle est la capitale de l'état du Wyoming ?",
+		"options": ["Cheyenne", "Casper", "Laramie", "Helena"],
+		"answer": "Cheyenne"
+	}
+]

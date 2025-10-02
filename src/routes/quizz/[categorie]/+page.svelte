@@ -22,8 +22,9 @@
 		};
 	} else {
 		difficulties = {
-			states: { label: 'États' },
-			flags: { label: 'Drapeaux' }
+			capitals: { label: 'Capitales' },
+			flags: { label: 'Drapeaux' },
+			states: { label: 'États' }
 		};
 	}
 

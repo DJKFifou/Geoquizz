@@ -36,8 +36,9 @@
 		};
 	} else {
 		difficulties = {
-			states: { label: 'États' },
-			flags: { label: 'Drapeaux' }
+			capitals: { label: 'Capitales' },
+			flags: { label: 'Drapeaux' },
+			states: { label: 'États' }
 		};
 	}
 
@@ -206,7 +207,7 @@
 	const displayImg =
 		categorieName === 'flags' ||
 		categorieName === 'countries' ||
-		(categorieName === 'usa' && difficultyName === 'flags');
+		(categorieName === 'usa' && (difficultyName === 'flags' || difficultyName === 'states'));
 </script>
 
 <div

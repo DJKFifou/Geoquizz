@@ -4,12 +4,14 @@ import capitalsHard from '$lib/data/capitals/hard.json';
 import generalKnowledgeEasy from '$lib/data/general_knowledge/easy.json';
 import generalKnowledgeMedium from '$lib/data/general_knowledge/medium.json';
 import generalKnowledgeHard from '$lib/data/general_knowledge/hard.json';
-import usaStates from '$lib/data/usa/states.json';
+import usaCapitals from '$lib/data/usa/capitals.json';
 
 import { countries } from '$lib/data/countries/datas';
 import { flags } from '$lib/data/flags/datas';
-import { usaFlags } from '$lib/data/usa/datas';
+import { usaFlags } from '$lib/data/usa/flagsDatas';
+import { usaStates } from '$lib/data/usa/statesDatas';
 console.log(usaFlags);
+console.log(usaStates);
 
 type Params = {
 	categorie: string;
@@ -78,8 +80,10 @@ export const load = async ({ params }: { params: Params }) => {
 			}
 		case 'usa':
 			switch (difficulty) {
+				case 'capitals':
+					return shuffleData(usaCapitals);
 				case 'states':
-					return shuffleData(usaStates);
+					return shuffleData(usaStates['usaStates']);
 				case 'flags':
 					return shuffleData(usaFlags['usaFlags']);
 				default:

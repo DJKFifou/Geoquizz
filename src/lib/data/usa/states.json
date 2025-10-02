@@ -1,252 +1,202 @@
 [
 	{
-		"question": "Quelle est la capitale de l'état d'Alabama ?",
-		"options": ["Montgomery", "Birmingham", "Mobile", "Jackson"],
-		"answer": "Montgomery"
+		"options": ["Alabama", "Birmingham", "Mobile", "Jackson"],
+		"answer": "Alabama"
 	},
 	{
-		"question": "Quelle est la capitale de l'état d'Alaska ?",
-		"options": ["Juneau", "Anchorage", "Fairbanks", "Salem"],
-		"answer": "Juneau"
+		"options": ["Alaska", "Anchorage", "Fairbanks", "Salem"],
+		"answer": "Alaska"
 	},
 	{
-		"question": "Quelle est la capitale de l'état d'Arizona ?",
-		"options": ["Phoenix", "Tucson", "Mesa", "Denver"],
-		"answer": "Phoenix"
+		"options": ["Arizona", "Tucson", "Mesa", "Denver"],
+		"answer": "Arizona"
 	},
 	{
-		"question": "Quelle est la capitale de l'état d'Arkansas ?",
-		"options": ["Little Rock", "Fayetteville", "Fort Smith", "Baton Rouge"],
-		"answer": "Little Rock"
+		"options": ["Arkansas", "Fayetteville", "Fort Smith", "Baton Rouge"],
+		"answer": "Arkansas"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Californie ?",
-		"options": ["Sacramento", "Los Angeles", "San Francisco", "San Diego"],
-		"answer": "Sacramento"
+		"options": ["Californie", "Los Angeles", "San Francisco", "San Diego"],
+		"answer": "Californie"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Caroline du Nord ?",
-		"options": ["Raleigh", "Charlotte", "Greensboro", "Columbia"],
-		"answer": "Raleigh"
+		"options": ["Caroline du Nord", "Charlotte", "Greensboro", "Columbia"],
+		"answer": "Caroline du Nord"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Caroline du Sud ?",
-		"options": ["Columbia", "Charleston", "Greenville", "Atlanta"],
-		"answer": "Columbia"
+		"options": ["Caroline du Sud", "Charleston", "Greenville", "Atlanta"],
+		"answer": "Caroline du Sud"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Colorado ?",
-		"options": ["Denver", "Colorado Springs", "Aurora", "Cheyenne"],
-		"answer": "Denver"
+		"options": ["Colorado", "Colorado Springs", "Aurora", "Cheyenne"],
+		"answer": "Colorado"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Connecticut ?",
-		"options": ["Hartford", "Bridgeport", "New Haven", "Providence"],
-		"answer": "Hartford"
+		"options": ["Connecticut", "Bridgeport", "New Haven", "Providence"],
+		"answer": "Connecticut"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Dakota du Nord ?",
-		"options": ["Bismarck", "Fargo", "Grand Forks", "Helena"],
-		"answer": "Bismarck"
+		"options": ["Dakota du Nord", "Fargo", "Grand Forks", "Helena"],
+		"answer": "Dakota du Nord"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Dakota du Sud ?",
-		"options": ["Pierre", "Sioux Falls", "Rapid City", "Lincoln"],
-		"answer": "Pierre"
+		"options": ["Dakota du Sud", "Sioux Falls", "Rapid City", "Lincoln"],
+		"answer": "Dakota du Sud"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Delaware ?",
-		"options": ["Dover", "Wilmington", "Newark", "Trenton"],
-		"answer": "Dover"
+		"options": ["Delaware", "Wilmington", "Newark", "Trenton"],
+		"answer": "Delaware"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Floride ?",
-		"options": ["Tallahassee", "Jacksonville", "Miami", "Orlando"],
-		"answer": "Tallahassee"
+		"options": ["Floride", "Jacksonville", "Miami", "Orlando"],
+		"answer": "Floride"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Géorgie ?",
-		"options": ["Atlanta", "Savannah", "Augusta", "Nashville"],
-		"answer": "Atlanta"
+		"options": ["Géorgie", "Savannah", "Augusta", "Nashville"],
+		"answer": "Géorgie"
 	},
 	{
-		"question": "Quelle est la capitale de l'état d'Hawaï ?",
-		"options": ["Honolulu", "Hilo", "Kailua", "San Juan"],
-		"answer": "Honolulu"
+		"options": ["Hawaï", "Hilo", "Kailua", "San Juan"],
+		"answer": "Hawaï"
 	},
 	{
-		"question": "Quelle est la capitale de l'état d'Idaho ?",
-		"options": ["Boise", "Meridian", "Nampa", "Salt Lake City"],
-		"answer": "Boise"
+		"options": ["Idaho", "Meridian", "Nampa", "Salt Lake City"],
+		"answer": "Idaho"
 	},
 	{
-		"question": "Quelle est la capitale de l'état d'Illinois ?",
-		"options": ["Springfield", "Chicago", "Peoria", "Indianapolis"],
-		"answer": "Springfield"
+		"options": ["Illinois", "Chicago", "Peoria", "Indianapolis"],
+		"answer": "Illinois"
 	},
 	{
-		"question": "Quelle est la capitale de l'état d'Indiana ?",
-		"options": ["Indianapolis", "Fort Wayne", "Evansville", "Columbus"],
-		"answer": "Indianapolis"
+		"options": ["Indiana", "Fort Wayne", "Evansville", "Columbus"],
+		"answer": "Indiana"
 	},
 	{
-		"question": "Quelle est la capitale de l'état d'Iowa ?",
-		"options": ["Des Moines", "Cedar Rapids", "Davenport", "Omaha"],
-		"answer": "Des Moines"
+		"options": ["Iowa", "Cedar Rapids", "Davenport", "Omaha"],
+		"answer": "Iowa"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Kansas ?",
-		"options": ["Topeka", "Wichita", "Kansas City", "Oklahoma City"],
-		"answer": "Topeka"
+		"options": ["Kansas", "Wichita", "Kansas City", "Oklahoma City"],
+		"answer": "Kansas"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Kentucky ?",
-		"options": ["Frankfort", "Louisville", "Lexington", "Nashville"],
-		"answer": "Frankfort"
+		"options": ["Kentucky", "Louisville", "Lexington", "Nashville"],
+		"answer": "Kentucky"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Louisiane ?",
-		"options": ["Baton Rouge", "La Nouvelle-Orléans", "Shreveport", "Jackson"],
-		"answer": "Baton Rouge"
+		"options": ["Louisiane", "La Nouvelle-Orléans", "Shreveport", "Jackson"],
+		"answer": "Louisiane"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Maine ?",
-		"options": ["Augusta", "Portland", "Bangor", "Concord"],
-		"answer": "Augusta"
+		"options": ["Maine", "Portland", "Bangor", "Concord"],
+		"answer": "Maine"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Maryland ?",
-		"options": ["Annapolis", "Baltimore", "Rockville", "Dover"],
-		"answer": "Annapolis"
+		"options": ["Maryland", "Baltimore", "Rockville", "Dover"],
+		"answer": "Maryland"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Massachusetts ?",
-		"options": ["Boston", "Worcester", "Springfield", "Hartford"],
-		"answer": "Boston"
+		"options": ["Massachusetts", "Worcester", "Springfield", "Hartford"],
+		"answer": "Massachusetts"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Michigan ?",
-		"options": ["Lansing", "Détroit", "Grand Rapids", "Cleveland"],
-		"answer": "Lansing"
+		"options": ["Michigan", "Détroit", "Grand Rapids", "Cleveland"],
+		"answer": "Michigan"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Minnesota ?",
-		"options": ["Saint Paul", "Minneapolis", "Rochester", "Madison"],
-		"answer": "Saint Paul"
+		"options": ["Minnesota", "Minneapolis", "Rochester", "Madison"],
+		"answer": "Minnesota"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Mississippi ?",
-		"options": ["Jackson", "Gulfport", "Biloxi", "Montgomery"],
-		"answer": "Jackson"
+		"options": ["Mississippi", "Gulfport", "Biloxi", "Montgomery"],
+		"answer": "Mississippi"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Missouri ?",
-		"options": ["Jefferson City", "Kansas City", "St. Louis", "Little Rock"],
-		"answer": "Jefferson City"
+		"options": ["Missouri", "Kansas City", "St. Louis", "Little Rock"],
+		"answer": "Missouri"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Montana ?",
-		"options": ["Helena", "Billings", "Missoula", "Boise"],
-		"answer": "Helena"
+		"options": ["Montana", "Billings", "Missoula", "Boise"],
+		"answer": "Montana"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Nebraska ?",
-		"options": ["Lincoln", "Omaha", "Bellevue", "Des Moines"],
-		"answer": "Lincoln"
+		"options": ["Nebraska", "Omaha", "Bellevue", "Des Moines"],
+		"answer": "Nebraska"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Nevada ?",
-		"options": ["Carson City", "Las Vegas", "Reno", "Salt Lake City"],
-		"answer": "Carson City"
+		"options": ["Nevada", "Las Vegas", "Reno", "Salt Lake City"],
+		"answer": "Nevada"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du New Hampshire ?",
-		"options": ["Concord", "Manchester", "Nashua", "Augusta"],
-		"answer": "Concord"
+		"options": ["New Hampshire", "Manchester", "Nashua", "Augusta"],
+		"answer": "New Hampshire"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du New Jersey ?",
-		"options": ["Trenton", "Newark", "Jersey City", "Hartford"],
-		"answer": "Trenton"
+		"options": ["New Jersey", "Newark", "Jersey City", "Hartford"],
+		"answer": "New Jersey"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de New York ?",
-		"options": ["Albany", "New York", "Buffalo", "Boston"],
-		"answer": "Albany"
+		"options": ["New York", "New York", "Buffalo", "Boston"],
+		"answer": "New York"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Nouveau-Mexique ?",
-		"options": ["Santa Fe", "Albuquerque", "Las Cruces", "Phoenix"],
-		"answer": "Santa Fe"
+		"options": ["Nouveau-Mexique", "Albuquerque", "Las Cruces", "Phoenix"],
+		"answer": "Nouveau-Mexique"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de l'Ohio ?",
-		"options": ["Columbus", "Cleveland", "Cincinnati", "Toledo"],
-		"answer": "Columbus"
+		"options": ["Ohio", "Cleveland", "Cincinnati", "Toledo"],
+		"answer": "Ohio"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de l'Oklahoma ?",
-		"options": ["Oklahoma City", "Tulsa", "Norman", "Wichita"],
-		"answer": "Oklahoma City"
+		"options": ["Oklahoma", "Tulsa", "Norman", "Wichita"],
+		"answer": "Oklahoma"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de l'Oregon ?",
-		"options": ["Salem", "Portland", "Eugene", "Boise"],
-		"answer": "Salem"
+		"options": ["Oregon", "Portland", "Eugene", "Boise"],
+		"answer": "Oregon"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Pennsylvanie ?",
-		"options": ["Harrisburg", "Philadelphie", "Pittsburgh", "Albany"],
-		"answer": "Harrisburg"
+		"options": ["Pennsylvanie", "Philadelphie", "Pittsburgh", "Albany"],
+		"answer": "Pennsylvanie"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Rhode Island ?",
-		"options": ["Providence", "Providence", "Cranston", "Boston"],
-		"answer": "Providence"
+		"options": ["Rhode Island", "Providence", "Cranston", "Boston"],
+		"answer": "Rhode Island"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Tennessee ?",
-		"options": ["Nashville", "Memphis", "Knoxville", "Atlanta"],
-		"answer": "Nashville"
+		"options": ["Tennessee", "Memphis", "Knoxville", "Atlanta"],
+		"answer": "Tennessee"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Texas ?",
-		"options": ["Austin", "Houston", "Dallas", "San Antonio"],
-		"answer": "Austin"
+		"options": ["Texas", "Houston", "Dallas", "San Antonio"],
+		"answer": "Texas"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de l'Utah ?",
-		"options": ["Salt Lake City", "Provo", "West Valley City", "Denver"],
-		"answer": "Salt Lake City"
+		"options": ["Utah", "Provo", "West Valley City", "Denver"],
+		"answer": "Utah"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Vermont ?",
-		"options": ["Montpelier", "Burlington", "Rutland", "Concord"],
-		"answer": "Montpelier"
+		"options": ["Vermont", "Burlington", "Rutland", "Concord"],
+		"answer": "Vermont"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Virginie ?",
-		"options": ["Richmond", "Virginia Beach", "Norfolk", "Raleigh"],
-		"answer": "Richmond"
+		"options": ["Virginie", "Virginia Beach", "Norfolk", "Raleigh"],
+		"answer": "Virginie"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Virginie Occidentale ?",
-		"options": ["Charleston", "Huntington", "Morgantown", "Columbus"],
-		"answer": "Charleston"
+		"options": ["Virginie Occidentale", "Huntington", "Morgantown", "Columbus"],
+		"answer": "Virginie Occidentale"
 	},
 	{
-		"question": "Quelle est la capitale de l'état de Washington ?",
-		"options": ["Olympia", "Seattle", "Spokane", "Portland"],
-		"answer": "Olympia"
+		"options": ["Washington", "Seattle", "Spokane", "Portland"],
+		"answer": "Washington"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Wisconsin ?",
-		"options": ["Madison", "Milwaukee", "Green Bay", "Minneapolis"],
-		"answer": "Madison"
+		"options": ["Wisconsin", "Milwaukee", "Green Bay", "Minneapolis"],
+		"answer": "Wisconsin"
 	},
 	{
-		"question": "Quelle est la capitale de l'état du Wyoming ?",
-		"options": ["Cheyenne", "Casper", "Laramie", "Helena"],
-		"answer": "Cheyenne"
+		"options": ["Wyoming", "Casper", "Laramie", "Helena"],
+		"answer": "Wyoming"
 	}
 ]
