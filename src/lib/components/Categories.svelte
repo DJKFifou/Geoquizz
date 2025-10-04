@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import PrimaryBtn from '$lib/components/PrimaryLink.svelte';
+	import { usaFlags } from '$lib/data/usa/flagsDatas';
 
 	let currentPage: string = $page.url.pathname;
 
@@ -9,12 +10,12 @@
 		countries: 'Pays',
 		flags: 'Drapeaux',
 		general_knowledge: 'Culture générale',
-		usa: 'USA'
+		usaStates: 'États des USA',
+		usaFlags: 'Drapeaux des USA'
 	};
 
 	let filteredCategories = Object.keys(categories).filter(
-		(category) =>
-			!((category === 'general_knowledge' || category === 'usa') && currentPage === '/lists')
+		(category) => !(category === 'general_knowledge' && currentPage === '/lists')
 	);
 </script>
 

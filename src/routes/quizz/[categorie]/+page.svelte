@@ -27,8 +27,6 @@
 			states: { label: 'États' }
 		};
 	}
-
-	console.log(difficulties);
 </script>
 
 <div

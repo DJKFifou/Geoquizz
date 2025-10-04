@@ -1,5 +1,7 @@
 import { getListCountries } from '$lib/data/countries/datas';
 import { getListFlags } from '$lib/data/flags/datas';
+import { getUsaListFlags } from '$lib/data/usa/flagsDatas';
+import { getUsaListStates } from '$lib/data/usa/statesDatas';
 import type { PageServerLoad } from './$types';
 
 type DataItem = {
@@ -38,6 +40,22 @@ export const load: PageServerLoad = async ({ params }) => {
 				const enrichedFlags = await getListFlags(flags.default);
 				return {
 					data: shuffleData(enrichedFlags)
+				};
+			}
+			case 'usaFlags': {
+				const usaFlags = await import('$lib/data/lists/usaFlags.json');
+				const enrichedFlags = await getUsaListFlags(usaFlags.default);
+				return {
+					data: shuffleData(enrichedFlags)
+				};
+			}
+			case 'usaStates': {
+				const usaStates = await import('$lib/data/lists/usaStates.json');
+				console.log('usaStates : ', usaStates);
+				const enrichedStates = await getUsaListStates(usaStates.default);
+				console.log('enrichedStates : ', enrichedStates);
+				return {
+					data: shuffleData(enrichedStates)
 				};
 			}
 			default:

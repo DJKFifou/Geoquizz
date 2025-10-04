@@ -61,7 +61,7 @@ export const usaFlags: Flags = {
 	usaFlags: await getFlags(usaJsonFlags)
 };
 
-export async function getListFlags(category: FlagCategory[]): Promise<FlagCategory[]> {
+export async function getUsaListFlags(category: FlagCategory[]): Promise<FlagCategory[]> {
 	return category.map((item: FlagCategory) => {
 		const svgPath = `./svgs/flags/${item.country.toLowerCase().replace(/[\s']/g, '')}.svg`;
 		return {

@@ -61,7 +61,7 @@ export const usaStates: States = {
 	usaStates: await getStates(usaJsonStates)
 };
 
-export async function getListStates(category: StateCategory[]): Promise<StateCategory[]> {
+export async function getUsaListStates(category: StateCategory[]): Promise<StateCategory[]> {
 	return category.map((item: StateCategory) => {
 		const svgPath = `./svgs/states/${item.country.toLowerCase().replace(/[\s']/g, '')}.svg`;
 		return {

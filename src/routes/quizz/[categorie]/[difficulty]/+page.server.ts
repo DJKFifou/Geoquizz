@@ -10,8 +10,6 @@ import { countries } from '$lib/data/countries/datas';
 import { flags } from '$lib/data/flags/datas';
 import { usaFlags } from '$lib/data/usa/flagsDatas';
 import { usaStates } from '$lib/data/usa/statesDatas';
-console.log(usaFlags);
-console.log(usaStates);
 
 type Params = {
 	categorie: string;

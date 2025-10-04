@@ -1,202 +1,202 @@
 [
 	{
-		"options": ["Alabama", "Birmingham", "Mobile", "Jackson"],
+		"options": ["Alabama", "Alaska", "Arizona", "Arkansas"],
 		"answer": "Alabama"
 	},
 	{
-		"options": ["Alaska", "Anchorage", "Fairbanks", "Salem"],
+		"options": ["Alaska", "Arizona", "Arkansas", "Californie"],
 		"answer": "Alaska"
 	},
 	{
-		"options": ["Arizona", "Tucson", "Mesa", "Denver"],
+		"options": ["Arizona", "Arkansas", "Californie", "Colorado"],
 		"answer": "Arizona"
 	},
 	{
-		"options": ["Arkansas", "Fayetteville", "Fort Smith", "Baton Rouge"],
+		"options": ["Arkansas", "Californie", "Colorado", "Connecticut"],
 		"answer": "Arkansas"
 	},
 	{
-		"options": ["Californie", "Los Angeles", "San Francisco", "San Diego"],
+		"options": ["Californie", "Colorado", "Connecticut", "Delaware"],
 		"answer": "Californie"
 	},
 	{
-		"options": ["Caroline du Nord", "Charlotte", "Greensboro", "Columbia"],
+		"options": ["Caroline du Nord", "Caroline du Sud", "Géorgie", "Floride"],
 		"answer": "Caroline du Nord"
 	},
 	{
-		"options": ["Caroline du Sud", "Charleston", "Greenville", "Atlanta"],
+		"options": ["Caroline du Sud", "Géorgie", "Floride", "Alabama"],
 		"answer": "Caroline du Sud"
 	},
 	{
-		"options": ["Colorado", "Colorado Springs", "Aurora", "Cheyenne"],
+		"options": ["Colorado", "Connecticut", "Delaware", "Idaho"],
 		"answer": "Colorado"
 	},
 	{
-		"options": ["Connecticut", "Bridgeport", "New Haven", "Providence"],
+		"options": ["Connecticut", "Delaware", "Maine", "Vermont"],
 		"answer": "Connecticut"
 	},
 	{
-		"options": ["Dakota du Nord", "Fargo", "Grand Forks", "Helena"],
+		"options": ["Dakota du Nord", "Dakota du Sud", "Nebraska", "Kansas"],
 		"answer": "Dakota du Nord"
 	},
 	{
-		"options": ["Dakota du Sud", "Sioux Falls", "Rapid City", "Lincoln"],
+		"options": ["Dakota du Sud", "Nebraska", "Iowa", "Minnesota"],
 		"answer": "Dakota du Sud"
 	},
 	{
-		"options": ["Delaware", "Wilmington", "Newark", "Trenton"],
+		"options": ["Delaware", "Maryland", "New Jersey", "Pennsylvanie"],
 		"answer": "Delaware"
 	},
 	{
-		"options": ["Floride", "Jacksonville", "Miami", "Orlando"],
+		"options": ["Floride", "Géorgie", "Caroline du Sud", "Louisiane"],
 		"answer": "Floride"
 	},
 	{
-		"options": ["Géorgie", "Savannah", "Augusta", "Nashville"],
+		"options": ["Géorgie", "Tennessee", "Alabama", "Caroline du Nord"],
 		"answer": "Géorgie"
 	},
 	{
-		"options": ["Hawaï", "Hilo", "Kailua", "San Juan"],
+		"options": ["Hawaï", "Alaska", "Californie", "Washington"],
 		"answer": "Hawaï"
 	},
 	{
-		"options": ["Idaho", "Meridian", "Nampa", "Salt Lake City"],
+		"options": ["Idaho", "Montana", "Utah", "Wyoming"],
 		"answer": "Idaho"
 	},
 	{
-		"options": ["Illinois", "Chicago", "Peoria", "Indianapolis"],
+		"options": ["Illinois", "Indiana", "Iowa", "Wisconsin"],
 		"answer": "Illinois"
 	},
 	{
-		"options": ["Indiana", "Fort Wayne", "Evansville", "Columbus"],
+		"options": ["Indiana", "Ohio", "Michigan", "Kentucky"],
 		"answer": "Indiana"
 	},
 	{
-		"options": ["Iowa", "Cedar Rapids", "Davenport", "Omaha"],
+		"options": ["Iowa", "Nebraska", "Minnesota", "Wisconsin"],
 		"answer": "Iowa"
 	},
 	{
-		"options": ["Kansas", "Wichita", "Kansas City", "Oklahoma City"],
+		"options": ["Kansas", "Missouri", "Nebraska", "Oklahoma"],
 		"answer": "Kansas"
 	},
 	{
-		"options": ["Kentucky", "Louisville", "Lexington", "Nashville"],
+		"options": ["Kentucky", "Tennessee", "Ohio", "Virginie"],
 		"answer": "Kentucky"
 	},
 	{
-		"options": ["Louisiane", "La Nouvelle-Orléans", "Shreveport", "Jackson"],
+		"options": ["Louisiane", "Mississippi", "Texas", "Arkansas"],
 		"answer": "Louisiane"
 	},
 	{
-		"options": ["Maine", "Portland", "Bangor", "Concord"],
+		"options": ["Maine", "Vermont", "New Hampshire", "Massachusetts"],
 		"answer": "Maine"
 	},
 	{
-		"options": ["Maryland", "Baltimore", "Rockville", "Dover"],
+		"options": ["Maryland", "Delaware", "Virginie", "Pennsylvanie"],
 		"answer": "Maryland"
 	},
 	{
-		"options": ["Massachusetts", "Worcester", "Springfield", "Hartford"],
+		"options": ["Massachusetts", "Rhode Island", "Connecticut", "New Hampshire"],
 		"answer": "Massachusetts"
 	},
 	{
-		"options": ["Michigan", "Détroit", "Grand Rapids", "Cleveland"],
+		"options": ["Michigan", "Ohio", "Wisconsin", "Indiana"],
 		"answer": "Michigan"
 	},
 	{
-		"options": ["Minnesota", "Minneapolis", "Rochester", "Madison"],
+		"options": ["Minnesota", "Iowa", "Wisconsin", "Dakota du Nord"],
 		"answer": "Minnesota"
 	},
 	{
-		"options": ["Mississippi", "Gulfport", "Biloxi", "Montgomery"],
+		"options": ["Mississippi", "Alabama", "Louisiane", "Arkansas"],
 		"answer": "Mississippi"
 	},
 	{
-		"options": ["Missouri", "Kansas City", "St. Louis", "Little Rock"],
+		"options": ["Missouri", "Kansas", "Illinois", "Arkansas"],
 		"answer": "Missouri"
 	},
 	{
-		"options": ["Montana", "Billings", "Missoula", "Boise"],
+		"options": ["Montana", "Idaho", "Dakota du Nord", "Wyoming"],
 		"answer": "Montana"
 	},
 	{
-		"options": ["Nebraska", "Omaha", "Bellevue", "Des Moines"],
+		"options": ["Nebraska", "Iowa", "Dakota du Sud", "Kansas"],
 		"answer": "Nebraska"
 	},
 	{
-		"options": ["Nevada", "Las Vegas", "Reno", "Salt Lake City"],
+		"options": ["Nevada", "Utah", "Arizona", "Californie"],
 		"answer": "Nevada"
 	},
 	{
-		"options": ["New Hampshire", "Manchester", "Nashua", "Augusta"],
+		"options": ["New Hampshire", "Vermont", "Maine", "Massachusetts"],
 		"answer": "New Hampshire"
 	},
 	{
-		"options": ["New Jersey", "Newark", "Jersey City", "Hartford"],
+		"options": ["New Jersey", "Pennsylvanie", "Delaware", "New York"],
 		"answer": "New Jersey"
 	},
 	{
-		"options": ["New York", "New York", "Buffalo", "Boston"],
+		"options": ["New York", "New Jersey", "Connecticut", "Pennsylvanie"],
 		"answer": "New York"
 	},
 	{
-		"options": ["Nouveau-Mexique", "Albuquerque", "Las Cruces", "Phoenix"],
+		"options": ["Nouveau-Mexique", "Arizona", "Texas", "Colorado"],
 		"answer": "Nouveau-Mexique"
 	},
 	{
-		"options": ["Ohio", "Cleveland", "Cincinnati", "Toledo"],
+		"options": ["Ohio", "Indiana", "Michigan", "Kentucky"],
 		"answer": "Ohio"
 	},
 	{
-		"options": ["Oklahoma", "Tulsa", "Norman", "Wichita"],
+		"options": ["Oklahoma", "Texas", "Kansas", "Arkansas"],
 		"answer": "Oklahoma"
 	},
 	{
-		"options": ["Oregon", "Portland", "Eugene", "Boise"],
+		"options": ["Oregon", "Washington", "Californie", "Idaho"],
 		"answer": "Oregon"
 	},
 	{
-		"options": ["Pennsylvanie", "Philadelphie", "Pittsburgh", "Albany"],
+		"options": ["Pennsylvanie", "Ohio", "New Jersey", "New York"],
 		"answer": "Pennsylvanie"
 	},
 	{
-		"options": ["Rhode Island", "Providence", "Cranston", "Boston"],
+		"options": ["Rhode Island", "Connecticut", "Massachusetts", "New Hampshire"],
 		"answer": "Rhode Island"
 	},
 	{
-		"options": ["Tennessee", "Memphis", "Knoxville", "Atlanta"],
+		"options": ["Tennessee", "Kentucky", "Mississippi", "Alabama"],
 		"answer": "Tennessee"
 	},
 	{
-		"options": ["Texas", "Houston", "Dallas", "San Antonio"],
+		"options": ["Texas", "Oklahoma", "Louisiane", "Nouveau-Mexique"],
 		"answer": "Texas"
 	},
 	{
-		"options": ["Utah", "Provo", "West Valley City", "Denver"],
+		"options": ["Utah", "Nevada", "Arizona", "Colorado"],
 		"answer": "Utah"
 	},
 	{
-		"options": ["Vermont", "Burlington", "Rutland", "Concord"],
+		"options": ["Vermont", "Maine", "New Hampshire", "Massachusetts"],
 		"answer": "Vermont"
 	},
 	{
-		"options": ["Virginie", "Virginia Beach", "Norfolk", "Raleigh"],
+		"options": ["Virginie", "Virginie Occidentale", "Caroline du Nord", "Maryland"],
 		"answer": "Virginie"
 	},
 	{
-		"options": ["Virginie Occidentale", "Huntington", "Morgantown", "Columbus"],
+		"options": ["Virginie Occidentale", "Ohio", "Pennsylvanie", "Virginie"],
 		"answer": "Virginie Occidentale"
 	},
 	{
-		"options": ["Washington", "Seattle", "Spokane", "Portland"],
+		"options": ["Washington", "Oregon", "Idaho", "Montana"],
 		"answer": "Washington"
 	},
 	{
-		"options": ["Wisconsin", "Milwaukee", "Green Bay", "Minneapolis"],
+		"options": ["Wisconsin", "Minnesota", "Illinois", "Michigan"],
 		"answer": "Wisconsin"
 	},
 	{
-		"options": ["Wyoming", "Casper", "Laramie", "Helena"],
+		"options": ["Wyoming", "Montana", "Idaho", "Colorado"],
 		"answer": "Wyoming"
 	}
 ]

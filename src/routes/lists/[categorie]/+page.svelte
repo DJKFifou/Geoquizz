@@ -257,7 +257,7 @@
 					{/each}
 				</div>
 			{:else}
-				<div class="flex grid-cols-2 flex-wrap justify-center gap-4 4xs:grid 2xs:flex">
+				<div class="mb-8 flex grid-cols-2 flex-wrap justify-center gap-4 4xs:grid 2xs:flex">
 					{#each datas as item, index (item.country)}
 						<div
 							class="flex flex-col gap-4"
