@@ -1,18 +1,18 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import PrimaryBtn from '$lib/components/PrimaryLink.svelte';
-	import { usaFlags } from '$lib/data/usa/flagsDatas';
+	import { getQuizzCategories } from '$lib/utils';
+	import { getListCategories } from '$lib/utils';
 
 	let currentPage: string = $page.url.pathname;
 
-	const categories: Record<string, string> = {
-		capitals: 'Capitales',
-		countries: 'Pays',
-		flags: 'Drapeaux',
-		general_knowledge: 'Culture générale',
-		usaStates: 'États des USA',
-		usaFlags: 'Drapeaux des USA'
-	};
+	let categories: Record<string, string> = {};
+
+	if (currentPage === '/lists') {
+		categories = getListCategories();
+	} else if (currentPage === '/quizz') {
+		categories = getQuizzCategories();
+	}
 
 	let filteredCategories = Object.keys(categories).filter(
 		(category) => !(category === 'general_knowledge' && currentPage === '/lists')

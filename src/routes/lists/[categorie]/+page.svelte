@@ -33,6 +33,10 @@
 	let gameOver: boolean = $state(false);
 	let exit = $state(false);
 
+	if (categorieName === 'usa') {
+		startGame = false;
+	}
+
 	function handleCountryClick(country: string, index: number) {
 		inputValue = '';
 		lastCountrySelected = country;

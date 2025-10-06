@@ -51,9 +51,7 @@ export const load: PageServerLoad = async ({ params }) => {
 			}
 			case 'usaStates': {
 				const usaStates = await import('$lib/data/lists/usaStates.json');
-				console.log('usaStates : ', usaStates);
 				const enrichedStates = await getUsaListStates(usaStates.default);
-				console.log('enrichedStates : ', enrichedStates);
 				return {
 					data: shuffleData(enrichedStates)
 				};

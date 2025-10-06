@@ -1,4 +1,5 @@
 import usaJsonStates from '$lib/data/usa/states.json';
+import { removeAccents } from '$lib/utils';
 
 type SvgModule = {
 	default: string;
@@ -25,7 +26,7 @@ interface StateCategory {
 	country: string;
 }
 
-const svgs = import.meta.glob('./svgs/states/*.svg');
+const svgs = import.meta.glob('./svgs/states/*.webp');
 
 const svgPromises = Object.keys(svgs).reduce(
 	(acc, key) => {
@@ -47,7 +48,8 @@ const loadedSvgs = Object.keys(svgPromises).reduce(
 
 async function getStates(difficulty: StateQuestion[]) {
 	return difficulty.map((item: StateQuestion) => {
-		const svgPath = `./svgs/states/${item.answer.toLowerCase().replace(/[\s']/g, '')}.svg`;
+		const cleanedAnswer = removeAccents(item.answer);
+		const svgPath = `./svgs/states/${cleanedAnswer.toLowerCase().replace(/[\s']/g, '')}.webp`;
 		return {
 			...item,
 			country: item.answer,
@@ -63,7 +65,8 @@ export const usaStates: States = {
 
 export async function getUsaListStates(category: StateCategory[]): Promise<StateCategory[]> {
 	return category.map((item: StateCategory) => {
-		const svgPath = `./svgs/states/${item.country.toLowerCase().replace(/[\s']/g, '')}.svg`;
+		const cleanedCountry = removeAccents(item.country);
+		const svgPath = `./svgs/states/${cleanedCountry.toLowerCase().replace(/[\s']/g, '')}.webp`;
 		return {
 			...item,
 			image: loadedSvgs[svgPath]

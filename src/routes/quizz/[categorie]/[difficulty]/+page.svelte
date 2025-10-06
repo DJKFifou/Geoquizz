@@ -21,6 +21,8 @@
 		isAnswerCorrect: boolean;
 	}
 
+	console.log(data);
+
 	const categorieName = page.params.categorie;
 	const difficultyName = page.params.difficulty;
 	const previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
