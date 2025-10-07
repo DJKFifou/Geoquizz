@@ -1,5 +1,5 @@
 import usaJsonStates from '$lib/data/usa/states.json';
-import { removeAccents } from '$lib/utils';
+import { cleanString } from '$lib/utils';
 
 type SvgModule = {
 	default: string;
@@ -48,13 +48,13 @@ const loadedSvgs = Object.keys(svgPromises).reduce(
 
 async function getStates(difficulty: StateQuestion[]) {
 	return difficulty.map((item: StateQuestion) => {
-		const cleanedAnswer = removeAccents(item.answer);
-		const svgPath = `./svgs/states/${cleanedAnswer.toLowerCase().replace(/[\s']/g, '')}.webp`;
+		const cleanedAnswer = cleanString(item.answer);
+		const svgPath = `./svgs/states/${cleanedAnswer}.webp`;
 		return {
 			...item,
 			country: item.answer,
 			image: loadedSvgs[svgPath],
-			question: 'À quel état appartient cette forme ?'
+			question: 'Quel est cet état ?'
 		};
 	});
 }
@@ -65,8 +65,8 @@ export const usaStates: States = {
 
 export async function getUsaListStates(category: StateCategory[]): Promise<StateCategory[]> {
 	return category.map((item: StateCategory) => {
-		const cleanedCountry = removeAccents(item.country);
-		const svgPath = `./svgs/states/${cleanedCountry.toLowerCase().replace(/[\s']/g, '')}.webp`;
+		const cleanedCountry = cleanString(item.country);
+		const svgPath = `./svgs/states/${cleanedCountry}.webp`;
 		return {
 			...item,
 			image: loadedSvgs[svgPath]

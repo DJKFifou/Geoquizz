@@ -1,5 +1,9 @@
-export function removeAccents(str: string) {
-	return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+export function cleanString(str: string): string {
+	return str
+		.normalize('NFD')
+		.replace(/[\s'"]/g, '')
+		.replace(/[\u0300-\u036f]/g, '')
+		.toLowerCase();
 }
 
 export function getListCategories(): Record<string, string> {
@@ -9,7 +13,9 @@ export function getListCategories(): Record<string, string> {
 		flags: 'Drapeaux',
 		general_knowledge: 'Culture générale',
 		usaStates: 'États des USA',
-		usaFlags: 'Drapeaux des USA'
+		usaFlags: 'Drapeaux des USA',
+		frenchCountyTowns: 'Chefs-lieux français',
+		frenchDepartments: 'Départements français'
 	};
 }
 
@@ -19,6 +25,7 @@ export function getQuizzCategories(): Record<string, string> {
 		countries: 'Pays',
 		flags: 'Drapeaux',
 		general_knowledge: 'Culture générale',
-		usa: 'USA'
+		usa: 'USA',
+		france: 'France'
 	};
 }

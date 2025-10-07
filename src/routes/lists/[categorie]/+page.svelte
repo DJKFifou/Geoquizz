@@ -5,6 +5,7 @@
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
 	import Exit from '$lib/components/Exit.svelte';
 	import ListStartGame from '$lib/components/ListStartGame.svelte';
+	import { cleanString } from '$lib/utils';
 
 	type Country = {
 		country: string;
@@ -15,6 +16,7 @@
 	let { data }: PageProps = $props();
 
 	let categorieName = page.params.categorie;
+	console.log('categorieName', categorieName);
 	let previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
 
 	let currentRecord = `${categorieName}Record`;
@@ -32,10 +34,6 @@
 	let startGame: boolean = $state(true);
 	let gameOver: boolean = $state(false);
 	let exit = $state(false);
-
-	if (categorieName === 'usa') {
-		startGame = false;
-	}
 
 	function handleCountryClick(country: string, index: number) {
 		inputValue = '';
@@ -70,14 +68,6 @@
 			currentCountryIndex = (currentCountryIndex + 1) % datas.length;
 			handleCountryClick(datas[currentCountryIndex].country, currentCountryIndex);
 		}
-	}
-
-	function cleanString(str: string): string {
-		return str
-			.normalize('NFD')
-			.replace(/[\s\-'"]/g, '')
-			.replace(/[\u0300-\u036f]/g, '')
-			.toLowerCase();
 	}
 
 	function startTimer() {
@@ -144,7 +134,10 @@
 			if (revealedAnswers.length === datas.length) {
 				gameOver = true;
 			}
-			if (categorieName === 'capitals' && inputValue) {
+			if (
+				(categorieName === 'capitals' || categorieName === 'frenchCountyTowns') &&
+				inputValue
+			) {
 				const matchingCountry = datas.find((item: Country) =>
 					item.capital?.some((cap: string) => cleanString(cap) === cleanString(inputValue))
 				);
@@ -195,7 +188,11 @@
 				<div
 					class="fixed bottom-0 left-0 h-2 transition-all duration-300"
 					style="width: {(timer * 100) / totalTime}%;
-					background-color: {timer > totalTime * 0.5 ? 'green' : timer > totalTime * 0.2 ? 'orange' : 'red'};"
+					background-color: {timer > totalTime * 0.5
+						? 'green'
+						: timer > totalTime * 0.2
+							? 'orange'
+							: 'red'};"
 				></div>
 			{/if}
 			<div class="sticky top-0 flex flex-col items-center gap-4 bg-gray-800 pb-2 pt-10">
@@ -204,7 +201,9 @@
 						? 'Temps écoulé ! Jeu terminé.'
 						: `Temps restant : ${timerDisabled ? 'Désactivé' : formatTime(timer)}`}
 				</p>
-				<p class="text-center text-xl font-medium">{revealedAnswers.length} / {datas.length}</p>
+				<p class="text-center text-xl font-medium">
+					{revealedAnswers.length} / {datas.length}
+				</p>
 				{#if gameOver && data?.data}
 					<h3>
 						Votre record est {currentRecordValue}/{data.data.length}
@@ -240,7 +239,7 @@
 					/>
 				{/if}
 			</div>
-			{#if categorieName === 'capitals'}
+			{#if categorieName === 'capitals' || categorieName === 'frenchCountyTowns'}
 				<div class="grid grid-cols-2 gap-4">
 					{#each datas as item (item.country)}
 						<div class="rounded bg-gray-700 p-2">
@@ -269,7 +268,9 @@
 							onfocus={() => handleCountryClick(item.country, index)}
 							onclick={() => handleCountryClick(item.country, index)}
 							onkeydown={(e) =>
-								e.key === 'Enter' || e.key === ' ' ? handleCountryClick(item.country, index) : null}
+								e.key === 'Enter' || e.key === ' '
+									? handleCountryClick(item.country, index)
+									: null}
 							tabindex="0"
 						>
 							<div class="flex justify-center rounded bg-gray-700 p-2">

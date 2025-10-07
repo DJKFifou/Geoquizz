@@ -5,11 +5,13 @@ import generalKnowledgeEasy from '$lib/data/general_knowledge/easy.json';
 import generalKnowledgeMedium from '$lib/data/general_knowledge/medium.json';
 import generalKnowledgeHard from '$lib/data/general_knowledge/hard.json';
 import usaCapitals from '$lib/data/usa/capitals.json';
+import frenchCountyTowns from '$lib/data/france/countyTown.json';
 
 import { countries } from '$lib/data/countries/datas';
 import { flags } from '$lib/data/flags/datas';
 import { usaFlags } from '$lib/data/usa/flagsDatas';
 import { usaStates } from '$lib/data/usa/statesDatas';
+import { frenchDepartments } from '$lib/data/france/departmentsDatas';
 
 type Params = {
 	categorie: string;
@@ -84,6 +86,18 @@ export const load = async ({ params }: { params: Params }) => {
 					return shuffleData(usaStates['usaStates']);
 				case 'flags':
 					return shuffleData(usaFlags['usaFlags']);
+				default:
+					return {
+						error: 'Données introuvables',
+						status: 404
+					};
+			}
+		case 'france':
+			switch (difficulty) {
+				case 'countyTowns':
+					return shuffleData(frenchCountyTowns);
+				case 'departments':
+					return shuffleData(frenchDepartments['frenchDepartments']);
 				default:
 					return {
 						error: 'Données introuvables',

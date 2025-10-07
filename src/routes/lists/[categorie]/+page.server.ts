@@ -2,9 +2,10 @@ import { getListCountries } from '$lib/data/countries/datas';
 import { getListFlags } from '$lib/data/flags/datas';
 import { getUsaListFlags } from '$lib/data/usa/flagsDatas';
 import { getUsaListStates } from '$lib/data/usa/statesDatas';
+import { getFrenchListDepartments } from '$lib/data/france/departmentsDatas';
 import type { PageServerLoad } from './$types';
 
-type DataItem = {
+type CapitalsItem = {
 	country: string;
 	capital: string[];
 };
@@ -25,7 +26,7 @@ export const load: PageServerLoad = async ({ params }) => {
 			case 'capitals': {
 				const capitals = await import('$lib/data/lists/capitals.json');
 				return {
-					data: capitals.default as DataItem[]
+					data: capitals.default as CapitalsItem[]
 				};
 			}
 			case 'countries': {
@@ -52,6 +53,20 @@ export const load: PageServerLoad = async ({ params }) => {
 			case 'usaStates': {
 				const usaStates = await import('$lib/data/lists/usaStates.json');
 				const enrichedStates = await getUsaListStates(usaStates.default);
+				return {
+					data: shuffleData(enrichedStates)
+				};
+			}
+			case 'frenchCountyTowns': {
+				const frenchCountyTowns = await import('$lib/data/lists/frenchCountyTowns.json');
+				return {
+					data: frenchCountyTowns.default as CapitalsItem[]
+				};
+			}
+			case 'frenchDepartments': {
+				const frenchDepartments = await import('$lib/data/lists/frenchDepartments.json');
+				const enrichedStates = await getFrenchListDepartments(frenchDepartments.default);
+				console.log('enrichedStates : ', enrichedStates);
 				return {
 					data: shuffleData(enrichedStates)
 				};

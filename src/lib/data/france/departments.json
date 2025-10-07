@@ -1,0 +1,406 @@
+[
+	{
+		"options": ["Ain", "Vendée", "Savoie", "Charente"],
+		"answer": "Ain"
+	},
+	{
+		"options": ["Aisne", "Orne", "Haute-Corse", "Loiret"],
+		"answer": "Aisne"
+	},
+	{
+		"options": ["Allier", "Cher", "Aveyron", "Var"],
+		"answer": "Allier"
+	},
+	{
+		"options": ["Alpes-de-Haute-Provence", "Cantal", "Lozère", "Moselle"],
+		"answer": "Alpes-de-Haute-Provence"
+	},
+	{
+		"options": ["Hautes-Alpes", "Aude", "Haute-Saône", "Yonne"],
+		"answer": "Hautes-Alpes"
+	},
+	{
+		"options": ["Alpes-Maritimes", "Corse-du-Sud", "Gironde", "Côtes-d'Armor"],
+		"answer": "Alpes-Maritimes"
+	},
+	{
+		"options": ["Ardèche", "Indre-et-Loire", "Loiret", "Sarthe"],
+		"answer": "Ardèche"
+	},
+	{
+		"options": ["Ardennes", "Vosges", "Meuse", "Doubs"],
+		"answer": "Ardennes"
+	},
+	{
+		"options": ["Ariège", "Gers", "Aube", "Eure"],
+		"answer": "Ariège"
+	},
+	{
+		"options": ["Aube", "Marne", "Lozère", "Hautes-Pyrénées"],
+		"answer": "Aube"
+	},
+	{
+		"options": ["Aude", "Gard", "Creuse", "Haute-Marne"],
+		"answer": "Aude"
+	},
+	{
+		"options": ["Aveyron", "Lot", "Ardèche", "Haute-Loire"],
+		"answer": "Aveyron"
+	},
+	{
+		"options": ["Bouches-du-Rhône", "Var", "Hérault", "Rhône"],
+		"answer": "Bouches-du-Rhône"
+	},
+	{
+		"options": ["Calvados", "Manche", "Orne", "Somme"],
+		"answer": "Calvados"
+	},
+	{
+		"options": ["Cantal", "Puy-de-Dôme", "Allier", "Aveyron"],
+		"answer": "Cantal"
+	},
+	{
+		"options": ["Charente", "Vienne", "Gironde", "Haute-Vienne"],
+		"answer": "Charente"
+	},
+	{
+		"options": ["Charente-Maritime", "Deux-Sèvres", "Vendée", "Loire-Atlantique"],
+		"answer": "Charente-Maritime"
+	},
+	{
+		"options": ["Cher", "Indre", "Allier", "Nièvre"],
+		"answer": "Cher"
+	},
+	{
+		"options": ["Corrèze", "Cantal", "Lot", "Creuse"],
+		"answer": "Corrèze"
+	},
+	{
+		"options": ["Corse-du-Sud", "Haute-Corse", "Var", "Alpes-Maritimes"],
+		"answer": "Corse-du-Sud"
+	},
+	{
+		"options": ["Haute-Corse", "Corse-du-Sud", "Ariège", "Lozère"],
+		"answer": "Haute-Corse"
+	},
+	{
+		"options": ["Côte-d'Or", "Saône-et-Loire", "Yonne", "Doubs"],
+		"answer": "Côte-d'Or"
+	},
+	{
+		"options": ["Côtes-d'Armor", "Finistère", "Morbihan", "Ille-et-Vilaine"],
+		"answer": "Côtes-d'Armor"
+	},
+	{
+		"options": ["Creuse", "Haute-Vienne", "Puy-de-Dôme", "Allier"],
+		"answer": "Creuse"
+	},
+	{
+		"options": ["Dordogne", "Lot", "Corrèze", "Gironde"],
+		"answer": "Dordogne"
+	},
+	{
+		"options": ["Doubs", "Jura", "Territoire de Belfort", "Haute-Saône"],
+		"answer": "Doubs"
+	},
+	{
+		"options": ["Drôme", "Ardèche", "Isère", "Vaucluse"],
+		"answer": "Drôme"
+	},
+	{
+		"options": ["Eure", "Seine-Maritime", "Orne", "Calvados"],
+		"answer": "Eure"
+	},
+	{
+		"options": ["Eure-et-Loir", "Loiret", "Sarthe", "Indre-et-Loire"],
+		"answer": "Eure-et-Loir"
+	},
+	{
+		"options": ["Finistère", "Côtes-d'Armor", "Morbihan", "Ille-et-Vilaine"],
+		"answer": "Finistère"
+	},
+	{
+		"options": ["Gard", "Hérault", "Vaucluse", "Aveyron"],
+		"answer": "Gard"
+	},
+	{
+		"options": ["Haute-Garonne", "Tarn", "Gers", "Ariège"],
+		"answer": "Haute-Garonne"
+	},
+	{
+		"options": ["Gers", "Landes", "Hautes-Pyrénées", "Lot-et-Garonne"],
+		"answer": "Gers"
+	},
+	{
+		"options": ["Gironde", "Landes", "Lot-et-Garonne", "Dordogne"],
+		"answer": "Gironde"
+	},
+	{
+		"options": ["Hérault", "Gard", "Aude", "Lozère"],
+		"answer": "Hérault"
+	},
+	{
+		"options": ["Ille-et-Vilaine", "Morbihan", "Côtes-d'Armor", "Mayenne"],
+		"answer": "Ille-et-Vilaine"
+	},
+	{
+		"options": ["Indre", "Cher", "Indre-et-Loire", "Creuse"],
+		"answer": "Indre"
+	},
+	{
+		"options": ["Indre-et-Loire", "Loir-et-Cher", "Indre", "Eure-et-Loir"],
+		"answer": "Indre-et-Loire"
+	},
+	{
+		"options": ["Isère", "Drôme", "Savoie", "Ain"],
+		"answer": "Isère"
+	},
+	{
+		"options": ["Jura", "Doubs", "Haute-Saône", "Ain"],
+		"answer": "Jura"
+	},
+	{
+		"options": ["Landes", "Gironde", "Lot-et-Garonne", "Pyrénées-Atlantiques"],
+		"answer": "Landes"
+	},
+	{
+		"options": ["Loir-et-Cher", "Loiret", "Indre-et-Loire", "Sarthe"],
+		"answer": "Loir-et-Cher"
+	},
+	{
+		"options": ["Loire", "Haute-Loire", "Rhône", "Saône-et-Loire"],
+		"answer": "Loire"
+	},
+	{
+		"options": ["Haute-Loire", "Loire", "Cantal", "Puy-de-Dôme"],
+		"answer": "Haute-Loire"
+	},
+	{
+		"options": ["Loire-Atlantique", "Vendée", "Maine-et-Loire", "Morbihan"],
+		"answer": "Loire-Atlantique"
+	},
+	{
+		"options": ["Loiret", "Eure-et-Loir", "Yonne", "Seine-et-Marne"],
+		"answer": "Loiret"
+	},
+	{
+		"options": ["Lot", "Aveyron", "Lot-et-Garonne", "Cantal"],
+		"answer": "Lot"
+	},
+	{
+		"options": ["Lot-et-Garonne", "Gers", "Dordogne", "Tarn-et-Garonne"],
+		"answer": "Lot-et-Garonne"
+	},
+	{
+		"options": ["Lozère", "Cantal", "Aveyron", "Ardèche"],
+		"answer": "Lozère"
+	},
+	{
+		"options": ["Maine-et-Loire", "Mayenne", "Sarthe", "Loire-Atlantique"],
+		"answer": "Maine-et-Loire"
+	},
+	{
+		"options": ["Manche", "Calvados", "Ille-et-Vilaine", "Orne"],
+		"answer": "Manche"
+	},
+	{
+		"options": ["Marne", "Aube", "Ardennes", "Meuse"],
+		"answer": "Marne"
+	},
+	{
+		"options": ["Haute-Marne", "Vosges", "Marne", "Meuse"],
+		"answer": "Haute-Marne"
+	},
+	{
+		"options": ["Mayenne", "Sarthe", "Maine-et-Loire", "Ille-et-Vilaine"],
+		"answer": "Mayenne"
+	},
+	{
+		"options": ["Meurthe-et-Moselle", "Vosges", "Moselle", "Meuse"],
+		"answer": "Meurthe-et-Moselle"
+	},
+	{
+		"options": ["Meuse", "Marne", "Ardennes", "Haute-Marne"],
+		"answer": "Meuse"
+	},
+	{
+		"options": ["Morbihan", "Finistère", "Côtes-d'Armor", "Loire-Atlantique"],
+		"answer": "Morbihan"
+	},
+	{
+		"options": ["Moselle", "Meurthe-et-Moselle", "Bas-Rhin", "Meuse"],
+		"answer": "Moselle"
+	},
+	{
+		"options": ["Nièvre", "Cher", "Allier", "Saône-et-Loire"],
+		"answer": "Nièvre"
+	},
+	{
+		"options": ["Nord", "Pas-de-Calais", "Somme", "Aisne"],
+		"answer": "Nord"
+	},
+	{
+		"options": ["Oise", "Somme", "Seine-Maritime", "Aisne"],
+		"answer": "Oise"
+	},
+	{
+		"options": ["Orne", "Sarthe", "Eure", "Mayenne"],
+		"answer": "Orne"
+	},
+	{
+		"options": ["Pas-de-Calais", "Nord", "Somme", "Oise"],
+		"answer": "Pas-de-Calais"
+	},
+	{
+		"options": ["Puy-de-Dôme", "Allier", "Loire", "Cantal"],
+		"answer": "Puy-de-Dôme"
+	},
+	{
+		"options": ["Pyrénées-Atlantiques", "Landes", "Gers", "Hautes-Pyrénées"],
+		"answer": "Pyrénées-Atlantiques"
+	},
+	{
+		"options": ["Hautes-Pyrénées", "Gers", "Pyrénées-Atlantiques", "Haute-Garonne"],
+		"answer": "Hautes-Pyrénées"
+	},
+	{
+		"options": ["Pyrénées-Orientales", "Aude", "Ariège", "Hérault"],
+		"answer": "Pyrénées-Orientales"
+	},
+	{
+		"options": ["Bas-Rhin", "Haut-Rhin", "Moselle", "Vosges"],
+		"answer": "Bas-Rhin"
+	},
+	{
+		"options": ["Haut-Rhin", "Bas-Rhin", "Vosges", "Doubs"],
+		"answer": "Haut-Rhin"
+	},
+	{
+		"options": ["Rhône", "Ain", "Loire", "Isère"],
+		"answer": "Rhône"
+	},
+	{
+		"options": ["Haute-Saône", "Doubs", "Territoire de Belfort", "Jura"],
+		"answer": "Haute-Saône"
+	},
+	{
+		"options": ["Saône-et-Loire", "Nièvre", "Côte-d'Or", "Loire"],
+		"answer": "Saône-et-Loire"
+	},
+	{
+		"options": ["Sarthe", "Orne", "Mayenne", "Loir-et-Cher"],
+		"answer": "Sarthe"
+	},
+	{
+		"options": ["Savoie", "Haute-Savoie", "Isère", "Ain"],
+		"answer": "Savoie"
+	},
+	{
+		"options": ["Haute-Savoie", "Savoie", "Ain", "Isère"],
+		"answer": "Haute-Savoie"
+	},
+	{
+		"options": ["Paris", "Hauts-de-Seine", "Val-de-Marne", "Seine-Saint-Denis"],
+		"answer": "Paris"
+	},
+	{
+		"options": ["Seine-Maritime", "Eure", "Oise", "Somme"],
+		"answer": "Seine-Maritime"
+	},
+	{
+		"options": ["Seine-et-Marne", "Yonne", "Essonne", "Val-de-Marne"],
+		"answer": "Seine-et-Marne"
+	},
+	{
+		"options": ["Yvelines", "Essonne", "Hauts-de-Seine", "Val-d'Oise"],
+		"answer": "Yvelines"
+	},
+	{
+		"options": ["Deux-Sèvres", "Vienne", "Charente-Maritime", "Vendée"],
+		"answer": "Deux-Sèvres"
+	},
+	{
+		"options": ["Somme", "Oise", "Pas-de-Calais", "Seine-Maritime"],
+		"answer": "Somme"
+	},
+	{
+		"options": ["Tarn", "Haute-Garonne", "Aveyron", "Tarn-et-Garonne"],
+		"answer": "Tarn"
+	},
+	{
+		"options": ["Tarn-et-Garonne", "Lot", "Aveyron", "Gers"],
+		"answer": "Tarn-et-Garonne"
+	},
+	{
+		"options": ["Var", "Bouches-du-Rhône", "Vaucluse", "Alpes-Maritimes"],
+		"answer": "Var"
+	},
+	{
+		"options": ["Vaucluse", "Drôme", "Gard", "Var"],
+		"answer": "Vaucluse"
+	},
+	{
+		"options": ["Vendée", "Deux-Sèvres", "Loire-Atlantique", "Charente-Maritime"],
+		"answer": "Vendée"
+	},
+	{
+		"options": ["Vienne", "Deux-Sèvres", "Indre-et-Loire", "Haute-Vienne"],
+		"answer": "Vienne"
+	},
+	{
+		"options": ["Haute-Vienne", "Vienne", "Creuse", "Charente"],
+		"answer": "Haute-Vienne"
+	},
+	{
+		"options": ["Vosges", "Meuse", "Bas-Rhin", "Haute-Marne"],
+		"answer": "Vosges"
+	},
+	{
+		"options": ["Yonne", "Côte-d'Or", "Nièvre", "Seine-et-Marne"],
+		"answer": "Yonne"
+	},
+	{
+		"options": ["Territoire de Belfort", "Doubs", "Haute-Saône", "Vosges"],
+		"answer": "Territoire de Belfort"
+	},
+	{
+		"options": ["Essonne", "Seine-et-Marne", "Yvelines", "Val-de-Marne"],
+		"answer": "Essonne"
+	},
+	{
+		"options": ["Hauts-de-Seine", "Paris", "Yvelines", "Val-de-Marne"],
+		"answer": "Hauts-de-Seine"
+	},
+	{
+		"options": ["Seine-Saint-Denis", "Val-de-Marne", "Paris", "Val-d'Oise"],
+		"answer": "Seine-Saint-Denis"
+	},
+	{
+		"options": ["Val-de-Marne", "Paris", "Essonne", "Hauts-de-Seine"],
+		"answer": "Val-de-Marne"
+	},
+	{
+		"options": ["Val-d'Oise", "Yvelines", "Seine-Saint-Denis", "Oise"],
+		"answer": "Val-d'Oise"
+	},
+	{
+		"options": ["Guadeloupe", "Martinique", "Guyane", "La Réunion"],
+		"answer": "Guadeloupe"
+	},
+	{
+		"options": ["Martinique", "Guadeloupe", "Guyane", "Mayotte"],
+		"answer": "Martinique"
+	},
+	{
+		"options": ["Guyane", "Guadeloupe", "Martinique", "La Réunion"],
+		"answer": "Guyane"
+	},
+	{
+		"options": ["La Réunion", "Mayotte", "Guadeloupe", "Martinique"],
+		"answer": "La Réunion"
+	},
+	{
+		"options": ["Mayotte", "La Réunion", "Guadeloupe", "Martinique"],
+		"answer": "Mayotte"
+	}
+]

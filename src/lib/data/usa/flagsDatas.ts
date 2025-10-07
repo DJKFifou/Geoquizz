@@ -1,5 +1,5 @@
 import usaJsonFlags from '$lib/data/usa/flags.json';
-import { removeAccents } from '$lib/utils';
+import { cleanString } from '$lib/utils';
 
 type SvgModule = {
 	default: string;
@@ -48,8 +48,8 @@ const loadedSvgs = Object.keys(svgPromises).reduce(
 
 async function getFlags(difficulty: FlagQuestion[]) {
 	return difficulty.map((item: FlagQuestion) => {
-		const cleanedAnswer = removeAccents(item.answer);
-		const svgPath = `./svgs/flags/${cleanedAnswer.toLowerCase().replace(/[\s']/g, '')}.svg`;
+		const cleanedAnswer = cleanString(item.answer);
+		const svgPath = `./svgs/flags/${cleanedAnswer}.svg`;
 		return {
 			...item,
 			country: item.answer,
@@ -65,8 +65,8 @@ export const usaFlags: Flags = {
 
 export async function getUsaListFlags(category: FlagCategory[]): Promise<FlagCategory[]> {
 	return category.map((item: FlagCategory) => {
-		const cleanedCountry = removeAccents(item.country);
-		const svgPath = `./svgs/flags/${cleanedCountry.toLowerCase().replace(/[\s']/g, '')}.svg`;
+		const cleanedCountry = cleanString(item.country);
+		const svgPath = `./svgs/flags/${cleanedCountry}.svg`;
 		return {
 			...item,
 			image: loadedSvgs[svgPath]

@@ -1,0 +1,507 @@
+[
+	{
+		"question": "Quel est le chef-lieu de l'Ain ?",
+		"options": ["Bourg-en-Bresse", "Moulins", "Poitiers", "Avignon"],
+		"answer": "Bourg-en-Bresse"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Aisne ?",
+		"options": ["Laon", "Cahors", "Quimper", "Lons-le-Saunier"],
+		"answer": "Laon"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Allier ?",
+		"options": ["Moulins", "Troyes", "Annecy", "Périgueux"],
+		"answer": "Moulins"
+	},
+	{
+		"question": "Quel est le chef-lieu des Alpes-de-Haute-Provence ?",
+		"options": ["Digne-les-Bains", "Tarbes", "Arras", "Ajaccio"],
+		"answer": "Digne-les-Bains"
+	},
+	{
+		"question": "Quel est le chef-lieu des Hautes-Alpes ?",
+		"options": ["Gap", "Lille", "Agen", "Charleville-Mézières"],
+		"answer": "Gap"
+	},
+	{
+		"question": "Quel est le chef-lieu des Alpes-Maritimes ?",
+		"options": ["Nice", "Besançon", "Châlons-en-Champagne", "Metz"],
+		"answer": "Nice"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Ardèche ?",
+		"options": ["Privas", "Rouen", "Perpignan", "Rennes"],
+		"answer": "Privas"
+	},
+	{
+		"question": "Quel est le chef-lieu des Ardennes ?",
+		"options": ["Charleville-Mézières", "Ajaccio", "Valence", "Bastia"],
+		"answer": "Charleville-Mézières"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Ariège ?",
+		"options": ["Foix", "Annecy", "Toulon", "Angers"],
+		"answer": "Foix"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Aube ?",
+		"options": ["Troyes", "Dijon", "Bastia", "Rodez"],
+		"answer": "Troyes"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Aude ?",
+		"options": ["Carcassonne", "Épinal", "Pau", "Poitiers"],
+		"answer": "Carcassonne"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Aveyron ?",
+		"options": ["Rodez", "Orléans", "Nîmes", "Angoulême"],
+		"answer": "Rodez"
+	},
+	{
+		"question": "Quel est le chef-lieu des Bouches-du-Rhône ?",
+		"options": ["Marseille", "Blois", "Nancy", "Nevers"],
+		"answer": "Marseille"
+	},
+	{
+		"question": "Quel est le chef-lieu du Calvados ?",
+		"options": ["Caen", "Lyon", "Toulouse", "Mâcon"],
+		"answer": "Caen"
+	},
+	{
+		"question": "Quel est le chef-lieu du Cantal ?",
+		"options": ["Aurillac", "Paris", "Tours", "Draguignan"],
+		"answer": "Aurillac"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Charente ?",
+		"options": ["Angoulême", "Évreux", "Mende", "Melun"],
+		"answer": "Angoulême"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Charente-Maritime ?",
+		"options": ["La Rochelle", "Nice", "Bourges", "Vannes"],
+		"answer": "La Rochelle"
+	},
+	{
+		"question": "Quel est le chef-lieu du Cher ?",
+		"options": ["Bourges", "Clermont-Ferrand", "Valence", "Lille"],
+		"answer": "Bourges"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Corrèze ?",
+		"options": ["Tulle", "Amiens", "Laval", "Aix-en-Provence"],
+		"answer": "Tulle"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Corse-du-Sud ?",
+		"options": ["Ajaccio", "Cahors", "Bourg-en-Bresse", "Pau"],
+		"answer": "Ajaccio"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Haute-Corse ?",
+		"options": ["Bastia", "Rodez", "Troyes", "Montpellier"],
+		"answer": "Bastia"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Côte-d'Or ?",
+		"options": ["Dijon", "Niort", "Nantes", "Foix"],
+		"answer": "Dijon"
+	},
+	{
+		"question": "Quel est le chef-lieu des Côtes-d'Armor ?",
+		"options": ["Saint-Brieuc", "Besançon", "Mont-de-Marsan", "Rodez"],
+		"answer": "Saint-Brieuc"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Creuse ?",
+		"options": ["Guéret", "Toulouse", "Caen", "Chambéry"],
+		"answer": "Guéret"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Dordogne ?",
+		"options": ["Périgueux", "Rennes", "Bastia", "Tarbes"],
+		"answer": "Périgueux"
+	},
+	{
+		"question": "Quel est le chef-lieu du Doubs ?",
+		"options": ["Besançon", "Strasbourg", "Foix", "Caen"],
+		"answer": "Besançon"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Drôme ?",
+		"options": ["Valence", "Nice", "Clermont-Ferrand", "Poitiers"],
+		"answer": "Valence"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Eure ?",
+		"options": ["Évreux", "Lille", "Dijon", "Pau"],
+		"answer": "Évreux"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Eure-et-Loir ?",
+		"options": ["Chartres", "Mende", "Metz", "Angers"],
+		"answer": "Chartres"
+	},
+	{
+		"question": "Quel est le chef-lieu du Finistère ?",
+		"options": ["Quimper", "Nîmes", "Toulon", "Périgueux"],
+		"answer": "Quimper"
+	},
+	{
+		"question": "Quel est le chef-lieu du Gard ?",
+		"options": ["Nîmes", "Melun", "Rennes", "Arras"],
+		"answer": "Nîmes"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Haute-Garonne ?",
+		"options": ["Toulouse", "Pau", "Bordeaux", "Bastia"],
+		"answer": "Toulouse"
+	},
+	{
+		"question": "Quel est le chef-lieu du Gers ?",
+		"options": ["Auch", "Toulon", "Châlons-en-Champagne", "Amiens"],
+		"answer": "Auch"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Gironde ?",
+		"options": ["Bordeaux", "Aix-en-Provence", "Perpignan", "Laval"],
+		"answer": "Bordeaux"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Hérault ?",
+		"options": ["Montpellier", "Nancy", "Laon", "Mâcon"],
+		"answer": "Montpellier"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Ille-et-Vilaine ?",
+		"options": ["Rennes", "Angoulême", "Troyes", "Tarbes"],
+		"answer": "Rennes"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Indre ?",
+		"options": ["Châteauroux", "Chambéry", "Rodez", "Digne-les-Bains"],
+		"answer": "Châteauroux"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Indre-et-Loire ?",
+		"options": ["Tours", "Foix", "Bastia", "Rouen"],
+		"answer": "Tours"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Isère ?",
+		"options": ["Grenoble", "Annecy", "Cahors", "Besançon"],
+		"answer": "Grenoble"
+	},
+	{
+		"question": "Quel est le chef-lieu du Jura ?",
+		"options": ["Lons-le-Saunier", "Rennes", "Toulon", "Nevers"],
+		"answer": "Lons-le-Saunier"
+	},
+	{
+		"question": "Quel est le chef-lieu des Landes ?",
+		"options": ["Mont-de-Marsan", "Épinal", "Caen", "Valence"],
+		"answer": "Mont-de-Marsan"
+	},
+	{
+		"question": "Quel est le chef-lieu du Loir-et-Cher ?",
+		"options": ["Blois", "La Rochelle", "Rodez", "Mende"],
+		"answer": "Blois"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Loire ?",
+		"options": ["Saint-Étienne", "Poitiers", "Agen", "Clermont-Ferrand"],
+		"answer": "Saint-Étienne"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Haute-Loire ?",
+		"options": ["Le Puy-en-Velay", "Annecy", "Nice", "Ajaccio"],
+		"answer": "Le Puy-en-Velay"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Loire-Atlantique ?",
+		"options": ["Nantes", "Périgueux", "Rodez", "Évreux"],
+		"answer": "Nantes"
+	},
+	{
+		"question": "Quel est le chef-lieu du Loiret ?",
+		"options": ["Orléans", "Moulins", "Pau", "Saint-Brieuc"],
+		"answer": "Orléans"
+	},
+	{
+		"question": "Quel est le chef-lieu du Lot ?",
+		"options": ["Cahors", "Toulon", "Guéret", "Angers"],
+		"answer": "Cahors"
+	},
+	{
+		"question": "Quel est le chef-lieu du Lot-et-Garonne ?",
+		"options": ["Agen", "Dijon", "Montpellier", "Rennes"],
+		"answer": "Agen"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Lozère ?",
+		"options": ["Mende", "Troyes", "Foix", "Lille"],
+		"answer": "Mende"
+	},
+	{
+		"question": "Quel est le chef-lieu du Maine-et-Loire ?",
+		"options": ["Angers", "Périgueux", "Nancy", "Quimper"],
+		"answer": "Angers"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Manche ?",
+		"options": ["Saint-Lô", "Avignon", "Clermont-Ferrand", "Caen"],
+		"answer": "Saint-Lô"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Marne ?",
+		"options": ["Châlons-en-Champagne", "Évreux", "Perpignan", "Blois"],
+		"answer": "Châlons-en-Champagne"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Haute-Marne ?",
+		"options": ["Chaumont", "Foix", "Ajaccio", "Mont-de-Marsan"],
+		"answer": "Chaumont"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Mayenne ?",
+		"options": ["Laval", "Amiens", "Lons-le-Saunier", "Grenoble"],
+		"answer": "Laval"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Meurthe-et-Moselle ?",
+		"options": ["Nancy", "Ajaccio", "Tulle", "Saint-Brieuc"],
+		"answer": "Nancy"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Meuse ?",
+		"options": ["Bar-le-Duc", "Mende", "Pau", "Troyes"],
+		"answer": "Bar-le-Duc"
+	},
+	{
+		"question": "Quel est le chef-lieu du Morbihan ?",
+		"options": ["Vannes", "Poitiers", "Metz", "Caen"],
+		"answer": "Vannes"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Moselle ?",
+		"options": ["Metz", "Chambéry", "Lille", "Bordeaux"],
+		"answer": "Metz"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Nièvre ?",
+		"options": ["Nevers", "Rouen", "Saint-Brieuc", "Avignon"],
+		"answer": "Nevers"
+	},
+	{
+		"question": "Quel est le chef-lieu du Nord ?",
+		"options": ["Lille", "Aurillac", "Périgueux", "Angoulême"],
+		"answer": "Lille"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Oise ?",
+		"options": ["Beauvais", "Dijon", "Foix", "Toulon"],
+		"answer": "Beauvais"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Orne ?",
+		"options": ["Alençon", "Rodez", "Nice", "Cahors"],
+		"answer": "Alençon"
+	},
+	{
+		"question": "Quel est le chef-lieu du Pas-de-Calais ?",
+		"options": ["Arras", "Épinal", "Rennes", "Mende"],
+		"answer": "Arras"
+	},
+	{
+		"question": "Quel est le chef-lieu du Puy-de-Dôme ?",
+		"options": ["Clermont-Ferrand", "Périgueux", "Avignon", "Laval"],
+		"answer": "Clermont-Ferrand"
+	},
+	{
+		"question": "Quel est le chef-lieu des Pyrénées-Atlantiques ?",
+		"options": ["Pau", "Chambéry", "Montpellier", "Valence"],
+		"answer": "Pau"
+	},
+	{
+		"question": "Quel est le chef-lieu des Hautes-Pyrénées ?",
+		"options": ["Tarbes", "Nice", "Nantes", "Laon"],
+		"answer": "Tarbes"
+	},
+	{
+		"question": "Quel est le chef-lieu des Pyrénées-Orientales ?",
+		"options": ["Perpignan", "Blois", "Tulle", "Évreux"],
+		"answer": "Perpignan"
+	},
+	{
+		"question": "Quel est le chef-lieu du Bas-Rhin ?",
+		"options": ["Strasbourg", "Nîmes", "Aurillac", "Troyes"],
+		"answer": "Strasbourg"
+	},
+	{
+		"question": "Quel est le chef-lieu du Haut-Rhin ?",
+		"options": ["Colmar", "Saint-Lô", "Besançon", "Rennes"],
+		"answer": "Colmar"
+	},
+	{
+		"question": "Quel est le chef-lieu du Rhône ?",
+		"options": ["Lyon", "Caen", "Foix", "Ajaccio"],
+		"answer": "Lyon"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Haute-Saône ?",
+		"options": ["Vesoul", "Mende", "Nantes", "Guéret"],
+		"answer": "Vesoul"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Saône-et-Loire ?",
+		"options": ["Mâcon", "Toulon", "Tulle", "La Rochelle"],
+		"answer": "Mâcon"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Sarthe ?",
+		"options": ["Le Mans", "Périgueux", "Bordeaux", "Bourg-en-Bresse"],
+		"answer": "Le Mans"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Savoie ?",
+		"options": ["Chambéry", "Foix", "Avignon", "Moulins"],
+		"answer": "Chambéry"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Haute-Savoie ?",
+		"options": ["Annecy", "Dijon", "Angers", "Caen"],
+		"answer": "Annecy"
+	},
+	{
+		"question": "Quel est le chef-lieu de Paris ?",
+		"options": ["Paris", "Marseille", "Lyon", "Toulouse"],
+		"answer": "Paris"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Seine-Maritime ?",
+		"options": ["Rouen", "Clermont-Ferrand", "Bordeaux", "Digne-les-Bains"],
+		"answer": "Rouen"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Seine-et-Marne ?",
+		"options": ["Melun", "Nice", "Bastia", "Vannes"],
+		"answer": "Melun"
+	},
+	{
+		"question": "Quel est le chef-lieu des Yvelines ?",
+		"options": ["Versailles", "Foix", "Dijon", "Blois"],
+		"answer": "Versailles"
+	},
+	{
+		"question": "Quel est le chef-lieu des Deux-Sèvres ?",
+		"options": ["Niort", "Lons-le-Saunier", "Pau", "Caen"],
+		"answer": "Niort"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Somme ?",
+		"options": ["Amiens", "Grenoble", "Nancy", "Valence"],
+		"answer": "Amiens"
+	},
+	{
+		"question": "Quel est le chef-lieu du Tarn ?",
+		"options": ["Albi", "Bourges", "Rennes", "Ajaccio"],
+		"answer": "Albi"
+	},
+	{
+		"question": "Quel est le chef-lieu du Tarn-et-Garonne ?",
+		"options": ["Montauban", "Rouen", "Troyes", "Perpignan"],
+		"answer": "Montauban"
+	},
+	{
+		"question": "Quel est le chef-lieu du Var ?",
+		"options": ["Toulon", "Mende", "Châteauroux", "Foix"],
+		"answer": "Toulon"
+	},
+	{
+		"question": "Quel est le chef-lieu du Vaucluse ?",
+		"options": ["Avignon", "Nancy", "Laon", "Annecy"],
+		"answer": "Avignon"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Vendée ?",
+		"options": ["La Roche-sur-Yon", "Bordeaux", "Digne-les-Bains", "Châlons-en-Champagne"],
+		"answer": "La Roche-sur-Yon"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Vienne ?",
+		"options": ["Poitiers", "Valence", "Rodez", "Marseille"],
+		"answer": "Poitiers"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Haute-Vienne ?",
+		"options": ["Limoges", "Angers", "Rennes", "Foix"],
+		"answer": "Limoges"
+	},
+	{
+		"question": "Quel est le chef-lieu des Vosges ?",
+		"options": ["Épinal", "Ajaccio", "Bourges", "Nice"],
+		"answer": "Épinal"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Yonne ?",
+		"options": ["Auxerre", "Caen", "Périgueux", "Chambéry"],
+		"answer": "Auxerre"
+	},
+	{
+		"question": "Quel est le chef-lieu du Territoire de Belfort ?",
+		"options": ["Belfort", "Troyes", "Dijon", "Rodez"],
+		"answer": "Belfort"
+	},
+	{
+		"question": "Quel est le chef-lieu de l'Essonne ?",
+		"options": ["Évry", "Foix", "Bastia", "Bordeaux"],
+		"answer": "Évry"
+	},
+	{
+		"question": "Quel est le chef-lieu des Hauts-de-Seine ?",
+		"options": ["Nanterre", "Rouen", "Valence", "La Rochelle"],
+		"answer": "Nanterre"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Seine-Saint-Denis ?",
+		"options": ["Bobigny", "Rennes", "Annecy", "Digne-les-Bains"],
+		"answer": "Bobigny"
+	},
+	{
+		"question": "Quel est le chef-lieu du Val-de-Marne ?",
+		"options": ["Créteil", "Pau", "Nice", "Toulon"],
+		"answer": "Créteil"
+	},
+	{
+		"question": "Quel est le chef-lieu du Val-d'Oise ?",
+		"options": ["Pontoise", "Bastia", "Aurillac", "Nîmes"],
+		"answer": "Pontoise"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Guadeloupe ?",
+		"options": ["Basse-Terre", "Digne-les-Bains", "Troyes", "Poitiers"],
+		"answer": "Basse-Terre"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Martinique ?",
+		"options": ["Fort-de-France", "Amiens", "Rennes", "Mende"],
+		"answer": "Fort-de-France"
+	},
+	{
+		"question": "Quel est le chef-lieu de la Guyane ?",
+		"options": ["Cayenne", "Nantes", "Toulouse", "Ajaccio"],
+		"answer": "Cayenne"
+	},
+	{
+		"question": "Quel est le chef-lieu de La Réunion ?",
+		"options": ["Saint-Denis", "Lille", "Perpignan", "Évreux"],
+		"answer": "Saint-Denis"
+	},
+	{
+		"question": "Quel est le chef-lieu de Mayotte ?",
+		"options": ["Mamoudzou", "Pau", "Nancy", "Bourges"],
+		"answer": "Mamoudzou"
+	}
+]

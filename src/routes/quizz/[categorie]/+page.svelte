@@ -14,17 +14,22 @@
 
 	let difficulties: Record<string, { label: string }> = {};
 
-	if (currentPage !== '/quizz/usa') {
-		difficulties = {
-			easy: { label: 'Facile' },
-			medium: { label: 'Moyen' },
-			hard: { label: 'Difficile' }
-		};
-	} else {
+	if (currentPage === '/quizz/usa') {
 		difficulties = {
 			capitals: { label: 'Capitales' },
 			flags: { label: 'Drapeaux' },
 			states: { label: 'États' }
+		};
+	} else if (currentPage === '/quizz/france') {
+		difficulties = {
+			departments: { label: 'Départements' },
+			countyTowns: { label: 'Chefs-lieux' }
+		};
+	} else {
+		difficulties = {
+			easy: { label: 'Facile' },
+			medium: { label: 'Moyen' },
+			hard: { label: 'Difficile' }
 		};
 	}
 </script>

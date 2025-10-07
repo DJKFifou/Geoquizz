@@ -12,6 +12,9 @@
 
 	let { data }: PageProps = $props();
 
+	console.log('data : ', data);
+	``;
+
 	interface AnswersArray {
 		image?: string;
 		question: string;
@@ -21,8 +24,6 @@
 		isAnswerCorrect: boolean;
 	}
 
-	console.log(data);
-
 	const categorieName = page.params.categorie;
 	const difficultyName = page.params.difficulty;
 	const previousPage = page.url.pathname.split('/').slice(0, -1).join('/');
@@ -30,17 +31,22 @@
 
 	let difficulties = $state<Record<string, { label: string }>>({});
 
-	if (previousPage !== '/quizz/usa') {
-		difficulties = {
-			easy: { label: 'Facile' },
-			medium: { label: 'Moyen' },
-			hard: { label: 'Difficile' }
-		};
-	} else {
+	if (previousPage === '/quizz/usa') {
 		difficulties = {
 			capitals: { label: 'Capitales' },
 			flags: { label: 'Drapeaux' },
 			states: { label: 'États' }
+		};
+	} else if (previousPage === '/quizz/france') {
+		difficulties = {
+			departments: { label: 'Départements' },
+			countyTowns: { label: 'Chefs-lieux' }
+		};
+	} else {
+		difficulties = {
+			easy: { label: 'Facile' },
+			medium: { label: 'Moyen' },
+			hard: { label: 'Difficile' }
 		};
 	}
 
@@ -49,7 +55,8 @@
 		countries: 'Pays',
 		flags: 'Drapeaux',
 		general_knowledge: 'Culture générale',
-		usa: 'USA'
+		usa: 'USA',
+		france: 'France'
 	};
 
 	const currentRecord: string = `${difficultyName}${categorieName}Record`;
@@ -95,7 +102,8 @@
 		if (isOptionSelected) return;
 		selectedOption = option;
 
-		if (data.data) isAnswerCorrect = data.data[currentQuestionIndex].answer === option && timer > 0;
+		if (data.data)
+			isAnswerCorrect = data.data[currentQuestionIndex].answer === option && timer > 0;
 		goodAnswers += isAnswerCorrect ? 1 : 0;
 		isOptionSelected = true;
 	};
@@ -209,7 +217,8 @@
 	const displayImg =
 		categorieName === 'flags' ||
 		categorieName === 'countries' ||
-		(categorieName === 'usa' && (difficultyName === 'flags' || difficultyName === 'states'));
+		(categorieName === 'usa' && (difficultyName === 'flags' || difficultyName === 'states')) ||
+		(categorieName === 'france' && difficultyName === 'departments');
 </script>
 
 <div
@@ -234,7 +243,9 @@
 	{:else if !endGame && data.data}
 		<div class="z-10 flex flex-col items-center justify-center gap-6 p-4">
 			<p>Question {currentQuestionIndex + 1}/{data.data.length}</p>
-			<h3 class="text-center text-2xl font-bold">{data.data[currentQuestionIndex].question}</h3>
+			<h3 class="text-center text-2xl font-bold">
+				{data.data[currentQuestionIndex].question}
+			</h3>
 			{#if displayImg}
 				<img src={data.data[currentQuestionIndex].image} alt="Réponse" class="m-4 h-40" />
 			{/if}
