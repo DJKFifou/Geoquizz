@@ -14,13 +14,22 @@
 		hardflagsRecord: 'Drapeaux - Difficile',
 		easygeneral_knowledgeRecord: 'Culture générale - Facile',
 		mediumgeneral_knowledgeRecord: 'Culture générale - Moyen',
-		hardgeneral_knowledgeRecord: 'Culture générale - Difficile'
+		hardgeneral_knowledgeRecord: 'Culture générale - Difficile',
+		capitalsusaRecord: 'USA - Capitales',
+		flagsusaRecord: 'USA - Drapeaux',
+		statesusaRecord: 'USA - États',
+		departmentsfranceRecord: 'France - Départements',
+		countyTownsfranceRecord: 'France - Chefs-lieux'
 	};
 
 	let localStorageListsItems: Record<string, string> = {
 		capitalsRecord: 'Capitales',
 		countriesRecord: 'Pays',
-		flagsRecord: 'Drapeaux'
+		flagsRecord: 'Drapeaux',
+		usaStatesRecord: 'États des USA',
+		usaFlagsRecord: 'Drapeaux des USA',
+		frenchCountyTownRecord: 'Chefs-lieux français',
+		frenchDepartmentsRecord: 'Départements français'
 	};
 
 	let quizzRecords: Record<string, string> = {};
@@ -97,7 +106,9 @@
 						{#each apiRecords.filter((record) => record.categorie && !record.difficulty) as record}
 							<div class="flex gap-2">
 								<p>{apiCategoryTranslations[record.categorie]} :</p>
-								<p>{record.currentRecord} / {record.categorie === 'countries' ? '190' : '195'}</p>
+								<p>
+									{record.currentRecord} / {record.categorie === 'countries' ? '190' : '195'}
+								</p>
 							</div>
 						{/each}
 					</div>

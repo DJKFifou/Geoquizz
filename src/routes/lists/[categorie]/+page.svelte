@@ -6,6 +6,7 @@
 	import Exit from '$lib/components/Exit.svelte';
 	import ListStartGame from '$lib/components/ListStartGame.svelte';
 	import { cleanString } from '$lib/utils';
+	import { cleanStringWithoutDash } from '$lib/utils';
 
 	type Country = {
 		country: string;
@@ -139,7 +140,9 @@
 				inputValue
 			) {
 				const matchingCountry = datas.find((item: Country) =>
-					item.capital?.some((cap: string) => cleanString(cap) === cleanString(inputValue))
+					item.capital?.some(
+						(cap: string) => cleanStringWithoutDash(cap) === cleanStringWithoutDash(inputValue)
+					)
 				);
 
 				if (matchingCountry && !revealedAnswers.includes(matchingCountry.country)) {
@@ -148,7 +151,7 @@
 				}
 			} else if (
 				lastCountrySelected &&
-				cleanString(inputValue) === cleanString(lastCountrySelected) &&
+				cleanStringWithoutDash(inputValue) === cleanStringWithoutDash(lastCountrySelected) &&
 				!revealedAnswers.includes(lastCountrySelected)
 			) {
 				revealedAnswers = [...revealedAnswers, lastCountrySelected];
