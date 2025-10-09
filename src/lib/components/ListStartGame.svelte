@@ -4,14 +4,24 @@
 	const categories: Record<string, string> = {
 		capitals: 'la capitale',
 		flags: 'le drapeau',
-		countries: 'le nom'
+		countries: 'le nom',
+		usaCapitals: 'la capitale',
+		usaStates: "l'état",
+		usaFlags: 'le drapeau',
+		frenchCountyTowns: 'le chef-lieu',
+		frenchDepartments: 'le département'
 	};
 
 	const categoriesName: Record<string, string> = {
 		capitals: 'Capitales',
 		countries: 'Pays',
 		flags: 'Drapeaux',
-		general_knowledge: 'Culture générale'
+		general_knowledge: 'Culture générale',
+		usaCapitals: 'Capitales des USA',
+		usaStates: 'États des USA',
+		usaFlags: 'Drapeaux des USA',
+		frenchCountyTowns: 'Chefs-lieux français',
+		frenchDepartments: 'Départements français'
 	};
 
 	const startGame = () => {
@@ -29,7 +39,9 @@
 				<li>Trouvez {categories[category]} de tous les pays.</li>
 				<li>Chaque bonne réponse vous rapporte 1 point.</li>
 				<li>
-					Le jeu se termine au bout de 15 minutes ou lorsque vous avez trouvé {categories[category]}
+					Le jeu se termine au bout de 15 minutes ou lorsque vous avez trouvé {categories[
+						category
+					]}
 					de chaque pays.
 				</li>
 				<li>Vous pouvez retirer le timer et abandonner la partie si vous le souhaitez.</li>

@@ -235,16 +235,6 @@
 		"answer": "Kirghizistan"
 	},
 	{
-		"question": "Quel est le plus petit pays du monde en superficie ?",
-		"options": ["Vatican", "Monaco", "Nauru", "San Marin"],
-		"answer": "Vatican"
-	},
-	{
-		"question": "Quel pays a la plus grande population au monde ?",
-		"options": ["Inde", "Chine", "États-Unis", "Indonésie"],
-		"answer": "Inde"
-	},
-	{
 		"question": "Quel est l'état des États-Unis le plus peuplé ?",
 		"options": ["Californie", "Texas", "Michigan", "Floride"],
 		"answer": "Californie"

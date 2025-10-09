@@ -43,6 +43,12 @@ export const load: PageServerLoad = async ({ params }) => {
 					data: shuffleData(enrichedFlags)
 				};
 			}
+			case 'usaCapitals': {
+				const usaCapitals = await import('$lib/data/lists/usaCapitals.json');
+				return {
+					data: usaCapitals.default as CapitalsItem[]
+				};
+			}
 			case 'usaFlags': {
 				const usaFlags = await import('$lib/data/lists/usaFlags.json');
 				const enrichedFlags = await getUsaListFlags(usaFlags.default);

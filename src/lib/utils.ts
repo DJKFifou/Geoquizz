@@ -21,6 +21,7 @@ export function getListCategories(): Record<string, string> {
 		countries: 'Pays',
 		flags: 'Drapeaux',
 		general_knowledge: 'Culture générale',
+		usaCapitals: 'Capitales des USA',
 		usaStates: 'États des USA',
 		usaFlags: 'Drapeaux des USA',
 		frenchCountyTowns: 'Chefs-lieux français',

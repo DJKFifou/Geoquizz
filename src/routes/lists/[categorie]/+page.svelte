@@ -136,7 +136,9 @@
 				gameOver = true;
 			}
 			if (
-				(categorieName === 'capitals' || categorieName === 'frenchCountyTowns') &&
+				(categorieName === 'capitals' ||
+					categorieName === 'frenchCountyTowns' ||
+					categorieName === 'usaCapitals') &&
 				inputValue
 			) {
 				const matchingCountry = datas.find((item: Country) =>
@@ -242,8 +244,8 @@
 					/>
 				{/if}
 			</div>
-			{#if categorieName === 'capitals' || categorieName === 'frenchCountyTowns'}
-				<div class="grid grid-cols-2 gap-4">
+			{#if categorieName === 'capitals' || categorieName === 'frenchCountyTowns' || categorieName === 'usaCapitals'}
+				<div class="mb-8 grid grid-cols-2 gap-4">
 					{#each datas as item (item.country)}
 						<div class="rounded bg-gray-700 p-2">
 							<p>{item.country}</p>

@@ -28,7 +28,7 @@
 		flagsRecord: 'Drapeaux',
 		usaStatesRecord: 'États des USA',
 		usaFlagsRecord: 'Drapeaux des USA',
-		frenchCountyTownRecord: 'Chefs-lieux français',
+		frenchCountyTownsRecord: 'Chefs-lieux français',
 		frenchDepartmentsRecord: 'Départements français'
 	};
 
