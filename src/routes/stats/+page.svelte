@@ -22,14 +22,15 @@
 		countyTownsfranceRecord: 'France - Chefs-lieux'
 	};
 
-	let localStorageListsItems: Record<string, string> = {
-		capitalsRecord: 'Capitales',
-		countriesRecord: 'Pays',
-		flagsRecord: 'Drapeaux',
-		usaStatesRecord: 'États des USA',
-		usaFlagsRecord: 'Drapeaux des USA',
-		frenchCountyTownsRecord: 'Chefs-lieux français',
-		frenchDepartmentsRecord: 'Départements français'
+	let localStorageListsItems: Record<string, { name: string; maxScore: number }> = {
+		capitalsRecord: { name: 'Capitales', maxScore: 195 },
+		countriesRecord: { name: 'Pays', maxScore: 190 },
+		flagsRecord: { name: 'Drapeaux', maxScore: 195 },
+		usaCapitals: { name: 'Capitales des USA', maxScore: 50 },
+		usaStatesRecord: { name: 'États des USA', maxScore: 50 },
+		usaFlagsRecord: { name: 'Drapeaux des USA', maxScore: 50 },
+		frenchCountyTownsRecord: { name: 'Chefs-lieux français', maxScore: 101 },
+		frenchDepartmentsRecord: { name: 'Départements français', maxScore: 101 }
 	};
 
 	let quizzRecords: Record<string, string> = {};
@@ -65,9 +66,8 @@
 
 			for (const key of Object.keys(localStorageListsItems)) {
 				const record = localStorage.getItem(key);
-				listsRecords[key] = record
-					? `${record} / ${key === 'countriesRecord' ? 190 : 195}`
-					: 'Pas encore établi';
+				const { name, maxScore } = localStorageListsItems[key];
+				listsRecords[key] = record ? `${record} / ${maxScore}` : 'Pas encore établi';
 			}
 		}
 	});
@@ -130,7 +130,7 @@
 					<div class="flex flex-col items-center gap-4">
 						{#each Object.keys(localStorageListsItems) as key}
 							<div class="flex gap-2">
-								<p>{localStorageListsItems[key]} :</p>
+								<p>{localStorageListsItems[key].name} :</p>
 								<p>{listsRecords[key] || 'Loading'}</p>
 							</div>
 						{/each}

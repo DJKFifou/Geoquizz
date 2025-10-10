@@ -26,7 +26,7 @@ interface DepartmentCategory {
 	country: string;
 }
 
-const svgs = import.meta.glob('./svgs/departments/*.png');
+const svgs = import.meta.glob('./svgs/departments/*.webp');
 
 const svgPromises = Object.keys(svgs).reduce(
 	(acc, key) => {
@@ -49,7 +49,7 @@ const loadedSvgs = Object.keys(svgPromises).reduce(
 async function getDepartments(difficulty: DepartmentQuestion[]) {
 	return difficulty.map((item: DepartmentQuestion) => {
 		const cleanedAnswer = cleanString(item.answer);
-		const svgPath = `./svgs/departments/${cleanedAnswer}.png`;
+		const svgPath = `./svgs/departments/${cleanedAnswer}.webp`;
 		return {
 			...item,
 			departement: item.answer,
@@ -68,7 +68,7 @@ export async function getFrenchListDepartments(
 ): Promise<DepartmentCategory[]> {
 	return category.map((item: DepartmentCategory) => {
 		const cleanedCountries = cleanString(item.country);
-		const svgPath = `./svgs/departments/${cleanedCountries}.png`;
+		const svgPath = `./svgs/departments/${cleanedCountries}.webp`;
 		return {
 			...item,
 			image: loadedSvgs[svgPath]
