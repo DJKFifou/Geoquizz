@@ -700,6 +700,10 @@
 		"capital": ["Douchanbé"]
 	},
 	{
+		"country": "Taiwan",
+		"capital": ["Taipei"]
+	},
+	{
 		"country": "Tanzanie",
 		"capital": ["Dodoma"]
 	},
@@ -778,9 +782,5 @@
 	{
 		"country": "Zimbabwe",
 		"capital": ["Harare"]
-	},
-	{
-		"country": "Taiwan",
-		"capital": ["Taipei"]
 	}
 ]
