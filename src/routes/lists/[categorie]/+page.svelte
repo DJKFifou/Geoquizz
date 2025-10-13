@@ -5,7 +5,6 @@
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
 	import Exit from '$lib/components/Exit.svelte';
 	import ListStartGame from '$lib/components/ListStartGame.svelte';
-	import { cleanString } from '$lib/utils';
 	import { cleanStringWithoutDash } from '$lib/utils';
 
 	type Country = {

@@ -149,7 +149,7 @@
 	},
 	{
 		"country": "Chine",
-		"capital": ["Beijing"]
+		"capital": ["Beijing", "Pékin"]
 	},
 	{
 		"country": "Chypre",
@@ -778,5 +778,9 @@
 	{
 		"country": "Zimbabwe",
 		"capital": ["Harare"]
+	},
+	{
+		"country": "Taiwan",
+		"capital": ["Taipei"]
 	}
 ]

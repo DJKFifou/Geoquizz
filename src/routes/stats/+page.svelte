@@ -23,9 +23,9 @@
 	};
 
 	let localStorageListsItems: Record<string, { name: string; maxScore: number }> = {
-		capitalsRecord: { name: 'Capitales', maxScore: 195 },
-		countriesRecord: { name: 'Pays', maxScore: 190 },
-		flagsRecord: { name: 'Drapeaux', maxScore: 195 },
+		capitalsRecord: { name: 'Capitales', maxScore: 196 },
+		countriesRecord: { name: 'Pays', maxScore: 191 },
+		flagsRecord: { name: 'Drapeaux', maxScore: 196 },
 		usaCapitals: { name: 'Capitales des USA', maxScore: 50 },
 		usaStatesRecord: { name: 'États des USA', maxScore: 50 },
 		usaFlagsRecord: { name: 'Drapeaux des USA', maxScore: 50 },

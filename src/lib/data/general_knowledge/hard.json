@@ -293,5 +293,15 @@
 		"question": "Quel est le point culminant de l'Atlas ?",
 		"options": ["4167 m", "3396 m", "2618 m", "5031 m"],
 		"answer": "4167 m"
+	},
+	{
+		"question": "Quel pays est né de l'Union du Zanzibar et du Tanganyika ?",
+		"options": ["Tanzanie", "Mozambique", "Zimbabwe", "Malawi"],
+		"answer": "Tanzanie"
+	},
+	{
+		"question": "Quel pays n'a jamais fait partie de l'Ex-Yougoslavie ?",
+		"options": ["Hongrie", "Croatie", "Serbie", "Bosnie-Herzégovine"],
+		"answer": "Hongrie"
 	}
 ]
