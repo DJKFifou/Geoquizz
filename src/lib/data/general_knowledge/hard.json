@@ -303,5 +303,30 @@
 		"question": "Quel pays n'a jamais fait partie de l'Ex-Yougoslavie ?",
 		"options": ["Hongrie", "Croatie", "Serbie", "Bosnie-Herzégovine"],
 		"answer": "Hongrie"
+	},
+	{
+		"question": "Quel pays ne possède pas de violet sur son drapeau ?",
+		"options": ["Équateur", "El Salvador", "Nicaragua", "Dominique"],
+		"answer": "Équateur"
+	},
+	{
+		"question": "Quel est le plus grand lac d’eau douce du monde en superficie ?",
+		"options": ["Lac Supérieur", "Lac Victoria", "Lac Baïkal", "Lac Tanganyika"],
+		"answer": "Lac Supérieur"
+	},
+	{
+		"question": "Quel est le plus grand lac d’Afrique ?",
+		"options": ["Lac Victoria", "Lac Tanganyika", "Lac Malawi", "Lac Tchad"],
+		"answer": "Lac Victoria"
+	},
+	{
+		"question": "Quelles îles se situent dans le détroit de Béring ?",
+		"options": ["Îles Diomède", "Îles Aléoutiennes", "Îles Kouriles", "Îles Mariannes"],
+		"answer": "Îles Diomède"
+	},
+	{
+		"question": "Quel pays est séparé de la Malaisie par le détroit de Johor ?",
+		"options": ["Singapour", "Indonésie", "Thaïlande", "Brunei"],
+		"answer": "Singapour"
 	}
 ]

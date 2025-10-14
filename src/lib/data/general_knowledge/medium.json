@@ -260,16 +260,6 @@
 		"answer": "Inde"
 	},
 	{
-		"question": "Quel pays ne possède pas de violet sur son drapeau ?",
-		"options": ["Équateur", "El Salvador", "Nicaragua", "Dominique"],
-		"answer": "Équateur"
-	},
-	{
-		"question": "Quel est le plus grand lac d’eau douce du monde en superficie ?",
-		"options": ["Lac Supérieur", "Lac Victoria", "Lac Baïkal", "Lac Tanganyika"],
-		"answer": "Lac Supérieur"
-	},
-	{
 		"question": "Quelle ville ne se situe pas en Espagne ?",
 		"options": ["Salerne", "Valence", "Grenade", "Carthagène"],
 		"answer": "Salerne"
@@ -333,5 +323,25 @@
 		"question": "Quel pays n'est pas traversé par l'Atlas ?",
 		"options": ["Égypte", "Tunisie", "Maroc", "Algérie"],
 		"answer": "Égypte"
+	},
+	{
+		"question": "Quel pays est traversé par le canal de Suez ?",
+		"options": ["Égypte", "Arabie Saoudite", "Oman", "Yémen"],
+		"answer": "Égypte"
+	},
+	{
+		"question": "Quel pays possède le plus d’îles au monde ?",
+		"options": ["Suède", "Indonésie", "Philippines", "Finlande"],
+		"answer": "Suède"
+	},
+	{
+		"question": "Quel pays abrite la ville de Dubrovnik ?",
+		"options": ["Croatie", "Slovaquie", "Grèce", "Slovénie"],
+		"answer": "Croatie"
+	},
+	{
+		"question": "Dans quel pays se trouve le Machu Picchu ?",
+		"options": ["Pérou", "Bolivie", "Chili", "Équateur"],
+		"answer": "Pérou"
 	}
 ]

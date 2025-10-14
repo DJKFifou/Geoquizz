@@ -238,5 +238,55 @@
 		"question": "Dans quel océan se trouve Madagascar ?",
 		"options": ["Indien", "Arctique", "Pacifique", "Atlantique"],
 		"answer": "Indien"
+	},
+	{
+		"question": "Dans quel pays se situe la ville d'Essaouira ?",
+		"options": ["Maroc", "Algérie", "Tunisie", "Égypte"],
+		"answer": "Maroc"
+	},
+	{
+		"question": "Quel continent abrite le plus de pays ?",
+		"options": ["Afrique", "Asie", "Europe", "Amérique"],
+		"answer": "Afrique"
+	},
+	{
+		"question": "Quelle montagne sépare la France et l'Espagne ?",
+		"options": ["Pyrénées", "Alpes", "Massif central", "Jura"],
+		"answer": "Pyrénées"
+	},
+	{
+		"question": "Quel pays est traversé par le canal de Panama ?",
+		"options": ["Panama", "Nicaragua", "Honduras", "Costa Rica"],
+		"answer": "Panama"
+	},
+	{
+		"question": "Quel pays est connu pour ses tulipes et ses moulins ?",
+		"options": ["Pays-Bas", "Belgique", "Danemark", "Allemagne"],
+		"answer": "Pays-Bas"
+	},
+	{
+		"question": "Dans quel pays peut-on visiter la Tour de Pise ?",
+		"options": ["Italie", "France", "Espagne", "Portugal"],
+		"answer": "Italie"
+	},
+	{
+		"question": "Quel est le plus grand pays d’Amérique du Sud ?",
+		"options": ["Brésil", "Argentine", "Pérou", "Colombie"],
+		"answer": "Brésil"
+	},
+	{
+		"question": "Quel détroit sépare l’Europe de l’Afrique ?",
+		"options": [
+			"Détroit de Gibraltar",
+			"Détroie d'Ormuz",
+			"Détroit de Béring",
+			"Détroit de Malacca"
+		],
+		"answer": "Détroit de Gibraltar"
+	},
+	{
+		"question": "Quel pays partage une frontière terrestre avec les États-Unis ?",
+		"options": ["Les deux", "Canada", "Mexique", "Aucun"],
+		"answer": "Les deux"
 	}
 ]
