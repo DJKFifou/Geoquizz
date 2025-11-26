@@ -1,10 +1,5 @@
 [
 	{
-		"question": "Quelle est la population intra-muros de Londres ?",
-		"options": ["9 millions", "5 millions", "14 millions", "19 millions"],
-		"answer": "9 millions"
-	},
-	{
 		"question": "À quel pays appartient le Groenland ?",
 		"options": ["Danemark", "Russie", "Canada", "Islande"],
 		"answer": "Danemark"
@@ -115,7 +110,7 @@
 		"answer": "Finlande"
 	},
 	{
-		"question": "De quel état Albuquerque est la capitale ?",
+		"question": "Dans quel état se situe Albuquerque ?",
 		"options": ["Nouveau-Mexique", "Floride", "Texas", "Colorado"],
 		"answer": "Nouveau-Mexique"
 	},
@@ -343,5 +338,10 @@
 		"question": "Dans quel pays se trouve le Machu Picchu ?",
 		"options": ["Pérou", "Bolivie", "Chili", "Équateur"],
 		"answer": "Pérou"
+	},
+	{
+		"question": "Parmi ces réponses, laquelle n'est pas une région Canadienne ? ?",
+		"options": ["Vermont", "Yukon", "Alberta", "Ontario"],
+		"answer": "Vermont"
 	}
 ]

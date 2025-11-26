@@ -51,7 +51,7 @@
 	},
 	{
 		"question": "À quel pays appartiennent les îles Cook ?",
-		"options": ["Nouvelle-Zélande", "USA", "Australie", "Angleterre"],
+		"options": ["Nouvelle-Zélande", "États-Unis", "Australie", "Angleterre"],
 		"answer": "Nouvelle-Zélande"
 	},
 	{
@@ -146,7 +146,7 @@
 	},
 	{
 		"question": "Quel pays possède la plus grande ZEE ?",
-		"options": ["USA", "France", "Royaume-Uni", "Chine"],
+		"options": ["France", "USA", "Royaume-Uni", "Chine"],
 		"answer": "France"
 	},
 	{
@@ -328,5 +328,10 @@
 		"question": "Quel pays est séparé de la Malaisie par le détroit de Johor ?",
 		"options": ["Singapour", "Indonésie", "Thaïlande", "Brunei"],
 		"answer": "Singapour"
+	},
+	{
+		"question": "Quelle est la population intra-muros de Londres ?",
+		"options": ["9 millions", "5 millions", "14 millions", "19 millions"],
+		"answer": "9 millions"
 	}
 ]
