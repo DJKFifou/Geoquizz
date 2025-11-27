@@ -2,7 +2,7 @@
 	import type { PageProps } from './$types';
 	import { page } from '$app/state';
 	import { onMount, onDestroy } from 'svelte';
-	import { PUBLIC_USE_API } from '$env/static/public';
+	import { env } from '$env/dynamic/public';
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
 	import AnswerBtn from '$lib/components/AnswerBtn.svelte';
 	import PrimaryLink from '$lib/components/PrimaryLink.svelte';
@@ -128,7 +128,7 @@
 					const activeElement = document.activeElement as HTMLElement;
 					activeElement?.blur();
 				} else {
-					if (PUBLIC_USE_API === 'true') {
+					if (env.PUBLIC_USE_API === 'true') {
 						ApiPostItem();
 					} else {
 						localStorageGetOrPostItem();

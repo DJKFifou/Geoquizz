@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageProps } from './$types';
 	import { page } from '$app/state';
-	import { PUBLIC_USE_API } from '$env/static/public';
+	import { env } from '$env/dynamic/public';
 	import ExitArrow from '$lib/components/ExitArrow.svelte';
 	import Exit from '$lib/components/Exit.svelte';
 	import ListStartGame from '$lib/components/ListStartGame.svelte';
@@ -164,7 +164,7 @@
 			missingAnswers = datas
 				.filter((item) => !revealedAnswers.includes(item.country))
 				.map((item) => item.country);
-			if (PUBLIC_USE_API === 'true') {
+			if (env.PUBLIC_USE_API === 'true') {
 				ApiPostItem();
 			} else {
 				localStorageGetOrPostItem();
