@@ -338,10 +338,5 @@
 		"question": "Dans quel pays se trouve le Machu Picchu ?",
 		"options": ["Pérou", "Bolivie", "Chili", "Équateur"],
 		"answer": "Pérou"
-	},
-	{
-		"question": "Parmi ces réponses, laquelle n'est pas une région Canadienne ?",
-		"options": ["Vermont", "Yukon", "Alberta", "Ontario"],
-		"answer": "Vermont"
 	}
 ]

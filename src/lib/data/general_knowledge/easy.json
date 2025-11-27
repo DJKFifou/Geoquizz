@@ -288,5 +288,10 @@
 		"question": "Quel pays partage une frontière terrestre avec les États-Unis ?",
 		"options": ["Les deux", "Canada", "Mexique", "Aucun"],
 		"answer": "Les deux"
+	},
+	{
+		"question": "Quel pays ne se trouve pas en Amérique centrale ?",
+		"options": ["Uruguay", "Panama", "Costa Rica", "Guatemala"],
+		"answer": "Uruguay"
 	}
 ]

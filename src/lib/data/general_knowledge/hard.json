@@ -338,5 +338,15 @@
 		"question": "Combien de pays sont limitrophes à l'Autriche ?",
 		"options": ["8", "6", "7", "9"],
 		"answer": "8"
+	},
+	{
+		"question": "Quel mot désigne un bras de mer entre deux terres rapprochées et qui fait communiquer deux mers ?",
+		"options": ["Un détroit", "Un isthme", "Un fjord", "Un cap"],
+		"answer": "Un détroit"
+	},
+	{
+		"question": "Quel mot désigne une bande de terre resserrée entre deux mers ou deux golfes et réunissant deux terres ?",
+		"options": ["Un isthme", "Un détroit", "Un fjord", "Un cap"],
+		"answer": "Un isthme"
 	}
 ]
