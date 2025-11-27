@@ -333,5 +333,10 @@
 		"question": "Quelle est la population intra-muros de Londres ?",
 		"options": ["9 millions", "5 millions", "14 millions", "19 millions"],
 		"answer": "9 millions"
+	},
+	{
+		"question": "Combien de pays sont limitrophes à l'Autriche ?",
+		"options": ["8", "6", "7", "9"],
+		"answer": "8"
 	}
 ]
