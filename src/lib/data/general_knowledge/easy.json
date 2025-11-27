@@ -293,5 +293,10 @@
 		"question": "Quel pays ne se trouve pas en Amérique centrale ?",
 		"options": ["Uruguay", "Panama", "Costa Rica", "Guatemala"],
 		"answer": "Uruguay"
+	},
+	{
+		"question": "Quel pays ne se trouve pas en Afrique ?",
+		"options": ["Arménie", "Tchad", "Sierra Leone", "Libéria"],
+		"answer": "Arménie"
 	}
 ]
