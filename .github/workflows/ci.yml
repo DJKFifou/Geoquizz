@@ -50,4 +50,4 @@ jobs:
       - name: Restart service
         run: |
           ssh ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_IP }} \
-            "cd ${{ secrets.DEPLOY_PATH }} && pm2 restart ${{ vars.PROJECT_NAME }}"
+            "echo $SHELL; source .bashrc && cd ${{ secrets.DEPLOY_PATH }} && pm2 restart ${{ vars.PROJECT_NAME }}"
