@@ -43,8 +43,8 @@ jobs:
           ssh-keyscan -H ${{ secrets.VPS_IP }} >> ~/.ssh/known_hosts
       - name: Setup Rsync
         run: |
-          apt update
-          apt install rsync -y
+          sudo apt update
+          sudo apt install rsync -y
       - name: Deploy to VPS
         run: rsync -avz ./ ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_IP }}:${{ secrets.DEPLOY_PATH }}
       - name: Restart service
