@@ -10,7 +10,7 @@
 		<div class="flex flex-col items-center gap-4">
 			<img src={Ping} alt="Ping" />
 			<h1 class="font-sans text-5xl font-bold"><span class="text-turquoise">Geo</span>Quizz</h1>
-			<h4 class="text-center text-2xl font-medium">Teste tes connaissances en géographie</h4>
+			<h4 class="text-center text-2xl font-medium">Teste tes connaissances en géographie !</h4>
 		</div>
 		<ul class="flex gap-4">
 			<li>
