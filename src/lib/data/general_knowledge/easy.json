@@ -298,5 +298,35 @@
 		"question": "Quel pays ne se trouve pas en Afrique ?",
 		"options": ["Arménie", "Tchad", "Sierra Leone", "Libéria"],
 		"answer": "Arménie"
+	},
+	{
+		"question": "Quelle est la capitale de l'Espagne ?",
+		"options": ["Madrid", "Barcelone", "Séville", "Valence"],
+		"answer": "Madrid"
+	},
+	{
+		"question": "Sur quel continent se trouve l'Égypte ?",
+		"options": ["Afrique", "Asie", "Europe", "Moyen-Orient"],
+		"answer": "Afrique"
+	},
+	{
+		"question": "Quel océan borde la côte ouest de la France ?",
+		"options": ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
+		"answer": "Océan Atlantique"
+	},
+	{
+		"question": "Dans quelle chaîne de montagnes se trouve le Mont Blanc ?",
+		"options": ["Les Alpes", "Les Pyrénées", "Les Carpates", "Les Apennins"],
+		"answer": "Les Alpes"
+	},
+	{
+		"question": "Quel détroit sépare l'Espagne du Maroc ?",
+		"options": ["Détroit de Gibraltar", "Détroit du Bosphore", "Détroit de Béring", "Détroit de Magellan"],
+		"answer": "Détroit de Gibraltar"
+	},
+	{
+		"question": "Quel pays d'Amérique latine parle le portugais ?",
+		"options": ["Brésil", "Argentine", "Chili", "Venezuela"],
+		"answer": "Brésil"
 	}
 ]

@@ -211,7 +211,7 @@
 	},
 	{
 		"question": "Quel est le plus petit pays du monde en superficie ?",
-		"options": ["Vatican", "Monaco", "Nauru", "Liechtenstein"],
+		"options": ["Vatican", "Monaco", "Saint-Marin", "Liechtenstein"],
 		"answer": "Vatican"
 	},
 	{
@@ -338,5 +338,25 @@
 		"question": "Dans quel pays se trouve le Machu Picchu ?",
 		"options": ["Pérou", "Bolivie", "Chili", "Équateur"],
 		"answer": "Pérou"
+	},
+	{
+		"question": "Quelle est la capitale de l'Australie ?",
+		"options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+		"answer": "Canberra"
+	},
+	{
+		"question": "Quel pays a pour capitale Reykjavik ?",
+		"options": ["Islande", "Norvège", "Finlande", "Groenland"],
+		"answer": "Islande"
+	},
+	{
+		"question": "Quel est le pays d’Europe le plus peuplé ?",
+		"options": ["Allemagne", "France", "Royaume-Uni", "Italie"],
+		"answer": "Allemagne"
+	},
+	{
+		"question": "Lequel de ces pays est une île ?",
+		"options": ["Sri Lanka", "Bhoutan", "Laos", "Myanmar"],
+		"answer": "Sri Lanka"
 	}
 ]
